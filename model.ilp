@@ -4,20 +4,20 @@ Maximize
  
 Subject To
  R98: Fraction_for_second_order_amount[2] = 0.8
- Q0_upper_bound_2: - 137.9878280098972 Fraction_for_second_order_amount[2]
+ Q0_upper_bound_2: - 157.8790378115544 Fraction_for_second_order_amount[2]
    + Q0_var[2] = 0
  Ensure_only_one_R_true_2: R[2,0] + R[2,1] + R[2,2] + R[2,3] + R[2,4]
    + R[2,5] + R[2,6] + R[2,7] = 1
- Define_Q_hat_2: - 162.9246393725841 R[2,0] - 178.2308825623171 R[2,1]
-   - 173.3139723211807 R[2,2] - 180.6904986802517 R[2,3]
-   - 192.3988129661324 R[2,4] - 192.7622171526217 R[2,5]
-   - 195.6411554769489 R[2,6] - 195.6411554539629 R[2,7] + Q_hat[2] = 0
+ Define_Q_hat_2: - 171.6665272120649 R[2,0] - 181.1123255929021 R[2,1]
+   - 176.6629231355528 R[2,2] - 183.4196238429691 R[2,3]
+   - 189.8412184429218 R[2,4] - 182.2963267512676 R[2,5]
+   - 185.8698010554081 R[2,6] - 187.3440043946834 R[2,7] + Q_hat[2] = 0
  Adjust_Q_hat_2: Q0_var[2] - Q_hat[2] + Q_hat_adjusted[2] = 0
  Constr_Q1_ge_Q_hat_adjusted_2: Q1_var[2] - Q_hat_adjusted[2] >= 0
 Bounds
  Fraction_for_second_order_amount[2] free
  Q0_var[2] free
- -infinity <= Q1_var[2] <= 40.45652108968419
+ -infinity <= Q1_var[2] <= 39.01592375621824
  Q_hat[2] free
  Q_hat_adjusted[2] free
 Binaries
