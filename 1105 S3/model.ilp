@@ -3,23 +3,25 @@
 Maximize
  
 Subject To
- R98: Fraction_for_second_order_amount[2] = 0.8
- Q0_upper_bound_2: - 192.4726786641455 Fraction_for_second_order_amount[2]
-   + Q0_var[2] = 0
- Ensure_only_one_R_true_2: R[2,0] + R[2,1] + R[2,2] + R[2,3] + R[2,4]
-   + R[2,5] + R[2,6] + R[2,7] = 1
- Define_Q_hat_2: - 214.0041137295123 R[2,0] - 223.2645205157937 R[2,1]
-   - 205.017649724089 R[2,2] - 200.5699582498471 R[2,3]
-   - 203.0036312644524 R[2,4] - 197.4203802415007 R[2,5]
-   - 195.6411564392715 R[2,6] - 195.6411564622576 R[2,7] + Q_hat[2] = 0
- Adjust_Q_hat_2: Q0_var[2] - Q_hat[2] + Q_hat_adjusted[2] = 0
- Constr_Q1_ge_Q_hat_adjusted_2: Q1_var[2] - Q_hat_adjusted[2] >= 0
+ R5537: Fraction_for_second_order_amount[113] = 0.8
+ Q0_upper_bound_113:
+   - 154.9231399033577 Fraction_for_second_order_amount[113] + Q0_var[113]
+   = 0
+ Ensure_only_one_R_true_113: R[113,0] + R[113,1] + R[113,2] + R[113,3]
+   + R[113,4] + R[113,5] + R[113,6] + R[113,7] = 1
+ Define_Q_hat_113: - 165.9563706673054 R[113,0]
+   - 165.3106931727555 R[113,1] - 164.6489847592243 R[113,2]
+   - 166.7771392870423 R[113,3] - 168.7996380347797 R[113,4]
+   - 167.5727330318929 R[113,5] - 168.5056988007659 R[113,6]
+   - 170.274022507999 R[113,7] + Q_hat[113] = 0
+ Adjust_Q_hat_113: Q0_var[113] - Q_hat[113] + Q_hat_adjusted[113] = 0
+ Constr_Q1_ge_Q_hat_adjusted_113: Q1_var[113] - Q_hat_adjusted[113] >= 0
 Bounds
- Fraction_for_second_order_amount[2] free
- Q0_var[2] free
- -infinity <= Q1_var[2] <= 40.45652108968419
- Q_hat[2] free
- Q_hat_adjusted[2] free
+ Fraction_for_second_order_amount[113] free
+ Q0_var[113] free
+ -infinity <= Q1_var[113] <= 39.43139339786536
+ Q_hat[113] free
+ Q_hat_adjusted[113] free
 Binaries
- R[2,0] R[2,1] R[2,2] R[2,3] R[2,4] R[2,5] R[2,6] R[2,7]
+ R[113,0] R[113,1] R[113,2] R[113,3] R[113,4] R[113,5] R[113,6] R[113,7]
 End
