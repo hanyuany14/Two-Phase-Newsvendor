@@ -1,0 +1,26 @@
+\ Model profit_maximization_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ R2940: Fraction_for_second_order_amount[60] = 0.9
+ Q0_upper_bound_60:
+   - 176.9536830611422 Fraction_for_second_order_amount[60] + Q0_var[60]
+   = 0
+ Ensure_only_one_R_true_60: R[60,0] + R[60,1] + R[60,2] + R[60,3] + R[60,4]
+   + R[60,5] + R[60,6] + R[60,7] = 1
+ Define_Q_hat_60: - 212.1960637279792 R[60,0] - 217.5544799273811 R[60,1]
+   - 218.9523242295289 R[60,2] - 228.2556626157175 R[60,3]
+   - 227.4195319041356 R[60,4] - 231.6736898516984 R[60,5]
+   - 239.0420914228025 R[60,6] - 253.3720530707834 R[60,7] + Q_hat[60] = 0
+ Adjust_Q_hat_60: Q0_var[60] - Q_hat[60] + Q_hat_adjusted[60] = 0
+ Constr_Q1_ge_Q_hat_adjusted_60: Q1_var[60] - Q_hat_adjusted[60] >= 0
+Bounds
+ Fraction_for_second_order_amount[60] free
+ Q0_var[60] free
+ -infinity <= Q1_var[60] <= 38.9903208735124
+ Q_hat[60] free
+ Q_hat_adjusted[60] free
+Binaries
+ R[60,0] R[60,1] R[60,2] R[60,3] R[60,4] R[60,5] R[60,6] R[60,7]
+End
