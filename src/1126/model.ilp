@@ -1,0 +1,216 @@
+\ Model profit_maximization_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  0 r[17,2] + 0 r[17,3] + 0 r[17,4] + 0 r[17,5] + 0 r[17,7] + 0 Q1_var[17]
+   + 0 neg_tau_var_17_0
+Subject To
+ tau_computation_1_6: 0.9191423420362755 betas[6,0]
+   + 1.56533293035073 betas[6,1] - betas[6,2] + tau[1,6] = 0
+ neg_tau_constr_1_6: tau[1,6] + neg_tau_var_1_6 = 0
+ tau_computation_1_7: 0.9191423420362755 betas[7,0]
+   + 1.56533293035073 betas[7,1] - betas[7,2] + tau[1,7] = 0
+ neg_tau_constr_1_7: tau[1,7] + neg_tau_var_1_7 = 0
+ tau_computation_3_3: 1.713903709337296 betas[3,0]
+   - 0.1963332588194304 betas[3,1] - betas[3,2] + tau[3,3] = 0
+ neg_tau_constr_3_3: tau[3,3] + neg_tau_var_3_3 = 0
+ tau_computation_7_4: - 0.395422215250914 betas[4,0]
+   - 0.2698811955727397 betas[4,1] - betas[4,2] + tau[7,4] = 0
+ neg_tau_constr_7_4: tau[7,4] + neg_tau_var_7_4 = 0
+ tau_computation_14_4: 1.361890421837528 betas[4,0]
+   + 1.696642565720933 betas[4,1] - betas[4,2] + tau[14,4] = 0
+ neg_tau_constr_14_4: tau[14,4] + neg_tau_var_14_4 = 0
+ R1020: Fraction_for_second_order_amount[17] = 0.9
+ Q0_upper_bound_17:
+   - 175.5595695885155 Fraction_for_second_order_amount[17] + Q0_var[17]
+   = 0
+ tau_computation_17_3: - 0.2156640066425228 betas[3,0]
+   - 1.477659082794586 betas[3,1] - betas[3,2] + tau[17,3] = 0
+ neg_tau_constr_17_3: tau[17,3] + neg_tau_var_17_3 = 0
+ link_r_R_1: r[17,1] - R[17,1] - max_r_helper >= -1
+ Ensure_only_one_R_true_17: R[17,0] + R[17,1] + R[17,2] + R[17,3] + R[17,4]
+   + R[17,5] + R[17,6] + R[17,7] = 1
+ Define_Q_hat_17: - 199.3422234088505 R[17,0] - 189.8875821465308 R[17,1]
+   - 203.5401685253204 R[17,2] - 207.0664263658176 R[17,3]
+   - 203.3106462009541 R[17,4] - 204.1760276867053 R[17,5]
+   - 212.057209066843 R[17,6] - 211.1180746173189 R[17,7] + Q_hat[17] = 0
+ Adjust_Q_hat_17: Q0_var[17] - Q_hat[17] + Q_hat_adjusted[17] = 0
+ tau_computation_18_3: 1.529875692474957 betas[3,0]
+   - 1.05406884141132 betas[3,1] - betas[3,2] + tau[18,3] = 0
+ neg_tau_constr_18_3: tau[18,3] + neg_tau_var_18_3 = 0
+ tau_computation_21_7: 0.319515519742513 betas[7,0]
+   + 0.7882315413264702 betas[7,1] - betas[7,2] + tau[21,7] = 0
+ neg_tau_constr_21_7: tau[21,7] + neg_tau_var_21_7 = 0
+ tau_computation_27_7: 0.7607066426934653 betas[7,0]
+   - 0.7928886946974023 betas[7,1] - betas[7,2] + tau[27,7] = 0
+ neg_tau_constr_27_7: tau[27,7] + neg_tau_var_27_7 = 0
+ tau_computation_28_3: - 1.660377317661519 betas[3,0]
+   + 1.10511144870091 betas[3,1] - betas[3,2] + tau[28,3] = 0
+ neg_tau_constr_28_3: tau[28,3] + neg_tau_var_28_3 = 0
+ tau_computation_31_6: - 0.3929513073548903 betas[6,0]
+   - 0.4891337726008566 betas[6,1] - betas[6,2] + tau[31,6] = 0
+ neg_tau_constr_31_6: tau[31,6] + neg_tau_var_31_6 = 0
+ tau_computation_36_7: 0.1375918242899625 betas[7,0]
+   + 0.3762866661996329 betas[7,1] - betas[7,2] + tau[36,7] = 0
+ neg_tau_constr_36_7: tau[36,7] + neg_tau_var_36_7 = 0
+ tau_computation_37_4: - 0.2207470902925121 betas[4,0]
+   - 0.6519283605764955 betas[4,1] - betas[4,2] + tau[37,4] = 0
+ neg_tau_constr_37_4: tau[37,4] + neg_tau_var_37_4 = 0
+ tau_computation_39_6: - 1.659314904438631 betas[6,0]
+   - 0.0242172473466918 betas[6,1] - betas[6,2] + tau[39,6] = 0
+ neg_tau_constr_39_6: tau[39,6] + neg_tau_var_39_6 = 0
+ tau_computation_45_4: - 0.2857986047027599 betas[4,0]
+   + 1.008662274909803 betas[4,1] - betas[4,2] + tau[45,4] = 0
+ neg_tau_constr_45_4: tau[45,4] + neg_tau_var_45_4 = 0
+ tau_computation_47_6: 1.087661489121399 betas[6,0]
+   - 1.622967272711107 betas[6,1] - betas[6,2] + tau[47,6] = 0
+ neg_tau_constr_47_6: tau[47,6] + neg_tau_var_47_6 = 0
+ softmax_1_1: - exp_tau_var_1_1 + [ r[1,1] * exp_tau_var_1_0
+   + r[1,1] * exp_tau_var_1_1 ] = 0
+ softmax_1_4: - exp_tau_var_1_4 + [ r[1,4] * exp_tau_var_1_0
+   + r[1,4] * exp_tau_var_1_1 + r[1,4] * exp_tau_var_1_2
+   + r[1,4] * exp_tau_var_1_3 + r[1,4] * exp_tau_var_1_4 ] = 0
+ softmax_1_7: - exp_tau_var_1_7 + [ r[1,7] * exp_tau_var_1_0
+   + r[1,7] * exp_tau_var_1_1 + r[1,7] * exp_tau_var_1_2
+   + r[1,7] * exp_tau_var_1_3 + r[1,7] * exp_tau_var_1_4
+   + r[1,7] * exp_tau_var_1_5 + r[1,7] * exp_tau_var_1_6
+   + r[1,7] * exp_tau_var_1_7 ] = 0
+ softmax_7_0: - exp_tau_var_7_0 + [ r[7,0] * exp_tau_var_7_0 ] = 0
+ softmax_7_3: - exp_tau_var_7_3 + [ r[7,3] * exp_tau_var_7_0
+   + r[7,3] * exp_tau_var_7_1 + r[7,3] * exp_tau_var_7_2
+   + r[7,3] * exp_tau_var_7_3 ] = 0
+ softmax_7_4: - exp_tau_var_7_4 + [ r[7,4] * exp_tau_var_7_0
+   + r[7,4] * exp_tau_var_7_1 + r[7,4] * exp_tau_var_7_2
+   + r[7,4] * exp_tau_var_7_3 + r[7,4] * exp_tau_var_7_4 ] = 0
+ softmax_7_5: - exp_tau_var_7_5 + [ r[7,5] * exp_tau_var_7_0
+   + r[7,5] * exp_tau_var_7_1 + r[7,5] * exp_tau_var_7_2
+   + r[7,5] * exp_tau_var_7_3 + r[7,5] * exp_tau_var_7_4
+   + r[7,5] * exp_tau_var_7_5 ] = 0
+ softmax_7_6: - exp_tau_var_7_6 + [ r[7,6] * exp_tau_var_7_0
+   + r[7,6] * exp_tau_var_7_1 + r[7,6] * exp_tau_var_7_2
+   + r[7,6] * exp_tau_var_7_3 + r[7,6] * exp_tau_var_7_4
+   + r[7,6] * exp_tau_var_7_5 + r[7,6] * exp_tau_var_7_6 ] = 0
+ softmax_14_6: - exp_tau_var_14_6 + [ r[14,6] * exp_tau_var_14_0
+   + r[14,6] * exp_tau_var_14_1 + r[14,6] * exp_tau_var_14_2
+   + r[14,6] * exp_tau_var_14_3 + r[14,6] * exp_tau_var_14_4
+   + r[14,6] * exp_tau_var_14_5 + r[14,6] * exp_tau_var_14_6 ] = 0
+ softmax_17_0: - exp_tau_var_17_0 + [ r[17,0] * exp_tau_var_17_0 ] = 0
+ softmax_17_1: - exp_tau_var_17_1 + [ r[17,1] * exp_tau_var_17_0
+   + r[17,1] * exp_tau_var_17_1 ] = 0
+ softmax_17_6: - exp_tau_var_17_6 + [ r[17,6] * exp_tau_var_17_0
+   + r[17,6] * exp_tau_var_17_1 + r[17,6] * exp_tau_var_17_2
+   + r[17,6] * exp_tau_var_17_3 + r[17,6] * exp_tau_var_17_4
+   + r[17,6] * exp_tau_var_17_5 + r[17,6] * exp_tau_var_17_6 ] = 0
+ softmax_28_4: - exp_tau_var_28_4 + [ r[28,4] * exp_tau_var_28_0
+   + r[28,4] * exp_tau_var_28_1 + r[28,4] * exp_tau_var_28_2
+   + r[28,4] * exp_tau_var_28_3 + r[28,4] * exp_tau_var_28_4 ] = 0
+Bounds
+ betas[3,0] free
+ betas[3,1] free
+ betas[3,2] free
+ betas[4,0] free
+ betas[4,1] free
+ betas[4,2] free
+ betas[6,0] free
+ betas[6,1] free
+ betas[6,2] free
+ betas[7,0] free
+ betas[7,1] free
+ betas[7,2] free
+ Fraction_for_second_order_amount[17] free
+ Q0_var[17] free
+ tau[1,6] free
+ tau[1,7] free
+ tau[3,3] free
+ tau[7,4] free
+ tau[14,4] free
+ tau[17,3] free
+ tau[18,3] free
+ tau[21,7] free
+ tau[27,7] free
+ tau[28,3] free
+ tau[31,6] free
+ tau[36,7] free
+ tau[37,4] free
+ tau[39,6] free
+ tau[45,4] free
+ tau[47,6] free
+ r[1,1] free
+ r[1,4] free
+ r[1,7] free
+ r[7,0] free
+ r[7,3] free
+ r[7,4] free
+ r[7,5] free
+ r[7,6] free
+ r[14,6] free
+ -infinity <= r[17,0] <= 1
+ r[17,1] free
+ r[17,2] free
+ r[17,3] free
+ r[17,4] free
+ r[17,5] free
+ r[17,6] free
+ r[17,7] free
+ r[28,4] free
+ -infinity <= Q1_var[17] <= 34.35508421511463
+ Q_hat[17] free
+ Q_hat_adjusted[17] free
+ exp_tau_var_1_0 free
+ exp_tau_var_1_1 free
+ exp_tau_var_1_2 free
+ exp_tau_var_1_3 free
+ exp_tau_var_1_4 free
+ exp_tau_var_1_5 free
+ exp_tau_var_1_6 free
+ neg_tau_var_1_6 free
+ exp_tau_var_1_7 free
+ neg_tau_var_1_7 free
+ neg_tau_var_3_3 free
+ exp_tau_var_7_0 free
+ exp_tau_var_7_1 free
+ exp_tau_var_7_2 free
+ exp_tau_var_7_3 free
+ exp_tau_var_7_4 free
+ neg_tau_var_7_4 free
+ exp_tau_var_7_5 free
+ exp_tau_var_7_6 free
+ exp_tau_var_14_0 free
+ exp_tau_var_14_1 free
+ exp_tau_var_14_2 free
+ exp_tau_var_14_3 free
+ exp_tau_var_14_4 free
+ neg_tau_var_14_4 free
+ exp_tau_var_14_5 free
+ exp_tau_var_14_6 free
+ exp_tau_var_17_0 free
+ exp_tau_var_17_2 free
+ exp_tau_var_17_3 free
+ neg_tau_var_17_3 free
+ exp_tau_var_17_4 free
+ exp_tau_var_17_5 free
+ exp_tau_var_17_6 free
+ max_r_helper free
+ neg_tau_var_18_3 free
+ neg_tau_var_21_7 free
+ neg_tau_var_27_7 free
+ exp_tau_var_28_0 free
+ exp_tau_var_28_1 free
+ exp_tau_var_28_2 free
+ exp_tau_var_28_3 free
+ neg_tau_var_28_3 free
+ exp_tau_var_28_4 free
+ neg_tau_var_31_6 free
+ neg_tau_var_36_7 free
+ neg_tau_var_37_4 free
+ neg_tau_var_39_6 free
+ neg_tau_var_45_4 free
+ neg_tau_var_47_6 free
+Binaries
+ R[17,0] R[17,1] R[17,2] R[17,3] R[17,4] R[17,5] R[17,6] R[17,7]
+General Constraints
+ GC306: exp_tau_var_17_0 = EXP ( neg_tau_var_17_0 )
+ GC309: exp_tau_var_17_3 = EXP ( neg_tau_var_17_3 )
+ MaxRConstraint_17: max_r_helper = MAX ( r[17,0] , r[17,1] , r[17,2] ,
+   r[17,3] , r[17,4] , r[17,5] , r[17,6] , r[17,7] )
+ Max_Constraint_17: Q1_var[17] = MAX ( Q_hat_adjusted[17] , 0 )
+End
