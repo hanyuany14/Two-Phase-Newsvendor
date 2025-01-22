@@ -1,0 +1,18 @@
+\ Model profit_maximization_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ R25: Q0_var[2] + Q_hat_adjusted_2 = 161.0419013624181
+ R26: Sold_0[2] - Q0_var[2] - Q1_var[2] + total_stock_second_period_2 = 0
+ R27: total_stock_second_period_2 + Lost_1_expr_2 = 15.99922288911362
+Bounds
+ Sold_0[2] free
+ Q0_var[2] free
+ Q1_var[2] free
+ Q_hat_adjusted_2 free
+ total_stock_second_period_2 free
+General Constraints
+ min_sales_constr_2: Sold_0[2] = MIN ( Q0_var[2] , 142.4477163512732 )
+ max_Q1_constr_2: Q1_var[2] = MAX ( Q_hat_adjusted_2 , 0 )
+End
