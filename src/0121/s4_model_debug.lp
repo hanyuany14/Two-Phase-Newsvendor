@@ -1,169 +1,50 @@
 \ Model profit_maximization
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
-  0 Holding_Cost_0[0] + 0 Holding_Cost_0[1] + 0 Holding_Cost_0[2]
-   + 0 Holding_Cost_0[3] + 0 Holding_Cost_0[4] + 0 Holding_Cost_0[5]
-   + 0 Holding_Cost_0[6] + 0 Holding_Cost_0[7] + 0 Holding_Cost_0[8]
-   + 0 Holding_Cost_0[9] + 0 Holding_Cost_0[10] + 0 Holding_Cost_0[11]
-   + 0 Holding_Cost_0[12] + 0 Holding_Cost_0[13] + 0 Holding_Cost_0[14]
-   + 0 Holding_Cost_0[15] + 0 Holding_Cost_0[16] + 0 Holding_Cost_0[17]
-   + 0 Holding_Cost_0[18] + 0 Holding_Cost_0[19] + 0 Holding_Cost_0[20]
-   + 0 Holding_Cost_0[21] + 0 Holding_Cost_0[22] + 0 Holding_Cost_0[23]
-   + 0 Holding_Cost_0[24] + 0 Holding_Cost_1[0] + 0 Holding_Cost_1[1]
-   + 0 Holding_Cost_1[2] + 0 Holding_Cost_1[3] + 0 Holding_Cost_1[4]
-   + 0 Holding_Cost_1[5] + 0 Holding_Cost_1[6] + 0 Holding_Cost_1[7]
-   + 0 Holding_Cost_1[8] + 0 Holding_Cost_1[9] + 0 Holding_Cost_1[10]
-   + 0 Holding_Cost_1[11] + 0 Holding_Cost_1[12] + 0 Holding_Cost_1[13]
-   + 0 Holding_Cost_1[14] + 0 Holding_Cost_1[15] + 0 Holding_Cost_1[16]
-   + 0 Holding_Cost_1[17] + 0 Holding_Cost_1[18] + 0 Holding_Cost_1[19]
-   + 0 Holding_Cost_1[20] + 0 Holding_Cost_1[21] + 0 Holding_Cost_1[22]
-   + 0 Holding_Cost_1[23] + 0 Holding_Cost_1[24] + profits_vars[0]
-   + profits_vars[1] + profits_vars[2] + profits_vars[3] + profits_vars[4]
-   + profits_vars[5] + profits_vars[6] + profits_vars[7] + profits_vars[8]
-   + profits_vars[9] + profits_vars[10] + profits_vars[11]
-   + profits_vars[12] + profits_vars[13] + profits_vars[14]
-   + profits_vars[15] + profits_vars[16] + profits_vars[17]
-   + profits_vars[18] + profits_vars[19] + profits_vars[20]
-   + profits_vars[21] + profits_vars[22] + profits_vars[23]
-   + profits_vars[24] + 0 r[0,0] + 0 r[0,1] + 0 r[0,2] + 0 r[0,3]
-   + 0 r[0,4] + 0 r[0,5] + 0 r[0,6] + 0 r[0,7] + 0 r[1,0] + 0 r[1,1]
-   + 0 r[1,2] + 0 r[1,3] + 0 r[1,4] + 0 r[1,5] + 0 r[1,6] + 0 r[1,7]
-   + 0 r[2,0] + 0 r[2,1] + 0 r[2,2] + 0 r[2,3] + 0 r[2,4] + 0 r[2,5]
-   + 0 r[2,6] + 0 r[2,7] + 0 r[3,0] + 0 r[3,1] + 0 r[3,2] + 0 r[3,3]
-   + 0 r[3,4] + 0 r[3,5] + 0 r[3,6] + 0 r[3,7] + 0 r[4,0] + 0 r[4,1]
-   + 0 r[4,2] + 0 r[4,3] + 0 r[4,4] + 0 r[4,5] + 0 r[4,6] + 0 r[4,7]
-   + 0 r[5,0] + 0 r[5,1] + 0 r[5,2] + 0 r[5,3] + 0 r[5,4] + 0 r[5,5]
-   + 0 r[5,6] + 0 r[5,7] + 0 r[6,0] + 0 r[6,1] + 0 r[6,2] + 0 r[6,3]
-   + 0 r[6,4] + 0 r[6,5] + 0 r[6,6] + 0 r[6,7] + 0 r[7,0] + 0 r[7,1]
-   + 0 r[7,2] + 0 r[7,3] + 0 r[7,4] + 0 r[7,5] + 0 r[7,6] + 0 r[7,7]
-   + 0 r[8,0] + 0 r[8,1] + 0 r[8,2] + 0 r[8,3] + 0 r[8,4] + 0 r[8,5]
-   + 0 r[8,6] + 0 r[8,7] + 0 r[9,0] + 0 r[9,1] + 0 r[9,2] + 0 r[9,3]
-   + 0 r[9,4] + 0 r[9,5] + 0 r[9,6] + 0 r[9,7] + 0 r[10,0] + 0 r[10,1]
-   + 0 r[10,2] + 0 r[10,3] + 0 r[10,4] + 0 r[10,5] + 0 r[10,6] + 0 r[10,7]
-   + 0 r[11,0] + 0 r[11,1] + 0 r[11,2] + 0 r[11,3] + 0 r[11,4] + 0 r[11,5]
-   + 0 r[11,6] + 0 r[11,7] + 0 r[12,0] + 0 r[12,1] + 0 r[12,2] + 0 r[12,3]
-   + 0 r[12,4] + 0 r[12,5] + 0 r[12,6] + 0 r[12,7] + 0 r[13,0] + 0 r[13,1]
-   + 0 r[13,2] + 0 r[13,3] + 0 r[13,4] + 0 r[13,5] + 0 r[13,6] + 0 r[13,7]
-   + 0 r[14,0] + 0 r[14,1] + 0 r[14,2] + 0 r[14,3] + 0 r[14,4] + 0 r[14,5]
-   + 0 r[14,6] + 0 r[14,7] + 0 r[15,0] + 0 r[15,1] + 0 r[15,2] + 0 r[15,3]
-   + 0 r[15,4] + 0 r[15,5] + 0 r[15,6] + 0 r[15,7] + 0 r[16,0] + 0 r[16,1]
-   + 0 r[16,2] + 0 r[16,3] + 0 r[16,4] + 0 r[16,5] + 0 r[16,6] + 0 r[16,7]
-   + 0 r[17,0] + 0 r[17,1] + 0 r[17,2] + 0 r[17,3] + 0 r[17,4] + 0 r[17,5]
-   + 0 r[17,6] + 0 r[17,7] + 0 r[18,0] + 0 r[18,1] + 0 r[18,2] + 0 r[18,3]
-   + 0 r[18,4] + 0 r[18,5] + 0 r[18,6] + 0 r[18,7] + 0 r[19,0] + 0 r[19,1]
-   + 0 r[19,2] + 0 r[19,3] + 0 r[19,4] + 0 r[19,5] + 0 r[19,6] + 0 r[19,7]
-   + 0 r[20,0] + 0 r[20,1] + 0 r[20,2] + 0 r[20,3] + 0 r[20,4] + 0 r[20,5]
-   + 0 r[20,6] + 0 r[20,7] + 0 r[21,0] + 0 r[21,1] + 0 r[21,2] + 0 r[21,3]
-   + 0 r[21,4] + 0 r[21,5] + 0 r[21,6] + 0 r[21,7] + 0 r[22,0] + 0 r[22,1]
-   + 0 r[22,2] + 0 r[22,3] + 0 r[22,4] + 0 r[22,5] + 0 r[22,6] + 0 r[22,7]
-   + 0 r[23,0] + 0 r[23,1] + 0 r[23,2] + 0 r[23,3] + 0 r[23,4] + 0 r[23,5]
-   + 0 r[23,6] + 0 r[23,7] + 0 r[24,0] + 0 r[24,1] + 0 r[24,2] + 0 r[24,3]
-   + 0 r[24,4] + 0 r[24,5] + 0 r[24,6] + 0 r[24,7] + 0 exp_tau_var_0_0
-   + 0 exp_tau_var_0_1 + 0 exp_tau_var_0_2 + 0 exp_tau_var_0_3
-   + 0 exp_tau_var_0_4 + 0 exp_tau_var_0_5 + 0 exp_tau_var_0_6
-   + 0 exp_tau_var_0_7 + 0 max_r_helper + 0 exp_tau_var_1_0
-   + 0 exp_tau_var_1_1 + 0 exp_tau_var_1_2 + 0 exp_tau_var_1_3
-   + 0 exp_tau_var_1_4 + 0 exp_tau_var_1_5 + 0 exp_tau_var_1_6
-   + 0 exp_tau_var_1_7 + 0 max_r_helper + 0 exp_tau_var_2_0
-   + 0 exp_tau_var_2_1 + 0 exp_tau_var_2_2 + 0 exp_tau_var_2_3
-   + 0 exp_tau_var_2_4 + 0 exp_tau_var_2_5 + 0 exp_tau_var_2_6
-   + 0 exp_tau_var_2_7 + 0 max_r_helper + 0 exp_tau_var_3_0
-   + 0 exp_tau_var_3_1 + 0 exp_tau_var_3_2 + 0 exp_tau_var_3_3
-   + 0 exp_tau_var_3_4 + 0 exp_tau_var_3_5 + 0 exp_tau_var_3_6
-   + 0 exp_tau_var_3_7 + 0 max_r_helper + 0 exp_tau_var_4_0
-   + 0 exp_tau_var_4_1 + 0 exp_tau_var_4_2 + 0 exp_tau_var_4_3
-   + 0 exp_tau_var_4_4 + 0 exp_tau_var_4_5 + 0 exp_tau_var_4_6
-   + 0 exp_tau_var_4_7 + 0 max_r_helper + 0 exp_tau_var_5_0
-   + 0 exp_tau_var_5_1 + 0 exp_tau_var_5_2 + 0 exp_tau_var_5_3
-   + 0 exp_tau_var_5_4 + 0 exp_tau_var_5_5 + 0 exp_tau_var_5_6
-   + 0 exp_tau_var_5_7 + 0 max_r_helper + 0 exp_tau_var_6_0
-   + 0 exp_tau_var_6_1 + 0 exp_tau_var_6_2 + 0 exp_tau_var_6_3
-   + 0 exp_tau_var_6_4 + 0 exp_tau_var_6_5 + 0 exp_tau_var_6_6
-   + 0 exp_tau_var_6_7 + 0 max_r_helper + 0 exp_tau_var_7_0
-   + 0 exp_tau_var_7_1 + 0 exp_tau_var_7_2 + 0 exp_tau_var_7_3
-   + 0 exp_tau_var_7_4 + 0 exp_tau_var_7_5 + 0 exp_tau_var_7_6
-   + 0 exp_tau_var_7_7 + 0 max_r_helper + 0 exp_tau_var_8_0
-   + 0 exp_tau_var_8_1 + 0 exp_tau_var_8_2 + 0 exp_tau_var_8_3
-   + 0 exp_tau_var_8_4 + 0 exp_tau_var_8_5 + 0 exp_tau_var_8_6
-   + 0 exp_tau_var_8_7 + 0 max_r_helper + 0 exp_tau_var_9_0
-   + 0 exp_tau_var_9_1 + 0 exp_tau_var_9_2 + 0 exp_tau_var_9_3
-   + 0 exp_tau_var_9_4 + 0 exp_tau_var_9_5 + 0 exp_tau_var_9_6
-   + 0 exp_tau_var_9_7 + 0 max_r_helper + 0 exp_tau_var_10_0
-   + 0 exp_tau_var_10_1 + 0 exp_tau_var_10_2 + 0 exp_tau_var_10_3
-   + 0 exp_tau_var_10_4 + 0 exp_tau_var_10_5 + 0 exp_tau_var_10_6
-   + 0 exp_tau_var_10_7 + 0 max_r_helper + 0 exp_tau_var_11_0
-   + 0 exp_tau_var_11_1 + 0 exp_tau_var_11_2 + 0 exp_tau_var_11_3
-   + 0 exp_tau_var_11_4 + 0 exp_tau_var_11_5 + 0 exp_tau_var_11_6
-   + 0 exp_tau_var_11_7 + 0 max_r_helper + 0 exp_tau_var_12_0
-   + 0 exp_tau_var_12_1 + 0 exp_tau_var_12_2 + 0 exp_tau_var_12_3
-   + 0 exp_tau_var_12_4 + 0 exp_tau_var_12_5 + 0 exp_tau_var_12_6
-   + 0 exp_tau_var_12_7 + 0 max_r_helper + 0 exp_tau_var_13_0
-   + 0 exp_tau_var_13_1 + 0 exp_tau_var_13_2 + 0 exp_tau_var_13_3
-   + 0 exp_tau_var_13_4 + 0 exp_tau_var_13_5 + 0 exp_tau_var_13_6
-   + 0 exp_tau_var_13_7 + 0 max_r_helper + 0 exp_tau_var_14_0
-   + 0 exp_tau_var_14_1 + 0 exp_tau_var_14_2 + 0 exp_tau_var_14_3
-   + 0 exp_tau_var_14_4 + 0 exp_tau_var_14_5 + 0 exp_tau_var_14_6
-   + 0 exp_tau_var_14_7 + 0 max_r_helper + 0 exp_tau_var_15_0
-   + 0 exp_tau_var_15_1 + 0 exp_tau_var_15_2 + 0 exp_tau_var_15_3
-   + 0 exp_tau_var_15_4 + 0 exp_tau_var_15_5 + 0 exp_tau_var_15_6
-   + 0 exp_tau_var_15_7 + 0 max_r_helper + 0 exp_tau_var_16_0
-   + 0 exp_tau_var_16_1 + 0 exp_tau_var_16_2 + 0 exp_tau_var_16_3
-   + 0 exp_tau_var_16_4 + 0 exp_tau_var_16_5 + 0 exp_tau_var_16_6
-   + 0 exp_tau_var_16_7 + 0 max_r_helper + 0 exp_tau_var_17_0
-   + 0 exp_tau_var_17_1 + 0 exp_tau_var_17_2 + 0 exp_tau_var_17_3
-   + 0 exp_tau_var_17_4 + 0 exp_tau_var_17_5 + 0 exp_tau_var_17_6
-   + 0 exp_tau_var_17_7 + 0 max_r_helper + 0 exp_tau_var_18_0
-   + 0 exp_tau_var_18_1 + 0 exp_tau_var_18_2 + 0 exp_tau_var_18_3
-   + 0 exp_tau_var_18_4 + 0 exp_tau_var_18_5 + 0 exp_tau_var_18_6
-   + 0 exp_tau_var_18_7 + 0 max_r_helper + 0 exp_tau_var_19_0
-   + 0 exp_tau_var_19_1 + 0 exp_tau_var_19_2 + 0 exp_tau_var_19_3
-   + 0 exp_tau_var_19_4 + 0 exp_tau_var_19_5 + 0 exp_tau_var_19_6
-   + 0 exp_tau_var_19_7 + 0 max_r_helper + 0 exp_tau_var_20_0
-   + 0 exp_tau_var_20_1 + 0 exp_tau_var_20_2 + 0 exp_tau_var_20_3
-   + 0 exp_tau_var_20_4 + 0 exp_tau_var_20_5 + 0 exp_tau_var_20_6
-   + 0 exp_tau_var_20_7 + 0 max_r_helper + 0 exp_tau_var_21_0
-   + 0 exp_tau_var_21_1 + 0 exp_tau_var_21_2 + 0 exp_tau_var_21_3
-   + 0 exp_tau_var_21_4 + 0 exp_tau_var_21_5 + 0 exp_tau_var_21_6
-   + 0 exp_tau_var_21_7 + 0 max_r_helper + 0 exp_tau_var_22_0
-   + 0 exp_tau_var_22_1 + 0 exp_tau_var_22_2 + 0 exp_tau_var_22_3
-   + 0 exp_tau_var_22_4 + 0 exp_tau_var_22_5 + 0 exp_tau_var_22_6
-   + 0 exp_tau_var_22_7 + 0 max_r_helper + 0 exp_tau_var_23_0
-   + 0 exp_tau_var_23_1 + 0 exp_tau_var_23_2 + 0 exp_tau_var_23_3
-   + 0 exp_tau_var_23_4 + 0 exp_tau_var_23_5 + 0 exp_tau_var_23_6
-   + 0 exp_tau_var_23_7 + 0 max_r_helper + 0 exp_tau_var_24_0
-   + 0 exp_tau_var_24_1 + 0 exp_tau_var_24_2 + 0 exp_tau_var_24_3
-   + 0 exp_tau_var_24_4 + 0 exp_tau_var_24_5 + 0 exp_tau_var_24_6
-   + 0 exp_tau_var_24_7 + 0 max_r_helper
+  profits_vars[0] + profits_vars[1] + profits_vars[2] + profits_vars[3]
+   + profits_vars[4] + profits_vars[5] + profits_vars[6] + profits_vars[7]
+   + profits_vars[8] + profits_vars[9] + profits_vars[10]
+   + profits_vars[11] + profits_vars[12] + profits_vars[13]
+   + profits_vars[14] + profits_vars[15] + profits_vars[16]
+   + profits_vars[17] + profits_vars[18] + profits_vars[19]
+   + profits_vars[20] + profits_vars[21] + profits_vars[22]
+   + profits_vars[23] + profits_vars[24] + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
+   + 0 max_r_helper + 0 max_r_helper + 0 max_r_helper
 Subject To
  R0: 0.1485442135232429 alphas[0] - 0.3851892822364052 alphas[1]
    - 0.2394304242396365 alphas[2] + 1.04415860753828 alphas[3] - alphas[4]
    + f_var[0] = 0
  Q0_upper_bound_0: - 2053.400566507637 Fraction_for_second_order_amount[0]
    + Q0_var[0] = 0
- tau_computation_0_0: 0.1485442135232429 betas[0,0]
-   - 0.3851892822364052 betas[0,1] - 0.2394304242396365 betas[0,2]
-   + 1.04415860753828 betas[0,3] - betas[0,4] + tau[0,0] = 0
- tau_computation_0_1: 0.1485442135232429 betas[1,0]
-   - 0.3851892822364052 betas[1,1] - 0.2394304242396365 betas[1,2]
-   + 1.04415860753828 betas[1,3] - betas[1,4] + tau[0,1] = 0
- tau_computation_0_2: 0.1485442135232429 betas[2,0]
-   - 0.3851892822364052 betas[2,1] - 0.2394304242396365 betas[2,2]
-   + 1.04415860753828 betas[2,3] - betas[2,4] + tau[0,2] = 0
- tau_computation_0_3: 0.1485442135232429 betas[3,0]
-   - 0.3851892822364052 betas[3,1] - 0.2394304242396365 betas[3,2]
-   + 1.04415860753828 betas[3,3] - betas[3,4] + tau[0,3] = 0
- tau_computation_0_4: 0.1485442135232429 betas[4,0]
-   - 0.3851892822364052 betas[4,1] - 0.2394304242396365 betas[4,2]
-   + 1.04415860753828 betas[4,3] - betas[4,4] + tau[0,4] = 0
- tau_computation_0_5: 0.1485442135232429 betas[5,0]
-   - 0.3851892822364052 betas[5,1] - 0.2394304242396365 betas[5,2]
-   + 1.04415860753828 betas[5,3] - betas[5,4] + tau[0,5] = 0
- tau_computation_0_6: 0.1485442135232429 betas[6,0]
-   - 0.3851892822364052 betas[6,1] - 0.2394304242396365 betas[6,2]
-   + 1.04415860753828 betas[6,3] - betas[6,4] + tau[0,6] = 0
- tau_computation_0_7: 0.1485442135232429 betas[7,0]
-   - 0.3851892822364052 betas[7,1] - 0.2394304242396365 betas[7,2]
-   + 1.04415860753828 betas[7,3] - betas[7,4] + tau[0,7] = 0
+ tau_computation_0_0: - betas[0] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,0] = 0
+ tau_computation_0_1: - betas[1] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,1] = 0
+ tau_computation_0_2: - betas[2] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,2] = 0
+ tau_computation_0_3: - betas[3] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,3] = 0
+ tau_computation_0_4: - betas[4] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,4] = 0
+ tau_computation_0_5: - betas[5] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,5] = 0
+ tau_computation_0_6: - betas[6] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,6] = 0
+ tau_computation_0_7: - betas[7] + 0.1485442135232429 gammas[0]
+   - 0.3851892822364052 gammas[1] - 0.2394304242396365 gammas[2]
+   + 1.04415860753828 gammas[3] + tau[0,7] = 0
  Ensure_only_one_R_true_0: R[0,0] + R[0,1] + R[0,2] + R[0,3] + R[0,4]
    + R[0,5] + R[0,6] + R[0,7] = 1
  Define_Q_hat_0: - 1803.591606637637 R[0,0] - 2160.074729141367 R[0,1]
@@ -195,30 +76,30 @@ Subject To
    + f_var[1] = 0
  Q0_upper_bound_1: - 2053.400566507637 Fraction_for_second_order_amount[1]
    + Q0_var[1] = 0
- tau_computation_1_0: - 0.4405511694217167 betas[0,0]
-   + 0.0486297156342791 betas[0,1] + 1.57241865352909 betas[0,2]
-   - 1.211868098505336 betas[0,3] - betas[0,4] + tau[1,0] = 0
- tau_computation_1_1: - 0.4405511694217167 betas[1,0]
-   + 0.0486297156342791 betas[1,1] + 1.57241865352909 betas[1,2]
-   - 1.211868098505336 betas[1,3] - betas[1,4] + tau[1,1] = 0
- tau_computation_1_2: - 0.4405511694217167 betas[2,0]
-   + 0.0486297156342791 betas[2,1] + 1.57241865352909 betas[2,2]
-   - 1.211868098505336 betas[2,3] - betas[2,4] + tau[1,2] = 0
- tau_computation_1_3: - 0.4405511694217167 betas[3,0]
-   + 0.0486297156342791 betas[3,1] + 1.57241865352909 betas[3,2]
-   - 1.211868098505336 betas[3,3] - betas[3,4] + tau[1,3] = 0
- tau_computation_1_4: - 0.4405511694217167 betas[4,0]
-   + 0.0486297156342791 betas[4,1] + 1.57241865352909 betas[4,2]
-   - 1.211868098505336 betas[4,3] - betas[4,4] + tau[1,4] = 0
- tau_computation_1_5: - 0.4405511694217167 betas[5,0]
-   + 0.0486297156342791 betas[5,1] + 1.57241865352909 betas[5,2]
-   - 1.211868098505336 betas[5,3] - betas[5,4] + tau[1,5] = 0
- tau_computation_1_6: - 0.4405511694217167 betas[6,0]
-   + 0.0486297156342791 betas[6,1] + 1.57241865352909 betas[6,2]
-   - 1.211868098505336 betas[6,3] - betas[6,4] + tau[1,6] = 0
- tau_computation_1_7: - 0.4405511694217167 betas[7,0]
-   + 0.0486297156342791 betas[7,1] + 1.57241865352909 betas[7,2]
-   - 1.211868098505336 betas[7,3] - betas[7,4] + tau[1,7] = 0
+ tau_computation_1_0: - betas[0] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,0] = 0
+ tau_computation_1_1: - betas[1] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,1] = 0
+ tau_computation_1_2: - betas[2] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,2] = 0
+ tau_computation_1_3: - betas[3] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,3] = 0
+ tau_computation_1_4: - betas[4] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,4] = 0
+ tau_computation_1_5: - betas[5] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,5] = 0
+ tau_computation_1_6: - betas[6] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,6] = 0
+ tau_computation_1_7: - betas[7] - 0.4405511694217167 gammas[0]
+   + 0.0486297156342791 gammas[1] + 1.57241865352909 gammas[2]
+   - 1.211868098505336 gammas[3] + tau[1,7] = 0
  Ensure_only_one_R_true_1: R[1,0] + R[1,1] + R[1,2] + R[1,3] + R[1,4]
    + R[1,5] + R[1,6] + R[1,7] = 1
  Define_Q_hat_1: - 1764.351318994491 R[1,0] - 1204.150006475395 R[1,1]
@@ -250,30 +131,30 @@ Subject To
    + f_var[2] = 0
  Q0_upper_bound_2: - 2053.400566507637 Fraction_for_second_order_amount[2]
    + Q0_var[2] = 0
- tau_computation_2_0: - 0.0424788118340407 betas[0,0]
-   - 1.763758393415958 betas[0,1] - 0.4943523487684089 betas[0,2]
-   + 1.003209748914306 betas[0,3] - betas[0,4] + tau[2,0] = 0
- tau_computation_2_1: - 0.0424788118340407 betas[1,0]
-   - 1.763758393415958 betas[1,1] - 0.4943523487684089 betas[1,2]
-   + 1.003209748914306 betas[1,3] - betas[1,4] + tau[2,1] = 0
- tau_computation_2_2: - 0.0424788118340407 betas[2,0]
-   - 1.763758393415958 betas[2,1] - 0.4943523487684089 betas[2,2]
-   + 1.003209748914306 betas[2,3] - betas[2,4] + tau[2,2] = 0
- tau_computation_2_3: - 0.0424788118340407 betas[3,0]
-   - 1.763758393415958 betas[3,1] - 0.4943523487684089 betas[3,2]
-   + 1.003209748914306 betas[3,3] - betas[3,4] + tau[2,3] = 0
- tau_computation_2_4: - 0.0424788118340407 betas[4,0]
-   - 1.763758393415958 betas[4,1] - 0.4943523487684089 betas[4,2]
-   + 1.003209748914306 betas[4,3] - betas[4,4] + tau[2,4] = 0
- tau_computation_2_5: - 0.0424788118340407 betas[5,0]
-   - 1.763758393415958 betas[5,1] - 0.4943523487684089 betas[5,2]
-   + 1.003209748914306 betas[5,3] - betas[5,4] + tau[2,5] = 0
- tau_computation_2_6: - 0.0424788118340407 betas[6,0]
-   - 1.763758393415958 betas[6,1] - 0.4943523487684089 betas[6,2]
-   + 1.003209748914306 betas[6,3] - betas[6,4] + tau[2,6] = 0
- tau_computation_2_7: - 0.0424788118340407 betas[7,0]
-   - 1.763758393415958 betas[7,1] - 0.4943523487684089 betas[7,2]
-   + 1.003209748914306 betas[7,3] - betas[7,4] + tau[2,7] = 0
+ tau_computation_2_0: - betas[0] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,0] = 0
+ tau_computation_2_1: - betas[1] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,1] = 0
+ tau_computation_2_2: - betas[2] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,2] = 0
+ tau_computation_2_3: - betas[3] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,3] = 0
+ tau_computation_2_4: - betas[4] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,4] = 0
+ tau_computation_2_5: - betas[5] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,5] = 0
+ tau_computation_2_6: - betas[6] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,6] = 0
+ tau_computation_2_7: - betas[7] - 0.0424788118340407 gammas[0]
+   - 1.763758393415958 gammas[1] - 0.4943523487684089 gammas[2]
+   + 1.003209748914306 gammas[3] + tau[2,7] = 0
  Ensure_only_one_R_true_2: R[2,0] + R[2,1] + R[2,2] + R[2,3] + R[2,4]
    + R[2,5] + R[2,6] + R[2,7] = 1
  Define_Q_hat_2: - 2578.375340720291 R[2,0] - 2353.841604824432 R[2,1]
@@ -305,30 +186,30 @@ Subject To
    + f_var[3] = 0
  Q0_upper_bound_3: - 2053.400566507637 Fraction_for_second_order_amount[3]
    + Q0_var[3] = 0
- tau_computation_3_0: 0.1624604984913878 betas[0,0]
-   + 1.158127845551552 betas[0,1] - 1.502864317011586 betas[0,2]
-   - 0.4190277033472191 betas[0,3] - betas[0,4] + tau[3,0] = 0
- tau_computation_3_1: 0.1624604984913878 betas[1,0]
-   + 1.158127845551552 betas[1,1] - 1.502864317011586 betas[1,2]
-   - 0.4190277033472191 betas[1,3] - betas[1,4] + tau[3,1] = 0
- tau_computation_3_2: 0.1624604984913878 betas[2,0]
-   + 1.158127845551552 betas[2,1] - 1.502864317011586 betas[2,2]
-   - 0.4190277033472191 betas[2,3] - betas[2,4] + tau[3,2] = 0
- tau_computation_3_3: 0.1624604984913878 betas[3,0]
-   + 1.158127845551552 betas[3,1] - 1.502864317011586 betas[3,2]
-   - 0.4190277033472191 betas[3,3] - betas[3,4] + tau[3,3] = 0
- tau_computation_3_4: 0.1624604984913878 betas[4,0]
-   + 1.158127845551552 betas[4,1] - 1.502864317011586 betas[4,2]
-   - 0.4190277033472191 betas[4,3] - betas[4,4] + tau[3,4] = 0
- tau_computation_3_5: 0.1624604984913878 betas[5,0]
-   + 1.158127845551552 betas[5,1] - 1.502864317011586 betas[5,2]
-   - 0.4190277033472191 betas[5,3] - betas[5,4] + tau[3,5] = 0
- tau_computation_3_6: 0.1624604984913878 betas[6,0]
-   + 1.158127845551552 betas[6,1] - 1.502864317011586 betas[6,2]
-   - 0.4190277033472191 betas[6,3] - betas[6,4] + tau[3,6] = 0
- tau_computation_3_7: 0.1624604984913878 betas[7,0]
-   + 1.158127845551552 betas[7,1] - 1.502864317011586 betas[7,2]
-   - 0.4190277033472191 betas[7,3] - betas[7,4] + tau[3,7] = 0
+ tau_computation_3_0: - betas[0] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,0] = 0
+ tau_computation_3_1: - betas[1] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,1] = 0
+ tau_computation_3_2: - betas[2] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,2] = 0
+ tau_computation_3_3: - betas[3] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,3] = 0
+ tau_computation_3_4: - betas[4] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,4] = 0
+ tau_computation_3_5: - betas[5] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,5] = 0
+ tau_computation_3_6: - betas[6] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,6] = 0
+ tau_computation_3_7: - betas[7] + 0.1624604984913878 gammas[0]
+   + 1.158127845551552 gammas[1] - 1.502864317011586 gammas[2]
+   - 0.4190277033472191 gammas[3] + tau[3,7] = 0
  Ensure_only_one_R_true_3: R[3,0] + R[3,1] + R[3,2] + R[3,3] + R[3,4]
    + R[3,5] + R[3,6] + R[3,7] = 1
  Define_Q_hat_3: - 2226.65277696469 R[3,0] - 2857.118820641231 R[3,1]
@@ -360,30 +241,30 @@ Subject To
    + f_var[4] = 0
  Q0_upper_bound_4: - 2053.400566507637 Fraction_for_second_order_amount[4]
    + Q0_var[4] = 0
- tau_computation_4_0: 0.5916999328977518 betas[0,0]
-   + 0.8059439709717974 betas[0,1] + 1.666851549198021 betas[0,2]
-   + 1.12460937732089 betas[0,3] - betas[0,4] + tau[4,0] = 0
- tau_computation_4_1: 0.5916999328977518 betas[1,0]
-   + 0.8059439709717974 betas[1,1] + 1.666851549198021 betas[1,2]
-   + 1.12460937732089 betas[1,3] - betas[1,4] + tau[4,1] = 0
- tau_computation_4_2: 0.5916999328977518 betas[2,0]
-   + 0.8059439709717974 betas[2,1] + 1.666851549198021 betas[2,2]
-   + 1.12460937732089 betas[2,3] - betas[2,4] + tau[4,2] = 0
- tau_computation_4_3: 0.5916999328977518 betas[3,0]
-   + 0.8059439709717974 betas[3,1] + 1.666851549198021 betas[3,2]
-   + 1.12460937732089 betas[3,3] - betas[3,4] + tau[4,3] = 0
- tau_computation_4_4: 0.5916999328977518 betas[4,0]
-   + 0.8059439709717974 betas[4,1] + 1.666851549198021 betas[4,2]
-   + 1.12460937732089 betas[4,3] - betas[4,4] + tau[4,4] = 0
- tau_computation_4_5: 0.5916999328977518 betas[5,0]
-   + 0.8059439709717974 betas[5,1] + 1.666851549198021 betas[5,2]
-   + 1.12460937732089 betas[5,3] - betas[5,4] + tau[4,5] = 0
- tau_computation_4_6: 0.5916999328977518 betas[6,0]
-   + 0.8059439709717974 betas[6,1] + 1.666851549198021 betas[6,2]
-   + 1.12460937732089 betas[6,3] - betas[6,4] + tau[4,6] = 0
- tau_computation_4_7: 0.5916999328977518 betas[7,0]
-   + 0.8059439709717974 betas[7,1] + 1.666851549198021 betas[7,2]
-   + 1.12460937732089 betas[7,3] - betas[7,4] + tau[4,7] = 0
+ tau_computation_4_0: - betas[0] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,0] = 0
+ tau_computation_4_1: - betas[1] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,1] = 0
+ tau_computation_4_2: - betas[2] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,2] = 0
+ tau_computation_4_3: - betas[3] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,3] = 0
+ tau_computation_4_4: - betas[4] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,4] = 0
+ tau_computation_4_5: - betas[5] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,5] = 0
+ tau_computation_4_6: - betas[6] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,6] = 0
+ tau_computation_4_7: - betas[7] + 0.5916999328977518 gammas[0]
+   + 0.8059439709717974 gammas[1] + 1.666851549198021 gammas[2]
+   + 1.12460937732089 gammas[3] + tau[4,7] = 0
  Ensure_only_one_R_true_4: R[4,0] + R[4,1] + R[4,2] + R[4,3] + R[4,4]
    + R[4,5] + R[4,6] + R[4,7] = 1
  Define_Q_hat_4: - 2144.595108668847 R[4,0] - 1183.894169975475 R[4,1]
@@ -415,30 +296,30 @@ Subject To
    + f_var[5] = 0
  Q0_upper_bound_5: - 2053.400566507637 Fraction_for_second_order_amount[5]
    + Q0_var[5] = 0
- tau_computation_5_0: - 0.1951939812905471 betas[0,0]
-   + 0.9627548780597103 betas[0,1] + 0.2122303512187826 betas[0,2]
-   - 1.148715514237678 betas[0,3] - betas[0,4] + tau[5,0] = 0
- tau_computation_5_1: - 0.1951939812905471 betas[1,0]
-   + 0.9627548780597103 betas[1,1] + 0.2122303512187826 betas[1,2]
-   - 1.148715514237678 betas[1,3] - betas[1,4] + tau[5,1] = 0
- tau_computation_5_2: - 0.1951939812905471 betas[2,0]
-   + 0.9627548780597103 betas[2,1] + 0.2122303512187826 betas[2,2]
-   - 1.148715514237678 betas[2,3] - betas[2,4] + tau[5,2] = 0
- tau_computation_5_3: - 0.1951939812905471 betas[3,0]
-   + 0.9627548780597103 betas[3,1] + 0.2122303512187826 betas[3,2]
-   - 1.148715514237678 betas[3,3] - betas[3,4] + tau[5,3] = 0
- tau_computation_5_4: - 0.1951939812905471 betas[4,0]
-   + 0.9627548780597103 betas[4,1] + 0.2122303512187826 betas[4,2]
-   - 1.148715514237678 betas[4,3] - betas[4,4] + tau[5,4] = 0
- tau_computation_5_5: - 0.1951939812905471 betas[5,0]
-   + 0.9627548780597103 betas[5,1] + 0.2122303512187826 betas[5,2]
-   - 1.148715514237678 betas[5,3] - betas[5,4] + tau[5,5] = 0
- tau_computation_5_6: - 0.1951939812905471 betas[6,0]
-   + 0.9627548780597103 betas[6,1] + 0.2122303512187826 betas[6,2]
-   - 1.148715514237678 betas[6,3] - betas[6,4] + tau[5,6] = 0
- tau_computation_5_7: - 0.1951939812905471 betas[7,0]
-   + 0.9627548780597103 betas[7,1] + 0.2122303512187826 betas[7,2]
-   - 1.148715514237678 betas[7,3] - betas[7,4] + tau[5,7] = 0
+ tau_computation_5_0: - betas[0] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,0] = 0
+ tau_computation_5_1: - betas[1] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,1] = 0
+ tau_computation_5_2: - betas[2] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,2] = 0
+ tau_computation_5_3: - betas[3] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,3] = 0
+ tau_computation_5_4: - betas[4] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,4] = 0
+ tau_computation_5_5: - betas[5] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,5] = 0
+ tau_computation_5_6: - betas[6] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,6] = 0
+ tau_computation_5_7: - betas[7] - 0.1951939812905471 gammas[0]
+   + 0.9627548780597103 gammas[1] + 0.2122303512187826 gammas[2]
+   - 1.148715514237678 gammas[3] + tau[5,7] = 0
  Ensure_only_one_R_true_5: R[5,0] + R[5,1] + R[5,2] + R[5,3] + R[5,4]
    + R[5,5] + R[5,6] + R[5,7] = 1
  Define_Q_hat_5: - 2175.820552811292 R[5,0] - 1951.22763816568 R[5,1]
@@ -470,30 +351,30 @@ Subject To
    + f_var[6] = 0
  Q0_upper_bound_6: - 2053.400566507637 Fraction_for_second_order_amount[6]
    + Q0_var[6] = 0
- tau_computation_6_0: 0.5423687413596802 betas[0,0]
-   - 0.6585168211974903 betas[0,1] + 0.1416568156698964 betas[0,2]
-   - 1.020986388394283 betas[0,3] - betas[0,4] + tau[6,0] = 0
- tau_computation_6_1: 0.5423687413596802 betas[1,0]
-   - 0.6585168211974903 betas[1,1] + 0.1416568156698964 betas[1,2]
-   - 1.020986388394283 betas[1,3] - betas[1,4] + tau[6,1] = 0
- tau_computation_6_2: 0.5423687413596802 betas[2,0]
-   - 0.6585168211974903 betas[2,1] + 0.1416568156698964 betas[2,2]
-   - 1.020986388394283 betas[2,3] - betas[2,4] + tau[6,2] = 0
- tau_computation_6_3: 0.5423687413596802 betas[3,0]
-   - 0.6585168211974903 betas[3,1] + 0.1416568156698964 betas[3,2]
-   - 1.020986388394283 betas[3,3] - betas[3,4] + tau[6,3] = 0
- tau_computation_6_4: 0.5423687413596802 betas[4,0]
-   - 0.6585168211974903 betas[4,1] + 0.1416568156698964 betas[4,2]
-   - 1.020986388394283 betas[4,3] - betas[4,4] + tau[6,4] = 0
- tau_computation_6_5: 0.5423687413596802 betas[5,0]
-   - 0.6585168211974903 betas[5,1] + 0.1416568156698964 betas[5,2]
-   - 1.020986388394283 betas[5,3] - betas[5,4] + tau[6,5] = 0
- tau_computation_6_6: 0.5423687413596802 betas[6,0]
-   - 0.6585168211974903 betas[6,1] + 0.1416568156698964 betas[6,2]
-   - 1.020986388394283 betas[6,3] - betas[6,4] + tau[6,6] = 0
- tau_computation_6_7: 0.5423687413596802 betas[7,0]
-   - 0.6585168211974903 betas[7,1] + 0.1416568156698964 betas[7,2]
-   - 1.020986388394283 betas[7,3] - betas[7,4] + tau[6,7] = 0
+ tau_computation_6_0: - betas[0] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,0] = 0
+ tau_computation_6_1: - betas[1] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,1] = 0
+ tau_computation_6_2: - betas[2] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,2] = 0
+ tau_computation_6_3: - betas[3] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,3] = 0
+ tau_computation_6_4: - betas[4] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,4] = 0
+ tau_computation_6_5: - betas[5] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,5] = 0
+ tau_computation_6_6: - betas[6] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,6] = 0
+ tau_computation_6_7: - betas[7] + 0.5423687413596802 gammas[0]
+   - 0.6585168211974903 gammas[1] + 0.1416568156698964 gammas[2]
+   - 1.020986388394283 gammas[3] + tau[6,7] = 0
  Ensure_only_one_R_true_6: R[6,0] + R[6,1] + R[6,2] + R[6,3] + R[6,4]
    + R[6,5] + R[6,6] + R[6,7] = 1
  Define_Q_hat_6: - 2120.286889188916 R[6,0] - 1984.063411823704 R[6,1]
@@ -525,30 +406,30 @@ Subject To
    - alphas[4] + f_var[7] = 0
  Q0_upper_bound_7: - 2053.400566507637 Fraction_for_second_order_amount[7]
    + Q0_var[7] = 0
- tau_computation_7_0: - 1.065789723894727 betas[0,0]
-   + 0.6595252882541187 betas[0,1] + 0.2295817456905412 betas[0,2]
-   - 0.2731871634863502 betas[0,3] - betas[0,4] + tau[7,0] = 0
- tau_computation_7_1: - 1.065789723894727 betas[1,0]
-   + 0.6595252882541187 betas[1,1] + 0.2295817456905412 betas[1,2]
-   - 0.2731871634863502 betas[1,3] - betas[1,4] + tau[7,1] = 0
- tau_computation_7_2: - 1.065789723894727 betas[2,0]
-   + 0.6595252882541187 betas[2,1] + 0.2295817456905412 betas[2,2]
-   - 0.2731871634863502 betas[2,3] - betas[2,4] + tau[7,2] = 0
- tau_computation_7_3: - 1.065789723894727 betas[3,0]
-   + 0.6595252882541187 betas[3,1] + 0.2295817456905412 betas[3,2]
-   - 0.2731871634863502 betas[3,3] - betas[3,4] + tau[7,3] = 0
- tau_computation_7_4: - 1.065789723894727 betas[4,0]
-   + 0.6595252882541187 betas[4,1] + 0.2295817456905412 betas[4,2]
-   - 0.2731871634863502 betas[4,3] - betas[4,4] + tau[7,4] = 0
- tau_computation_7_5: - 1.065789723894727 betas[5,0]
-   + 0.6595252882541187 betas[5,1] + 0.2295817456905412 betas[5,2]
-   - 0.2731871634863502 betas[5,3] - betas[5,4] + tau[7,5] = 0
- tau_computation_7_6: - 1.065789723894727 betas[6,0]
-   + 0.6595252882541187 betas[6,1] + 0.2295817456905412 betas[6,2]
-   - 0.2731871634863502 betas[6,3] - betas[6,4] + tau[7,6] = 0
- tau_computation_7_7: - 1.065789723894727 betas[7,0]
-   + 0.6595252882541187 betas[7,1] + 0.2295817456905412 betas[7,2]
-   - 0.2731871634863502 betas[7,3] - betas[7,4] + tau[7,7] = 0
+ tau_computation_7_0: - betas[0] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,0] = 0
+ tau_computation_7_1: - betas[1] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,1] = 0
+ tau_computation_7_2: - betas[2] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,2] = 0
+ tau_computation_7_3: - betas[3] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,3] = 0
+ tau_computation_7_4: - betas[4] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,4] = 0
+ tau_computation_7_5: - betas[5] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,5] = 0
+ tau_computation_7_6: - betas[6] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,6] = 0
+ tau_computation_7_7: - betas[7] - 1.065789723894727 gammas[0]
+   + 0.6595252882541187 gammas[1] + 0.2295817456905412 gammas[2]
+   - 0.2731871634863502 gammas[3] + tau[7,7] = 0
  Ensure_only_one_R_true_7: R[7,0] + R[7,1] + R[7,2] + R[7,3] + R[7,4]
    + R[7,5] + R[7,6] + R[7,7] = 1
  Define_Q_hat_7: - 1632.635076428851 R[7,0] - 1900.246313651594 R[7,1]
@@ -580,30 +461,30 @@ Subject To
    + f_var[8] = 0
  Q0_upper_bound_8: - 2053.400566507637 Fraction_for_second_order_amount[8]
    + Q0_var[8] = 0
- tau_computation_8_0: - 1.320333411356792 betas[0,0]
-   - 0.0427170655502229 betas[0,1] + 1.780907278927179 betas[0,2]
-   + 0.2350935931801337 betas[0,3] - betas[0,4] + tau[8,0] = 0
- tau_computation_8_1: - 1.320333411356792 betas[1,0]
-   - 0.0427170655502229 betas[1,1] + 1.780907278927179 betas[1,2]
-   + 0.2350935931801337 betas[1,3] - betas[1,4] + tau[8,1] = 0
- tau_computation_8_2: - 1.320333411356792 betas[2,0]
-   - 0.0427170655502229 betas[2,1] + 1.780907278927179 betas[2,2]
-   + 0.2350935931801337 betas[2,3] - betas[2,4] + tau[8,2] = 0
- tau_computation_8_3: - 1.320333411356792 betas[3,0]
-   - 0.0427170655502229 betas[3,1] + 1.780907278927179 betas[3,2]
-   + 0.2350935931801337 betas[3,3] - betas[3,4] + tau[8,3] = 0
- tau_computation_8_4: - 1.320333411356792 betas[4,0]
-   - 0.0427170655502229 betas[4,1] + 1.780907278927179 betas[4,2]
-   + 0.2350935931801337 betas[4,3] - betas[4,4] + tau[8,4] = 0
- tau_computation_8_5: - 1.320333411356792 betas[5,0]
-   - 0.0427170655502229 betas[5,1] + 1.780907278927179 betas[5,2]
-   + 0.2350935931801337 betas[5,3] - betas[5,4] + tau[8,5] = 0
- tau_computation_8_6: - 1.320333411356792 betas[6,0]
-   - 0.0427170655502229 betas[6,1] + 1.780907278927179 betas[6,2]
-   + 0.2350935931801337 betas[6,3] - betas[6,4] + tau[8,6] = 0
- tau_computation_8_7: - 1.320333411356792 betas[7,0]
-   - 0.0427170655502229 betas[7,1] + 1.780907278927179 betas[7,2]
-   + 0.2350935931801337 betas[7,3] - betas[7,4] + tau[8,7] = 0
+ tau_computation_8_0: - betas[0] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,0] = 0
+ tau_computation_8_1: - betas[1] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,1] = 0
+ tau_computation_8_2: - betas[2] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,2] = 0
+ tau_computation_8_3: - betas[3] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,3] = 0
+ tau_computation_8_4: - betas[4] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,4] = 0
+ tau_computation_8_5: - betas[5] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,5] = 0
+ tau_computation_8_6: - betas[6] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,6] = 0
+ tau_computation_8_7: - betas[7] - 1.320333411356792 gammas[0]
+   - 0.0427170655502229 gammas[1] + 1.780907278927179 gammas[2]
+   + 0.2350935931801337 gammas[3] + tau[8,7] = 0
  Ensure_only_one_R_true_8: R[8,0] + R[8,1] + R[8,2] + R[8,3] + R[8,4]
    + R[8,5] + R[8,6] + R[8,7] = 1
  Define_Q_hat_8: - 1971.712159038372 R[8,0] - 1110.34123938017 R[8,1]
@@ -635,30 +516,30 @@ Subject To
    + f_var[9] = 0
  Q0_upper_bound_9: - 2053.400566507637 Fraction_for_second_order_amount[9]
    + Q0_var[9] = 0
- tau_computation_9_0: 0.7340851174744587 betas[0,0]
-   + 0.6887531183124831 betas[0,1] - 1.460925496263445 betas[0,2]
-   + 1.29617249954311 betas[0,3] - betas[0,4] + tau[9,0] = 0
- tau_computation_9_1: 0.7340851174744587 betas[1,0]
-   + 0.6887531183124831 betas[1,1] - 1.460925496263445 betas[1,2]
-   + 1.29617249954311 betas[1,3] - betas[1,4] + tau[9,1] = 0
- tau_computation_9_2: 0.7340851174744587 betas[2,0]
-   + 0.6887531183124831 betas[2,1] - 1.460925496263445 betas[2,2]
-   + 1.29617249954311 betas[2,3] - betas[2,4] + tau[9,2] = 0
- tau_computation_9_3: 0.7340851174744587 betas[3,0]
-   + 0.6887531183124831 betas[3,1] - 1.460925496263445 betas[3,2]
-   + 1.29617249954311 betas[3,3] - betas[3,4] + tau[9,3] = 0
- tau_computation_9_4: 0.7340851174744587 betas[4,0]
-   + 0.6887531183124831 betas[4,1] - 1.460925496263445 betas[4,2]
-   + 1.29617249954311 betas[4,3] - betas[4,4] + tau[9,4] = 0
- tau_computation_9_5: 0.7340851174744587 betas[5,0]
-   + 0.6887531183124831 betas[5,1] - 1.460925496263445 betas[5,2]
-   + 1.29617249954311 betas[5,3] - betas[5,4] + tau[9,5] = 0
- tau_computation_9_6: 0.7340851174744587 betas[6,0]
-   + 0.6887531183124831 betas[6,1] - 1.460925496263445 betas[6,2]
-   + 1.29617249954311 betas[6,3] - betas[6,4] + tau[9,6] = 0
- tau_computation_9_7: 0.7340851174744587 betas[7,0]
-   + 0.6887531183124831 betas[7,1] - 1.460925496263445 betas[7,2]
-   + 1.29617249954311 betas[7,3] - betas[7,4] + tau[9,7] = 0
+ tau_computation_9_0: - betas[0] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,0] = 0
+ tau_computation_9_1: - betas[1] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,1] = 0
+ tau_computation_9_2: - betas[2] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,2] = 0
+ tau_computation_9_3: - betas[3] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,3] = 0
+ tau_computation_9_4: - betas[4] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,4] = 0
+ tau_computation_9_5: - betas[5] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,5] = 0
+ tau_computation_9_6: - betas[6] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,6] = 0
+ tau_computation_9_7: - betas[7] + 0.7340851174744587 gammas[0]
+   + 0.6887531183124831 gammas[1] - 1.460925496263445 gammas[2]
+   + 1.29617249954311 gammas[3] + tau[9,7] = 0
  Ensure_only_one_R_true_9: R[9,0] + R[9,1] + R[9,2] + R[9,3] + R[9,4]
    + R[9,5] + R[9,6] + R[9,7] = 1
  Define_Q_hat_9: - 2411.05594373497 R[9,0] - 2849.272567420796 R[9,1]
@@ -691,30 +572,30 @@ Subject To
  Q0_upper_bound_10:
    - 2053.400566507637 Fraction_for_second_order_amount[10] + Q0_var[10]
    = 0
- tau_computation_10_0: - 0.7115448711071122 betas[0,0]
-   + 0.9704687421482601 betas[0,1] + 0.7855052919242557 betas[0,2]
-   - 0.6760262272279475 betas[0,3] - betas[0,4] + tau[10,0] = 0
- tau_computation_10_1: - 0.7115448711071122 betas[1,0]
-   + 0.9704687421482601 betas[1,1] + 0.7855052919242557 betas[1,2]
-   - 0.6760262272279475 betas[1,3] - betas[1,4] + tau[10,1] = 0
- tau_computation_10_2: - 0.7115448711071122 betas[2,0]
-   + 0.9704687421482601 betas[2,1] + 0.7855052919242557 betas[2,2]
-   - 0.6760262272279475 betas[2,3] - betas[2,4] + tau[10,2] = 0
- tau_computation_10_3: - 0.7115448711071122 betas[3,0]
-   + 0.9704687421482601 betas[3,1] + 0.7855052919242557 betas[3,2]
-   - 0.6760262272279475 betas[3,3] - betas[3,4] + tau[10,3] = 0
- tau_computation_10_4: - 0.7115448711071122 betas[4,0]
-   + 0.9704687421482601 betas[4,1] + 0.7855052919242557 betas[4,2]
-   - 0.6760262272279475 betas[4,3] - betas[4,4] + tau[10,4] = 0
- tau_computation_10_5: - 0.7115448711071122 betas[5,0]
-   + 0.9704687421482601 betas[5,1] + 0.7855052919242557 betas[5,2]
-   - 0.6760262272279475 betas[5,3] - betas[5,4] + tau[10,5] = 0
- tau_computation_10_6: - 0.7115448711071122 betas[6,0]
-   + 0.9704687421482601 betas[6,1] + 0.7855052919242557 betas[6,2]
-   - 0.6760262272279475 betas[6,3] - betas[6,4] + tau[10,6] = 0
- tau_computation_10_7: - 0.7115448711071122 betas[7,0]
-   + 0.9704687421482601 betas[7,1] + 0.7855052919242557 betas[7,2]
-   - 0.6760262272279475 betas[7,3] - betas[7,4] + tau[10,7] = 0
+ tau_computation_10_0: - betas[0] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,0] = 0
+ tau_computation_10_1: - betas[1] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,1] = 0
+ tau_computation_10_2: - betas[2] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,2] = 0
+ tau_computation_10_3: - betas[3] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,3] = 0
+ tau_computation_10_4: - betas[4] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,4] = 0
+ tau_computation_10_5: - betas[5] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,5] = 0
+ tau_computation_10_6: - betas[6] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,6] = 0
+ tau_computation_10_7: - betas[7] - 0.7115448711071122 gammas[0]
+   + 0.9704687421482601 gammas[1] + 0.7855052919242557 gammas[2]
+   - 0.6760262272279475 gammas[3] + tau[10,7] = 0
  Ensure_only_one_R_true_10: R[10,0] + R[10,1] + R[10,2] + R[10,3] + R[10,4]
    + R[10,5] + R[10,6] + R[10,7] = 1
  Define_Q_hat_10: - 1575.88419069516 R[10,0] - 1603.509020082587 R[10,1]
@@ -748,30 +629,30 @@ Subject To
  Q0_upper_bound_11:
    - 2053.400566507637 Fraction_for_second_order_amount[11] + Q0_var[11]
    = 0
- tau_computation_11_0: 0.2190709461845003 betas[0,0]
-   + 1.130665947024758 betas[0,1] - 0.9884669399077892 betas[0,2]
-   + 0.0895652096157003 betas[0,3] - betas[0,4] + tau[11,0] = 0
- tau_computation_11_1: 0.2190709461845003 betas[1,0]
-   + 1.130665947024758 betas[1,1] - 0.9884669399077892 betas[1,2]
-   + 0.0895652096157003 betas[1,3] - betas[1,4] + tau[11,1] = 0
- tau_computation_11_2: 0.2190709461845003 betas[2,0]
-   + 1.130665947024758 betas[2,1] - 0.9884669399077892 betas[2,2]
-   + 0.0895652096157003 betas[2,3] - betas[2,4] + tau[11,2] = 0
- tau_computation_11_3: 0.2190709461845003 betas[3,0]
-   + 1.130665947024758 betas[3,1] - 0.9884669399077892 betas[3,2]
-   + 0.0895652096157003 betas[3,3] - betas[3,4] + tau[11,3] = 0
- tau_computation_11_4: 0.2190709461845003 betas[4,0]
-   + 1.130665947024758 betas[4,1] - 0.9884669399077892 betas[4,2]
-   + 0.0895652096157003 betas[4,3] - betas[4,4] + tau[11,4] = 0
- tau_computation_11_5: 0.2190709461845003 betas[5,0]
-   + 1.130665947024758 betas[5,1] - 0.9884669399077892 betas[5,2]
-   + 0.0895652096157003 betas[5,3] - betas[5,4] + tau[11,5] = 0
- tau_computation_11_6: 0.2190709461845003 betas[6,0]
-   + 1.130665947024758 betas[6,1] - 0.9884669399077892 betas[6,2]
-   + 0.0895652096157003 betas[6,3] - betas[6,4] + tau[11,6] = 0
- tau_computation_11_7: 0.2190709461845003 betas[7,0]
-   + 1.130665947024758 betas[7,1] - 0.9884669399077892 betas[7,2]
-   + 0.0895652096157003 betas[7,3] - betas[7,4] + tau[11,7] = 0
+ tau_computation_11_0: - betas[0] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,0] = 0
+ tau_computation_11_1: - betas[1] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,1] = 0
+ tau_computation_11_2: - betas[2] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,2] = 0
+ tau_computation_11_3: - betas[3] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,3] = 0
+ tau_computation_11_4: - betas[4] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,4] = 0
+ tau_computation_11_5: - betas[5] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,5] = 0
+ tau_computation_11_6: - betas[6] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,6] = 0
+ tau_computation_11_7: - betas[7] + 0.2190709461845003 gammas[0]
+   + 1.130665947024758 gammas[1] - 0.9884669399077892 gammas[2]
+   + 0.0895652096157003 gammas[3] + tau[11,7] = 0
  Ensure_only_one_R_true_11: R[11,0] + R[11,1] + R[11,2] + R[11,3] + R[11,4]
    + R[11,5] + R[11,6] + R[11,7] = 1
  Define_Q_hat_11: - 2048.572436004985 R[11,0] - 2572.873144509696 R[11,1]
@@ -805,30 +686,30 @@ Subject To
  Q0_upper_bound_12:
    - 2053.400566507637 Fraction_for_second_order_amount[12] + Q0_var[12]
    = 0
- tau_computation_12_0: 0.0804518423132196 betas[0,0]
-   - 0.6691360908629208 betas[0,1] - 0.3356756145437382 betas[0,2]
-   - 0.7533331671833704 betas[0,3] - betas[0,4] + tau[12,0] = 0
- tau_computation_12_1: 0.0804518423132196 betas[1,0]
-   - 0.6691360908629208 betas[1,1] - 0.3356756145437382 betas[1,2]
-   - 0.7533331671833704 betas[1,3] - betas[1,4] + tau[12,1] = 0
- tau_computation_12_2: 0.0804518423132196 betas[2,0]
-   - 0.6691360908629208 betas[2,1] - 0.3356756145437382 betas[2,2]
-   - 0.7533331671833704 betas[2,3] - betas[2,4] + tau[12,2] = 0
- tau_computation_12_3: 0.0804518423132196 betas[3,0]
-   - 0.6691360908629208 betas[3,1] - 0.3356756145437382 betas[3,2]
-   - 0.7533331671833704 betas[3,3] - betas[3,4] + tau[12,3] = 0
- tau_computation_12_4: 0.0804518423132196 betas[4,0]
-   - 0.6691360908629208 betas[4,1] - 0.3356756145437382 betas[4,2]
-   - 0.7533331671833704 betas[4,3] - betas[4,4] + tau[12,4] = 0
- tau_computation_12_5: 0.0804518423132196 betas[5,0]
-   - 0.6691360908629208 betas[5,1] - 0.3356756145437382 betas[5,2]
-   - 0.7533331671833704 betas[5,3] - betas[5,4] + tau[12,5] = 0
- tau_computation_12_6: 0.0804518423132196 betas[6,0]
-   - 0.6691360908629208 betas[6,1] - 0.3356756145437382 betas[6,2]
-   - 0.7533331671833704 betas[6,3] - betas[6,4] + tau[12,6] = 0
- tau_computation_12_7: 0.0804518423132196 betas[7,0]
-   - 0.6691360908629208 betas[7,1] - 0.3356756145437382 betas[7,2]
-   - 0.7533331671833704 betas[7,3] - betas[7,4] + tau[12,7] = 0
+ tau_computation_12_0: - betas[0] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,0] = 0
+ tau_computation_12_1: - betas[1] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,1] = 0
+ tau_computation_12_2: - betas[2] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,2] = 0
+ tau_computation_12_3: - betas[3] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,3] = 0
+ tau_computation_12_4: - betas[4] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,4] = 0
+ tau_computation_12_5: - betas[5] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,5] = 0
+ tau_computation_12_6: - betas[6] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,6] = 0
+ tau_computation_12_7: - betas[7] + 0.0804518423132196 gammas[0]
+   - 0.6691360908629208 gammas[1] - 0.3356756145437382 gammas[2]
+   - 0.7533331671833704 gammas[3] + tau[12,7] = 0
  Ensure_only_one_R_true_12: R[12,0] + R[12,1] + R[12,2] + R[12,3] + R[12,4]
    + R[12,5] + R[12,6] + R[12,7] = 1
  Define_Q_hat_12: - 1862.706894967045 R[12,0] - 2215.245708448073 R[12,1]
@@ -862,30 +743,30 @@ Subject To
  Q0_upper_bound_13:
    - 2053.400566507637 Fraction_for_second_order_amount[13] + Q0_var[13]
    = 0
- tau_computation_13_0: - 1.185550778167024 betas[0,0]
-   + 1.03899428175183 betas[0,1] + 1.450554690095896 betas[0,2]
-   - 1.206394289581885 betas[0,3] - betas[0,4] + tau[13,0] = 0
- tau_computation_13_1: - 1.185550778167024 betas[1,0]
-   + 1.03899428175183 betas[1,1] + 1.450554690095896 betas[1,2]
-   - 1.206394289581885 betas[1,3] - betas[1,4] + tau[13,1] = 0
- tau_computation_13_2: - 1.185550778167024 betas[2,0]
-   + 1.03899428175183 betas[2,1] + 1.450554690095896 betas[2,2]
-   - 1.206394289581885 betas[2,3] - betas[2,4] + tau[13,2] = 0
- tau_computation_13_3: - 1.185550778167024 betas[3,0]
-   + 1.03899428175183 betas[3,1] + 1.450554690095896 betas[3,2]
-   - 1.206394289581885 betas[3,3] - betas[3,4] + tau[13,3] = 0
- tau_computation_13_4: - 1.185550778167024 betas[4,0]
-   + 1.03899428175183 betas[4,1] + 1.450554690095896 betas[4,2]
-   - 1.206394289581885 betas[4,3] - betas[4,4] + tau[13,4] = 0
- tau_computation_13_5: - 1.185550778167024 betas[5,0]
-   + 1.03899428175183 betas[5,1] + 1.450554690095896 betas[5,2]
-   - 1.206394289581885 betas[5,3] - betas[5,4] + tau[13,5] = 0
- tau_computation_13_6: - 1.185550778167024 betas[6,0]
-   + 1.03899428175183 betas[6,1] + 1.450554690095896 betas[6,2]
-   - 1.206394289581885 betas[6,3] - betas[6,4] + tau[13,6] = 0
- tau_computation_13_7: - 1.185550778167024 betas[7,0]
-   + 1.03899428175183 betas[7,1] + 1.450554690095896 betas[7,2]
-   - 1.206394289581885 betas[7,3] - betas[7,4] + tau[13,7] = 0
+ tau_computation_13_0: - betas[0] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,0] = 0
+ tau_computation_13_1: - betas[1] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,1] = 0
+ tau_computation_13_2: - betas[2] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,2] = 0
+ tau_computation_13_3: - betas[3] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,3] = 0
+ tau_computation_13_4: - betas[4] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,4] = 0
+ tau_computation_13_5: - betas[5] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,5] = 0
+ tau_computation_13_6: - betas[6] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,6] = 0
+ tau_computation_13_7: - betas[7] - 1.185550778167024 gammas[0]
+   + 1.03899428175183 gammas[1] + 1.450554690095896 gammas[2]
+   - 1.206394289581885 gammas[3] + tau[13,7] = 0
  Ensure_only_one_R_true_13: R[13,0] + R[13,1] + R[13,2] + R[13,3] + R[13,4]
    + R[13,5] + R[13,6] + R[13,7] = 1
  Define_Q_hat_13: - 2022.801570428241 R[13,0] - 1288.197957597569 R[13,1]
@@ -919,30 +800,30 @@ Subject To
  Q0_upper_bound_14:
    - 2053.400566507637 Fraction_for_second_order_amount[14] + Q0_var[14]
    = 0
- tau_computation_14_0: 1.840234842308595 betas[0,0]
-   + 0.8464738653451827 betas[0,1] - 0.8435804691776236 betas[0,2]
-   - 1.548996939710779 betas[0,3] - betas[0,4] + tau[14,0] = 0
- tau_computation_14_1: 1.840234842308595 betas[1,0]
-   + 0.8464738653451827 betas[1,1] - 0.8435804691776236 betas[1,2]
-   - 1.548996939710779 betas[1,3] - betas[1,4] + tau[14,1] = 0
- tau_computation_14_2: 1.840234842308595 betas[2,0]
-   + 0.8464738653451827 betas[2,1] - 0.8435804691776236 betas[2,2]
-   - 1.548996939710779 betas[2,3] - betas[2,4] + tau[14,2] = 0
- tau_computation_14_3: 1.840234842308595 betas[3,0]
-   + 0.8464738653451827 betas[3,1] - 0.8435804691776236 betas[3,2]
-   - 1.548996939710779 betas[3,3] - betas[3,4] + tau[14,3] = 0
- tau_computation_14_4: 1.840234842308595 betas[4,0]
-   + 0.8464738653451827 betas[4,1] - 0.8435804691776236 betas[4,2]
-   - 1.548996939710779 betas[4,3] - betas[4,4] + tau[14,4] = 0
- tau_computation_14_5: 1.840234842308595 betas[5,0]
-   + 0.8464738653451827 betas[5,1] - 0.8435804691776236 betas[5,2]
-   - 1.548996939710779 betas[5,3] - betas[5,4] + tau[14,5] = 0
- tau_computation_14_6: 1.840234842308595 betas[6,0]
-   + 0.8464738653451827 betas[6,1] - 0.8435804691776236 betas[6,2]
-   - 1.548996939710779 betas[6,3] - betas[6,4] + tau[14,6] = 0
- tau_computation_14_7: 1.840234842308595 betas[7,0]
-   + 0.8464738653451827 betas[7,1] - 0.8435804691776236 betas[7,2]
-   - 1.548996939710779 betas[7,3] - betas[7,4] + tau[14,7] = 0
+ tau_computation_14_0: - betas[0] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,0] = 0
+ tau_computation_14_1: - betas[1] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,1] = 0
+ tau_computation_14_2: - betas[2] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,2] = 0
+ tau_computation_14_3: - betas[3] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,3] = 0
+ tau_computation_14_4: - betas[4] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,4] = 0
+ tau_computation_14_5: - betas[5] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,5] = 0
+ tau_computation_14_6: - betas[6] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,6] = 0
+ tau_computation_14_7: - betas[7] + 1.840234842308595 gammas[0]
+   + 0.8464738653451827 gammas[1] - 0.8435804691776236 gammas[2]
+   - 1.548996939710779 gammas[3] + tau[14,7] = 0
  Ensure_only_one_R_true_14: R[14,0] + R[14,1] + R[14,2] + R[14,3] + R[14,4]
    + R[14,5] + R[14,6] + R[14,7] = 1
  Define_Q_hat_14: - 2585.803813465184 R[14,0] - 2538.074191005085 R[14,1]
@@ -976,30 +857,30 @@ Subject To
  Q0_upper_bound_15:
    - 2053.400566507637 Fraction_for_second_order_amount[15] + Q0_var[15]
    = 0
- tau_computation_15_0: 1.783252692812304 betas[0,0]
-   + 0.2789851684846042 betas[0,1] + 1.010402835029238 betas[0,2]
-   - 1.173185428878948 betas[0,3] - betas[0,4] + tau[15,0] = 0
- tau_computation_15_1: 1.783252692812304 betas[1,0]
-   + 0.2789851684846042 betas[1,1] + 1.010402835029238 betas[1,2]
-   - 1.173185428878948 betas[1,3] - betas[1,4] + tau[15,1] = 0
- tau_computation_15_2: 1.783252692812304 betas[2,0]
-   + 0.2789851684846042 betas[2,1] + 1.010402835029238 betas[2,2]
-   - 1.173185428878948 betas[2,3] - betas[2,4] + tau[15,2] = 0
- tau_computation_15_3: 1.783252692812304 betas[3,0]
-   + 0.2789851684846042 betas[3,1] + 1.010402835029238 betas[3,2]
-   - 1.173185428878948 betas[3,3] - betas[3,4] + tau[15,3] = 0
- tau_computation_15_4: 1.783252692812304 betas[4,0]
-   + 0.2789851684846042 betas[4,1] + 1.010402835029238 betas[4,2]
-   - 1.173185428878948 betas[4,3] - betas[4,4] + tau[15,4] = 0
- tau_computation_15_5: 1.783252692812304 betas[5,0]
-   + 0.2789851684846042 betas[5,1] + 1.010402835029238 betas[5,2]
-   - 1.173185428878948 betas[5,3] - betas[5,4] + tau[15,5] = 0
- tau_computation_15_6: 1.783252692812304 betas[6,0]
-   + 0.2789851684846042 betas[6,1] + 1.010402835029238 betas[6,2]
-   - 1.173185428878948 betas[6,3] - betas[6,4] + tau[15,6] = 0
- tau_computation_15_7: 1.783252692812304 betas[7,0]
-   + 0.2789851684846042 betas[7,1] + 1.010402835029238 betas[7,2]
-   - 1.173185428878948 betas[7,3] - betas[7,4] + tau[15,7] = 0
+ tau_computation_15_0: - betas[0] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,0] = 0
+ tau_computation_15_1: - betas[1] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,1] = 0
+ tau_computation_15_2: - betas[2] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,2] = 0
+ tau_computation_15_3: - betas[3] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,3] = 0
+ tau_computation_15_4: - betas[4] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,4] = 0
+ tau_computation_15_5: - betas[5] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,5] = 0
+ tau_computation_15_6: - betas[6] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,6] = 0
+ tau_computation_15_7: - betas[7] + 1.783252692812304 gammas[0]
+   + 0.2789851684846042 gammas[1] + 1.010402835029238 gammas[2]
+   - 1.173185428878948 gammas[3] + tau[15,7] = 0
  Ensure_only_one_R_true_15: R[15,0] + R[15,1] + R[15,2] + R[15,3] + R[15,4]
    + R[15,5] + R[15,6] + R[15,7] = 1
  Define_Q_hat_15: - 2046.689452969176 R[15,0] - 1521.516242350157 R[15,1]
@@ -1033,30 +914,30 @@ Subject To
  Q0_upper_bound_16:
    - 2053.400566507637 Fraction_for_second_order_amount[16] + Q0_var[16]
    = 0
- tau_computation_16_0: 2.020167489294702 betas[0,0]
-   - 1.211968842659354 betas[0,1] - 1.142610938055166 betas[0,2]
-   + 1.476524961653682 betas[0,3] - betas[0,4] + tau[16,0] = 0
- tau_computation_16_1: 2.020167489294702 betas[1,0]
-   - 1.211968842659354 betas[1,1] - 1.142610938055166 betas[1,2]
-   + 1.476524961653682 betas[1,3] - betas[1,4] + tau[16,1] = 0
- tau_computation_16_2: 2.020167489294702 betas[2,0]
-   - 1.211968842659354 betas[2,1] - 1.142610938055166 betas[2,2]
-   + 1.476524961653682 betas[2,3] - betas[2,4] + tau[16,2] = 0
- tau_computation_16_3: 2.020167489294702 betas[3,0]
-   - 1.211968842659354 betas[3,1] - 1.142610938055166 betas[3,2]
-   + 1.476524961653682 betas[3,3] - betas[3,4] + tau[16,3] = 0
- tau_computation_16_4: 2.020167489294702 betas[4,0]
-   - 1.211968842659354 betas[4,1] - 1.142610938055166 betas[4,2]
-   + 1.476524961653682 betas[4,3] - betas[4,4] + tau[16,4] = 0
- tau_computation_16_5: 2.020167489294702 betas[5,0]
-   - 1.211968842659354 betas[5,1] - 1.142610938055166 betas[5,2]
-   + 1.476524961653682 betas[5,3] - betas[5,4] + tau[16,5] = 0
- tau_computation_16_6: 2.020167489294702 betas[6,0]
-   - 1.211968842659354 betas[6,1] - 1.142610938055166 betas[6,2]
-   + 1.476524961653682 betas[6,3] - betas[6,4] + tau[16,6] = 0
- tau_computation_16_7: 2.020167489294702 betas[7,0]
-   - 1.211968842659354 betas[7,1] - 1.142610938055166 betas[7,2]
-   + 1.476524961653682 betas[7,3] - betas[7,4] + tau[16,7] = 0
+ tau_computation_16_0: - betas[0] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,0] = 0
+ tau_computation_16_1: - betas[1] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,1] = 0
+ tau_computation_16_2: - betas[2] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,2] = 0
+ tau_computation_16_3: - betas[3] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,3] = 0
+ tau_computation_16_4: - betas[4] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,4] = 0
+ tau_computation_16_5: - betas[5] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,5] = 0
+ tau_computation_16_6: - betas[6] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,6] = 0
+ tau_computation_16_7: - betas[7] + 2.020167489294702 gammas[0]
+   - 1.211968842659354 gammas[1] - 1.142610938055166 gammas[2]
+   + 1.476524961653682 gammas[3] + tau[16,7] = 0
  Ensure_only_one_R_true_16: R[16,0] + R[16,1] + R[16,2] + R[16,3] + R[16,4]
    + R[16,5] + R[16,6] + R[16,7] = 1
  Define_Q_hat_16: - 2185.774795555209 R[16,0] - 2664.510384723219 R[16,1]
@@ -1090,30 +971,30 @@ Subject To
  Q0_upper_bound_17:
    - 2053.400566507637 Fraction_for_second_order_amount[17] + Q0_var[17]
    = 0
- tau_computation_17_0: - 0.8563431724362236 betas[0,0]
-   + 1.174424780788562 betas[0,1] + 0.1895025714961081 betas[0,2]
-   + 0.3832772058522401 betas[0,3] - betas[0,4] + tau[17,0] = 0
- tau_computation_17_1: - 0.8563431724362236 betas[1,0]
-   + 1.174424780788562 betas[1,1] + 0.1895025714961081 betas[1,2]
-   + 0.3832772058522401 betas[1,3] - betas[1,4] + tau[17,1] = 0
- tau_computation_17_2: - 0.8563431724362236 betas[2,0]
-   + 1.174424780788562 betas[2,1] + 0.1895025714961081 betas[2,2]
-   + 0.3832772058522401 betas[2,3] - betas[2,4] + tau[17,2] = 0
- tau_computation_17_3: - 0.8563431724362236 betas[3,0]
-   + 1.174424780788562 betas[3,1] + 0.1895025714961081 betas[3,2]
-   + 0.3832772058522401 betas[3,3] - betas[3,4] + tau[17,3] = 0
- tau_computation_17_4: - 0.8563431724362236 betas[4,0]
-   + 1.174424780788562 betas[4,1] + 0.1895025714961081 betas[4,2]
-   + 0.3832772058522401 betas[4,3] - betas[4,4] + tau[17,4] = 0
- tau_computation_17_5: - 0.8563431724362236 betas[5,0]
-   + 1.174424780788562 betas[5,1] + 0.1895025714961081 betas[5,2]
-   + 0.3832772058522401 betas[5,3] - betas[5,4] + tau[17,5] = 0
- tau_computation_17_6: - 0.8563431724362236 betas[6,0]
-   + 1.174424780788562 betas[6,1] + 0.1895025714961081 betas[6,2]
-   + 0.3832772058522401 betas[6,3] - betas[6,4] + tau[17,6] = 0
- tau_computation_17_7: - 0.8563431724362236 betas[7,0]
-   + 1.174424780788562 betas[7,1] + 0.1895025714961081 betas[7,2]
-   + 0.3832772058522401 betas[7,3] - betas[7,4] + tau[17,7] = 0
+ tau_computation_17_0: - betas[0] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,0] = 0
+ tau_computation_17_1: - betas[1] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,1] = 0
+ tau_computation_17_2: - betas[2] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,2] = 0
+ tau_computation_17_3: - betas[3] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,3] = 0
+ tau_computation_17_4: - betas[4] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,4] = 0
+ tau_computation_17_5: - betas[5] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,5] = 0
+ tau_computation_17_6: - betas[6] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,6] = 0
+ tau_computation_17_7: - betas[7] - 0.8563431724362236 gammas[0]
+   + 1.174424780788562 gammas[1] + 0.1895025714961081 gammas[2]
+   + 0.3832772058522401 gammas[3] + tau[17,7] = 0
  Ensure_only_one_R_true_17: R[17,0] + R[17,1] + R[17,2] + R[17,3] + R[17,4]
    + R[17,5] + R[17,6] + R[17,7] = 1
  Define_Q_hat_17: - 1593.691325408947 R[17,0] - 1918.323112283352 R[17,1]
@@ -1147,30 +1028,30 @@ Subject To
  Q0_upper_bound_18:
    - 2053.400566507637 Fraction_for_second_order_amount[18] + Q0_var[18]
    = 0
- tau_computation_18_0: - 0.6635029545277169 betas[0,0]
-   - 1.267852010342292 betas[0,1] - 1.145419577230695 betas[0,2]
-   - 0.7782420895307338 betas[0,3] - betas[0,4] + tau[18,0] = 0
- tau_computation_18_1: - 0.6635029545277169 betas[1,0]
-   - 1.267852010342292 betas[1,1] - 1.145419577230695 betas[1,2]
-   - 0.7782420895307338 betas[1,3] - betas[1,4] + tau[18,1] = 0
- tau_computation_18_2: - 0.6635029545277169 betas[2,0]
-   - 1.267852010342292 betas[2,1] - 1.145419577230695 betas[2,2]
-   - 0.7782420895307338 betas[2,3] - betas[2,4] + tau[18,2] = 0
- tau_computation_18_3: - 0.6635029545277169 betas[3,0]
-   - 1.267852010342292 betas[3,1] - 1.145419577230695 betas[3,2]
-   - 0.7782420895307338 betas[3,3] - betas[3,4] + tau[18,3] = 0
- tau_computation_18_4: - 0.6635029545277169 betas[4,0]
-   - 1.267852010342292 betas[4,1] - 1.145419577230695 betas[4,2]
-   - 0.7782420895307338 betas[4,3] - betas[4,4] + tau[18,4] = 0
- tau_computation_18_5: - 0.6635029545277169 betas[5,0]
-   - 1.267852010342292 betas[5,1] - 1.145419577230695 betas[5,2]
-   - 0.7782420895307338 betas[5,3] - betas[5,4] + tau[18,5] = 0
- tau_computation_18_6: - 0.6635029545277169 betas[6,0]
-   - 1.267852010342292 betas[6,1] - 1.145419577230695 betas[6,2]
-   - 0.7782420895307338 betas[6,3] - betas[6,4] + tau[18,6] = 0
- tau_computation_18_7: - 0.6635029545277169 betas[7,0]
-   - 1.267852010342292 betas[7,1] - 1.145419577230695 betas[7,2]
-   - 0.7782420895307338 betas[7,3] - betas[7,4] + tau[18,7] = 0
+ tau_computation_18_0: - betas[0] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,0] = 0
+ tau_computation_18_1: - betas[1] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,1] = 0
+ tau_computation_18_2: - betas[2] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,2] = 0
+ tau_computation_18_3: - betas[3] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,3] = 0
+ tau_computation_18_4: - betas[4] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,4] = 0
+ tau_computation_18_5: - betas[5] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,5] = 0
+ tau_computation_18_6: - betas[6] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,6] = 0
+ tau_computation_18_7: - betas[7] - 0.6635029545277169 gammas[0]
+   - 1.267852010342292 gammas[1] - 1.145419577230695 gammas[2]
+   - 0.7782420895307338 gammas[3] + tau[18,7] = 0
  Ensure_only_one_R_true_18: R[18,0] + R[18,1] + R[18,2] + R[18,3] + R[18,4]
    + R[18,5] + R[18,6] + R[18,7] = 1
  Define_Q_hat_18: - 2154.799619889661 R[18,0] - 2663.600618919495 R[18,1]
@@ -1204,30 +1085,30 @@ Subject To
  Q0_upper_bound_19:
    - 2053.400566507637 Fraction_for_second_order_amount[19] + Q0_var[19]
    = 0
- tau_computation_19_0: - 0.9887399790034055 betas[0,0]
-   + 1.177730850908782 betas[0,1] - 0.3048078049445529 betas[0,2]
-   + 0.9745282776980045 betas[0,3] - betas[0,4] + tau[19,0] = 0
- tau_computation_19_1: - 0.9887399790034055 betas[1,0]
-   + 1.177730850908782 betas[1,1] - 0.3048078049445529 betas[1,2]
-   + 0.9745282776980045 betas[1,3] - betas[1,4] + tau[19,1] = 0
- tau_computation_19_2: - 0.9887399790034055 betas[2,0]
-   + 1.177730850908782 betas[2,1] - 0.3048078049445529 betas[2,2]
-   + 0.9745282776980045 betas[2,3] - betas[2,4] + tau[19,2] = 0
- tau_computation_19_3: - 0.9887399790034055 betas[3,0]
-   + 1.177730850908782 betas[3,1] - 0.3048078049445529 betas[3,2]
-   + 0.9745282776980045 betas[3,3] - betas[3,4] + tau[19,3] = 0
- tau_computation_19_4: - 0.9887399790034055 betas[4,0]
-   + 1.177730850908782 betas[4,1] - 0.3048078049445529 betas[4,2]
-   + 0.9745282776980045 betas[4,3] - betas[4,4] + tau[19,4] = 0
- tau_computation_19_5: - 0.9887399790034055 betas[5,0]
-   + 1.177730850908782 betas[5,1] - 0.3048078049445529 betas[5,2]
-   + 0.9745282776980045 betas[5,3] - betas[5,4] + tau[19,5] = 0
- tau_computation_19_6: - 0.9887399790034055 betas[6,0]
-   + 1.177730850908782 betas[6,1] - 0.3048078049445529 betas[6,2]
-   + 0.9745282776980045 betas[6,3] - betas[6,4] + tau[19,6] = 0
- tau_computation_19_7: - 0.9887399790034055 betas[7,0]
-   + 1.177730850908782 betas[7,1] - 0.3048078049445529 betas[7,2]
-   + 0.9745282776980045 betas[7,3] - betas[7,4] + tau[19,7] = 0
+ tau_computation_19_0: - betas[0] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,0] = 0
+ tau_computation_19_1: - betas[1] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,1] = 0
+ tau_computation_19_2: - betas[2] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,2] = 0
+ tau_computation_19_3: - betas[3] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,3] = 0
+ tau_computation_19_4: - betas[4] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,4] = 0
+ tau_computation_19_5: - betas[5] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,5] = 0
+ tau_computation_19_6: - betas[6] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,6] = 0
+ tau_computation_19_7: - betas[7] - 0.9887399790034055 gammas[0]
+   + 1.177730850908782 gammas[1] - 0.3048078049445529 gammas[2]
+   + 0.9745282776980045 gammas[3] + tau[19,7] = 0
  Ensure_only_one_R_true_19: R[19,0] + R[19,1] + R[19,2] + R[19,3] + R[19,4]
    + R[19,5] + R[19,6] + R[19,7] = 1
  Define_Q_hat_19: - 2284.983827512279 R[19,0] - 2231.551558546518 R[19,1]
@@ -1261,30 +1142,30 @@ Subject To
  Q0_upper_bound_20:
    - 2053.400566507637 Fraction_for_second_order_amount[20] + Q0_var[20]
    = 0
- tau_computation_20_0: - 1.373287391687492 betas[0,0]
-   - 1.724481283476159 betas[0,1] - 0.450191155178684 betas[0,2]
-   - 0.1223073485596939 betas[0,3] - betas[0,4] + tau[20,0] = 0
- tau_computation_20_1: - 1.373287391687492 betas[1,0]
-   - 1.724481283476159 betas[1,1] - 0.450191155178684 betas[1,2]
-   - 0.1223073485596939 betas[1,3] - betas[1,4] + tau[20,1] = 0
- tau_computation_20_2: - 1.373287391687492 betas[2,0]
-   - 1.724481283476159 betas[2,1] - 0.450191155178684 betas[2,2]
-   - 0.1223073485596939 betas[2,3] - betas[2,4] + tau[20,2] = 0
- tau_computation_20_3: - 1.373287391687492 betas[3,0]
-   - 1.724481283476159 betas[3,1] - 0.450191155178684 betas[3,2]
-   - 0.1223073485596939 betas[3,3] - betas[3,4] + tau[20,3] = 0
- tau_computation_20_4: - 1.373287391687492 betas[4,0]
-   - 1.724481283476159 betas[4,1] - 0.450191155178684 betas[4,2]
-   - 0.1223073485596939 betas[4,3] - betas[4,4] + tau[20,4] = 0
- tau_computation_20_5: - 1.373287391687492 betas[5,0]
-   - 1.724481283476159 betas[5,1] - 0.450191155178684 betas[5,2]
-   - 0.1223073485596939 betas[5,3] - betas[5,4] + tau[20,5] = 0
- tau_computation_20_6: - 1.373287391687492 betas[6,0]
-   - 1.724481283476159 betas[6,1] - 0.450191155178684 betas[6,2]
-   - 0.1223073485596939 betas[6,3] - betas[6,4] + tau[20,6] = 0
- tau_computation_20_7: - 1.373287391687492 betas[7,0]
-   - 1.724481283476159 betas[7,1] - 0.450191155178684 betas[7,2]
-   - 0.1223073485596939 betas[7,3] - betas[7,4] + tau[20,7] = 0
+ tau_computation_20_0: - betas[0] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,0] = 0
+ tau_computation_20_1: - betas[1] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,1] = 0
+ tau_computation_20_2: - betas[2] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,2] = 0
+ tau_computation_20_3: - betas[3] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,3] = 0
+ tau_computation_20_4: - betas[4] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,4] = 0
+ tau_computation_20_5: - betas[5] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,5] = 0
+ tau_computation_20_6: - betas[6] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,6] = 0
+ tau_computation_20_7: - betas[7] - 1.373287391687492 gammas[0]
+   - 1.724481283476159 gammas[1] - 0.450191155178684 gammas[2]
+   - 0.1223073485596939 gammas[3] + tau[20,7] = 0
  Ensure_only_one_R_true_20: R[20,0] + R[20,1] + R[20,2] + R[20,3] + R[20,4]
    + R[20,5] + R[20,6] + R[20,7] = 1
  Define_Q_hat_20: - 2021.039104822414 R[20,0] - 2287.670473791569 R[20,1]
@@ -1318,30 +1199,30 @@ Subject To
  Q0_upper_bound_21:
    - 2053.400566507637 Fraction_for_second_order_amount[21] + Q0_var[21]
    = 0
- tau_computation_21_0: - 0.7378651309105446 betas[0,0]
-   - 0.0504325599864221 betas[0,1] + 0.5447050171735942 betas[0,2]
-   + 1.342722759310279 betas[0,3] - betas[0,4] + tau[21,0] = 0
- tau_computation_21_1: - 0.7378651309105446 betas[1,0]
-   - 0.0504325599864221 betas[1,1] + 0.5447050171735942 betas[1,2]
-   + 1.342722759310279 betas[1,3] - betas[1,4] + tau[21,1] = 0
- tau_computation_21_2: - 0.7378651309105446 betas[2,0]
-   - 0.0504325599864221 betas[2,1] + 0.5447050171735942 betas[2,2]
-   + 1.342722759310279 betas[2,3] - betas[2,4] + tau[21,2] = 0
- tau_computation_21_3: - 0.7378651309105446 betas[3,0]
-   - 0.0504325599864221 betas[3,1] + 0.5447050171735942 betas[3,2]
-   + 1.342722759310279 betas[3,3] - betas[3,4] + tau[21,3] = 0
- tau_computation_21_4: - 0.7378651309105446 betas[4,0]
-   - 0.0504325599864221 betas[4,1] + 0.5447050171735942 betas[4,2]
-   + 1.342722759310279 betas[4,3] - betas[4,4] + tau[21,4] = 0
- tau_computation_21_5: - 0.7378651309105446 betas[5,0]
-   - 0.0504325599864221 betas[5,1] + 0.5447050171735942 betas[5,2]
-   + 1.342722759310279 betas[5,3] - betas[5,4] + tau[21,5] = 0
- tau_computation_21_6: - 0.7378651309105446 betas[6,0]
-   - 0.0504325599864221 betas[6,1] + 0.5447050171735942 betas[6,2]
-   + 1.342722759310279 betas[6,3] - betas[6,4] + tau[21,6] = 0
- tau_computation_21_7: - 0.7378651309105446 betas[7,0]
-   - 0.0504325599864221 betas[7,1] + 0.5447050171735942 betas[7,2]
-   + 1.342722759310279 betas[7,3] - betas[7,4] + tau[21,7] = 0
+ tau_computation_21_0: - betas[0] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,0] = 0
+ tau_computation_21_1: - betas[1] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,1] = 0
+ tau_computation_21_2: - betas[2] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,2] = 0
+ tau_computation_21_3: - betas[3] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,3] = 0
+ tau_computation_21_4: - betas[4] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,4] = 0
+ tau_computation_21_5: - betas[5] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,5] = 0
+ tau_computation_21_6: - betas[6] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,6] = 0
+ tau_computation_21_7: - betas[7] - 0.7378651309105446 gammas[0]
+   - 0.0504325599864221 gammas[1] + 0.5447050171735942 gammas[2]
+   + 1.342722759310279 gammas[3] + tau[21,7] = 0
  Ensure_only_one_R_true_21: R[21,0] + R[21,1] + R[21,2] + R[21,3] + R[21,4]
    + R[21,5] + R[21,6] + R[21,7] = 1
  Define_Q_hat_21: - 1567.812076471181 R[21,0] - 1729.526555973846 R[21,1]
@@ -1375,30 +1256,30 @@ Subject To
  Q0_upper_bound_22:
    - 2053.400566507637 Fraction_for_second_order_amount[22] + Q0_var[22]
    = 0
- tau_computation_22_0: 0.4577726008491022 betas[0,0]
-   - 1.725475619194501 betas[0,1] - 1.475740864355606 betas[0,2]
-   + 0.8854809048116157 betas[0,3] - betas[0,4] + tau[22,0] = 0
- tau_computation_22_1: 0.4577726008491022 betas[1,0]
-   - 1.725475619194501 betas[1,1] - 1.475740864355606 betas[1,2]
-   + 0.8854809048116157 betas[1,3] - betas[1,4] + tau[22,1] = 0
- tau_computation_22_2: 0.4577726008491022 betas[2,0]
-   - 1.725475619194501 betas[2,1] - 1.475740864355606 betas[2,2]
-   + 0.8854809048116157 betas[2,3] - betas[2,4] + tau[22,2] = 0
- tau_computation_22_3: 0.4577726008491022 betas[3,0]
-   - 1.725475619194501 betas[3,1] - 1.475740864355606 betas[3,2]
-   + 0.8854809048116157 betas[3,3] - betas[3,4] + tau[22,3] = 0
- tau_computation_22_4: 0.4577726008491022 betas[4,0]
-   - 1.725475619194501 betas[4,1] - 1.475740864355606 betas[4,2]
-   + 0.8854809048116157 betas[4,3] - betas[4,4] + tau[22,4] = 0
- tau_computation_22_5: 0.4577726008491022 betas[5,0]
-   - 1.725475619194501 betas[5,1] - 1.475740864355606 betas[5,2]
-   + 0.8854809048116157 betas[5,3] - betas[5,4] + tau[22,5] = 0
- tau_computation_22_6: 0.4577726008491022 betas[6,0]
-   - 1.725475619194501 betas[6,1] - 1.475740864355606 betas[6,2]
-   + 0.8854809048116157 betas[6,3] - betas[6,4] + tau[22,6] = 0
- tau_computation_22_7: 0.4577726008491022 betas[7,0]
-   - 1.725475619194501 betas[7,1] - 1.475740864355606 betas[7,2]
-   + 0.8854809048116157 betas[7,3] - betas[7,4] + tau[22,7] = 0
+ tau_computation_22_0: - betas[0] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,0] = 0
+ tau_computation_22_1: - betas[1] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,1] = 0
+ tau_computation_22_2: - betas[2] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,2] = 0
+ tau_computation_22_3: - betas[3] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,3] = 0
+ tau_computation_22_4: - betas[4] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,4] = 0
+ tau_computation_22_5: - betas[5] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,5] = 0
+ tau_computation_22_6: - betas[6] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,6] = 0
+ tau_computation_22_7: - betas[7] + 0.4577726008491022 gammas[0]
+   - 1.725475619194501 gammas[1] - 1.475740864355606 gammas[2]
+   + 0.8854809048116157 gammas[3] + tau[22,7] = 0
  Ensure_only_one_R_true_22: R[22,0] + R[22,1] + R[22,2] + R[22,3] + R[22,4]
    + R[22,5] + R[22,6] + R[22,7] = 1
  Define_Q_hat_22: - 2355.749684765982 R[22,0] - 2852.802301077008 R[22,1]
@@ -1432,30 +1313,30 @@ Subject To
  Q0_upper_bound_23:
    - 2053.400566507637 Fraction_for_second_order_amount[23] + Q0_var[23]
    = 0
- tau_computation_23_0: - 0.6719031202226472 betas[0,0]
-   - 0.4994128952930674 betas[0,1] - 0.0891436867992024 betas[0,2]
-   + 1.455154637985153 betas[0,3] - betas[0,4] + tau[23,0] = 0
- tau_computation_23_1: - 0.6719031202226472 betas[1,0]
-   - 0.4994128952930674 betas[1,1] - 0.0891436867992024 betas[1,2]
-   + 1.455154637985153 betas[1,3] - betas[1,4] + tau[23,1] = 0
- tau_computation_23_2: - 0.6719031202226472 betas[2,0]
-   - 0.4994128952930674 betas[2,1] - 0.0891436867992024 betas[2,2]
-   + 1.455154637985153 betas[2,3] - betas[2,4] + tau[23,2] = 0
- tau_computation_23_3: - 0.6719031202226472 betas[3,0]
-   - 0.4994128952930674 betas[3,1] - 0.0891436867992024 betas[3,2]
-   + 1.455154637985153 betas[3,3] - betas[3,4] + tau[23,3] = 0
- tau_computation_23_4: - 0.6719031202226472 betas[4,0]
-   - 0.4994128952930674 betas[4,1] - 0.0891436867992024 betas[4,2]
-   + 1.455154637985153 betas[4,3] - betas[4,4] + tau[23,4] = 0
- tau_computation_23_5: - 0.6719031202226472 betas[5,0]
-   - 0.4994128952930674 betas[5,1] - 0.0891436867992024 betas[5,2]
-   + 1.455154637985153 betas[5,3] - betas[5,4] + tau[23,5] = 0
- tau_computation_23_6: - 0.6719031202226472 betas[6,0]
-   - 0.4994128952930674 betas[6,1] - 0.0891436867992024 betas[6,2]
-   + 1.455154637985153 betas[6,3] - betas[6,4] + tau[23,6] = 0
- tau_computation_23_7: - 0.6719031202226472 betas[7,0]
-   - 0.4994128952930674 betas[7,1] - 0.0891436867992024 betas[7,2]
-   + 1.455154637985153 betas[7,3] - betas[7,4] + tau[23,7] = 0
+ tau_computation_23_0: - betas[0] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,0] = 0
+ tau_computation_23_1: - betas[1] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,1] = 0
+ tau_computation_23_2: - betas[2] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,2] = 0
+ tau_computation_23_3: - betas[3] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,3] = 0
+ tau_computation_23_4: - betas[4] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,4] = 0
+ tau_computation_23_5: - betas[5] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,5] = 0
+ tau_computation_23_6: - betas[6] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,6] = 0
+ tau_computation_23_7: - betas[7] - 0.6719031202226472 gammas[0]
+   - 0.4994128952930674 gammas[1] - 0.0891436867992024 gammas[2]
+   + 1.455154637985153 gammas[3] + tau[23,7] = 0
  Ensure_only_one_R_true_23: R[23,0] + R[23,1] + R[23,2] + R[23,3] + R[23,4]
    + R[23,5] + R[23,6] + R[23,7] = 1
  Define_Q_hat_23: - 2261.956769485609 R[23,0] - 2116.358722764682 R[23,1]
@@ -1489,30 +1370,30 @@ Subject To
  Q0_upper_bound_24:
    - 2053.400566507637 Fraction_for_second_order_amount[24] + Q0_var[24]
    = 0
- tau_computation_24_0: 1.67297557835104 betas[0,0]
-   - 0.9425375890211247 betas[0,1] + 0.888892836523537 betas[0,2]
-   - 0.9782274247791758 betas[0,3] - betas[0,4] + tau[24,0] = 0
- tau_computation_24_1: 1.67297557835104 betas[1,0]
-   - 0.9425375890211247 betas[1,1] + 0.888892836523537 betas[1,2]
-   - 0.9782274247791758 betas[1,3] - betas[1,4] + tau[24,1] = 0
- tau_computation_24_2: 1.67297557835104 betas[2,0]
-   - 0.9425375890211247 betas[2,1] + 0.888892836523537 betas[2,2]
-   - 0.9782274247791758 betas[2,3] - betas[2,4] + tau[24,2] = 0
- tau_computation_24_3: 1.67297557835104 betas[3,0]
-   - 0.9425375890211247 betas[3,1] + 0.888892836523537 betas[3,2]
-   - 0.9782274247791758 betas[3,3] - betas[3,4] + tau[24,3] = 0
- tau_computation_24_4: 1.67297557835104 betas[4,0]
-   - 0.9425375890211247 betas[4,1] + 0.888892836523537 betas[4,2]
-   - 0.9782274247791758 betas[4,3] - betas[4,4] + tau[24,4] = 0
- tau_computation_24_5: 1.67297557835104 betas[5,0]
-   - 0.9425375890211247 betas[5,1] + 0.888892836523537 betas[5,2]
-   - 0.9782274247791758 betas[5,3] - betas[5,4] + tau[24,5] = 0
- tau_computation_24_6: 1.67297557835104 betas[6,0]
-   - 0.9425375890211247 betas[6,1] + 0.888892836523537 betas[6,2]
-   - 0.9782274247791758 betas[6,3] - betas[6,4] + tau[24,6] = 0
- tau_computation_24_7: 1.67297557835104 betas[7,0]
-   - 0.9425375890211247 betas[7,1] + 0.888892836523537 betas[7,2]
-   - 0.9782274247791758 betas[7,3] - betas[7,4] + tau[24,7] = 0
+ tau_computation_24_0: - betas[0] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,0] = 0
+ tau_computation_24_1: - betas[1] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,1] = 0
+ tau_computation_24_2: - betas[2] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,2] = 0
+ tau_computation_24_3: - betas[3] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,3] = 0
+ tau_computation_24_4: - betas[4] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,4] = 0
+ tau_computation_24_5: - betas[5] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,5] = 0
+ tau_computation_24_6: - betas[6] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,6] = 0
+ tau_computation_24_7: - betas[7] + 1.67297557835104 gammas[0]
+   - 0.9425375890211247 gammas[1] + 0.888892836523537 gammas[2]
+   - 0.9782274247791758 gammas[3] + tau[24,7] = 0
  Ensure_only_one_R_true_24: R[24,0] + R[24,1] + R[24,2] + R[24,3] + R[24,4]
    + R[24,5] + R[24,6] + R[24,7] = 1
  Define_Q_hat_24: - 1937.671827061494 R[24,0] - 1577.02366911822 R[24,1]
@@ -1540,252 +1421,1224 @@ Subject To
    + Q1_plus_left[24] + Lost_0_aux_24 = 0
  Profit_Constraint_24: - 500 Sold_0[24] + 500 Lost_0[24] - 500 Sold_1[24]
    + 500 Left_1[24] + 500 Lost_1[24] + profits_vars[24] = 0
- GC18: R[0,0] = 1 -> r[0,0] - max_r_helper = 0
- GC19: R[0,1] = 1 -> r[0,1] - max_r_helper = 0
- GC20: R[0,2] = 1 -> r[0,2] - max_r_helper = 0
- GC21: R[0,3] = 1 -> r[0,3] - max_r_helper = 0
- GC22: R[0,4] = 1 -> r[0,4] - max_r_helper = 0
- GC23: R[0,5] = 1 -> r[0,5] - max_r_helper = 0
- GC24: R[0,6] = 1 -> r[0,6] - max_r_helper = 0
- GC25: R[0,7] = 1 -> r[0,7] - max_r_helper = 0
- GC51: R[1,0] = 1 -> r[1,0] - max_r_helper = 0
- GC52: R[1,1] = 1 -> r[1,1] - max_r_helper = 0
- GC53: R[1,2] = 1 -> r[1,2] - max_r_helper = 0
- GC54: R[1,3] = 1 -> r[1,3] - max_r_helper = 0
- GC55: R[1,4] = 1 -> r[1,4] - max_r_helper = 0
- GC56: R[1,5] = 1 -> r[1,5] - max_r_helper = 0
- GC57: R[1,6] = 1 -> r[1,6] - max_r_helper = 0
- GC58: R[1,7] = 1 -> r[1,7] - max_r_helper = 0
- GC84: R[2,0] = 1 -> r[2,0] - max_r_helper = 0
- GC85: R[2,1] = 1 -> r[2,1] - max_r_helper = 0
- GC86: R[2,2] = 1 -> r[2,2] - max_r_helper = 0
- GC87: R[2,3] = 1 -> r[2,3] - max_r_helper = 0
- GC88: R[2,4] = 1 -> r[2,4] - max_r_helper = 0
- GC89: R[2,5] = 1 -> r[2,5] - max_r_helper = 0
- GC90: R[2,6] = 1 -> r[2,6] - max_r_helper = 0
- GC91: R[2,7] = 1 -> r[2,7] - max_r_helper = 0
- GC117: R[3,0] = 1 -> r[3,0] - max_r_helper = 0
- GC118: R[3,1] = 1 -> r[3,1] - max_r_helper = 0
- GC119: R[3,2] = 1 -> r[3,2] - max_r_helper = 0
- GC120: R[3,3] = 1 -> r[3,3] - max_r_helper = 0
- GC121: R[3,4] = 1 -> r[3,4] - max_r_helper = 0
- GC122: R[3,5] = 1 -> r[3,5] - max_r_helper = 0
- GC123: R[3,6] = 1 -> r[3,6] - max_r_helper = 0
- GC124: R[3,7] = 1 -> r[3,7] - max_r_helper = 0
- GC150: R[4,0] = 1 -> r[4,0] - max_r_helper = 0
- GC151: R[4,1] = 1 -> r[4,1] - max_r_helper = 0
- GC152: R[4,2] = 1 -> r[4,2] - max_r_helper = 0
- GC153: R[4,3] = 1 -> r[4,3] - max_r_helper = 0
- GC154: R[4,4] = 1 -> r[4,4] - max_r_helper = 0
- GC155: R[4,5] = 1 -> r[4,5] - max_r_helper = 0
- GC156: R[4,6] = 1 -> r[4,6] - max_r_helper = 0
- GC157: R[4,7] = 1 -> r[4,7] - max_r_helper = 0
- GC183: R[5,0] = 1 -> r[5,0] - max_r_helper = 0
- GC184: R[5,1] = 1 -> r[5,1] - max_r_helper = 0
- GC185: R[5,2] = 1 -> r[5,2] - max_r_helper = 0
- GC186: R[5,3] = 1 -> r[5,3] - max_r_helper = 0
- GC187: R[5,4] = 1 -> r[5,4] - max_r_helper = 0
- GC188: R[5,5] = 1 -> r[5,5] - max_r_helper = 0
- GC189: R[5,6] = 1 -> r[5,6] - max_r_helper = 0
- GC190: R[5,7] = 1 -> r[5,7] - max_r_helper = 0
- GC216: R[6,0] = 1 -> r[6,0] - max_r_helper = 0
- GC217: R[6,1] = 1 -> r[6,1] - max_r_helper = 0
- GC218: R[6,2] = 1 -> r[6,2] - max_r_helper = 0
- GC219: R[6,3] = 1 -> r[6,3] - max_r_helper = 0
- GC220: R[6,4] = 1 -> r[6,4] - max_r_helper = 0
- GC221: R[6,5] = 1 -> r[6,5] - max_r_helper = 0
- GC222: R[6,6] = 1 -> r[6,6] - max_r_helper = 0
- GC223: R[6,7] = 1 -> r[6,7] - max_r_helper = 0
- GC249: R[7,0] = 1 -> r[7,0] - max_r_helper = 0
- GC250: R[7,1] = 1 -> r[7,1] - max_r_helper = 0
- GC251: R[7,2] = 1 -> r[7,2] - max_r_helper = 0
- GC252: R[7,3] = 1 -> r[7,3] - max_r_helper = 0
- GC253: R[7,4] = 1 -> r[7,4] - max_r_helper = 0
- GC254: R[7,5] = 1 -> r[7,5] - max_r_helper = 0
- GC255: R[7,6] = 1 -> r[7,6] - max_r_helper = 0
- GC256: R[7,7] = 1 -> r[7,7] - max_r_helper = 0
- GC282: R[8,0] = 1 -> r[8,0] - max_r_helper = 0
- GC283: R[8,1] = 1 -> r[8,1] - max_r_helper = 0
- GC284: R[8,2] = 1 -> r[8,2] - max_r_helper = 0
- GC285: R[8,3] = 1 -> r[8,3] - max_r_helper = 0
- GC286: R[8,4] = 1 -> r[8,4] - max_r_helper = 0
- GC287: R[8,5] = 1 -> r[8,5] - max_r_helper = 0
- GC288: R[8,6] = 1 -> r[8,6] - max_r_helper = 0
- GC289: R[8,7] = 1 -> r[8,7] - max_r_helper = 0
- GC315: R[9,0] = 1 -> r[9,0] - max_r_helper = 0
- GC316: R[9,1] = 1 -> r[9,1] - max_r_helper = 0
- GC317: R[9,2] = 1 -> r[9,2] - max_r_helper = 0
- GC318: R[9,3] = 1 -> r[9,3] - max_r_helper = 0
- GC319: R[9,4] = 1 -> r[9,4] - max_r_helper = 0
- GC320: R[9,5] = 1 -> r[9,5] - max_r_helper = 0
- GC321: R[9,6] = 1 -> r[9,6] - max_r_helper = 0
- GC322: R[9,7] = 1 -> r[9,7] - max_r_helper = 0
- GC348: R[10,0] = 1 -> r[10,0] - max_r_helper = 0
- GC349: R[10,1] = 1 -> r[10,1] - max_r_helper = 0
- GC350: R[10,2] = 1 -> r[10,2] - max_r_helper = 0
- GC351: R[10,3] = 1 -> r[10,3] - max_r_helper = 0
- GC352: R[10,4] = 1 -> r[10,4] - max_r_helper = 0
- GC353: R[10,5] = 1 -> r[10,5] - max_r_helper = 0
- GC354: R[10,6] = 1 -> r[10,6] - max_r_helper = 0
- GC355: R[10,7] = 1 -> r[10,7] - max_r_helper = 0
- GC381: R[11,0] = 1 -> r[11,0] - max_r_helper = 0
- GC382: R[11,1] = 1 -> r[11,1] - max_r_helper = 0
- GC383: R[11,2] = 1 -> r[11,2] - max_r_helper = 0
- GC384: R[11,3] = 1 -> r[11,3] - max_r_helper = 0
- GC385: R[11,4] = 1 -> r[11,4] - max_r_helper = 0
- GC386: R[11,5] = 1 -> r[11,5] - max_r_helper = 0
- GC387: R[11,6] = 1 -> r[11,6] - max_r_helper = 0
- GC388: R[11,7] = 1 -> r[11,7] - max_r_helper = 0
- GC414: R[12,0] = 1 -> r[12,0] - max_r_helper = 0
- GC415: R[12,1] = 1 -> r[12,1] - max_r_helper = 0
- GC416: R[12,2] = 1 -> r[12,2] - max_r_helper = 0
- GC417: R[12,3] = 1 -> r[12,3] - max_r_helper = 0
- GC418: R[12,4] = 1 -> r[12,4] - max_r_helper = 0
- GC419: R[12,5] = 1 -> r[12,5] - max_r_helper = 0
- GC420: R[12,6] = 1 -> r[12,6] - max_r_helper = 0
- GC421: R[12,7] = 1 -> r[12,7] - max_r_helper = 0
- GC447: R[13,0] = 1 -> r[13,0] - max_r_helper = 0
- GC448: R[13,1] = 1 -> r[13,1] - max_r_helper = 0
- GC449: R[13,2] = 1 -> r[13,2] - max_r_helper = 0
- GC450: R[13,3] = 1 -> r[13,3] - max_r_helper = 0
- GC451: R[13,4] = 1 -> r[13,4] - max_r_helper = 0
- GC452: R[13,5] = 1 -> r[13,5] - max_r_helper = 0
- GC453: R[13,6] = 1 -> r[13,6] - max_r_helper = 0
- GC454: R[13,7] = 1 -> r[13,7] - max_r_helper = 0
- GC480: R[14,0] = 1 -> r[14,0] - max_r_helper = 0
- GC481: R[14,1] = 1 -> r[14,1] - max_r_helper = 0
- GC482: R[14,2] = 1 -> r[14,2] - max_r_helper = 0
- GC483: R[14,3] = 1 -> r[14,3] - max_r_helper = 0
- GC484: R[14,4] = 1 -> r[14,4] - max_r_helper = 0
- GC485: R[14,5] = 1 -> r[14,5] - max_r_helper = 0
- GC486: R[14,6] = 1 -> r[14,6] - max_r_helper = 0
- GC487: R[14,7] = 1 -> r[14,7] - max_r_helper = 0
- GC513: R[15,0] = 1 -> r[15,0] - max_r_helper = 0
- GC514: R[15,1] = 1 -> r[15,1] - max_r_helper = 0
- GC515: R[15,2] = 1 -> r[15,2] - max_r_helper = 0
- GC516: R[15,3] = 1 -> r[15,3] - max_r_helper = 0
- GC517: R[15,4] = 1 -> r[15,4] - max_r_helper = 0
- GC518: R[15,5] = 1 -> r[15,5] - max_r_helper = 0
- GC519: R[15,6] = 1 -> r[15,6] - max_r_helper = 0
- GC520: R[15,7] = 1 -> r[15,7] - max_r_helper = 0
- GC546: R[16,0] = 1 -> r[16,0] - max_r_helper = 0
- GC547: R[16,1] = 1 -> r[16,1] - max_r_helper = 0
- GC548: R[16,2] = 1 -> r[16,2] - max_r_helper = 0
- GC549: R[16,3] = 1 -> r[16,3] - max_r_helper = 0
- GC550: R[16,4] = 1 -> r[16,4] - max_r_helper = 0
- GC551: R[16,5] = 1 -> r[16,5] - max_r_helper = 0
- GC552: R[16,6] = 1 -> r[16,6] - max_r_helper = 0
- GC553: R[16,7] = 1 -> r[16,7] - max_r_helper = 0
- GC579: R[17,0] = 1 -> r[17,0] - max_r_helper = 0
- GC580: R[17,1] = 1 -> r[17,1] - max_r_helper = 0
- GC581: R[17,2] = 1 -> r[17,2] - max_r_helper = 0
- GC582: R[17,3] = 1 -> r[17,3] - max_r_helper = 0
- GC583: R[17,4] = 1 -> r[17,4] - max_r_helper = 0
- GC584: R[17,5] = 1 -> r[17,5] - max_r_helper = 0
- GC585: R[17,6] = 1 -> r[17,6] - max_r_helper = 0
- GC586: R[17,7] = 1 -> r[17,7] - max_r_helper = 0
- GC612: R[18,0] = 1 -> r[18,0] - max_r_helper = 0
- GC613: R[18,1] = 1 -> r[18,1] - max_r_helper = 0
- GC614: R[18,2] = 1 -> r[18,2] - max_r_helper = 0
- GC615: R[18,3] = 1 -> r[18,3] - max_r_helper = 0
- GC616: R[18,4] = 1 -> r[18,4] - max_r_helper = 0
- GC617: R[18,5] = 1 -> r[18,5] - max_r_helper = 0
- GC618: R[18,6] = 1 -> r[18,6] - max_r_helper = 0
- GC619: R[18,7] = 1 -> r[18,7] - max_r_helper = 0
- GC645: R[19,0] = 1 -> r[19,0] - max_r_helper = 0
- GC646: R[19,1] = 1 -> r[19,1] - max_r_helper = 0
- GC647: R[19,2] = 1 -> r[19,2] - max_r_helper = 0
- GC648: R[19,3] = 1 -> r[19,3] - max_r_helper = 0
- GC649: R[19,4] = 1 -> r[19,4] - max_r_helper = 0
- GC650: R[19,5] = 1 -> r[19,5] - max_r_helper = 0
- GC651: R[19,6] = 1 -> r[19,6] - max_r_helper = 0
- GC652: R[19,7] = 1 -> r[19,7] - max_r_helper = 0
- GC678: R[20,0] = 1 -> r[20,0] - max_r_helper = 0
- GC679: R[20,1] = 1 -> r[20,1] - max_r_helper = 0
- GC680: R[20,2] = 1 -> r[20,2] - max_r_helper = 0
- GC681: R[20,3] = 1 -> r[20,3] - max_r_helper = 0
- GC682: R[20,4] = 1 -> r[20,4] - max_r_helper = 0
- GC683: R[20,5] = 1 -> r[20,5] - max_r_helper = 0
- GC684: R[20,6] = 1 -> r[20,6] - max_r_helper = 0
- GC685: R[20,7] = 1 -> r[20,7] - max_r_helper = 0
- GC711: R[21,0] = 1 -> r[21,0] - max_r_helper = 0
- GC712: R[21,1] = 1 -> r[21,1] - max_r_helper = 0
- GC713: R[21,2] = 1 -> r[21,2] - max_r_helper = 0
- GC714: R[21,3] = 1 -> r[21,3] - max_r_helper = 0
- GC715: R[21,4] = 1 -> r[21,4] - max_r_helper = 0
- GC716: R[21,5] = 1 -> r[21,5] - max_r_helper = 0
- GC717: R[21,6] = 1 -> r[21,6] - max_r_helper = 0
- GC718: R[21,7] = 1 -> r[21,7] - max_r_helper = 0
- GC744: R[22,0] = 1 -> r[22,0] - max_r_helper = 0
- GC745: R[22,1] = 1 -> r[22,1] - max_r_helper = 0
- GC746: R[22,2] = 1 -> r[22,2] - max_r_helper = 0
- GC747: R[22,3] = 1 -> r[22,3] - max_r_helper = 0
- GC748: R[22,4] = 1 -> r[22,4] - max_r_helper = 0
- GC749: R[22,5] = 1 -> r[22,5] - max_r_helper = 0
- GC750: R[22,6] = 1 -> r[22,6] - max_r_helper = 0
- GC751: R[22,7] = 1 -> r[22,7] - max_r_helper = 0
- GC777: R[23,0] = 1 -> r[23,0] - max_r_helper = 0
- GC778: R[23,1] = 1 -> r[23,1] - max_r_helper = 0
- GC779: R[23,2] = 1 -> r[23,2] - max_r_helper = 0
- GC780: R[23,3] = 1 -> r[23,3] - max_r_helper = 0
- GC781: R[23,4] = 1 -> r[23,4] - max_r_helper = 0
- GC782: R[23,5] = 1 -> r[23,5] - max_r_helper = 0
- GC783: R[23,6] = 1 -> r[23,6] - max_r_helper = 0
- GC784: R[23,7] = 1 -> r[23,7] - max_r_helper = 0
- GC810: R[24,0] = 1 -> r[24,0] - max_r_helper = 0
- GC811: R[24,1] = 1 -> r[24,1] - max_r_helper = 0
- GC812: R[24,2] = 1 -> r[24,2] - max_r_helper = 0
- GC813: R[24,3] = 1 -> r[24,3] - max_r_helper = 0
- GC814: R[24,4] = 1 -> r[24,4] - max_r_helper = 0
- GC815: R[24,5] = 1 -> r[24,5] - max_r_helper = 0
- GC816: R[24,6] = 1 -> r[24,6] - max_r_helper = 0
- GC817: R[24,7] = 1 -> r[24,7] - max_r_helper = 0
+ softmax_0_0: - exp_tau_var_0_0 + [ r[0,0] * exp_tau_var_0_0
+   + r[0,0] * exp_tau_var_0_1 + r[0,0] * exp_tau_var_0_2
+   + r[0,0] * exp_tau_var_0_3 + r[0,0] * exp_tau_var_0_4
+   + r[0,0] * exp_tau_var_0_5 + r[0,0] * exp_tau_var_0_6
+   + r[0,0] * exp_tau_var_0_7 ] = 0
+ softmax_0_1: - exp_tau_var_0_1 + [ r[0,1] * exp_tau_var_0_0
+   + r[0,1] * exp_tau_var_0_1 + r[0,1] * exp_tau_var_0_2
+   + r[0,1] * exp_tau_var_0_3 + r[0,1] * exp_tau_var_0_4
+   + r[0,1] * exp_tau_var_0_5 + r[0,1] * exp_tau_var_0_6
+   + r[0,1] * exp_tau_var_0_7 ] = 0
+ softmax_0_2: - exp_tau_var_0_2 + [ r[0,2] * exp_tau_var_0_0
+   + r[0,2] * exp_tau_var_0_1 + r[0,2] * exp_tau_var_0_2
+   + r[0,2] * exp_tau_var_0_3 + r[0,2] * exp_tau_var_0_4
+   + r[0,2] * exp_tau_var_0_5 + r[0,2] * exp_tau_var_0_6
+   + r[0,2] * exp_tau_var_0_7 ] = 0
+ softmax_0_3: - exp_tau_var_0_3 + [ r[0,3] * exp_tau_var_0_0
+   + r[0,3] * exp_tau_var_0_1 + r[0,3] * exp_tau_var_0_2
+   + r[0,3] * exp_tau_var_0_3 + r[0,3] * exp_tau_var_0_4
+   + r[0,3] * exp_tau_var_0_5 + r[0,3] * exp_tau_var_0_6
+   + r[0,3] * exp_tau_var_0_7 ] = 0
+ softmax_0_4: - exp_tau_var_0_4 + [ r[0,4] * exp_tau_var_0_0
+   + r[0,4] * exp_tau_var_0_1 + r[0,4] * exp_tau_var_0_2
+   + r[0,4] * exp_tau_var_0_3 + r[0,4] * exp_tau_var_0_4
+   + r[0,4] * exp_tau_var_0_5 + r[0,4] * exp_tau_var_0_6
+   + r[0,4] * exp_tau_var_0_7 ] = 0
+ softmax_0_5: - exp_tau_var_0_5 + [ r[0,5] * exp_tau_var_0_0
+   + r[0,5] * exp_tau_var_0_1 + r[0,5] * exp_tau_var_0_2
+   + r[0,5] * exp_tau_var_0_3 + r[0,5] * exp_tau_var_0_4
+   + r[0,5] * exp_tau_var_0_5 + r[0,5] * exp_tau_var_0_6
+   + r[0,5] * exp_tau_var_0_7 ] = 0
+ softmax_0_6: - exp_tau_var_0_6 + [ r[0,6] * exp_tau_var_0_0
+   + r[0,6] * exp_tau_var_0_1 + r[0,6] * exp_tau_var_0_2
+   + r[0,6] * exp_tau_var_0_3 + r[0,6] * exp_tau_var_0_4
+   + r[0,6] * exp_tau_var_0_5 + r[0,6] * exp_tau_var_0_6
+   + r[0,6] * exp_tau_var_0_7 ] = 0
+ softmax_0_7: - exp_tau_var_0_7 + [ r[0,7] * exp_tau_var_0_0
+   + r[0,7] * exp_tau_var_0_1 + r[0,7] * exp_tau_var_0_2
+   + r[0,7] * exp_tau_var_0_3 + r[0,7] * exp_tau_var_0_4
+   + r[0,7] * exp_tau_var_0_5 + r[0,7] * exp_tau_var_0_6
+   + r[0,7] * exp_tau_var_0_7 ] = 0
+ softmax_1_0: - exp_tau_var_1_0 + [ r[1,0] * exp_tau_var_1_0
+   + r[1,0] * exp_tau_var_1_1 + r[1,0] * exp_tau_var_1_2
+   + r[1,0] * exp_tau_var_1_3 + r[1,0] * exp_tau_var_1_4
+   + r[1,0] * exp_tau_var_1_5 + r[1,0] * exp_tau_var_1_6
+   + r[1,0] * exp_tau_var_1_7 ] = 0
+ softmax_1_1: - exp_tau_var_1_1 + [ r[1,1] * exp_tau_var_1_0
+   + r[1,1] * exp_tau_var_1_1 + r[1,1] * exp_tau_var_1_2
+   + r[1,1] * exp_tau_var_1_3 + r[1,1] * exp_tau_var_1_4
+   + r[1,1] * exp_tau_var_1_5 + r[1,1] * exp_tau_var_1_6
+   + r[1,1] * exp_tau_var_1_7 ] = 0
+ softmax_1_2: - exp_tau_var_1_2 + [ r[1,2] * exp_tau_var_1_0
+   + r[1,2] * exp_tau_var_1_1 + r[1,2] * exp_tau_var_1_2
+   + r[1,2] * exp_tau_var_1_3 + r[1,2] * exp_tau_var_1_4
+   + r[1,2] * exp_tau_var_1_5 + r[1,2] * exp_tau_var_1_6
+   + r[1,2] * exp_tau_var_1_7 ] = 0
+ softmax_1_3: - exp_tau_var_1_3 + [ r[1,3] * exp_tau_var_1_0
+   + r[1,3] * exp_tau_var_1_1 + r[1,3] * exp_tau_var_1_2
+   + r[1,3] * exp_tau_var_1_3 + r[1,3] * exp_tau_var_1_4
+   + r[1,3] * exp_tau_var_1_5 + r[1,3] * exp_tau_var_1_6
+   + r[1,3] * exp_tau_var_1_7 ] = 0
+ softmax_1_4: - exp_tau_var_1_4 + [ r[1,4] * exp_tau_var_1_0
+   + r[1,4] * exp_tau_var_1_1 + r[1,4] * exp_tau_var_1_2
+   + r[1,4] * exp_tau_var_1_3 + r[1,4] * exp_tau_var_1_4
+   + r[1,4] * exp_tau_var_1_5 + r[1,4] * exp_tau_var_1_6
+   + r[1,4] * exp_tau_var_1_7 ] = 0
+ softmax_1_5: - exp_tau_var_1_5 + [ r[1,5] * exp_tau_var_1_0
+   + r[1,5] * exp_tau_var_1_1 + r[1,5] * exp_tau_var_1_2
+   + r[1,5] * exp_tau_var_1_3 + r[1,5] * exp_tau_var_1_4
+   + r[1,5] * exp_tau_var_1_5 + r[1,5] * exp_tau_var_1_6
+   + r[1,5] * exp_tau_var_1_7 ] = 0
+ softmax_1_6: - exp_tau_var_1_6 + [ r[1,6] * exp_tau_var_1_0
+   + r[1,6] * exp_tau_var_1_1 + r[1,6] * exp_tau_var_1_2
+   + r[1,6] * exp_tau_var_1_3 + r[1,6] * exp_tau_var_1_4
+   + r[1,6] * exp_tau_var_1_5 + r[1,6] * exp_tau_var_1_6
+   + r[1,6] * exp_tau_var_1_7 ] = 0
+ softmax_1_7: - exp_tau_var_1_7 + [ r[1,7] * exp_tau_var_1_0
+   + r[1,7] * exp_tau_var_1_1 + r[1,7] * exp_tau_var_1_2
+   + r[1,7] * exp_tau_var_1_3 + r[1,7] * exp_tau_var_1_4
+   + r[1,7] * exp_tau_var_1_5 + r[1,7] * exp_tau_var_1_6
+   + r[1,7] * exp_tau_var_1_7 ] = 0
+ softmax_2_0: - exp_tau_var_2_0 + [ r[2,0] * exp_tau_var_2_0
+   + r[2,0] * exp_tau_var_2_1 + r[2,0] * exp_tau_var_2_2
+   + r[2,0] * exp_tau_var_2_3 + r[2,0] * exp_tau_var_2_4
+   + r[2,0] * exp_tau_var_2_5 + r[2,0] * exp_tau_var_2_6
+   + r[2,0] * exp_tau_var_2_7 ] = 0
+ softmax_2_1: - exp_tau_var_2_1 + [ r[2,1] * exp_tau_var_2_0
+   + r[2,1] * exp_tau_var_2_1 + r[2,1] * exp_tau_var_2_2
+   + r[2,1] * exp_tau_var_2_3 + r[2,1] * exp_tau_var_2_4
+   + r[2,1] * exp_tau_var_2_5 + r[2,1] * exp_tau_var_2_6
+   + r[2,1] * exp_tau_var_2_7 ] = 0
+ softmax_2_2: - exp_tau_var_2_2 + [ r[2,2] * exp_tau_var_2_0
+   + r[2,2] * exp_tau_var_2_1 + r[2,2] * exp_tau_var_2_2
+   + r[2,2] * exp_tau_var_2_3 + r[2,2] * exp_tau_var_2_4
+   + r[2,2] * exp_tau_var_2_5 + r[2,2] * exp_tau_var_2_6
+   + r[2,2] * exp_tau_var_2_7 ] = 0
+ softmax_2_3: - exp_tau_var_2_3 + [ r[2,3] * exp_tau_var_2_0
+   + r[2,3] * exp_tau_var_2_1 + r[2,3] * exp_tau_var_2_2
+   + r[2,3] * exp_tau_var_2_3 + r[2,3] * exp_tau_var_2_4
+   + r[2,3] * exp_tau_var_2_5 + r[2,3] * exp_tau_var_2_6
+   + r[2,3] * exp_tau_var_2_7 ] = 0
+ softmax_2_4: - exp_tau_var_2_4 + [ r[2,4] * exp_tau_var_2_0
+   + r[2,4] * exp_tau_var_2_1 + r[2,4] * exp_tau_var_2_2
+   + r[2,4] * exp_tau_var_2_3 + r[2,4] * exp_tau_var_2_4
+   + r[2,4] * exp_tau_var_2_5 + r[2,4] * exp_tau_var_2_6
+   + r[2,4] * exp_tau_var_2_7 ] = 0
+ softmax_2_5: - exp_tau_var_2_5 + [ r[2,5] * exp_tau_var_2_0
+   + r[2,5] * exp_tau_var_2_1 + r[2,5] * exp_tau_var_2_2
+   + r[2,5] * exp_tau_var_2_3 + r[2,5] * exp_tau_var_2_4
+   + r[2,5] * exp_tau_var_2_5 + r[2,5] * exp_tau_var_2_6
+   + r[2,5] * exp_tau_var_2_7 ] = 0
+ softmax_2_6: - exp_tau_var_2_6 + [ r[2,6] * exp_tau_var_2_0
+   + r[2,6] * exp_tau_var_2_1 + r[2,6] * exp_tau_var_2_2
+   + r[2,6] * exp_tau_var_2_3 + r[2,6] * exp_tau_var_2_4
+   + r[2,6] * exp_tau_var_2_5 + r[2,6] * exp_tau_var_2_6
+   + r[2,6] * exp_tau_var_2_7 ] = 0
+ softmax_2_7: - exp_tau_var_2_7 + [ r[2,7] * exp_tau_var_2_0
+   + r[2,7] * exp_tau_var_2_1 + r[2,7] * exp_tau_var_2_2
+   + r[2,7] * exp_tau_var_2_3 + r[2,7] * exp_tau_var_2_4
+   + r[2,7] * exp_tau_var_2_5 + r[2,7] * exp_tau_var_2_6
+   + r[2,7] * exp_tau_var_2_7 ] = 0
+ softmax_3_0: - exp_tau_var_3_0 + [ r[3,0] * exp_tau_var_3_0
+   + r[3,0] * exp_tau_var_3_1 + r[3,0] * exp_tau_var_3_2
+   + r[3,0] * exp_tau_var_3_3 + r[3,0] * exp_tau_var_3_4
+   + r[3,0] * exp_tau_var_3_5 + r[3,0] * exp_tau_var_3_6
+   + r[3,0] * exp_tau_var_3_7 ] = 0
+ softmax_3_1: - exp_tau_var_3_1 + [ r[3,1] * exp_tau_var_3_0
+   + r[3,1] * exp_tau_var_3_1 + r[3,1] * exp_tau_var_3_2
+   + r[3,1] * exp_tau_var_3_3 + r[3,1] * exp_tau_var_3_4
+   + r[3,1] * exp_tau_var_3_5 + r[3,1] * exp_tau_var_3_6
+   + r[3,1] * exp_tau_var_3_7 ] = 0
+ softmax_3_2: - exp_tau_var_3_2 + [ r[3,2] * exp_tau_var_3_0
+   + r[3,2] * exp_tau_var_3_1 + r[3,2] * exp_tau_var_3_2
+   + r[3,2] * exp_tau_var_3_3 + r[3,2] * exp_tau_var_3_4
+   + r[3,2] * exp_tau_var_3_5 + r[3,2] * exp_tau_var_3_6
+   + r[3,2] * exp_tau_var_3_7 ] = 0
+ softmax_3_3: - exp_tau_var_3_3 + [ r[3,3] * exp_tau_var_3_0
+   + r[3,3] * exp_tau_var_3_1 + r[3,3] * exp_tau_var_3_2
+   + r[3,3] * exp_tau_var_3_3 + r[3,3] * exp_tau_var_3_4
+   + r[3,3] * exp_tau_var_3_5 + r[3,3] * exp_tau_var_3_6
+   + r[3,3] * exp_tau_var_3_7 ] = 0
+ softmax_3_4: - exp_tau_var_3_4 + [ r[3,4] * exp_tau_var_3_0
+   + r[3,4] * exp_tau_var_3_1 + r[3,4] * exp_tau_var_3_2
+   + r[3,4] * exp_tau_var_3_3 + r[3,4] * exp_tau_var_3_4
+   + r[3,4] * exp_tau_var_3_5 + r[3,4] * exp_tau_var_3_6
+   + r[3,4] * exp_tau_var_3_7 ] = 0
+ softmax_3_5: - exp_tau_var_3_5 + [ r[3,5] * exp_tau_var_3_0
+   + r[3,5] * exp_tau_var_3_1 + r[3,5] * exp_tau_var_3_2
+   + r[3,5] * exp_tau_var_3_3 + r[3,5] * exp_tau_var_3_4
+   + r[3,5] * exp_tau_var_3_5 + r[3,5] * exp_tau_var_3_6
+   + r[3,5] * exp_tau_var_3_7 ] = 0
+ softmax_3_6: - exp_tau_var_3_6 + [ r[3,6] * exp_tau_var_3_0
+   + r[3,6] * exp_tau_var_3_1 + r[3,6] * exp_tau_var_3_2
+   + r[3,6] * exp_tau_var_3_3 + r[3,6] * exp_tau_var_3_4
+   + r[3,6] * exp_tau_var_3_5 + r[3,6] * exp_tau_var_3_6
+   + r[3,6] * exp_tau_var_3_7 ] = 0
+ softmax_3_7: - exp_tau_var_3_7 + [ r[3,7] * exp_tau_var_3_0
+   + r[3,7] * exp_tau_var_3_1 + r[3,7] * exp_tau_var_3_2
+   + r[3,7] * exp_tau_var_3_3 + r[3,7] * exp_tau_var_3_4
+   + r[3,7] * exp_tau_var_3_5 + r[3,7] * exp_tau_var_3_6
+   + r[3,7] * exp_tau_var_3_7 ] = 0
+ softmax_4_0: - exp_tau_var_4_0 + [ r[4,0] * exp_tau_var_4_0
+   + r[4,0] * exp_tau_var_4_1 + r[4,0] * exp_tau_var_4_2
+   + r[4,0] * exp_tau_var_4_3 + r[4,0] * exp_tau_var_4_4
+   + r[4,0] * exp_tau_var_4_5 + r[4,0] * exp_tau_var_4_6
+   + r[4,0] * exp_tau_var_4_7 ] = 0
+ softmax_4_1: - exp_tau_var_4_1 + [ r[4,1] * exp_tau_var_4_0
+   + r[4,1] * exp_tau_var_4_1 + r[4,1] * exp_tau_var_4_2
+   + r[4,1] * exp_tau_var_4_3 + r[4,1] * exp_tau_var_4_4
+   + r[4,1] * exp_tau_var_4_5 + r[4,1] * exp_tau_var_4_6
+   + r[4,1] * exp_tau_var_4_7 ] = 0
+ softmax_4_2: - exp_tau_var_4_2 + [ r[4,2] * exp_tau_var_4_0
+   + r[4,2] * exp_tau_var_4_1 + r[4,2] * exp_tau_var_4_2
+   + r[4,2] * exp_tau_var_4_3 + r[4,2] * exp_tau_var_4_4
+   + r[4,2] * exp_tau_var_4_5 + r[4,2] * exp_tau_var_4_6
+   + r[4,2] * exp_tau_var_4_7 ] = 0
+ softmax_4_3: - exp_tau_var_4_3 + [ r[4,3] * exp_tau_var_4_0
+   + r[4,3] * exp_tau_var_4_1 + r[4,3] * exp_tau_var_4_2
+   + r[4,3] * exp_tau_var_4_3 + r[4,3] * exp_tau_var_4_4
+   + r[4,3] * exp_tau_var_4_5 + r[4,3] * exp_tau_var_4_6
+   + r[4,3] * exp_tau_var_4_7 ] = 0
+ softmax_4_4: - exp_tau_var_4_4 + [ r[4,4] * exp_tau_var_4_0
+   + r[4,4] * exp_tau_var_4_1 + r[4,4] * exp_tau_var_4_2
+   + r[4,4] * exp_tau_var_4_3 + r[4,4] * exp_tau_var_4_4
+   + r[4,4] * exp_tau_var_4_5 + r[4,4] * exp_tau_var_4_6
+   + r[4,4] * exp_tau_var_4_7 ] = 0
+ softmax_4_5: - exp_tau_var_4_5 + [ r[4,5] * exp_tau_var_4_0
+   + r[4,5] * exp_tau_var_4_1 + r[4,5] * exp_tau_var_4_2
+   + r[4,5] * exp_tau_var_4_3 + r[4,5] * exp_tau_var_4_4
+   + r[4,5] * exp_tau_var_4_5 + r[4,5] * exp_tau_var_4_6
+   + r[4,5] * exp_tau_var_4_7 ] = 0
+ softmax_4_6: - exp_tau_var_4_6 + [ r[4,6] * exp_tau_var_4_0
+   + r[4,6] * exp_tau_var_4_1 + r[4,6] * exp_tau_var_4_2
+   + r[4,6] * exp_tau_var_4_3 + r[4,6] * exp_tau_var_4_4
+   + r[4,6] * exp_tau_var_4_5 + r[4,6] * exp_tau_var_4_6
+   + r[4,6] * exp_tau_var_4_7 ] = 0
+ softmax_4_7: - exp_tau_var_4_7 + [ r[4,7] * exp_tau_var_4_0
+   + r[4,7] * exp_tau_var_4_1 + r[4,7] * exp_tau_var_4_2
+   + r[4,7] * exp_tau_var_4_3 + r[4,7] * exp_tau_var_4_4
+   + r[4,7] * exp_tau_var_4_5 + r[4,7] * exp_tau_var_4_6
+   + r[4,7] * exp_tau_var_4_7 ] = 0
+ softmax_5_0: - exp_tau_var_5_0 + [ r[5,0] * exp_tau_var_5_0
+   + r[5,0] * exp_tau_var_5_1 + r[5,0] * exp_tau_var_5_2
+   + r[5,0] * exp_tau_var_5_3 + r[5,0] * exp_tau_var_5_4
+   + r[5,0] * exp_tau_var_5_5 + r[5,0] * exp_tau_var_5_6
+   + r[5,0] * exp_tau_var_5_7 ] = 0
+ softmax_5_1: - exp_tau_var_5_1 + [ r[5,1] * exp_tau_var_5_0
+   + r[5,1] * exp_tau_var_5_1 + r[5,1] * exp_tau_var_5_2
+   + r[5,1] * exp_tau_var_5_3 + r[5,1] * exp_tau_var_5_4
+   + r[5,1] * exp_tau_var_5_5 + r[5,1] * exp_tau_var_5_6
+   + r[5,1] * exp_tau_var_5_7 ] = 0
+ softmax_5_2: - exp_tau_var_5_2 + [ r[5,2] * exp_tau_var_5_0
+   + r[5,2] * exp_tau_var_5_1 + r[5,2] * exp_tau_var_5_2
+   + r[5,2] * exp_tau_var_5_3 + r[5,2] * exp_tau_var_5_4
+   + r[5,2] * exp_tau_var_5_5 + r[5,2] * exp_tau_var_5_6
+   + r[5,2] * exp_tau_var_5_7 ] = 0
+ softmax_5_3: - exp_tau_var_5_3 + [ r[5,3] * exp_tau_var_5_0
+   + r[5,3] * exp_tau_var_5_1 + r[5,3] * exp_tau_var_5_2
+   + r[5,3] * exp_tau_var_5_3 + r[5,3] * exp_tau_var_5_4
+   + r[5,3] * exp_tau_var_5_5 + r[5,3] * exp_tau_var_5_6
+   + r[5,3] * exp_tau_var_5_7 ] = 0
+ softmax_5_4: - exp_tau_var_5_4 + [ r[5,4] * exp_tau_var_5_0
+   + r[5,4] * exp_tau_var_5_1 + r[5,4] * exp_tau_var_5_2
+   + r[5,4] * exp_tau_var_5_3 + r[5,4] * exp_tau_var_5_4
+   + r[5,4] * exp_tau_var_5_5 + r[5,4] * exp_tau_var_5_6
+   + r[5,4] * exp_tau_var_5_7 ] = 0
+ softmax_5_5: - exp_tau_var_5_5 + [ r[5,5] * exp_tau_var_5_0
+   + r[5,5] * exp_tau_var_5_1 + r[5,5] * exp_tau_var_5_2
+   + r[5,5] * exp_tau_var_5_3 + r[5,5] * exp_tau_var_5_4
+   + r[5,5] * exp_tau_var_5_5 + r[5,5] * exp_tau_var_5_6
+   + r[5,5] * exp_tau_var_5_7 ] = 0
+ softmax_5_6: - exp_tau_var_5_6 + [ r[5,6] * exp_tau_var_5_0
+   + r[5,6] * exp_tau_var_5_1 + r[5,6] * exp_tau_var_5_2
+   + r[5,6] * exp_tau_var_5_3 + r[5,6] * exp_tau_var_5_4
+   + r[5,6] * exp_tau_var_5_5 + r[5,6] * exp_tau_var_5_6
+   + r[5,6] * exp_tau_var_5_7 ] = 0
+ softmax_5_7: - exp_tau_var_5_7 + [ r[5,7] * exp_tau_var_5_0
+   + r[5,7] * exp_tau_var_5_1 + r[5,7] * exp_tau_var_5_2
+   + r[5,7] * exp_tau_var_5_3 + r[5,7] * exp_tau_var_5_4
+   + r[5,7] * exp_tau_var_5_5 + r[5,7] * exp_tau_var_5_6
+   + r[5,7] * exp_tau_var_5_7 ] = 0
+ softmax_6_0: - exp_tau_var_6_0 + [ r[6,0] * exp_tau_var_6_0
+   + r[6,0] * exp_tau_var_6_1 + r[6,0] * exp_tau_var_6_2
+   + r[6,0] * exp_tau_var_6_3 + r[6,0] * exp_tau_var_6_4
+   + r[6,0] * exp_tau_var_6_5 + r[6,0] * exp_tau_var_6_6
+   + r[6,0] * exp_tau_var_6_7 ] = 0
+ softmax_6_1: - exp_tau_var_6_1 + [ r[6,1] * exp_tau_var_6_0
+   + r[6,1] * exp_tau_var_6_1 + r[6,1] * exp_tau_var_6_2
+   + r[6,1] * exp_tau_var_6_3 + r[6,1] * exp_tau_var_6_4
+   + r[6,1] * exp_tau_var_6_5 + r[6,1] * exp_tau_var_6_6
+   + r[6,1] * exp_tau_var_6_7 ] = 0
+ softmax_6_2: - exp_tau_var_6_2 + [ r[6,2] * exp_tau_var_6_0
+   + r[6,2] * exp_tau_var_6_1 + r[6,2] * exp_tau_var_6_2
+   + r[6,2] * exp_tau_var_6_3 + r[6,2] * exp_tau_var_6_4
+   + r[6,2] * exp_tau_var_6_5 + r[6,2] * exp_tau_var_6_6
+   + r[6,2] * exp_tau_var_6_7 ] = 0
+ softmax_6_3: - exp_tau_var_6_3 + [ r[6,3] * exp_tau_var_6_0
+   + r[6,3] * exp_tau_var_6_1 + r[6,3] * exp_tau_var_6_2
+   + r[6,3] * exp_tau_var_6_3 + r[6,3] * exp_tau_var_6_4
+   + r[6,3] * exp_tau_var_6_5 + r[6,3] * exp_tau_var_6_6
+   + r[6,3] * exp_tau_var_6_7 ] = 0
+ softmax_6_4: - exp_tau_var_6_4 + [ r[6,4] * exp_tau_var_6_0
+   + r[6,4] * exp_tau_var_6_1 + r[6,4] * exp_tau_var_6_2
+   + r[6,4] * exp_tau_var_6_3 + r[6,4] * exp_tau_var_6_4
+   + r[6,4] * exp_tau_var_6_5 + r[6,4] * exp_tau_var_6_6
+   + r[6,4] * exp_tau_var_6_7 ] = 0
+ softmax_6_5: - exp_tau_var_6_5 + [ r[6,5] * exp_tau_var_6_0
+   + r[6,5] * exp_tau_var_6_1 + r[6,5] * exp_tau_var_6_2
+   + r[6,5] * exp_tau_var_6_3 + r[6,5] * exp_tau_var_6_4
+   + r[6,5] * exp_tau_var_6_5 + r[6,5] * exp_tau_var_6_6
+   + r[6,5] * exp_tau_var_6_7 ] = 0
+ softmax_6_6: - exp_tau_var_6_6 + [ r[6,6] * exp_tau_var_6_0
+   + r[6,6] * exp_tau_var_6_1 + r[6,6] * exp_tau_var_6_2
+   + r[6,6] * exp_tau_var_6_3 + r[6,6] * exp_tau_var_6_4
+   + r[6,6] * exp_tau_var_6_5 + r[6,6] * exp_tau_var_6_6
+   + r[6,6] * exp_tau_var_6_7 ] = 0
+ softmax_6_7: - exp_tau_var_6_7 + [ r[6,7] * exp_tau_var_6_0
+   + r[6,7] * exp_tau_var_6_1 + r[6,7] * exp_tau_var_6_2
+   + r[6,7] * exp_tau_var_6_3 + r[6,7] * exp_tau_var_6_4
+   + r[6,7] * exp_tau_var_6_5 + r[6,7] * exp_tau_var_6_6
+   + r[6,7] * exp_tau_var_6_7 ] = 0
+ softmax_7_0: - exp_tau_var_7_0 + [ r[7,0] * exp_tau_var_7_0
+   + r[7,0] * exp_tau_var_7_1 + r[7,0] * exp_tau_var_7_2
+   + r[7,0] * exp_tau_var_7_3 + r[7,0] * exp_tau_var_7_4
+   + r[7,0] * exp_tau_var_7_5 + r[7,0] * exp_tau_var_7_6
+   + r[7,0] * exp_tau_var_7_7 ] = 0
+ softmax_7_1: - exp_tau_var_7_1 + [ r[7,1] * exp_tau_var_7_0
+   + r[7,1] * exp_tau_var_7_1 + r[7,1] * exp_tau_var_7_2
+   + r[7,1] * exp_tau_var_7_3 + r[7,1] * exp_tau_var_7_4
+   + r[7,1] * exp_tau_var_7_5 + r[7,1] * exp_tau_var_7_6
+   + r[7,1] * exp_tau_var_7_7 ] = 0
+ softmax_7_2: - exp_tau_var_7_2 + [ r[7,2] * exp_tau_var_7_0
+   + r[7,2] * exp_tau_var_7_1 + r[7,2] * exp_tau_var_7_2
+   + r[7,2] * exp_tau_var_7_3 + r[7,2] * exp_tau_var_7_4
+   + r[7,2] * exp_tau_var_7_5 + r[7,2] * exp_tau_var_7_6
+   + r[7,2] * exp_tau_var_7_7 ] = 0
+ softmax_7_3: - exp_tau_var_7_3 + [ r[7,3] * exp_tau_var_7_0
+   + r[7,3] * exp_tau_var_7_1 + r[7,3] * exp_tau_var_7_2
+   + r[7,3] * exp_tau_var_7_3 + r[7,3] * exp_tau_var_7_4
+   + r[7,3] * exp_tau_var_7_5 + r[7,3] * exp_tau_var_7_6
+   + r[7,3] * exp_tau_var_7_7 ] = 0
+ softmax_7_4: - exp_tau_var_7_4 + [ r[7,4] * exp_tau_var_7_0
+   + r[7,4] * exp_tau_var_7_1 + r[7,4] * exp_tau_var_7_2
+   + r[7,4] * exp_tau_var_7_3 + r[7,4] * exp_tau_var_7_4
+   + r[7,4] * exp_tau_var_7_5 + r[7,4] * exp_tau_var_7_6
+   + r[7,4] * exp_tau_var_7_7 ] = 0
+ softmax_7_5: - exp_tau_var_7_5 + [ r[7,5] * exp_tau_var_7_0
+   + r[7,5] * exp_tau_var_7_1 + r[7,5] * exp_tau_var_7_2
+   + r[7,5] * exp_tau_var_7_3 + r[7,5] * exp_tau_var_7_4
+   + r[7,5] * exp_tau_var_7_5 + r[7,5] * exp_tau_var_7_6
+   + r[7,5] * exp_tau_var_7_7 ] = 0
+ softmax_7_6: - exp_tau_var_7_6 + [ r[7,6] * exp_tau_var_7_0
+   + r[7,6] * exp_tau_var_7_1 + r[7,6] * exp_tau_var_7_2
+   + r[7,6] * exp_tau_var_7_3 + r[7,6] * exp_tau_var_7_4
+   + r[7,6] * exp_tau_var_7_5 + r[7,6] * exp_tau_var_7_6
+   + r[7,6] * exp_tau_var_7_7 ] = 0
+ softmax_7_7: - exp_tau_var_7_7 + [ r[7,7] * exp_tau_var_7_0
+   + r[7,7] * exp_tau_var_7_1 + r[7,7] * exp_tau_var_7_2
+   + r[7,7] * exp_tau_var_7_3 + r[7,7] * exp_tau_var_7_4
+   + r[7,7] * exp_tau_var_7_5 + r[7,7] * exp_tau_var_7_6
+   + r[7,7] * exp_tau_var_7_7 ] = 0
+ softmax_8_0: - exp_tau_var_8_0 + [ r[8,0] * exp_tau_var_8_0
+   + r[8,0] * exp_tau_var_8_1 + r[8,0] * exp_tau_var_8_2
+   + r[8,0] * exp_tau_var_8_3 + r[8,0] * exp_tau_var_8_4
+   + r[8,0] * exp_tau_var_8_5 + r[8,0] * exp_tau_var_8_6
+   + r[8,0] * exp_tau_var_8_7 ] = 0
+ softmax_8_1: - exp_tau_var_8_1 + [ r[8,1] * exp_tau_var_8_0
+   + r[8,1] * exp_tau_var_8_1 + r[8,1] * exp_tau_var_8_2
+   + r[8,1] * exp_tau_var_8_3 + r[8,1] * exp_tau_var_8_4
+   + r[8,1] * exp_tau_var_8_5 + r[8,1] * exp_tau_var_8_6
+   + r[8,1] * exp_tau_var_8_7 ] = 0
+ softmax_8_2: - exp_tau_var_8_2 + [ r[8,2] * exp_tau_var_8_0
+   + r[8,2] * exp_tau_var_8_1 + r[8,2] * exp_tau_var_8_2
+   + r[8,2] * exp_tau_var_8_3 + r[8,2] * exp_tau_var_8_4
+   + r[8,2] * exp_tau_var_8_5 + r[8,2] * exp_tau_var_8_6
+   + r[8,2] * exp_tau_var_8_7 ] = 0
+ softmax_8_3: - exp_tau_var_8_3 + [ r[8,3] * exp_tau_var_8_0
+   + r[8,3] * exp_tau_var_8_1 + r[8,3] * exp_tau_var_8_2
+   + r[8,3] * exp_tau_var_8_3 + r[8,3] * exp_tau_var_8_4
+   + r[8,3] * exp_tau_var_8_5 + r[8,3] * exp_tau_var_8_6
+   + r[8,3] * exp_tau_var_8_7 ] = 0
+ softmax_8_4: - exp_tau_var_8_4 + [ r[8,4] * exp_tau_var_8_0
+   + r[8,4] * exp_tau_var_8_1 + r[8,4] * exp_tau_var_8_2
+   + r[8,4] * exp_tau_var_8_3 + r[8,4] * exp_tau_var_8_4
+   + r[8,4] * exp_tau_var_8_5 + r[8,4] * exp_tau_var_8_6
+   + r[8,4] * exp_tau_var_8_7 ] = 0
+ softmax_8_5: - exp_tau_var_8_5 + [ r[8,5] * exp_tau_var_8_0
+   + r[8,5] * exp_tau_var_8_1 + r[8,5] * exp_tau_var_8_2
+   + r[8,5] * exp_tau_var_8_3 + r[8,5] * exp_tau_var_8_4
+   + r[8,5] * exp_tau_var_8_5 + r[8,5] * exp_tau_var_8_6
+   + r[8,5] * exp_tau_var_8_7 ] = 0
+ softmax_8_6: - exp_tau_var_8_6 + [ r[8,6] * exp_tau_var_8_0
+   + r[8,6] * exp_tau_var_8_1 + r[8,6] * exp_tau_var_8_2
+   + r[8,6] * exp_tau_var_8_3 + r[8,6] * exp_tau_var_8_4
+   + r[8,6] * exp_tau_var_8_5 + r[8,6] * exp_tau_var_8_6
+   + r[8,6] * exp_tau_var_8_7 ] = 0
+ softmax_8_7: - exp_tau_var_8_7 + [ r[8,7] * exp_tau_var_8_0
+   + r[8,7] * exp_tau_var_8_1 + r[8,7] * exp_tau_var_8_2
+   + r[8,7] * exp_tau_var_8_3 + r[8,7] * exp_tau_var_8_4
+   + r[8,7] * exp_tau_var_8_5 + r[8,7] * exp_tau_var_8_6
+   + r[8,7] * exp_tau_var_8_7 ] = 0
+ softmax_9_0: - exp_tau_var_9_0 + [ r[9,0] * exp_tau_var_9_0
+   + r[9,0] * exp_tau_var_9_1 + r[9,0] * exp_tau_var_9_2
+   + r[9,0] * exp_tau_var_9_3 + r[9,0] * exp_tau_var_9_4
+   + r[9,0] * exp_tau_var_9_5 + r[9,0] * exp_tau_var_9_6
+   + r[9,0] * exp_tau_var_9_7 ] = 0
+ softmax_9_1: - exp_tau_var_9_1 + [ r[9,1] * exp_tau_var_9_0
+   + r[9,1] * exp_tau_var_9_1 + r[9,1] * exp_tau_var_9_2
+   + r[9,1] * exp_tau_var_9_3 + r[9,1] * exp_tau_var_9_4
+   + r[9,1] * exp_tau_var_9_5 + r[9,1] * exp_tau_var_9_6
+   + r[9,1] * exp_tau_var_9_7 ] = 0
+ softmax_9_2: - exp_tau_var_9_2 + [ r[9,2] * exp_tau_var_9_0
+   + r[9,2] * exp_tau_var_9_1 + r[9,2] * exp_tau_var_9_2
+   + r[9,2] * exp_tau_var_9_3 + r[9,2] * exp_tau_var_9_4
+   + r[9,2] * exp_tau_var_9_5 + r[9,2] * exp_tau_var_9_6
+   + r[9,2] * exp_tau_var_9_7 ] = 0
+ softmax_9_3: - exp_tau_var_9_3 + [ r[9,3] * exp_tau_var_9_0
+   + r[9,3] * exp_tau_var_9_1 + r[9,3] * exp_tau_var_9_2
+   + r[9,3] * exp_tau_var_9_3 + r[9,3] * exp_tau_var_9_4
+   + r[9,3] * exp_tau_var_9_5 + r[9,3] * exp_tau_var_9_6
+   + r[9,3] * exp_tau_var_9_7 ] = 0
+ softmax_9_4: - exp_tau_var_9_4 + [ r[9,4] * exp_tau_var_9_0
+   + r[9,4] * exp_tau_var_9_1 + r[9,4] * exp_tau_var_9_2
+   + r[9,4] * exp_tau_var_9_3 + r[9,4] * exp_tau_var_9_4
+   + r[9,4] * exp_tau_var_9_5 + r[9,4] * exp_tau_var_9_6
+   + r[9,4] * exp_tau_var_9_7 ] = 0
+ softmax_9_5: - exp_tau_var_9_5 + [ r[9,5] * exp_tau_var_9_0
+   + r[9,5] * exp_tau_var_9_1 + r[9,5] * exp_tau_var_9_2
+   + r[9,5] * exp_tau_var_9_3 + r[9,5] * exp_tau_var_9_4
+   + r[9,5] * exp_tau_var_9_5 + r[9,5] * exp_tau_var_9_6
+   + r[9,5] * exp_tau_var_9_7 ] = 0
+ softmax_9_6: - exp_tau_var_9_6 + [ r[9,6] * exp_tau_var_9_0
+   + r[9,6] * exp_tau_var_9_1 + r[9,6] * exp_tau_var_9_2
+   + r[9,6] * exp_tau_var_9_3 + r[9,6] * exp_tau_var_9_4
+   + r[9,6] * exp_tau_var_9_5 + r[9,6] * exp_tau_var_9_6
+   + r[9,6] * exp_tau_var_9_7 ] = 0
+ softmax_9_7: - exp_tau_var_9_7 + [ r[9,7] * exp_tau_var_9_0
+   + r[9,7] * exp_tau_var_9_1 + r[9,7] * exp_tau_var_9_2
+   + r[9,7] * exp_tau_var_9_3 + r[9,7] * exp_tau_var_9_4
+   + r[9,7] * exp_tau_var_9_5 + r[9,7] * exp_tau_var_9_6
+   + r[9,7] * exp_tau_var_9_7 ] = 0
+ softmax_10_0: - exp_tau_var_10_0 + [ r[10,0] * exp_tau_var_10_0
+   + r[10,0] * exp_tau_var_10_1 + r[10,0] * exp_tau_var_10_2
+   + r[10,0] * exp_tau_var_10_3 + r[10,0] * exp_tau_var_10_4
+   + r[10,0] * exp_tau_var_10_5 + r[10,0] * exp_tau_var_10_6
+   + r[10,0] * exp_tau_var_10_7 ] = 0
+ softmax_10_1: - exp_tau_var_10_1 + [ r[10,1] * exp_tau_var_10_0
+   + r[10,1] * exp_tau_var_10_1 + r[10,1] * exp_tau_var_10_2
+   + r[10,1] * exp_tau_var_10_3 + r[10,1] * exp_tau_var_10_4
+   + r[10,1] * exp_tau_var_10_5 + r[10,1] * exp_tau_var_10_6
+   + r[10,1] * exp_tau_var_10_7 ] = 0
+ softmax_10_2: - exp_tau_var_10_2 + [ r[10,2] * exp_tau_var_10_0
+   + r[10,2] * exp_tau_var_10_1 + r[10,2] * exp_tau_var_10_2
+   + r[10,2] * exp_tau_var_10_3 + r[10,2] * exp_tau_var_10_4
+   + r[10,2] * exp_tau_var_10_5 + r[10,2] * exp_tau_var_10_6
+   + r[10,2] * exp_tau_var_10_7 ] = 0
+ softmax_10_3: - exp_tau_var_10_3 + [ r[10,3] * exp_tau_var_10_0
+   + r[10,3] * exp_tau_var_10_1 + r[10,3] * exp_tau_var_10_2
+   + r[10,3] * exp_tau_var_10_3 + r[10,3] * exp_tau_var_10_4
+   + r[10,3] * exp_tau_var_10_5 + r[10,3] * exp_tau_var_10_6
+   + r[10,3] * exp_tau_var_10_7 ] = 0
+ softmax_10_4: - exp_tau_var_10_4 + [ r[10,4] * exp_tau_var_10_0
+   + r[10,4] * exp_tau_var_10_1 + r[10,4] * exp_tau_var_10_2
+   + r[10,4] * exp_tau_var_10_3 + r[10,4] * exp_tau_var_10_4
+   + r[10,4] * exp_tau_var_10_5 + r[10,4] * exp_tau_var_10_6
+   + r[10,4] * exp_tau_var_10_7 ] = 0
+ softmax_10_5: - exp_tau_var_10_5 + [ r[10,5] * exp_tau_var_10_0
+   + r[10,5] * exp_tau_var_10_1 + r[10,5] * exp_tau_var_10_2
+   + r[10,5] * exp_tau_var_10_3 + r[10,5] * exp_tau_var_10_4
+   + r[10,5] * exp_tau_var_10_5 + r[10,5] * exp_tau_var_10_6
+   + r[10,5] * exp_tau_var_10_7 ] = 0
+ softmax_10_6: - exp_tau_var_10_6 + [ r[10,6] * exp_tau_var_10_0
+   + r[10,6] * exp_tau_var_10_1 + r[10,6] * exp_tau_var_10_2
+   + r[10,6] * exp_tau_var_10_3 + r[10,6] * exp_tau_var_10_4
+   + r[10,6] * exp_tau_var_10_5 + r[10,6] * exp_tau_var_10_6
+   + r[10,6] * exp_tau_var_10_7 ] = 0
+ softmax_10_7: - exp_tau_var_10_7 + [ r[10,7] * exp_tau_var_10_0
+   + r[10,7] * exp_tau_var_10_1 + r[10,7] * exp_tau_var_10_2
+   + r[10,7] * exp_tau_var_10_3 + r[10,7] * exp_tau_var_10_4
+   + r[10,7] * exp_tau_var_10_5 + r[10,7] * exp_tau_var_10_6
+   + r[10,7] * exp_tau_var_10_7 ] = 0
+ softmax_11_0: - exp_tau_var_11_0 + [ r[11,0] * exp_tau_var_11_0
+   + r[11,0] * exp_tau_var_11_1 + r[11,0] * exp_tau_var_11_2
+   + r[11,0] * exp_tau_var_11_3 + r[11,0] * exp_tau_var_11_4
+   + r[11,0] * exp_tau_var_11_5 + r[11,0] * exp_tau_var_11_6
+   + r[11,0] * exp_tau_var_11_7 ] = 0
+ softmax_11_1: - exp_tau_var_11_1 + [ r[11,1] * exp_tau_var_11_0
+   + r[11,1] * exp_tau_var_11_1 + r[11,1] * exp_tau_var_11_2
+   + r[11,1] * exp_tau_var_11_3 + r[11,1] * exp_tau_var_11_4
+   + r[11,1] * exp_tau_var_11_5 + r[11,1] * exp_tau_var_11_6
+   + r[11,1] * exp_tau_var_11_7 ] = 0
+ softmax_11_2: - exp_tau_var_11_2 + [ r[11,2] * exp_tau_var_11_0
+   + r[11,2] * exp_tau_var_11_1 + r[11,2] * exp_tau_var_11_2
+   + r[11,2] * exp_tau_var_11_3 + r[11,2] * exp_tau_var_11_4
+   + r[11,2] * exp_tau_var_11_5 + r[11,2] * exp_tau_var_11_6
+   + r[11,2] * exp_tau_var_11_7 ] = 0
+ softmax_11_3: - exp_tau_var_11_3 + [ r[11,3] * exp_tau_var_11_0
+   + r[11,3] * exp_tau_var_11_1 + r[11,3] * exp_tau_var_11_2
+   + r[11,3] * exp_tau_var_11_3 + r[11,3] * exp_tau_var_11_4
+   + r[11,3] * exp_tau_var_11_5 + r[11,3] * exp_tau_var_11_6
+   + r[11,3] * exp_tau_var_11_7 ] = 0
+ softmax_11_4: - exp_tau_var_11_4 + [ r[11,4] * exp_tau_var_11_0
+   + r[11,4] * exp_tau_var_11_1 + r[11,4] * exp_tau_var_11_2
+   + r[11,4] * exp_tau_var_11_3 + r[11,4] * exp_tau_var_11_4
+   + r[11,4] * exp_tau_var_11_5 + r[11,4] * exp_tau_var_11_6
+   + r[11,4] * exp_tau_var_11_7 ] = 0
+ softmax_11_5: - exp_tau_var_11_5 + [ r[11,5] * exp_tau_var_11_0
+   + r[11,5] * exp_tau_var_11_1 + r[11,5] * exp_tau_var_11_2
+   + r[11,5] * exp_tau_var_11_3 + r[11,5] * exp_tau_var_11_4
+   + r[11,5] * exp_tau_var_11_5 + r[11,5] * exp_tau_var_11_6
+   + r[11,5] * exp_tau_var_11_7 ] = 0
+ softmax_11_6: - exp_tau_var_11_6 + [ r[11,6] * exp_tau_var_11_0
+   + r[11,6] * exp_tau_var_11_1 + r[11,6] * exp_tau_var_11_2
+   + r[11,6] * exp_tau_var_11_3 + r[11,6] * exp_tau_var_11_4
+   + r[11,6] * exp_tau_var_11_5 + r[11,6] * exp_tau_var_11_6
+   + r[11,6] * exp_tau_var_11_7 ] = 0
+ softmax_11_7: - exp_tau_var_11_7 + [ r[11,7] * exp_tau_var_11_0
+   + r[11,7] * exp_tau_var_11_1 + r[11,7] * exp_tau_var_11_2
+   + r[11,7] * exp_tau_var_11_3 + r[11,7] * exp_tau_var_11_4
+   + r[11,7] * exp_tau_var_11_5 + r[11,7] * exp_tau_var_11_6
+   + r[11,7] * exp_tau_var_11_7 ] = 0
+ softmax_12_0: - exp_tau_var_12_0 + [ r[12,0] * exp_tau_var_12_0
+   + r[12,0] * exp_tau_var_12_1 + r[12,0] * exp_tau_var_12_2
+   + r[12,0] * exp_tau_var_12_3 + r[12,0] * exp_tau_var_12_4
+   + r[12,0] * exp_tau_var_12_5 + r[12,0] * exp_tau_var_12_6
+   + r[12,0] * exp_tau_var_12_7 ] = 0
+ softmax_12_1: - exp_tau_var_12_1 + [ r[12,1] * exp_tau_var_12_0
+   + r[12,1] * exp_tau_var_12_1 + r[12,1] * exp_tau_var_12_2
+   + r[12,1] * exp_tau_var_12_3 + r[12,1] * exp_tau_var_12_4
+   + r[12,1] * exp_tau_var_12_5 + r[12,1] * exp_tau_var_12_6
+   + r[12,1] * exp_tau_var_12_7 ] = 0
+ softmax_12_2: - exp_tau_var_12_2 + [ r[12,2] * exp_tau_var_12_0
+   + r[12,2] * exp_tau_var_12_1 + r[12,2] * exp_tau_var_12_2
+   + r[12,2] * exp_tau_var_12_3 + r[12,2] * exp_tau_var_12_4
+   + r[12,2] * exp_tau_var_12_5 + r[12,2] * exp_tau_var_12_6
+   + r[12,2] * exp_tau_var_12_7 ] = 0
+ softmax_12_3: - exp_tau_var_12_3 + [ r[12,3] * exp_tau_var_12_0
+   + r[12,3] * exp_tau_var_12_1 + r[12,3] * exp_tau_var_12_2
+   + r[12,3] * exp_tau_var_12_3 + r[12,3] * exp_tau_var_12_4
+   + r[12,3] * exp_tau_var_12_5 + r[12,3] * exp_tau_var_12_6
+   + r[12,3] * exp_tau_var_12_7 ] = 0
+ softmax_12_4: - exp_tau_var_12_4 + [ r[12,4] * exp_tau_var_12_0
+   + r[12,4] * exp_tau_var_12_1 + r[12,4] * exp_tau_var_12_2
+   + r[12,4] * exp_tau_var_12_3 + r[12,4] * exp_tau_var_12_4
+   + r[12,4] * exp_tau_var_12_5 + r[12,4] * exp_tau_var_12_6
+   + r[12,4] * exp_tau_var_12_7 ] = 0
+ softmax_12_5: - exp_tau_var_12_5 + [ r[12,5] * exp_tau_var_12_0
+   + r[12,5] * exp_tau_var_12_1 + r[12,5] * exp_tau_var_12_2
+   + r[12,5] * exp_tau_var_12_3 + r[12,5] * exp_tau_var_12_4
+   + r[12,5] * exp_tau_var_12_5 + r[12,5] * exp_tau_var_12_6
+   + r[12,5] * exp_tau_var_12_7 ] = 0
+ softmax_12_6: - exp_tau_var_12_6 + [ r[12,6] * exp_tau_var_12_0
+   + r[12,6] * exp_tau_var_12_1 + r[12,6] * exp_tau_var_12_2
+   + r[12,6] * exp_tau_var_12_3 + r[12,6] * exp_tau_var_12_4
+   + r[12,6] * exp_tau_var_12_5 + r[12,6] * exp_tau_var_12_6
+   + r[12,6] * exp_tau_var_12_7 ] = 0
+ softmax_12_7: - exp_tau_var_12_7 + [ r[12,7] * exp_tau_var_12_0
+   + r[12,7] * exp_tau_var_12_1 + r[12,7] * exp_tau_var_12_2
+   + r[12,7] * exp_tau_var_12_3 + r[12,7] * exp_tau_var_12_4
+   + r[12,7] * exp_tau_var_12_5 + r[12,7] * exp_tau_var_12_6
+   + r[12,7] * exp_tau_var_12_7 ] = 0
+ softmax_13_0: - exp_tau_var_13_0 + [ r[13,0] * exp_tau_var_13_0
+   + r[13,0] * exp_tau_var_13_1 + r[13,0] * exp_tau_var_13_2
+   + r[13,0] * exp_tau_var_13_3 + r[13,0] * exp_tau_var_13_4
+   + r[13,0] * exp_tau_var_13_5 + r[13,0] * exp_tau_var_13_6
+   + r[13,0] * exp_tau_var_13_7 ] = 0
+ softmax_13_1: - exp_tau_var_13_1 + [ r[13,1] * exp_tau_var_13_0
+   + r[13,1] * exp_tau_var_13_1 + r[13,1] * exp_tau_var_13_2
+   + r[13,1] * exp_tau_var_13_3 + r[13,1] * exp_tau_var_13_4
+   + r[13,1] * exp_tau_var_13_5 + r[13,1] * exp_tau_var_13_6
+   + r[13,1] * exp_tau_var_13_7 ] = 0
+ softmax_13_2: - exp_tau_var_13_2 + [ r[13,2] * exp_tau_var_13_0
+   + r[13,2] * exp_tau_var_13_1 + r[13,2] * exp_tau_var_13_2
+   + r[13,2] * exp_tau_var_13_3 + r[13,2] * exp_tau_var_13_4
+   + r[13,2] * exp_tau_var_13_5 + r[13,2] * exp_tau_var_13_6
+   + r[13,2] * exp_tau_var_13_7 ] = 0
+ softmax_13_3: - exp_tau_var_13_3 + [ r[13,3] * exp_tau_var_13_0
+   + r[13,3] * exp_tau_var_13_1 + r[13,3] * exp_tau_var_13_2
+   + r[13,3] * exp_tau_var_13_3 + r[13,3] * exp_tau_var_13_4
+   + r[13,3] * exp_tau_var_13_5 + r[13,3] * exp_tau_var_13_6
+   + r[13,3] * exp_tau_var_13_7 ] = 0
+ softmax_13_4: - exp_tau_var_13_4 + [ r[13,4] * exp_tau_var_13_0
+   + r[13,4] * exp_tau_var_13_1 + r[13,4] * exp_tau_var_13_2
+   + r[13,4] * exp_tau_var_13_3 + r[13,4] * exp_tau_var_13_4
+   + r[13,4] * exp_tau_var_13_5 + r[13,4] * exp_tau_var_13_6
+   + r[13,4] * exp_tau_var_13_7 ] = 0
+ softmax_13_5: - exp_tau_var_13_5 + [ r[13,5] * exp_tau_var_13_0
+   + r[13,5] * exp_tau_var_13_1 + r[13,5] * exp_tau_var_13_2
+   + r[13,5] * exp_tau_var_13_3 + r[13,5] * exp_tau_var_13_4
+   + r[13,5] * exp_tau_var_13_5 + r[13,5] * exp_tau_var_13_6
+   + r[13,5] * exp_tau_var_13_7 ] = 0
+ softmax_13_6: - exp_tau_var_13_6 + [ r[13,6] * exp_tau_var_13_0
+   + r[13,6] * exp_tau_var_13_1 + r[13,6] * exp_tau_var_13_2
+   + r[13,6] * exp_tau_var_13_3 + r[13,6] * exp_tau_var_13_4
+   + r[13,6] * exp_tau_var_13_5 + r[13,6] * exp_tau_var_13_6
+   + r[13,6] * exp_tau_var_13_7 ] = 0
+ softmax_13_7: - exp_tau_var_13_7 + [ r[13,7] * exp_tau_var_13_0
+   + r[13,7] * exp_tau_var_13_1 + r[13,7] * exp_tau_var_13_2
+   + r[13,7] * exp_tau_var_13_3 + r[13,7] * exp_tau_var_13_4
+   + r[13,7] * exp_tau_var_13_5 + r[13,7] * exp_tau_var_13_6
+   + r[13,7] * exp_tau_var_13_7 ] = 0
+ softmax_14_0: - exp_tau_var_14_0 + [ r[14,0] * exp_tau_var_14_0
+   + r[14,0] * exp_tau_var_14_1 + r[14,0] * exp_tau_var_14_2
+   + r[14,0] * exp_tau_var_14_3 + r[14,0] * exp_tau_var_14_4
+   + r[14,0] * exp_tau_var_14_5 + r[14,0] * exp_tau_var_14_6
+   + r[14,0] * exp_tau_var_14_7 ] = 0
+ softmax_14_1: - exp_tau_var_14_1 + [ r[14,1] * exp_tau_var_14_0
+   + r[14,1] * exp_tau_var_14_1 + r[14,1] * exp_tau_var_14_2
+   + r[14,1] * exp_tau_var_14_3 + r[14,1] * exp_tau_var_14_4
+   + r[14,1] * exp_tau_var_14_5 + r[14,1] * exp_tau_var_14_6
+   + r[14,1] * exp_tau_var_14_7 ] = 0
+ softmax_14_2: - exp_tau_var_14_2 + [ r[14,2] * exp_tau_var_14_0
+   + r[14,2] * exp_tau_var_14_1 + r[14,2] * exp_tau_var_14_2
+   + r[14,2] * exp_tau_var_14_3 + r[14,2] * exp_tau_var_14_4
+   + r[14,2] * exp_tau_var_14_5 + r[14,2] * exp_tau_var_14_6
+   + r[14,2] * exp_tau_var_14_7 ] = 0
+ softmax_14_3: - exp_tau_var_14_3 + [ r[14,3] * exp_tau_var_14_0
+   + r[14,3] * exp_tau_var_14_1 + r[14,3] * exp_tau_var_14_2
+   + r[14,3] * exp_tau_var_14_3 + r[14,3] * exp_tau_var_14_4
+   + r[14,3] * exp_tau_var_14_5 + r[14,3] * exp_tau_var_14_6
+   + r[14,3] * exp_tau_var_14_7 ] = 0
+ softmax_14_4: - exp_tau_var_14_4 + [ r[14,4] * exp_tau_var_14_0
+   + r[14,4] * exp_tau_var_14_1 + r[14,4] * exp_tau_var_14_2
+   + r[14,4] * exp_tau_var_14_3 + r[14,4] * exp_tau_var_14_4
+   + r[14,4] * exp_tau_var_14_5 + r[14,4] * exp_tau_var_14_6
+   + r[14,4] * exp_tau_var_14_7 ] = 0
+ softmax_14_5: - exp_tau_var_14_5 + [ r[14,5] * exp_tau_var_14_0
+   + r[14,5] * exp_tau_var_14_1 + r[14,5] * exp_tau_var_14_2
+   + r[14,5] * exp_tau_var_14_3 + r[14,5] * exp_tau_var_14_4
+   + r[14,5] * exp_tau_var_14_5 + r[14,5] * exp_tau_var_14_6
+   + r[14,5] * exp_tau_var_14_7 ] = 0
+ softmax_14_6: - exp_tau_var_14_6 + [ r[14,6] * exp_tau_var_14_0
+   + r[14,6] * exp_tau_var_14_1 + r[14,6] * exp_tau_var_14_2
+   + r[14,6] * exp_tau_var_14_3 + r[14,6] * exp_tau_var_14_4
+   + r[14,6] * exp_tau_var_14_5 + r[14,6] * exp_tau_var_14_6
+   + r[14,6] * exp_tau_var_14_7 ] = 0
+ softmax_14_7: - exp_tau_var_14_7 + [ r[14,7] * exp_tau_var_14_0
+   + r[14,7] * exp_tau_var_14_1 + r[14,7] * exp_tau_var_14_2
+   + r[14,7] * exp_tau_var_14_3 + r[14,7] * exp_tau_var_14_4
+   + r[14,7] * exp_tau_var_14_5 + r[14,7] * exp_tau_var_14_6
+   + r[14,7] * exp_tau_var_14_7 ] = 0
+ softmax_15_0: - exp_tau_var_15_0 + [ r[15,0] * exp_tau_var_15_0
+   + r[15,0] * exp_tau_var_15_1 + r[15,0] * exp_tau_var_15_2
+   + r[15,0] * exp_tau_var_15_3 + r[15,0] * exp_tau_var_15_4
+   + r[15,0] * exp_tau_var_15_5 + r[15,0] * exp_tau_var_15_6
+   + r[15,0] * exp_tau_var_15_7 ] = 0
+ softmax_15_1: - exp_tau_var_15_1 + [ r[15,1] * exp_tau_var_15_0
+   + r[15,1] * exp_tau_var_15_1 + r[15,1] * exp_tau_var_15_2
+   + r[15,1] * exp_tau_var_15_3 + r[15,1] * exp_tau_var_15_4
+   + r[15,1] * exp_tau_var_15_5 + r[15,1] * exp_tau_var_15_6
+   + r[15,1] * exp_tau_var_15_7 ] = 0
+ softmax_15_2: - exp_tau_var_15_2 + [ r[15,2] * exp_tau_var_15_0
+   + r[15,2] * exp_tau_var_15_1 + r[15,2] * exp_tau_var_15_2
+   + r[15,2] * exp_tau_var_15_3 + r[15,2] * exp_tau_var_15_4
+   + r[15,2] * exp_tau_var_15_5 + r[15,2] * exp_tau_var_15_6
+   + r[15,2] * exp_tau_var_15_7 ] = 0
+ softmax_15_3: - exp_tau_var_15_3 + [ r[15,3] * exp_tau_var_15_0
+   + r[15,3] * exp_tau_var_15_1 + r[15,3] * exp_tau_var_15_2
+   + r[15,3] * exp_tau_var_15_3 + r[15,3] * exp_tau_var_15_4
+   + r[15,3] * exp_tau_var_15_5 + r[15,3] * exp_tau_var_15_6
+   + r[15,3] * exp_tau_var_15_7 ] = 0
+ softmax_15_4: - exp_tau_var_15_4 + [ r[15,4] * exp_tau_var_15_0
+   + r[15,4] * exp_tau_var_15_1 + r[15,4] * exp_tau_var_15_2
+   + r[15,4] * exp_tau_var_15_3 + r[15,4] * exp_tau_var_15_4
+   + r[15,4] * exp_tau_var_15_5 + r[15,4] * exp_tau_var_15_6
+   + r[15,4] * exp_tau_var_15_7 ] = 0
+ softmax_15_5: - exp_tau_var_15_5 + [ r[15,5] * exp_tau_var_15_0
+   + r[15,5] * exp_tau_var_15_1 + r[15,5] * exp_tau_var_15_2
+   + r[15,5] * exp_tau_var_15_3 + r[15,5] * exp_tau_var_15_4
+   + r[15,5] * exp_tau_var_15_5 + r[15,5] * exp_tau_var_15_6
+   + r[15,5] * exp_tau_var_15_7 ] = 0
+ softmax_15_6: - exp_tau_var_15_6 + [ r[15,6] * exp_tau_var_15_0
+   + r[15,6] * exp_tau_var_15_1 + r[15,6] * exp_tau_var_15_2
+   + r[15,6] * exp_tau_var_15_3 + r[15,6] * exp_tau_var_15_4
+   + r[15,6] * exp_tau_var_15_5 + r[15,6] * exp_tau_var_15_6
+   + r[15,6] * exp_tau_var_15_7 ] = 0
+ softmax_15_7: - exp_tau_var_15_7 + [ r[15,7] * exp_tau_var_15_0
+   + r[15,7] * exp_tau_var_15_1 + r[15,7] * exp_tau_var_15_2
+   + r[15,7] * exp_tau_var_15_3 + r[15,7] * exp_tau_var_15_4
+   + r[15,7] * exp_tau_var_15_5 + r[15,7] * exp_tau_var_15_6
+   + r[15,7] * exp_tau_var_15_7 ] = 0
+ softmax_16_0: - exp_tau_var_16_0 + [ r[16,0] * exp_tau_var_16_0
+   + r[16,0] * exp_tau_var_16_1 + r[16,0] * exp_tau_var_16_2
+   + r[16,0] * exp_tau_var_16_3 + r[16,0] * exp_tau_var_16_4
+   + r[16,0] * exp_tau_var_16_5 + r[16,0] * exp_tau_var_16_6
+   + r[16,0] * exp_tau_var_16_7 ] = 0
+ softmax_16_1: - exp_tau_var_16_1 + [ r[16,1] * exp_tau_var_16_0
+   + r[16,1] * exp_tau_var_16_1 + r[16,1] * exp_tau_var_16_2
+   + r[16,1] * exp_tau_var_16_3 + r[16,1] * exp_tau_var_16_4
+   + r[16,1] * exp_tau_var_16_5 + r[16,1] * exp_tau_var_16_6
+   + r[16,1] * exp_tau_var_16_7 ] = 0
+ softmax_16_2: - exp_tau_var_16_2 + [ r[16,2] * exp_tau_var_16_0
+   + r[16,2] * exp_tau_var_16_1 + r[16,2] * exp_tau_var_16_2
+   + r[16,2] * exp_tau_var_16_3 + r[16,2] * exp_tau_var_16_4
+   + r[16,2] * exp_tau_var_16_5 + r[16,2] * exp_tau_var_16_6
+   + r[16,2] * exp_tau_var_16_7 ] = 0
+ softmax_16_3: - exp_tau_var_16_3 + [ r[16,3] * exp_tau_var_16_0
+   + r[16,3] * exp_tau_var_16_1 + r[16,3] * exp_tau_var_16_2
+   + r[16,3] * exp_tau_var_16_3 + r[16,3] * exp_tau_var_16_4
+   + r[16,3] * exp_tau_var_16_5 + r[16,3] * exp_tau_var_16_6
+   + r[16,3] * exp_tau_var_16_7 ] = 0
+ softmax_16_4: - exp_tau_var_16_4 + [ r[16,4] * exp_tau_var_16_0
+   + r[16,4] * exp_tau_var_16_1 + r[16,4] * exp_tau_var_16_2
+   + r[16,4] * exp_tau_var_16_3 + r[16,4] * exp_tau_var_16_4
+   + r[16,4] * exp_tau_var_16_5 + r[16,4] * exp_tau_var_16_6
+   + r[16,4] * exp_tau_var_16_7 ] = 0
+ softmax_16_5: - exp_tau_var_16_5 + [ r[16,5] * exp_tau_var_16_0
+   + r[16,5] * exp_tau_var_16_1 + r[16,5] * exp_tau_var_16_2
+   + r[16,5] * exp_tau_var_16_3 + r[16,5] * exp_tau_var_16_4
+   + r[16,5] * exp_tau_var_16_5 + r[16,5] * exp_tau_var_16_6
+   + r[16,5] * exp_tau_var_16_7 ] = 0
+ softmax_16_6: - exp_tau_var_16_6 + [ r[16,6] * exp_tau_var_16_0
+   + r[16,6] * exp_tau_var_16_1 + r[16,6] * exp_tau_var_16_2
+   + r[16,6] * exp_tau_var_16_3 + r[16,6] * exp_tau_var_16_4
+   + r[16,6] * exp_tau_var_16_5 + r[16,6] * exp_tau_var_16_6
+   + r[16,6] * exp_tau_var_16_7 ] = 0
+ softmax_16_7: - exp_tau_var_16_7 + [ r[16,7] * exp_tau_var_16_0
+   + r[16,7] * exp_tau_var_16_1 + r[16,7] * exp_tau_var_16_2
+   + r[16,7] * exp_tau_var_16_3 + r[16,7] * exp_tau_var_16_4
+   + r[16,7] * exp_tau_var_16_5 + r[16,7] * exp_tau_var_16_6
+   + r[16,7] * exp_tau_var_16_7 ] = 0
+ softmax_17_0: - exp_tau_var_17_0 + [ r[17,0] * exp_tau_var_17_0
+   + r[17,0] * exp_tau_var_17_1 + r[17,0] * exp_tau_var_17_2
+   + r[17,0] * exp_tau_var_17_3 + r[17,0] * exp_tau_var_17_4
+   + r[17,0] * exp_tau_var_17_5 + r[17,0] * exp_tau_var_17_6
+   + r[17,0] * exp_tau_var_17_7 ] = 0
+ softmax_17_1: - exp_tau_var_17_1 + [ r[17,1] * exp_tau_var_17_0
+   + r[17,1] * exp_tau_var_17_1 + r[17,1] * exp_tau_var_17_2
+   + r[17,1] * exp_tau_var_17_3 + r[17,1] * exp_tau_var_17_4
+   + r[17,1] * exp_tau_var_17_5 + r[17,1] * exp_tau_var_17_6
+   + r[17,1] * exp_tau_var_17_7 ] = 0
+ softmax_17_2: - exp_tau_var_17_2 + [ r[17,2] * exp_tau_var_17_0
+   + r[17,2] * exp_tau_var_17_1 + r[17,2] * exp_tau_var_17_2
+   + r[17,2] * exp_tau_var_17_3 + r[17,2] * exp_tau_var_17_4
+   + r[17,2] * exp_tau_var_17_5 + r[17,2] * exp_tau_var_17_6
+   + r[17,2] * exp_tau_var_17_7 ] = 0
+ softmax_17_3: - exp_tau_var_17_3 + [ r[17,3] * exp_tau_var_17_0
+   + r[17,3] * exp_tau_var_17_1 + r[17,3] * exp_tau_var_17_2
+   + r[17,3] * exp_tau_var_17_3 + r[17,3] * exp_tau_var_17_4
+   + r[17,3] * exp_tau_var_17_5 + r[17,3] * exp_tau_var_17_6
+   + r[17,3] * exp_tau_var_17_7 ] = 0
+ softmax_17_4: - exp_tau_var_17_4 + [ r[17,4] * exp_tau_var_17_0
+   + r[17,4] * exp_tau_var_17_1 + r[17,4] * exp_tau_var_17_2
+   + r[17,4] * exp_tau_var_17_3 + r[17,4] * exp_tau_var_17_4
+   + r[17,4] * exp_tau_var_17_5 + r[17,4] * exp_tau_var_17_6
+   + r[17,4] * exp_tau_var_17_7 ] = 0
+ softmax_17_5: - exp_tau_var_17_5 + [ r[17,5] * exp_tau_var_17_0
+   + r[17,5] * exp_tau_var_17_1 + r[17,5] * exp_tau_var_17_2
+   + r[17,5] * exp_tau_var_17_3 + r[17,5] * exp_tau_var_17_4
+   + r[17,5] * exp_tau_var_17_5 + r[17,5] * exp_tau_var_17_6
+   + r[17,5] * exp_tau_var_17_7 ] = 0
+ softmax_17_6: - exp_tau_var_17_6 + [ r[17,6] * exp_tau_var_17_0
+   + r[17,6] * exp_tau_var_17_1 + r[17,6] * exp_tau_var_17_2
+   + r[17,6] * exp_tau_var_17_3 + r[17,6] * exp_tau_var_17_4
+   + r[17,6] * exp_tau_var_17_5 + r[17,6] * exp_tau_var_17_6
+   + r[17,6] * exp_tau_var_17_7 ] = 0
+ softmax_17_7: - exp_tau_var_17_7 + [ r[17,7] * exp_tau_var_17_0
+   + r[17,7] * exp_tau_var_17_1 + r[17,7] * exp_tau_var_17_2
+   + r[17,7] * exp_tau_var_17_3 + r[17,7] * exp_tau_var_17_4
+   + r[17,7] * exp_tau_var_17_5 + r[17,7] * exp_tau_var_17_6
+   + r[17,7] * exp_tau_var_17_7 ] = 0
+ softmax_18_0: - exp_tau_var_18_0 + [ r[18,0] * exp_tau_var_18_0
+   + r[18,0] * exp_tau_var_18_1 + r[18,0] * exp_tau_var_18_2
+   + r[18,0] * exp_tau_var_18_3 + r[18,0] * exp_tau_var_18_4
+   + r[18,0] * exp_tau_var_18_5 + r[18,0] * exp_tau_var_18_6
+   + r[18,0] * exp_tau_var_18_7 ] = 0
+ softmax_18_1: - exp_tau_var_18_1 + [ r[18,1] * exp_tau_var_18_0
+   + r[18,1] * exp_tau_var_18_1 + r[18,1] * exp_tau_var_18_2
+   + r[18,1] * exp_tau_var_18_3 + r[18,1] * exp_tau_var_18_4
+   + r[18,1] * exp_tau_var_18_5 + r[18,1] * exp_tau_var_18_6
+   + r[18,1] * exp_tau_var_18_7 ] = 0
+ softmax_18_2: - exp_tau_var_18_2 + [ r[18,2] * exp_tau_var_18_0
+   + r[18,2] * exp_tau_var_18_1 + r[18,2] * exp_tau_var_18_2
+   + r[18,2] * exp_tau_var_18_3 + r[18,2] * exp_tau_var_18_4
+   + r[18,2] * exp_tau_var_18_5 + r[18,2] * exp_tau_var_18_6
+   + r[18,2] * exp_tau_var_18_7 ] = 0
+ softmax_18_3: - exp_tau_var_18_3 + [ r[18,3] * exp_tau_var_18_0
+   + r[18,3] * exp_tau_var_18_1 + r[18,3] * exp_tau_var_18_2
+   + r[18,3] * exp_tau_var_18_3 + r[18,3] * exp_tau_var_18_4
+   + r[18,3] * exp_tau_var_18_5 + r[18,3] * exp_tau_var_18_6
+   + r[18,3] * exp_tau_var_18_7 ] = 0
+ softmax_18_4: - exp_tau_var_18_4 + [ r[18,4] * exp_tau_var_18_0
+   + r[18,4] * exp_tau_var_18_1 + r[18,4] * exp_tau_var_18_2
+   + r[18,4] * exp_tau_var_18_3 + r[18,4] * exp_tau_var_18_4
+   + r[18,4] * exp_tau_var_18_5 + r[18,4] * exp_tau_var_18_6
+   + r[18,4] * exp_tau_var_18_7 ] = 0
+ softmax_18_5: - exp_tau_var_18_5 + [ r[18,5] * exp_tau_var_18_0
+   + r[18,5] * exp_tau_var_18_1 + r[18,5] * exp_tau_var_18_2
+   + r[18,5] * exp_tau_var_18_3 + r[18,5] * exp_tau_var_18_4
+   + r[18,5] * exp_tau_var_18_5 + r[18,5] * exp_tau_var_18_6
+   + r[18,5] * exp_tau_var_18_7 ] = 0
+ softmax_18_6: - exp_tau_var_18_6 + [ r[18,6] * exp_tau_var_18_0
+   + r[18,6] * exp_tau_var_18_1 + r[18,6] * exp_tau_var_18_2
+   + r[18,6] * exp_tau_var_18_3 + r[18,6] * exp_tau_var_18_4
+   + r[18,6] * exp_tau_var_18_5 + r[18,6] * exp_tau_var_18_6
+   + r[18,6] * exp_tau_var_18_7 ] = 0
+ softmax_18_7: - exp_tau_var_18_7 + [ r[18,7] * exp_tau_var_18_0
+   + r[18,7] * exp_tau_var_18_1 + r[18,7] * exp_tau_var_18_2
+   + r[18,7] * exp_tau_var_18_3 + r[18,7] * exp_tau_var_18_4
+   + r[18,7] * exp_tau_var_18_5 + r[18,7] * exp_tau_var_18_6
+   + r[18,7] * exp_tau_var_18_7 ] = 0
+ softmax_19_0: - exp_tau_var_19_0 + [ r[19,0] * exp_tau_var_19_0
+   + r[19,0] * exp_tau_var_19_1 + r[19,0] * exp_tau_var_19_2
+   + r[19,0] * exp_tau_var_19_3 + r[19,0] * exp_tau_var_19_4
+   + r[19,0] * exp_tau_var_19_5 + r[19,0] * exp_tau_var_19_6
+   + r[19,0] * exp_tau_var_19_7 ] = 0
+ softmax_19_1: - exp_tau_var_19_1 + [ r[19,1] * exp_tau_var_19_0
+   + r[19,1] * exp_tau_var_19_1 + r[19,1] * exp_tau_var_19_2
+   + r[19,1] * exp_tau_var_19_3 + r[19,1] * exp_tau_var_19_4
+   + r[19,1] * exp_tau_var_19_5 + r[19,1] * exp_tau_var_19_6
+   + r[19,1] * exp_tau_var_19_7 ] = 0
+ softmax_19_2: - exp_tau_var_19_2 + [ r[19,2] * exp_tau_var_19_0
+   + r[19,2] * exp_tau_var_19_1 + r[19,2] * exp_tau_var_19_2
+   + r[19,2] * exp_tau_var_19_3 + r[19,2] * exp_tau_var_19_4
+   + r[19,2] * exp_tau_var_19_5 + r[19,2] * exp_tau_var_19_6
+   + r[19,2] * exp_tau_var_19_7 ] = 0
+ softmax_19_3: - exp_tau_var_19_3 + [ r[19,3] * exp_tau_var_19_0
+   + r[19,3] * exp_tau_var_19_1 + r[19,3] * exp_tau_var_19_2
+   + r[19,3] * exp_tau_var_19_3 + r[19,3] * exp_tau_var_19_4
+   + r[19,3] * exp_tau_var_19_5 + r[19,3] * exp_tau_var_19_6
+   + r[19,3] * exp_tau_var_19_7 ] = 0
+ softmax_19_4: - exp_tau_var_19_4 + [ r[19,4] * exp_tau_var_19_0
+   + r[19,4] * exp_tau_var_19_1 + r[19,4] * exp_tau_var_19_2
+   + r[19,4] * exp_tau_var_19_3 + r[19,4] * exp_tau_var_19_4
+   + r[19,4] * exp_tau_var_19_5 + r[19,4] * exp_tau_var_19_6
+   + r[19,4] * exp_tau_var_19_7 ] = 0
+ softmax_19_5: - exp_tau_var_19_5 + [ r[19,5] * exp_tau_var_19_0
+   + r[19,5] * exp_tau_var_19_1 + r[19,5] * exp_tau_var_19_2
+   + r[19,5] * exp_tau_var_19_3 + r[19,5] * exp_tau_var_19_4
+   + r[19,5] * exp_tau_var_19_5 + r[19,5] * exp_tau_var_19_6
+   + r[19,5] * exp_tau_var_19_7 ] = 0
+ softmax_19_6: - exp_tau_var_19_6 + [ r[19,6] * exp_tau_var_19_0
+   + r[19,6] * exp_tau_var_19_1 + r[19,6] * exp_tau_var_19_2
+   + r[19,6] * exp_tau_var_19_3 + r[19,6] * exp_tau_var_19_4
+   + r[19,6] * exp_tau_var_19_5 + r[19,6] * exp_tau_var_19_6
+   + r[19,6] * exp_tau_var_19_7 ] = 0
+ softmax_19_7: - exp_tau_var_19_7 + [ r[19,7] * exp_tau_var_19_0
+   + r[19,7] * exp_tau_var_19_1 + r[19,7] * exp_tau_var_19_2
+   + r[19,7] * exp_tau_var_19_3 + r[19,7] * exp_tau_var_19_4
+   + r[19,7] * exp_tau_var_19_5 + r[19,7] * exp_tau_var_19_6
+   + r[19,7] * exp_tau_var_19_7 ] = 0
+ softmax_20_0: - exp_tau_var_20_0 + [ r[20,0] * exp_tau_var_20_0
+   + r[20,0] * exp_tau_var_20_1 + r[20,0] * exp_tau_var_20_2
+   + r[20,0] * exp_tau_var_20_3 + r[20,0] * exp_tau_var_20_4
+   + r[20,0] * exp_tau_var_20_5 + r[20,0] * exp_tau_var_20_6
+   + r[20,0] * exp_tau_var_20_7 ] = 0
+ softmax_20_1: - exp_tau_var_20_1 + [ r[20,1] * exp_tau_var_20_0
+   + r[20,1] * exp_tau_var_20_1 + r[20,1] * exp_tau_var_20_2
+   + r[20,1] * exp_tau_var_20_3 + r[20,1] * exp_tau_var_20_4
+   + r[20,1] * exp_tau_var_20_5 + r[20,1] * exp_tau_var_20_6
+   + r[20,1] * exp_tau_var_20_7 ] = 0
+ softmax_20_2: - exp_tau_var_20_2 + [ r[20,2] * exp_tau_var_20_0
+   + r[20,2] * exp_tau_var_20_1 + r[20,2] * exp_tau_var_20_2
+   + r[20,2] * exp_tau_var_20_3 + r[20,2] * exp_tau_var_20_4
+   + r[20,2] * exp_tau_var_20_5 + r[20,2] * exp_tau_var_20_6
+   + r[20,2] * exp_tau_var_20_7 ] = 0
+ softmax_20_3: - exp_tau_var_20_3 + [ r[20,3] * exp_tau_var_20_0
+   + r[20,3] * exp_tau_var_20_1 + r[20,3] * exp_tau_var_20_2
+   + r[20,3] * exp_tau_var_20_3 + r[20,3] * exp_tau_var_20_4
+   + r[20,3] * exp_tau_var_20_5 + r[20,3] * exp_tau_var_20_6
+   + r[20,3] * exp_tau_var_20_7 ] = 0
+ softmax_20_4: - exp_tau_var_20_4 + [ r[20,4] * exp_tau_var_20_0
+   + r[20,4] * exp_tau_var_20_1 + r[20,4] * exp_tau_var_20_2
+   + r[20,4] * exp_tau_var_20_3 + r[20,4] * exp_tau_var_20_4
+   + r[20,4] * exp_tau_var_20_5 + r[20,4] * exp_tau_var_20_6
+   + r[20,4] * exp_tau_var_20_7 ] = 0
+ softmax_20_5: - exp_tau_var_20_5 + [ r[20,5] * exp_tau_var_20_0
+   + r[20,5] * exp_tau_var_20_1 + r[20,5] * exp_tau_var_20_2
+   + r[20,5] * exp_tau_var_20_3 + r[20,5] * exp_tau_var_20_4
+   + r[20,5] * exp_tau_var_20_5 + r[20,5] * exp_tau_var_20_6
+   + r[20,5] * exp_tau_var_20_7 ] = 0
+ softmax_20_6: - exp_tau_var_20_6 + [ r[20,6] * exp_tau_var_20_0
+   + r[20,6] * exp_tau_var_20_1 + r[20,6] * exp_tau_var_20_2
+   + r[20,6] * exp_tau_var_20_3 + r[20,6] * exp_tau_var_20_4
+   + r[20,6] * exp_tau_var_20_5 + r[20,6] * exp_tau_var_20_6
+   + r[20,6] * exp_tau_var_20_7 ] = 0
+ softmax_20_7: - exp_tau_var_20_7 + [ r[20,7] * exp_tau_var_20_0
+   + r[20,7] * exp_tau_var_20_1 + r[20,7] * exp_tau_var_20_2
+   + r[20,7] * exp_tau_var_20_3 + r[20,7] * exp_tau_var_20_4
+   + r[20,7] * exp_tau_var_20_5 + r[20,7] * exp_tau_var_20_6
+   + r[20,7] * exp_tau_var_20_7 ] = 0
+ softmax_21_0: - exp_tau_var_21_0 + [ r[21,0] * exp_tau_var_21_0
+   + r[21,0] * exp_tau_var_21_1 + r[21,0] * exp_tau_var_21_2
+   + r[21,0] * exp_tau_var_21_3 + r[21,0] * exp_tau_var_21_4
+   + r[21,0] * exp_tau_var_21_5 + r[21,0] * exp_tau_var_21_6
+   + r[21,0] * exp_tau_var_21_7 ] = 0
+ softmax_21_1: - exp_tau_var_21_1 + [ r[21,1] * exp_tau_var_21_0
+   + r[21,1] * exp_tau_var_21_1 + r[21,1] * exp_tau_var_21_2
+   + r[21,1] * exp_tau_var_21_3 + r[21,1] * exp_tau_var_21_4
+   + r[21,1] * exp_tau_var_21_5 + r[21,1] * exp_tau_var_21_6
+   + r[21,1] * exp_tau_var_21_7 ] = 0
+ softmax_21_2: - exp_tau_var_21_2 + [ r[21,2] * exp_tau_var_21_0
+   + r[21,2] * exp_tau_var_21_1 + r[21,2] * exp_tau_var_21_2
+   + r[21,2] * exp_tau_var_21_3 + r[21,2] * exp_tau_var_21_4
+   + r[21,2] * exp_tau_var_21_5 + r[21,2] * exp_tau_var_21_6
+   + r[21,2] * exp_tau_var_21_7 ] = 0
+ softmax_21_3: - exp_tau_var_21_3 + [ r[21,3] * exp_tau_var_21_0
+   + r[21,3] * exp_tau_var_21_1 + r[21,3] * exp_tau_var_21_2
+   + r[21,3] * exp_tau_var_21_3 + r[21,3] * exp_tau_var_21_4
+   + r[21,3] * exp_tau_var_21_5 + r[21,3] * exp_tau_var_21_6
+   + r[21,3] * exp_tau_var_21_7 ] = 0
+ softmax_21_4: - exp_tau_var_21_4 + [ r[21,4] * exp_tau_var_21_0
+   + r[21,4] * exp_tau_var_21_1 + r[21,4] * exp_tau_var_21_2
+   + r[21,4] * exp_tau_var_21_3 + r[21,4] * exp_tau_var_21_4
+   + r[21,4] * exp_tau_var_21_5 + r[21,4] * exp_tau_var_21_6
+   + r[21,4] * exp_tau_var_21_7 ] = 0
+ softmax_21_5: - exp_tau_var_21_5 + [ r[21,5] * exp_tau_var_21_0
+   + r[21,5] * exp_tau_var_21_1 + r[21,5] * exp_tau_var_21_2
+   + r[21,5] * exp_tau_var_21_3 + r[21,5] * exp_tau_var_21_4
+   + r[21,5] * exp_tau_var_21_5 + r[21,5] * exp_tau_var_21_6
+   + r[21,5] * exp_tau_var_21_7 ] = 0
+ softmax_21_6: - exp_tau_var_21_6 + [ r[21,6] * exp_tau_var_21_0
+   + r[21,6] * exp_tau_var_21_1 + r[21,6] * exp_tau_var_21_2
+   + r[21,6] * exp_tau_var_21_3 + r[21,6] * exp_tau_var_21_4
+   + r[21,6] * exp_tau_var_21_5 + r[21,6] * exp_tau_var_21_6
+   + r[21,6] * exp_tau_var_21_7 ] = 0
+ softmax_21_7: - exp_tau_var_21_7 + [ r[21,7] * exp_tau_var_21_0
+   + r[21,7] * exp_tau_var_21_1 + r[21,7] * exp_tau_var_21_2
+   + r[21,7] * exp_tau_var_21_3 + r[21,7] * exp_tau_var_21_4
+   + r[21,7] * exp_tau_var_21_5 + r[21,7] * exp_tau_var_21_6
+   + r[21,7] * exp_tau_var_21_7 ] = 0
+ softmax_22_0: - exp_tau_var_22_0 + [ r[22,0] * exp_tau_var_22_0
+   + r[22,0] * exp_tau_var_22_1 + r[22,0] * exp_tau_var_22_2
+   + r[22,0] * exp_tau_var_22_3 + r[22,0] * exp_tau_var_22_4
+   + r[22,0] * exp_tau_var_22_5 + r[22,0] * exp_tau_var_22_6
+   + r[22,0] * exp_tau_var_22_7 ] = 0
+ softmax_22_1: - exp_tau_var_22_1 + [ r[22,1] * exp_tau_var_22_0
+   + r[22,1] * exp_tau_var_22_1 + r[22,1] * exp_tau_var_22_2
+   + r[22,1] * exp_tau_var_22_3 + r[22,1] * exp_tau_var_22_4
+   + r[22,1] * exp_tau_var_22_5 + r[22,1] * exp_tau_var_22_6
+   + r[22,1] * exp_tau_var_22_7 ] = 0
+ softmax_22_2: - exp_tau_var_22_2 + [ r[22,2] * exp_tau_var_22_0
+   + r[22,2] * exp_tau_var_22_1 + r[22,2] * exp_tau_var_22_2
+   + r[22,2] * exp_tau_var_22_3 + r[22,2] * exp_tau_var_22_4
+   + r[22,2] * exp_tau_var_22_5 + r[22,2] * exp_tau_var_22_6
+   + r[22,2] * exp_tau_var_22_7 ] = 0
+ softmax_22_3: - exp_tau_var_22_3 + [ r[22,3] * exp_tau_var_22_0
+   + r[22,3] * exp_tau_var_22_1 + r[22,3] * exp_tau_var_22_2
+   + r[22,3] * exp_tau_var_22_3 + r[22,3] * exp_tau_var_22_4
+   + r[22,3] * exp_tau_var_22_5 + r[22,3] * exp_tau_var_22_6
+   + r[22,3] * exp_tau_var_22_7 ] = 0
+ softmax_22_4: - exp_tau_var_22_4 + [ r[22,4] * exp_tau_var_22_0
+   + r[22,4] * exp_tau_var_22_1 + r[22,4] * exp_tau_var_22_2
+   + r[22,4] * exp_tau_var_22_3 + r[22,4] * exp_tau_var_22_4
+   + r[22,4] * exp_tau_var_22_5 + r[22,4] * exp_tau_var_22_6
+   + r[22,4] * exp_tau_var_22_7 ] = 0
+ softmax_22_5: - exp_tau_var_22_5 + [ r[22,5] * exp_tau_var_22_0
+   + r[22,5] * exp_tau_var_22_1 + r[22,5] * exp_tau_var_22_2
+   + r[22,5] * exp_tau_var_22_3 + r[22,5] * exp_tau_var_22_4
+   + r[22,5] * exp_tau_var_22_5 + r[22,5] * exp_tau_var_22_6
+   + r[22,5] * exp_tau_var_22_7 ] = 0
+ softmax_22_6: - exp_tau_var_22_6 + [ r[22,6] * exp_tau_var_22_0
+   + r[22,6] * exp_tau_var_22_1 + r[22,6] * exp_tau_var_22_2
+   + r[22,6] * exp_tau_var_22_3 + r[22,6] * exp_tau_var_22_4
+   + r[22,6] * exp_tau_var_22_5 + r[22,6] * exp_tau_var_22_6
+   + r[22,6] * exp_tau_var_22_7 ] = 0
+ softmax_22_7: - exp_tau_var_22_7 + [ r[22,7] * exp_tau_var_22_0
+   + r[22,7] * exp_tau_var_22_1 + r[22,7] * exp_tau_var_22_2
+   + r[22,7] * exp_tau_var_22_3 + r[22,7] * exp_tau_var_22_4
+   + r[22,7] * exp_tau_var_22_5 + r[22,7] * exp_tau_var_22_6
+   + r[22,7] * exp_tau_var_22_7 ] = 0
+ softmax_23_0: - exp_tau_var_23_0 + [ r[23,0] * exp_tau_var_23_0
+   + r[23,0] * exp_tau_var_23_1 + r[23,0] * exp_tau_var_23_2
+   + r[23,0] * exp_tau_var_23_3 + r[23,0] * exp_tau_var_23_4
+   + r[23,0] * exp_tau_var_23_5 + r[23,0] * exp_tau_var_23_6
+   + r[23,0] * exp_tau_var_23_7 ] = 0
+ softmax_23_1: - exp_tau_var_23_1 + [ r[23,1] * exp_tau_var_23_0
+   + r[23,1] * exp_tau_var_23_1 + r[23,1] * exp_tau_var_23_2
+   + r[23,1] * exp_tau_var_23_3 + r[23,1] * exp_tau_var_23_4
+   + r[23,1] * exp_tau_var_23_5 + r[23,1] * exp_tau_var_23_6
+   + r[23,1] * exp_tau_var_23_7 ] = 0
+ softmax_23_2: - exp_tau_var_23_2 + [ r[23,2] * exp_tau_var_23_0
+   + r[23,2] * exp_tau_var_23_1 + r[23,2] * exp_tau_var_23_2
+   + r[23,2] * exp_tau_var_23_3 + r[23,2] * exp_tau_var_23_4
+   + r[23,2] * exp_tau_var_23_5 + r[23,2] * exp_tau_var_23_6
+   + r[23,2] * exp_tau_var_23_7 ] = 0
+ softmax_23_3: - exp_tau_var_23_3 + [ r[23,3] * exp_tau_var_23_0
+   + r[23,3] * exp_tau_var_23_1 + r[23,3] * exp_tau_var_23_2
+   + r[23,3] * exp_tau_var_23_3 + r[23,3] * exp_tau_var_23_4
+   + r[23,3] * exp_tau_var_23_5 + r[23,3] * exp_tau_var_23_6
+   + r[23,3] * exp_tau_var_23_7 ] = 0
+ softmax_23_4: - exp_tau_var_23_4 + [ r[23,4] * exp_tau_var_23_0
+   + r[23,4] * exp_tau_var_23_1 + r[23,4] * exp_tau_var_23_2
+   + r[23,4] * exp_tau_var_23_3 + r[23,4] * exp_tau_var_23_4
+   + r[23,4] * exp_tau_var_23_5 + r[23,4] * exp_tau_var_23_6
+   + r[23,4] * exp_tau_var_23_7 ] = 0
+ softmax_23_5: - exp_tau_var_23_5 + [ r[23,5] * exp_tau_var_23_0
+   + r[23,5] * exp_tau_var_23_1 + r[23,5] * exp_tau_var_23_2
+   + r[23,5] * exp_tau_var_23_3 + r[23,5] * exp_tau_var_23_4
+   + r[23,5] * exp_tau_var_23_5 + r[23,5] * exp_tau_var_23_6
+   + r[23,5] * exp_tau_var_23_7 ] = 0
+ softmax_23_6: - exp_tau_var_23_6 + [ r[23,6] * exp_tau_var_23_0
+   + r[23,6] * exp_tau_var_23_1 + r[23,6] * exp_tau_var_23_2
+   + r[23,6] * exp_tau_var_23_3 + r[23,6] * exp_tau_var_23_4
+   + r[23,6] * exp_tau_var_23_5 + r[23,6] * exp_tau_var_23_6
+   + r[23,6] * exp_tau_var_23_7 ] = 0
+ softmax_23_7: - exp_tau_var_23_7 + [ r[23,7] * exp_tau_var_23_0
+   + r[23,7] * exp_tau_var_23_1 + r[23,7] * exp_tau_var_23_2
+   + r[23,7] * exp_tau_var_23_3 + r[23,7] * exp_tau_var_23_4
+   + r[23,7] * exp_tau_var_23_5 + r[23,7] * exp_tau_var_23_6
+   + r[23,7] * exp_tau_var_23_7 ] = 0
+ softmax_24_0: - exp_tau_var_24_0 + [ r[24,0] * exp_tau_var_24_0
+   + r[24,0] * exp_tau_var_24_1 + r[24,0] * exp_tau_var_24_2
+   + r[24,0] * exp_tau_var_24_3 + r[24,0] * exp_tau_var_24_4
+   + r[24,0] * exp_tau_var_24_5 + r[24,0] * exp_tau_var_24_6
+   + r[24,0] * exp_tau_var_24_7 ] = 0
+ softmax_24_1: - exp_tau_var_24_1 + [ r[24,1] * exp_tau_var_24_0
+   + r[24,1] * exp_tau_var_24_1 + r[24,1] * exp_tau_var_24_2
+   + r[24,1] * exp_tau_var_24_3 + r[24,1] * exp_tau_var_24_4
+   + r[24,1] * exp_tau_var_24_5 + r[24,1] * exp_tau_var_24_6
+   + r[24,1] * exp_tau_var_24_7 ] = 0
+ softmax_24_2: - exp_tau_var_24_2 + [ r[24,2] * exp_tau_var_24_0
+   + r[24,2] * exp_tau_var_24_1 + r[24,2] * exp_tau_var_24_2
+   + r[24,2] * exp_tau_var_24_3 + r[24,2] * exp_tau_var_24_4
+   + r[24,2] * exp_tau_var_24_5 + r[24,2] * exp_tau_var_24_6
+   + r[24,2] * exp_tau_var_24_7 ] = 0
+ softmax_24_3: - exp_tau_var_24_3 + [ r[24,3] * exp_tau_var_24_0
+   + r[24,3] * exp_tau_var_24_1 + r[24,3] * exp_tau_var_24_2
+   + r[24,3] * exp_tau_var_24_3 + r[24,3] * exp_tau_var_24_4
+   + r[24,3] * exp_tau_var_24_5 + r[24,3] * exp_tau_var_24_6
+   + r[24,3] * exp_tau_var_24_7 ] = 0
+ softmax_24_4: - exp_tau_var_24_4 + [ r[24,4] * exp_tau_var_24_0
+   + r[24,4] * exp_tau_var_24_1 + r[24,4] * exp_tau_var_24_2
+   + r[24,4] * exp_tau_var_24_3 + r[24,4] * exp_tau_var_24_4
+   + r[24,4] * exp_tau_var_24_5 + r[24,4] * exp_tau_var_24_6
+   + r[24,4] * exp_tau_var_24_7 ] = 0
+ softmax_24_5: - exp_tau_var_24_5 + [ r[24,5] * exp_tau_var_24_0
+   + r[24,5] * exp_tau_var_24_1 + r[24,5] * exp_tau_var_24_2
+   + r[24,5] * exp_tau_var_24_3 + r[24,5] * exp_tau_var_24_4
+   + r[24,5] * exp_tau_var_24_5 + r[24,5] * exp_tau_var_24_6
+   + r[24,5] * exp_tau_var_24_7 ] = 0
+ softmax_24_6: - exp_tau_var_24_6 + [ r[24,6] * exp_tau_var_24_0
+   + r[24,6] * exp_tau_var_24_1 + r[24,6] * exp_tau_var_24_2
+   + r[24,6] * exp_tau_var_24_3 + r[24,6] * exp_tau_var_24_4
+   + r[24,6] * exp_tau_var_24_5 + r[24,6] * exp_tau_var_24_6
+   + r[24,6] * exp_tau_var_24_7 ] = 0
+ softmax_24_7: - exp_tau_var_24_7 + [ r[24,7] * exp_tau_var_24_0
+   + r[24,7] * exp_tau_var_24_1 + r[24,7] * exp_tau_var_24_2
+   + r[24,7] * exp_tau_var_24_3 + r[24,7] * exp_tau_var_24_4
+   + r[24,7] * exp_tau_var_24_5 + r[24,7] * exp_tau_var_24_6
+   + r[24,7] * exp_tau_var_24_7 ] = 0
+ GC10: R[0,0] = 1 -> r[0,0] - max_r_helper = 0
+ GC11: R[0,1] = 1 -> r[0,1] - max_r_helper = 0
+ GC12: R[0,2] = 1 -> r[0,2] - max_r_helper = 0
+ GC13: R[0,3] = 1 -> r[0,3] - max_r_helper = 0
+ GC14: R[0,4] = 1 -> r[0,4] - max_r_helper = 0
+ GC15: R[0,5] = 1 -> r[0,5] - max_r_helper = 0
+ GC16: R[0,6] = 1 -> r[0,6] - max_r_helper = 0
+ GC17: R[0,7] = 1 -> r[0,7] - max_r_helper = 0
+ GC35: R[1,0] = 1 -> r[1,0] - max_r_helper = 0
+ GC36: R[1,1] = 1 -> r[1,1] - max_r_helper = 0
+ GC37: R[1,2] = 1 -> r[1,2] - max_r_helper = 0
+ GC38: R[1,3] = 1 -> r[1,3] - max_r_helper = 0
+ GC39: R[1,4] = 1 -> r[1,4] - max_r_helper = 0
+ GC40: R[1,5] = 1 -> r[1,5] - max_r_helper = 0
+ GC41: R[1,6] = 1 -> r[1,6] - max_r_helper = 0
+ GC42: R[1,7] = 1 -> r[1,7] - max_r_helper = 0
+ GC60: R[2,0] = 1 -> r[2,0] - max_r_helper = 0
+ GC61: R[2,1] = 1 -> r[2,1] - max_r_helper = 0
+ GC62: R[2,2] = 1 -> r[2,2] - max_r_helper = 0
+ GC63: R[2,3] = 1 -> r[2,3] - max_r_helper = 0
+ GC64: R[2,4] = 1 -> r[2,4] - max_r_helper = 0
+ GC65: R[2,5] = 1 -> r[2,5] - max_r_helper = 0
+ GC66: R[2,6] = 1 -> r[2,6] - max_r_helper = 0
+ GC67: R[2,7] = 1 -> r[2,7] - max_r_helper = 0
+ GC85: R[3,0] = 1 -> r[3,0] - max_r_helper = 0
+ GC86: R[3,1] = 1 -> r[3,1] - max_r_helper = 0
+ GC87: R[3,2] = 1 -> r[3,2] - max_r_helper = 0
+ GC88: R[3,3] = 1 -> r[3,3] - max_r_helper = 0
+ GC89: R[3,4] = 1 -> r[3,4] - max_r_helper = 0
+ GC90: R[3,5] = 1 -> r[3,5] - max_r_helper = 0
+ GC91: R[3,6] = 1 -> r[3,6] - max_r_helper = 0
+ GC92: R[3,7] = 1 -> r[3,7] - max_r_helper = 0
+ GC110: R[4,0] = 1 -> r[4,0] - max_r_helper = 0
+ GC111: R[4,1] = 1 -> r[4,1] - max_r_helper = 0
+ GC112: R[4,2] = 1 -> r[4,2] - max_r_helper = 0
+ GC113: R[4,3] = 1 -> r[4,3] - max_r_helper = 0
+ GC114: R[4,4] = 1 -> r[4,4] - max_r_helper = 0
+ GC115: R[4,5] = 1 -> r[4,5] - max_r_helper = 0
+ GC116: R[4,6] = 1 -> r[4,6] - max_r_helper = 0
+ GC117: R[4,7] = 1 -> r[4,7] - max_r_helper = 0
+ GC135: R[5,0] = 1 -> r[5,0] - max_r_helper = 0
+ GC136: R[5,1] = 1 -> r[5,1] - max_r_helper = 0
+ GC137: R[5,2] = 1 -> r[5,2] - max_r_helper = 0
+ GC138: R[5,3] = 1 -> r[5,3] - max_r_helper = 0
+ GC139: R[5,4] = 1 -> r[5,4] - max_r_helper = 0
+ GC140: R[5,5] = 1 -> r[5,5] - max_r_helper = 0
+ GC141: R[5,6] = 1 -> r[5,6] - max_r_helper = 0
+ GC142: R[5,7] = 1 -> r[5,7] - max_r_helper = 0
+ GC160: R[6,0] = 1 -> r[6,0] - max_r_helper = 0
+ GC161: R[6,1] = 1 -> r[6,1] - max_r_helper = 0
+ GC162: R[6,2] = 1 -> r[6,2] - max_r_helper = 0
+ GC163: R[6,3] = 1 -> r[6,3] - max_r_helper = 0
+ GC164: R[6,4] = 1 -> r[6,4] - max_r_helper = 0
+ GC165: R[6,5] = 1 -> r[6,5] - max_r_helper = 0
+ GC166: R[6,6] = 1 -> r[6,6] - max_r_helper = 0
+ GC167: R[6,7] = 1 -> r[6,7] - max_r_helper = 0
+ GC185: R[7,0] = 1 -> r[7,0] - max_r_helper = 0
+ GC186: R[7,1] = 1 -> r[7,1] - max_r_helper = 0
+ GC187: R[7,2] = 1 -> r[7,2] - max_r_helper = 0
+ GC188: R[7,3] = 1 -> r[7,3] - max_r_helper = 0
+ GC189: R[7,4] = 1 -> r[7,4] - max_r_helper = 0
+ GC190: R[7,5] = 1 -> r[7,5] - max_r_helper = 0
+ GC191: R[7,6] = 1 -> r[7,6] - max_r_helper = 0
+ GC192: R[7,7] = 1 -> r[7,7] - max_r_helper = 0
+ GC210: R[8,0] = 1 -> r[8,0] - max_r_helper = 0
+ GC211: R[8,1] = 1 -> r[8,1] - max_r_helper = 0
+ GC212: R[8,2] = 1 -> r[8,2] - max_r_helper = 0
+ GC213: R[8,3] = 1 -> r[8,3] - max_r_helper = 0
+ GC214: R[8,4] = 1 -> r[8,4] - max_r_helper = 0
+ GC215: R[8,5] = 1 -> r[8,5] - max_r_helper = 0
+ GC216: R[8,6] = 1 -> r[8,6] - max_r_helper = 0
+ GC217: R[8,7] = 1 -> r[8,7] - max_r_helper = 0
+ GC235: R[9,0] = 1 -> r[9,0] - max_r_helper = 0
+ GC236: R[9,1] = 1 -> r[9,1] - max_r_helper = 0
+ GC237: R[9,2] = 1 -> r[9,2] - max_r_helper = 0
+ GC238: R[9,3] = 1 -> r[9,3] - max_r_helper = 0
+ GC239: R[9,4] = 1 -> r[9,4] - max_r_helper = 0
+ GC240: R[9,5] = 1 -> r[9,5] - max_r_helper = 0
+ GC241: R[9,6] = 1 -> r[9,6] - max_r_helper = 0
+ GC242: R[9,7] = 1 -> r[9,7] - max_r_helper = 0
+ GC260: R[10,0] = 1 -> r[10,0] - max_r_helper = 0
+ GC261: R[10,1] = 1 -> r[10,1] - max_r_helper = 0
+ GC262: R[10,2] = 1 -> r[10,2] - max_r_helper = 0
+ GC263: R[10,3] = 1 -> r[10,3] - max_r_helper = 0
+ GC264: R[10,4] = 1 -> r[10,4] - max_r_helper = 0
+ GC265: R[10,5] = 1 -> r[10,5] - max_r_helper = 0
+ GC266: R[10,6] = 1 -> r[10,6] - max_r_helper = 0
+ GC267: R[10,7] = 1 -> r[10,7] - max_r_helper = 0
+ GC285: R[11,0] = 1 -> r[11,0] - max_r_helper = 0
+ GC286: R[11,1] = 1 -> r[11,1] - max_r_helper = 0
+ GC287: R[11,2] = 1 -> r[11,2] - max_r_helper = 0
+ GC288: R[11,3] = 1 -> r[11,3] - max_r_helper = 0
+ GC289: R[11,4] = 1 -> r[11,4] - max_r_helper = 0
+ GC290: R[11,5] = 1 -> r[11,5] - max_r_helper = 0
+ GC291: R[11,6] = 1 -> r[11,6] - max_r_helper = 0
+ GC292: R[11,7] = 1 -> r[11,7] - max_r_helper = 0
+ GC310: R[12,0] = 1 -> r[12,0] - max_r_helper = 0
+ GC311: R[12,1] = 1 -> r[12,1] - max_r_helper = 0
+ GC312: R[12,2] = 1 -> r[12,2] - max_r_helper = 0
+ GC313: R[12,3] = 1 -> r[12,3] - max_r_helper = 0
+ GC314: R[12,4] = 1 -> r[12,4] - max_r_helper = 0
+ GC315: R[12,5] = 1 -> r[12,5] - max_r_helper = 0
+ GC316: R[12,6] = 1 -> r[12,6] - max_r_helper = 0
+ GC317: R[12,7] = 1 -> r[12,7] - max_r_helper = 0
+ GC335: R[13,0] = 1 -> r[13,0] - max_r_helper = 0
+ GC336: R[13,1] = 1 -> r[13,1] - max_r_helper = 0
+ GC337: R[13,2] = 1 -> r[13,2] - max_r_helper = 0
+ GC338: R[13,3] = 1 -> r[13,3] - max_r_helper = 0
+ GC339: R[13,4] = 1 -> r[13,4] - max_r_helper = 0
+ GC340: R[13,5] = 1 -> r[13,5] - max_r_helper = 0
+ GC341: R[13,6] = 1 -> r[13,6] - max_r_helper = 0
+ GC342: R[13,7] = 1 -> r[13,7] - max_r_helper = 0
+ GC360: R[14,0] = 1 -> r[14,0] - max_r_helper = 0
+ GC361: R[14,1] = 1 -> r[14,1] - max_r_helper = 0
+ GC362: R[14,2] = 1 -> r[14,2] - max_r_helper = 0
+ GC363: R[14,3] = 1 -> r[14,3] - max_r_helper = 0
+ GC364: R[14,4] = 1 -> r[14,4] - max_r_helper = 0
+ GC365: R[14,5] = 1 -> r[14,5] - max_r_helper = 0
+ GC366: R[14,6] = 1 -> r[14,6] - max_r_helper = 0
+ GC367: R[14,7] = 1 -> r[14,7] - max_r_helper = 0
+ GC385: R[15,0] = 1 -> r[15,0] - max_r_helper = 0
+ GC386: R[15,1] = 1 -> r[15,1] - max_r_helper = 0
+ GC387: R[15,2] = 1 -> r[15,2] - max_r_helper = 0
+ GC388: R[15,3] = 1 -> r[15,3] - max_r_helper = 0
+ GC389: R[15,4] = 1 -> r[15,4] - max_r_helper = 0
+ GC390: R[15,5] = 1 -> r[15,5] - max_r_helper = 0
+ GC391: R[15,6] = 1 -> r[15,6] - max_r_helper = 0
+ GC392: R[15,7] = 1 -> r[15,7] - max_r_helper = 0
+ GC410: R[16,0] = 1 -> r[16,0] - max_r_helper = 0
+ GC411: R[16,1] = 1 -> r[16,1] - max_r_helper = 0
+ GC412: R[16,2] = 1 -> r[16,2] - max_r_helper = 0
+ GC413: R[16,3] = 1 -> r[16,3] - max_r_helper = 0
+ GC414: R[16,4] = 1 -> r[16,4] - max_r_helper = 0
+ GC415: R[16,5] = 1 -> r[16,5] - max_r_helper = 0
+ GC416: R[16,6] = 1 -> r[16,6] - max_r_helper = 0
+ GC417: R[16,7] = 1 -> r[16,7] - max_r_helper = 0
+ GC435: R[17,0] = 1 -> r[17,0] - max_r_helper = 0
+ GC436: R[17,1] = 1 -> r[17,1] - max_r_helper = 0
+ GC437: R[17,2] = 1 -> r[17,2] - max_r_helper = 0
+ GC438: R[17,3] = 1 -> r[17,3] - max_r_helper = 0
+ GC439: R[17,4] = 1 -> r[17,4] - max_r_helper = 0
+ GC440: R[17,5] = 1 -> r[17,5] - max_r_helper = 0
+ GC441: R[17,6] = 1 -> r[17,6] - max_r_helper = 0
+ GC442: R[17,7] = 1 -> r[17,7] - max_r_helper = 0
+ GC460: R[18,0] = 1 -> r[18,0] - max_r_helper = 0
+ GC461: R[18,1] = 1 -> r[18,1] - max_r_helper = 0
+ GC462: R[18,2] = 1 -> r[18,2] - max_r_helper = 0
+ GC463: R[18,3] = 1 -> r[18,3] - max_r_helper = 0
+ GC464: R[18,4] = 1 -> r[18,4] - max_r_helper = 0
+ GC465: R[18,5] = 1 -> r[18,5] - max_r_helper = 0
+ GC466: R[18,6] = 1 -> r[18,6] - max_r_helper = 0
+ GC467: R[18,7] = 1 -> r[18,7] - max_r_helper = 0
+ GC485: R[19,0] = 1 -> r[19,0] - max_r_helper = 0
+ GC486: R[19,1] = 1 -> r[19,1] - max_r_helper = 0
+ GC487: R[19,2] = 1 -> r[19,2] - max_r_helper = 0
+ GC488: R[19,3] = 1 -> r[19,3] - max_r_helper = 0
+ GC489: R[19,4] = 1 -> r[19,4] - max_r_helper = 0
+ GC490: R[19,5] = 1 -> r[19,5] - max_r_helper = 0
+ GC491: R[19,6] = 1 -> r[19,6] - max_r_helper = 0
+ GC492: R[19,7] = 1 -> r[19,7] - max_r_helper = 0
+ GC510: R[20,0] = 1 -> r[20,0] - max_r_helper = 0
+ GC511: R[20,1] = 1 -> r[20,1] - max_r_helper = 0
+ GC512: R[20,2] = 1 -> r[20,2] - max_r_helper = 0
+ GC513: R[20,3] = 1 -> r[20,3] - max_r_helper = 0
+ GC514: R[20,4] = 1 -> r[20,4] - max_r_helper = 0
+ GC515: R[20,5] = 1 -> r[20,5] - max_r_helper = 0
+ GC516: R[20,6] = 1 -> r[20,6] - max_r_helper = 0
+ GC517: R[20,7] = 1 -> r[20,7] - max_r_helper = 0
+ GC535: R[21,0] = 1 -> r[21,0] - max_r_helper = 0
+ GC536: R[21,1] = 1 -> r[21,1] - max_r_helper = 0
+ GC537: R[21,2] = 1 -> r[21,2] - max_r_helper = 0
+ GC538: R[21,3] = 1 -> r[21,3] - max_r_helper = 0
+ GC539: R[21,4] = 1 -> r[21,4] - max_r_helper = 0
+ GC540: R[21,5] = 1 -> r[21,5] - max_r_helper = 0
+ GC541: R[21,6] = 1 -> r[21,6] - max_r_helper = 0
+ GC542: R[21,7] = 1 -> r[21,7] - max_r_helper = 0
+ GC560: R[22,0] = 1 -> r[22,0] - max_r_helper = 0
+ GC561: R[22,1] = 1 -> r[22,1] - max_r_helper = 0
+ GC562: R[22,2] = 1 -> r[22,2] - max_r_helper = 0
+ GC563: R[22,3] = 1 -> r[22,3] - max_r_helper = 0
+ GC564: R[22,4] = 1 -> r[22,4] - max_r_helper = 0
+ GC565: R[22,5] = 1 -> r[22,5] - max_r_helper = 0
+ GC566: R[22,6] = 1 -> r[22,6] - max_r_helper = 0
+ GC567: R[22,7] = 1 -> r[22,7] - max_r_helper = 0
+ GC585: R[23,0] = 1 -> r[23,0] - max_r_helper = 0
+ GC586: R[23,1] = 1 -> r[23,1] - max_r_helper = 0
+ GC587: R[23,2] = 1 -> r[23,2] - max_r_helper = 0
+ GC588: R[23,3] = 1 -> r[23,3] - max_r_helper = 0
+ GC589: R[23,4] = 1 -> r[23,4] - max_r_helper = 0
+ GC590: R[23,5] = 1 -> r[23,5] - max_r_helper = 0
+ GC591: R[23,6] = 1 -> r[23,6] - max_r_helper = 0
+ GC592: R[23,7] = 1 -> r[23,7] - max_r_helper = 0
+ GC610: R[24,0] = 1 -> r[24,0] - max_r_helper = 0
+ GC611: R[24,1] = 1 -> r[24,1] - max_r_helper = 0
+ GC612: R[24,2] = 1 -> r[24,2] - max_r_helper = 0
+ GC613: R[24,3] = 1 -> r[24,3] - max_r_helper = 0
+ GC614: R[24,4] = 1 -> r[24,4] - max_r_helper = 0
+ GC615: R[24,5] = 1 -> r[24,5] - max_r_helper = 0
+ GC616: R[24,6] = 1 -> r[24,6] - max_r_helper = 0
+ GC617: R[24,7] = 1 -> r[24,7] - max_r_helper = 0
 Bounds
  alphas[0] free
  alphas[1] free
  alphas[2] free
  alphas[3] free
  alphas[4] free
- betas[0,0] free
- betas[0,1] free
- betas[0,2] free
- betas[0,3] free
- betas[0,4] free
- betas[1,0] free
- betas[1,1] free
- betas[1,2] free
- betas[1,3] free
- betas[1,4] free
- betas[2,0] free
- betas[2,1] free
- betas[2,2] free
- betas[2,3] free
- betas[2,4] free
- betas[3,0] free
- betas[3,1] free
- betas[3,2] free
- betas[3,3] free
- betas[3,4] free
- betas[4,0] free
- betas[4,1] free
- betas[4,2] free
- betas[4,3] free
- betas[4,4] free
- betas[5,0] free
- betas[5,1] free
- betas[5,2] free
- betas[5,3] free
- betas[5,4] free
- betas[6,0] free
- betas[6,1] free
- betas[6,2] free
- betas[6,3] free
- betas[6,4] free
- betas[7,0] free
- betas[7,1] free
- betas[7,2] free
- betas[7,3] free
- betas[7,4] free
+ betas[0] free
+ betas[1] free
+ betas[2] free
+ betas[3] free
+ betas[4] free
+ betas[5] free
+ betas[6] free
+ betas[7] free
+ gammas[0] free
+ gammas[1] free
+ gammas[2] free
+ gammas[3] free
  profits_vars[0] free
  profits_vars[1] free
  profits_vars[2] free
@@ -2470,14 +3323,6 @@ General Constraints
  GC6: exp_tau_var_0_5 = EXP ( tau[0,5] )
  GC7: exp_tau_var_0_6 = EXP ( tau[0,6] )
  GC8: exp_tau_var_0_7 = EXP ( tau[0,7] )
- logistic_constraint_r_0: r[0,0] = LOGISTIC ( exp_tau_var_0_0 )
- logistic_constraint_r_0: r[0,1] = LOGISTIC ( exp_tau_var_0_1 )
- logistic_constraint_r_0: r[0,2] = LOGISTIC ( exp_tau_var_0_2 )
- logistic_constraint_r_0: r[0,3] = LOGISTIC ( exp_tau_var_0_3 )
- logistic_constraint_r_0: r[0,4] = LOGISTIC ( exp_tau_var_0_4 )
- logistic_constraint_r_0: r[0,5] = LOGISTIC ( exp_tau_var_0_5 )
- logistic_constraint_r_0: r[0,6] = LOGISTIC ( exp_tau_var_0_6 )
- logistic_constraint_r_0: r[0,7] = LOGISTIC ( exp_tau_var_0_7 )
  MaxRConstraint_0: max_r_helper = MAX ( r[0,0] , r[0,1] , r[0,2] , r[0,3] ,
    r[0,4] , r[0,5] , r[0,6] , r[0,7] )
  Max_Constraint_0: Q1_var[0] = MAX ( Q_hat_adjusted[0] , 0 )
@@ -2491,22 +3336,14 @@ General Constraints
  Constr_Lost_1_max_0: Lost_1[0] = MAX ( Lost_0_aux_0 , 0 )
  logistic_constraint_1: Fraction_for_second_order_amount[1] =
    LOGISTIC ( f_var[1] )
- GC34: exp_tau_var_1_0 = EXP ( tau[1,0] )
- GC35: exp_tau_var_1_1 = EXP ( tau[1,1] )
- GC36: exp_tau_var_1_2 = EXP ( tau[1,2] )
- GC37: exp_tau_var_1_3 = EXP ( tau[1,3] )
- GC38: exp_tau_var_1_4 = EXP ( tau[1,4] )
- GC39: exp_tau_var_1_5 = EXP ( tau[1,5] )
- GC40: exp_tau_var_1_6 = EXP ( tau[1,6] )
- GC41: exp_tau_var_1_7 = EXP ( tau[1,7] )
- logistic_constraint_r_1: r[1,0] = LOGISTIC ( exp_tau_var_1_0 )
- logistic_constraint_r_1: r[1,1] = LOGISTIC ( exp_tau_var_1_1 )
- logistic_constraint_r_1: r[1,2] = LOGISTIC ( exp_tau_var_1_2 )
- logistic_constraint_r_1: r[1,3] = LOGISTIC ( exp_tau_var_1_3 )
- logistic_constraint_r_1: r[1,4] = LOGISTIC ( exp_tau_var_1_4 )
- logistic_constraint_r_1: r[1,5] = LOGISTIC ( exp_tau_var_1_5 )
- logistic_constraint_r_1: r[1,6] = LOGISTIC ( exp_tau_var_1_6 )
- logistic_constraint_r_1: r[1,7] = LOGISTIC ( exp_tau_var_1_7 )
+ GC26: exp_tau_var_1_0 = EXP ( tau[1,0] )
+ GC27: exp_tau_var_1_1 = EXP ( tau[1,1] )
+ GC28: exp_tau_var_1_2 = EXP ( tau[1,2] )
+ GC29: exp_tau_var_1_3 = EXP ( tau[1,3] )
+ GC30: exp_tau_var_1_4 = EXP ( tau[1,4] )
+ GC31: exp_tau_var_1_5 = EXP ( tau[1,5] )
+ GC32: exp_tau_var_1_6 = EXP ( tau[1,6] )
+ GC33: exp_tau_var_1_7 = EXP ( tau[1,7] )
  MaxRConstraint_1: max_r_helper = MAX ( r[1,0] , r[1,1] , r[1,2] , r[1,3] ,
    r[1,4] , r[1,5] , r[1,6] , r[1,7] )
  Max_Constraint_1: Q1_var[1] = MAX ( Q_hat_adjusted[1] , 0 )
@@ -2520,22 +3357,14 @@ General Constraints
  Constr_Lost_1_max_1: Lost_1[1] = MAX ( Lost_0_aux_1 , 0 )
  logistic_constraint_2: Fraction_for_second_order_amount[2] =
    LOGISTIC ( f_var[2] )
- GC67: exp_tau_var_2_0 = EXP ( tau[2,0] )
- GC68: exp_tau_var_2_1 = EXP ( tau[2,1] )
- GC69: exp_tau_var_2_2 = EXP ( tau[2,2] )
- GC70: exp_tau_var_2_3 = EXP ( tau[2,3] )
- GC71: exp_tau_var_2_4 = EXP ( tau[2,4] )
- GC72: exp_tau_var_2_5 = EXP ( tau[2,5] )
- GC73: exp_tau_var_2_6 = EXP ( tau[2,6] )
- GC74: exp_tau_var_2_7 = EXP ( tau[2,7] )
- logistic_constraint_r_2: r[2,0] = LOGISTIC ( exp_tau_var_2_0 )
- logistic_constraint_r_2: r[2,1] = LOGISTIC ( exp_tau_var_2_1 )
- logistic_constraint_r_2: r[2,2] = LOGISTIC ( exp_tau_var_2_2 )
- logistic_constraint_r_2: r[2,3] = LOGISTIC ( exp_tau_var_2_3 )
- logistic_constraint_r_2: r[2,4] = LOGISTIC ( exp_tau_var_2_4 )
- logistic_constraint_r_2: r[2,5] = LOGISTIC ( exp_tau_var_2_5 )
- logistic_constraint_r_2: r[2,6] = LOGISTIC ( exp_tau_var_2_6 )
- logistic_constraint_r_2: r[2,7] = LOGISTIC ( exp_tau_var_2_7 )
+ GC51: exp_tau_var_2_0 = EXP ( tau[2,0] )
+ GC52: exp_tau_var_2_1 = EXP ( tau[2,1] )
+ GC53: exp_tau_var_2_2 = EXP ( tau[2,2] )
+ GC54: exp_tau_var_2_3 = EXP ( tau[2,3] )
+ GC55: exp_tau_var_2_4 = EXP ( tau[2,4] )
+ GC56: exp_tau_var_2_5 = EXP ( tau[2,5] )
+ GC57: exp_tau_var_2_6 = EXP ( tau[2,6] )
+ GC58: exp_tau_var_2_7 = EXP ( tau[2,7] )
  MaxRConstraint_2: max_r_helper = MAX ( r[2,0] , r[2,1] , r[2,2] , r[2,3] ,
    r[2,4] , r[2,5] , r[2,6] , r[2,7] )
  Max_Constraint_2: Q1_var[2] = MAX ( Q_hat_adjusted[2] , 0 )
@@ -2549,22 +3378,14 @@ General Constraints
  Constr_Lost_1_max_2: Lost_1[2] = MAX ( Lost_0_aux_2 , 0 )
  logistic_constraint_3: Fraction_for_second_order_amount[3] =
    LOGISTIC ( f_var[3] )
- GC100: exp_tau_var_3_0 = EXP ( tau[3,0] )
- GC101: exp_tau_var_3_1 = EXP ( tau[3,1] )
- GC102: exp_tau_var_3_2 = EXP ( tau[3,2] )
- GC103: exp_tau_var_3_3 = EXP ( tau[3,3] )
- GC104: exp_tau_var_3_4 = EXP ( tau[3,4] )
- GC105: exp_tau_var_3_5 = EXP ( tau[3,5] )
- GC106: exp_tau_var_3_6 = EXP ( tau[3,6] )
- GC107: exp_tau_var_3_7 = EXP ( tau[3,7] )
- logistic_constraint_r_3: r[3,0] = LOGISTIC ( exp_tau_var_3_0 )
- logistic_constraint_r_3: r[3,1] = LOGISTIC ( exp_tau_var_3_1 )
- logistic_constraint_r_3: r[3,2] = LOGISTIC ( exp_tau_var_3_2 )
- logistic_constraint_r_3: r[3,3] = LOGISTIC ( exp_tau_var_3_3 )
- logistic_constraint_r_3: r[3,4] = LOGISTIC ( exp_tau_var_3_4 )
- logistic_constraint_r_3: r[3,5] = LOGISTIC ( exp_tau_var_3_5 )
- logistic_constraint_r_3: r[3,6] = LOGISTIC ( exp_tau_var_3_6 )
- logistic_constraint_r_3: r[3,7] = LOGISTIC ( exp_tau_var_3_7 )
+ GC76: exp_tau_var_3_0 = EXP ( tau[3,0] )
+ GC77: exp_tau_var_3_1 = EXP ( tau[3,1] )
+ GC78: exp_tau_var_3_2 = EXP ( tau[3,2] )
+ GC79: exp_tau_var_3_3 = EXP ( tau[3,3] )
+ GC80: exp_tau_var_3_4 = EXP ( tau[3,4] )
+ GC81: exp_tau_var_3_5 = EXP ( tau[3,5] )
+ GC82: exp_tau_var_3_6 = EXP ( tau[3,6] )
+ GC83: exp_tau_var_3_7 = EXP ( tau[3,7] )
  MaxRConstraint_3: max_r_helper = MAX ( r[3,0] , r[3,1] , r[3,2] , r[3,3] ,
    r[3,4] , r[3,5] , r[3,6] , r[3,7] )
  Max_Constraint_3: Q1_var[3] = MAX ( Q_hat_adjusted[3] , 0 )
@@ -2578,22 +3399,14 @@ General Constraints
  Constr_Lost_1_max_3: Lost_1[3] = MAX ( Lost_0_aux_3 , 0 )
  logistic_constraint_4: Fraction_for_second_order_amount[4] =
    LOGISTIC ( f_var[4] )
- GC133: exp_tau_var_4_0 = EXP ( tau[4,0] )
- GC134: exp_tau_var_4_1 = EXP ( tau[4,1] )
- GC135: exp_tau_var_4_2 = EXP ( tau[4,2] )
- GC136: exp_tau_var_4_3 = EXP ( tau[4,3] )
- GC137: exp_tau_var_4_4 = EXP ( tau[4,4] )
- GC138: exp_tau_var_4_5 = EXP ( tau[4,5] )
- GC139: exp_tau_var_4_6 = EXP ( tau[4,6] )
- GC140: exp_tau_var_4_7 = EXP ( tau[4,7] )
- logistic_constraint_r_4: r[4,0] = LOGISTIC ( exp_tau_var_4_0 )
- logistic_constraint_r_4: r[4,1] = LOGISTIC ( exp_tau_var_4_1 )
- logistic_constraint_r_4: r[4,2] = LOGISTIC ( exp_tau_var_4_2 )
- logistic_constraint_r_4: r[4,3] = LOGISTIC ( exp_tau_var_4_3 )
- logistic_constraint_r_4: r[4,4] = LOGISTIC ( exp_tau_var_4_4 )
- logistic_constraint_r_4: r[4,5] = LOGISTIC ( exp_tau_var_4_5 )
- logistic_constraint_r_4: r[4,6] = LOGISTIC ( exp_tau_var_4_6 )
- logistic_constraint_r_4: r[4,7] = LOGISTIC ( exp_tau_var_4_7 )
+ GC101: exp_tau_var_4_0 = EXP ( tau[4,0] )
+ GC102: exp_tau_var_4_1 = EXP ( tau[4,1] )
+ GC103: exp_tau_var_4_2 = EXP ( tau[4,2] )
+ GC104: exp_tau_var_4_3 = EXP ( tau[4,3] )
+ GC105: exp_tau_var_4_4 = EXP ( tau[4,4] )
+ GC106: exp_tau_var_4_5 = EXP ( tau[4,5] )
+ GC107: exp_tau_var_4_6 = EXP ( tau[4,6] )
+ GC108: exp_tau_var_4_7 = EXP ( tau[4,7] )
  MaxRConstraint_4: max_r_helper = MAX ( r[4,0] , r[4,1] , r[4,2] , r[4,3] ,
    r[4,4] , r[4,5] , r[4,6] , r[4,7] )
  Max_Constraint_4: Q1_var[4] = MAX ( Q_hat_adjusted[4] , 0 )
@@ -2607,22 +3420,14 @@ General Constraints
  Constr_Lost_1_max_4: Lost_1[4] = MAX ( Lost_0_aux_4 , 0 )
  logistic_constraint_5: Fraction_for_second_order_amount[5] =
    LOGISTIC ( f_var[5] )
- GC166: exp_tau_var_5_0 = EXP ( tau[5,0] )
- GC167: exp_tau_var_5_1 = EXP ( tau[5,1] )
- GC168: exp_tau_var_5_2 = EXP ( tau[5,2] )
- GC169: exp_tau_var_5_3 = EXP ( tau[5,3] )
- GC170: exp_tau_var_5_4 = EXP ( tau[5,4] )
- GC171: exp_tau_var_5_5 = EXP ( tau[5,5] )
- GC172: exp_tau_var_5_6 = EXP ( tau[5,6] )
- GC173: exp_tau_var_5_7 = EXP ( tau[5,7] )
- logistic_constraint_r_5: r[5,0] = LOGISTIC ( exp_tau_var_5_0 )
- logistic_constraint_r_5: r[5,1] = LOGISTIC ( exp_tau_var_5_1 )
- logistic_constraint_r_5: r[5,2] = LOGISTIC ( exp_tau_var_5_2 )
- logistic_constraint_r_5: r[5,3] = LOGISTIC ( exp_tau_var_5_3 )
- logistic_constraint_r_5: r[5,4] = LOGISTIC ( exp_tau_var_5_4 )
- logistic_constraint_r_5: r[5,5] = LOGISTIC ( exp_tau_var_5_5 )
- logistic_constraint_r_5: r[5,6] = LOGISTIC ( exp_tau_var_5_6 )
- logistic_constraint_r_5: r[5,7] = LOGISTIC ( exp_tau_var_5_7 )
+ GC126: exp_tau_var_5_0 = EXP ( tau[5,0] )
+ GC127: exp_tau_var_5_1 = EXP ( tau[5,1] )
+ GC128: exp_tau_var_5_2 = EXP ( tau[5,2] )
+ GC129: exp_tau_var_5_3 = EXP ( tau[5,3] )
+ GC130: exp_tau_var_5_4 = EXP ( tau[5,4] )
+ GC131: exp_tau_var_5_5 = EXP ( tau[5,5] )
+ GC132: exp_tau_var_5_6 = EXP ( tau[5,6] )
+ GC133: exp_tau_var_5_7 = EXP ( tau[5,7] )
  MaxRConstraint_5: max_r_helper = MAX ( r[5,0] , r[5,1] , r[5,2] , r[5,3] ,
    r[5,4] , r[5,5] , r[5,6] , r[5,7] )
  Max_Constraint_5: Q1_var[5] = MAX ( Q_hat_adjusted[5] , 0 )
@@ -2636,22 +3441,14 @@ General Constraints
  Constr_Lost_1_max_5: Lost_1[5] = MAX ( Lost_0_aux_5 , 0 )
  logistic_constraint_6: Fraction_for_second_order_amount[6] =
    LOGISTIC ( f_var[6] )
- GC199: exp_tau_var_6_0 = EXP ( tau[6,0] )
- GC200: exp_tau_var_6_1 = EXP ( tau[6,1] )
- GC201: exp_tau_var_6_2 = EXP ( tau[6,2] )
- GC202: exp_tau_var_6_3 = EXP ( tau[6,3] )
- GC203: exp_tau_var_6_4 = EXP ( tau[6,4] )
- GC204: exp_tau_var_6_5 = EXP ( tau[6,5] )
- GC205: exp_tau_var_6_6 = EXP ( tau[6,6] )
- GC206: exp_tau_var_6_7 = EXP ( tau[6,7] )
- logistic_constraint_r_6: r[6,0] = LOGISTIC ( exp_tau_var_6_0 )
- logistic_constraint_r_6: r[6,1] = LOGISTIC ( exp_tau_var_6_1 )
- logistic_constraint_r_6: r[6,2] = LOGISTIC ( exp_tau_var_6_2 )
- logistic_constraint_r_6: r[6,3] = LOGISTIC ( exp_tau_var_6_3 )
- logistic_constraint_r_6: r[6,4] = LOGISTIC ( exp_tau_var_6_4 )
- logistic_constraint_r_6: r[6,5] = LOGISTIC ( exp_tau_var_6_5 )
- logistic_constraint_r_6: r[6,6] = LOGISTIC ( exp_tau_var_6_6 )
- logistic_constraint_r_6: r[6,7] = LOGISTIC ( exp_tau_var_6_7 )
+ GC151: exp_tau_var_6_0 = EXP ( tau[6,0] )
+ GC152: exp_tau_var_6_1 = EXP ( tau[6,1] )
+ GC153: exp_tau_var_6_2 = EXP ( tau[6,2] )
+ GC154: exp_tau_var_6_3 = EXP ( tau[6,3] )
+ GC155: exp_tau_var_6_4 = EXP ( tau[6,4] )
+ GC156: exp_tau_var_6_5 = EXP ( tau[6,5] )
+ GC157: exp_tau_var_6_6 = EXP ( tau[6,6] )
+ GC158: exp_tau_var_6_7 = EXP ( tau[6,7] )
  MaxRConstraint_6: max_r_helper = MAX ( r[6,0] , r[6,1] , r[6,2] , r[6,3] ,
    r[6,4] , r[6,5] , r[6,6] , r[6,7] )
  Max_Constraint_6: Q1_var[6] = MAX ( Q_hat_adjusted[6] , 0 )
@@ -2665,22 +3462,14 @@ General Constraints
  Constr_Lost_1_max_6: Lost_1[6] = MAX ( Lost_0_aux_6 , 0 )
  logistic_constraint_7: Fraction_for_second_order_amount[7] =
    LOGISTIC ( f_var[7] )
- GC232: exp_tau_var_7_0 = EXP ( tau[7,0] )
- GC233: exp_tau_var_7_1 = EXP ( tau[7,1] )
- GC234: exp_tau_var_7_2 = EXP ( tau[7,2] )
- GC235: exp_tau_var_7_3 = EXP ( tau[7,3] )
- GC236: exp_tau_var_7_4 = EXP ( tau[7,4] )
- GC237: exp_tau_var_7_5 = EXP ( tau[7,5] )
- GC238: exp_tau_var_7_6 = EXP ( tau[7,6] )
- GC239: exp_tau_var_7_7 = EXP ( tau[7,7] )
- logistic_constraint_r_7: r[7,0] = LOGISTIC ( exp_tau_var_7_0 )
- logistic_constraint_r_7: r[7,1] = LOGISTIC ( exp_tau_var_7_1 )
- logistic_constraint_r_7: r[7,2] = LOGISTIC ( exp_tau_var_7_2 )
- logistic_constraint_r_7: r[7,3] = LOGISTIC ( exp_tau_var_7_3 )
- logistic_constraint_r_7: r[7,4] = LOGISTIC ( exp_tau_var_7_4 )
- logistic_constraint_r_7: r[7,5] = LOGISTIC ( exp_tau_var_7_5 )
- logistic_constraint_r_7: r[7,6] = LOGISTIC ( exp_tau_var_7_6 )
- logistic_constraint_r_7: r[7,7] = LOGISTIC ( exp_tau_var_7_7 )
+ GC176: exp_tau_var_7_0 = EXP ( tau[7,0] )
+ GC177: exp_tau_var_7_1 = EXP ( tau[7,1] )
+ GC178: exp_tau_var_7_2 = EXP ( tau[7,2] )
+ GC179: exp_tau_var_7_3 = EXP ( tau[7,3] )
+ GC180: exp_tau_var_7_4 = EXP ( tau[7,4] )
+ GC181: exp_tau_var_7_5 = EXP ( tau[7,5] )
+ GC182: exp_tau_var_7_6 = EXP ( tau[7,6] )
+ GC183: exp_tau_var_7_7 = EXP ( tau[7,7] )
  MaxRConstraint_7: max_r_helper = MAX ( r[7,0] , r[7,1] , r[7,2] , r[7,3] ,
    r[7,4] , r[7,5] , r[7,6] , r[7,7] )
  Max_Constraint_7: Q1_var[7] = MAX ( Q_hat_adjusted[7] , 0 )
@@ -2694,22 +3483,14 @@ General Constraints
  Constr_Lost_1_max_7: Lost_1[7] = MAX ( Lost_0_aux_7 , 0 )
  logistic_constraint_8: Fraction_for_second_order_amount[8] =
    LOGISTIC ( f_var[8] )
- GC265: exp_tau_var_8_0 = EXP ( tau[8,0] )
- GC266: exp_tau_var_8_1 = EXP ( tau[8,1] )
- GC267: exp_tau_var_8_2 = EXP ( tau[8,2] )
- GC268: exp_tau_var_8_3 = EXP ( tau[8,3] )
- GC269: exp_tau_var_8_4 = EXP ( tau[8,4] )
- GC270: exp_tau_var_8_5 = EXP ( tau[8,5] )
- GC271: exp_tau_var_8_6 = EXP ( tau[8,6] )
- GC272: exp_tau_var_8_7 = EXP ( tau[8,7] )
- logistic_constraint_r_8: r[8,0] = LOGISTIC ( exp_tau_var_8_0 )
- logistic_constraint_r_8: r[8,1] = LOGISTIC ( exp_tau_var_8_1 )
- logistic_constraint_r_8: r[8,2] = LOGISTIC ( exp_tau_var_8_2 )
- logistic_constraint_r_8: r[8,3] = LOGISTIC ( exp_tau_var_8_3 )
- logistic_constraint_r_8: r[8,4] = LOGISTIC ( exp_tau_var_8_4 )
- logistic_constraint_r_8: r[8,5] = LOGISTIC ( exp_tau_var_8_5 )
- logistic_constraint_r_8: r[8,6] = LOGISTIC ( exp_tau_var_8_6 )
- logistic_constraint_r_8: r[8,7] = LOGISTIC ( exp_tau_var_8_7 )
+ GC201: exp_tau_var_8_0 = EXP ( tau[8,0] )
+ GC202: exp_tau_var_8_1 = EXP ( tau[8,1] )
+ GC203: exp_tau_var_8_2 = EXP ( tau[8,2] )
+ GC204: exp_tau_var_8_3 = EXP ( tau[8,3] )
+ GC205: exp_tau_var_8_4 = EXP ( tau[8,4] )
+ GC206: exp_tau_var_8_5 = EXP ( tau[8,5] )
+ GC207: exp_tau_var_8_6 = EXP ( tau[8,6] )
+ GC208: exp_tau_var_8_7 = EXP ( tau[8,7] )
  MaxRConstraint_8: max_r_helper = MAX ( r[8,0] , r[8,1] , r[8,2] , r[8,3] ,
    r[8,4] , r[8,5] , r[8,6] , r[8,7] )
  Max_Constraint_8: Q1_var[8] = MAX ( Q_hat_adjusted[8] , 0 )
@@ -2723,22 +3504,14 @@ General Constraints
  Constr_Lost_1_max_8: Lost_1[8] = MAX ( Lost_0_aux_8 , 0 )
  logistic_constraint_9: Fraction_for_second_order_amount[9] =
    LOGISTIC ( f_var[9] )
- GC298: exp_tau_var_9_0 = EXP ( tau[9,0] )
- GC299: exp_tau_var_9_1 = EXP ( tau[9,1] )
- GC300: exp_tau_var_9_2 = EXP ( tau[9,2] )
- GC301: exp_tau_var_9_3 = EXP ( tau[9,3] )
- GC302: exp_tau_var_9_4 = EXP ( tau[9,4] )
- GC303: exp_tau_var_9_5 = EXP ( tau[9,5] )
- GC304: exp_tau_var_9_6 = EXP ( tau[9,6] )
- GC305: exp_tau_var_9_7 = EXP ( tau[9,7] )
- logistic_constraint_r_9: r[9,0] = LOGISTIC ( exp_tau_var_9_0 )
- logistic_constraint_r_9: r[9,1] = LOGISTIC ( exp_tau_var_9_1 )
- logistic_constraint_r_9: r[9,2] = LOGISTIC ( exp_tau_var_9_2 )
- logistic_constraint_r_9: r[9,3] = LOGISTIC ( exp_tau_var_9_3 )
- logistic_constraint_r_9: r[9,4] = LOGISTIC ( exp_tau_var_9_4 )
- logistic_constraint_r_9: r[9,5] = LOGISTIC ( exp_tau_var_9_5 )
- logistic_constraint_r_9: r[9,6] = LOGISTIC ( exp_tau_var_9_6 )
- logistic_constraint_r_9: r[9,7] = LOGISTIC ( exp_tau_var_9_7 )
+ GC226: exp_tau_var_9_0 = EXP ( tau[9,0] )
+ GC227: exp_tau_var_9_1 = EXP ( tau[9,1] )
+ GC228: exp_tau_var_9_2 = EXP ( tau[9,2] )
+ GC229: exp_tau_var_9_3 = EXP ( tau[9,3] )
+ GC230: exp_tau_var_9_4 = EXP ( tau[9,4] )
+ GC231: exp_tau_var_9_5 = EXP ( tau[9,5] )
+ GC232: exp_tau_var_9_6 = EXP ( tau[9,6] )
+ GC233: exp_tau_var_9_7 = EXP ( tau[9,7] )
  MaxRConstraint_9: max_r_helper = MAX ( r[9,0] , r[9,1] , r[9,2] , r[9,3] ,
    r[9,4] , r[9,5] , r[9,6] , r[9,7] )
  Max_Constraint_9: Q1_var[9] = MAX ( Q_hat_adjusted[9] , 0 )
@@ -2752,22 +3525,14 @@ General Constraints
  Constr_Lost_1_max_9: Lost_1[9] = MAX ( Lost_0_aux_9 , 0 )
  logistic_constraint_10: Fraction_for_second_order_amount[10] =
    LOGISTIC ( f_var[10] )
- GC331: exp_tau_var_10_0 = EXP ( tau[10,0] )
- GC332: exp_tau_var_10_1 = EXP ( tau[10,1] )
- GC333: exp_tau_var_10_2 = EXP ( tau[10,2] )
- GC334: exp_tau_var_10_3 = EXP ( tau[10,3] )
- GC335: exp_tau_var_10_4 = EXP ( tau[10,4] )
- GC336: exp_tau_var_10_5 = EXP ( tau[10,5] )
- GC337: exp_tau_var_10_6 = EXP ( tau[10,6] )
- GC338: exp_tau_var_10_7 = EXP ( tau[10,7] )
- logistic_constraint_r_10: r[10,0] = LOGISTIC ( exp_tau_var_10_0 )
- logistic_constraint_r_10: r[10,1] = LOGISTIC ( exp_tau_var_10_1 )
- logistic_constraint_r_10: r[10,2] = LOGISTIC ( exp_tau_var_10_2 )
- logistic_constraint_r_10: r[10,3] = LOGISTIC ( exp_tau_var_10_3 )
- logistic_constraint_r_10: r[10,4] = LOGISTIC ( exp_tau_var_10_4 )
- logistic_constraint_r_10: r[10,5] = LOGISTIC ( exp_tau_var_10_5 )
- logistic_constraint_r_10: r[10,6] = LOGISTIC ( exp_tau_var_10_6 )
- logistic_constraint_r_10: r[10,7] = LOGISTIC ( exp_tau_var_10_7 )
+ GC251: exp_tau_var_10_0 = EXP ( tau[10,0] )
+ GC252: exp_tau_var_10_1 = EXP ( tau[10,1] )
+ GC253: exp_tau_var_10_2 = EXP ( tau[10,2] )
+ GC254: exp_tau_var_10_3 = EXP ( tau[10,3] )
+ GC255: exp_tau_var_10_4 = EXP ( tau[10,4] )
+ GC256: exp_tau_var_10_5 = EXP ( tau[10,5] )
+ GC257: exp_tau_var_10_6 = EXP ( tau[10,6] )
+ GC258: exp_tau_var_10_7 = EXP ( tau[10,7] )
  MaxRConstraint_10: max_r_helper = MAX ( r[10,0] , r[10,1] , r[10,2] ,
    r[10,3] , r[10,4] , r[10,5] , r[10,6] , r[10,7] )
  Max_Constraint_10: Q1_var[10] = MAX ( Q_hat_adjusted[10] , 0 )
@@ -2781,22 +3546,14 @@ General Constraints
  Constr_Lost_1_max_10: Lost_1[10] = MAX ( Lost_0_aux_10 , 0 )
  logistic_constraint_11: Fraction_for_second_order_amount[11] =
    LOGISTIC ( f_var[11] )
- GC364: exp_tau_var_11_0 = EXP ( tau[11,0] )
- GC365: exp_tau_var_11_1 = EXP ( tau[11,1] )
- GC366: exp_tau_var_11_2 = EXP ( tau[11,2] )
- GC367: exp_tau_var_11_3 = EXP ( tau[11,3] )
- GC368: exp_tau_var_11_4 = EXP ( tau[11,4] )
- GC369: exp_tau_var_11_5 = EXP ( tau[11,5] )
- GC370: exp_tau_var_11_6 = EXP ( tau[11,6] )
- GC371: exp_tau_var_11_7 = EXP ( tau[11,7] )
- logistic_constraint_r_11: r[11,0] = LOGISTIC ( exp_tau_var_11_0 )
- logistic_constraint_r_11: r[11,1] = LOGISTIC ( exp_tau_var_11_1 )
- logistic_constraint_r_11: r[11,2] = LOGISTIC ( exp_tau_var_11_2 )
- logistic_constraint_r_11: r[11,3] = LOGISTIC ( exp_tau_var_11_3 )
- logistic_constraint_r_11: r[11,4] = LOGISTIC ( exp_tau_var_11_4 )
- logistic_constraint_r_11: r[11,5] = LOGISTIC ( exp_tau_var_11_5 )
- logistic_constraint_r_11: r[11,6] = LOGISTIC ( exp_tau_var_11_6 )
- logistic_constraint_r_11: r[11,7] = LOGISTIC ( exp_tau_var_11_7 )
+ GC276: exp_tau_var_11_0 = EXP ( tau[11,0] )
+ GC277: exp_tau_var_11_1 = EXP ( tau[11,1] )
+ GC278: exp_tau_var_11_2 = EXP ( tau[11,2] )
+ GC279: exp_tau_var_11_3 = EXP ( tau[11,3] )
+ GC280: exp_tau_var_11_4 = EXP ( tau[11,4] )
+ GC281: exp_tau_var_11_5 = EXP ( tau[11,5] )
+ GC282: exp_tau_var_11_6 = EXP ( tau[11,6] )
+ GC283: exp_tau_var_11_7 = EXP ( tau[11,7] )
  MaxRConstraint_11: max_r_helper = MAX ( r[11,0] , r[11,1] , r[11,2] ,
    r[11,3] , r[11,4] , r[11,5] , r[11,6] , r[11,7] )
  Max_Constraint_11: Q1_var[11] = MAX ( Q_hat_adjusted[11] , 0 )
@@ -2810,22 +3567,14 @@ General Constraints
  Constr_Lost_1_max_11: Lost_1[11] = MAX ( Lost_0_aux_11 , 0 )
  logistic_constraint_12: Fraction_for_second_order_amount[12] =
    LOGISTIC ( f_var[12] )
- GC397: exp_tau_var_12_0 = EXP ( tau[12,0] )
- GC398: exp_tau_var_12_1 = EXP ( tau[12,1] )
- GC399: exp_tau_var_12_2 = EXP ( tau[12,2] )
- GC400: exp_tau_var_12_3 = EXP ( tau[12,3] )
- GC401: exp_tau_var_12_4 = EXP ( tau[12,4] )
- GC402: exp_tau_var_12_5 = EXP ( tau[12,5] )
- GC403: exp_tau_var_12_6 = EXP ( tau[12,6] )
- GC404: exp_tau_var_12_7 = EXP ( tau[12,7] )
- logistic_constraint_r_12: r[12,0] = LOGISTIC ( exp_tau_var_12_0 )
- logistic_constraint_r_12: r[12,1] = LOGISTIC ( exp_tau_var_12_1 )
- logistic_constraint_r_12: r[12,2] = LOGISTIC ( exp_tau_var_12_2 )
- logistic_constraint_r_12: r[12,3] = LOGISTIC ( exp_tau_var_12_3 )
- logistic_constraint_r_12: r[12,4] = LOGISTIC ( exp_tau_var_12_4 )
- logistic_constraint_r_12: r[12,5] = LOGISTIC ( exp_tau_var_12_5 )
- logistic_constraint_r_12: r[12,6] = LOGISTIC ( exp_tau_var_12_6 )
- logistic_constraint_r_12: r[12,7] = LOGISTIC ( exp_tau_var_12_7 )
+ GC301: exp_tau_var_12_0 = EXP ( tau[12,0] )
+ GC302: exp_tau_var_12_1 = EXP ( tau[12,1] )
+ GC303: exp_tau_var_12_2 = EXP ( tau[12,2] )
+ GC304: exp_tau_var_12_3 = EXP ( tau[12,3] )
+ GC305: exp_tau_var_12_4 = EXP ( tau[12,4] )
+ GC306: exp_tau_var_12_5 = EXP ( tau[12,5] )
+ GC307: exp_tau_var_12_6 = EXP ( tau[12,6] )
+ GC308: exp_tau_var_12_7 = EXP ( tau[12,7] )
  MaxRConstraint_12: max_r_helper = MAX ( r[12,0] , r[12,1] , r[12,2] ,
    r[12,3] , r[12,4] , r[12,5] , r[12,6] , r[12,7] )
  Max_Constraint_12: Q1_var[12] = MAX ( Q_hat_adjusted[12] , 0 )
@@ -2839,22 +3588,14 @@ General Constraints
  Constr_Lost_1_max_12: Lost_1[12] = MAX ( Lost_0_aux_12 , 0 )
  logistic_constraint_13: Fraction_for_second_order_amount[13] =
    LOGISTIC ( f_var[13] )
- GC430: exp_tau_var_13_0 = EXP ( tau[13,0] )
- GC431: exp_tau_var_13_1 = EXP ( tau[13,1] )
- GC432: exp_tau_var_13_2 = EXP ( tau[13,2] )
- GC433: exp_tau_var_13_3 = EXP ( tau[13,3] )
- GC434: exp_tau_var_13_4 = EXP ( tau[13,4] )
- GC435: exp_tau_var_13_5 = EXP ( tau[13,5] )
- GC436: exp_tau_var_13_6 = EXP ( tau[13,6] )
- GC437: exp_tau_var_13_7 = EXP ( tau[13,7] )
- logistic_constraint_r_13: r[13,0] = LOGISTIC ( exp_tau_var_13_0 )
- logistic_constraint_r_13: r[13,1] = LOGISTIC ( exp_tau_var_13_1 )
- logistic_constraint_r_13: r[13,2] = LOGISTIC ( exp_tau_var_13_2 )
- logistic_constraint_r_13: r[13,3] = LOGISTIC ( exp_tau_var_13_3 )
- logistic_constraint_r_13: r[13,4] = LOGISTIC ( exp_tau_var_13_4 )
- logistic_constraint_r_13: r[13,5] = LOGISTIC ( exp_tau_var_13_5 )
- logistic_constraint_r_13: r[13,6] = LOGISTIC ( exp_tau_var_13_6 )
- logistic_constraint_r_13: r[13,7] = LOGISTIC ( exp_tau_var_13_7 )
+ GC326: exp_tau_var_13_0 = EXP ( tau[13,0] )
+ GC327: exp_tau_var_13_1 = EXP ( tau[13,1] )
+ GC328: exp_tau_var_13_2 = EXP ( tau[13,2] )
+ GC329: exp_tau_var_13_3 = EXP ( tau[13,3] )
+ GC330: exp_tau_var_13_4 = EXP ( tau[13,4] )
+ GC331: exp_tau_var_13_5 = EXP ( tau[13,5] )
+ GC332: exp_tau_var_13_6 = EXP ( tau[13,6] )
+ GC333: exp_tau_var_13_7 = EXP ( tau[13,7] )
  MaxRConstraint_13: max_r_helper = MAX ( r[13,0] , r[13,1] , r[13,2] ,
    r[13,3] , r[13,4] , r[13,5] , r[13,6] , r[13,7] )
  Max_Constraint_13: Q1_var[13] = MAX ( Q_hat_adjusted[13] , 0 )
@@ -2868,22 +3609,14 @@ General Constraints
  Constr_Lost_1_max_13: Lost_1[13] = MAX ( Lost_0_aux_13 , 0 )
  logistic_constraint_14: Fraction_for_second_order_amount[14] =
    LOGISTIC ( f_var[14] )
- GC463: exp_tau_var_14_0 = EXP ( tau[14,0] )
- GC464: exp_tau_var_14_1 = EXP ( tau[14,1] )
- GC465: exp_tau_var_14_2 = EXP ( tau[14,2] )
- GC466: exp_tau_var_14_3 = EXP ( tau[14,3] )
- GC467: exp_tau_var_14_4 = EXP ( tau[14,4] )
- GC468: exp_tau_var_14_5 = EXP ( tau[14,5] )
- GC469: exp_tau_var_14_6 = EXP ( tau[14,6] )
- GC470: exp_tau_var_14_7 = EXP ( tau[14,7] )
- logistic_constraint_r_14: r[14,0] = LOGISTIC ( exp_tau_var_14_0 )
- logistic_constraint_r_14: r[14,1] = LOGISTIC ( exp_tau_var_14_1 )
- logistic_constraint_r_14: r[14,2] = LOGISTIC ( exp_tau_var_14_2 )
- logistic_constraint_r_14: r[14,3] = LOGISTIC ( exp_tau_var_14_3 )
- logistic_constraint_r_14: r[14,4] = LOGISTIC ( exp_tau_var_14_4 )
- logistic_constraint_r_14: r[14,5] = LOGISTIC ( exp_tau_var_14_5 )
- logistic_constraint_r_14: r[14,6] = LOGISTIC ( exp_tau_var_14_6 )
- logistic_constraint_r_14: r[14,7] = LOGISTIC ( exp_tau_var_14_7 )
+ GC351: exp_tau_var_14_0 = EXP ( tau[14,0] )
+ GC352: exp_tau_var_14_1 = EXP ( tau[14,1] )
+ GC353: exp_tau_var_14_2 = EXP ( tau[14,2] )
+ GC354: exp_tau_var_14_3 = EXP ( tau[14,3] )
+ GC355: exp_tau_var_14_4 = EXP ( tau[14,4] )
+ GC356: exp_tau_var_14_5 = EXP ( tau[14,5] )
+ GC357: exp_tau_var_14_6 = EXP ( tau[14,6] )
+ GC358: exp_tau_var_14_7 = EXP ( tau[14,7] )
  MaxRConstraint_14: max_r_helper = MAX ( r[14,0] , r[14,1] , r[14,2] ,
    r[14,3] , r[14,4] , r[14,5] , r[14,6] , r[14,7] )
  Max_Constraint_14: Q1_var[14] = MAX ( Q_hat_adjusted[14] , 0 )
@@ -2897,22 +3630,14 @@ General Constraints
  Constr_Lost_1_max_14: Lost_1[14] = MAX ( Lost_0_aux_14 , 0 )
  logistic_constraint_15: Fraction_for_second_order_amount[15] =
    LOGISTIC ( f_var[15] )
- GC496: exp_tau_var_15_0 = EXP ( tau[15,0] )
- GC497: exp_tau_var_15_1 = EXP ( tau[15,1] )
- GC498: exp_tau_var_15_2 = EXP ( tau[15,2] )
- GC499: exp_tau_var_15_3 = EXP ( tau[15,3] )
- GC500: exp_tau_var_15_4 = EXP ( tau[15,4] )
- GC501: exp_tau_var_15_5 = EXP ( tau[15,5] )
- GC502: exp_tau_var_15_6 = EXP ( tau[15,6] )
- GC503: exp_tau_var_15_7 = EXP ( tau[15,7] )
- logistic_constraint_r_15: r[15,0] = LOGISTIC ( exp_tau_var_15_0 )
- logistic_constraint_r_15: r[15,1] = LOGISTIC ( exp_tau_var_15_1 )
- logistic_constraint_r_15: r[15,2] = LOGISTIC ( exp_tau_var_15_2 )
- logistic_constraint_r_15: r[15,3] = LOGISTIC ( exp_tau_var_15_3 )
- logistic_constraint_r_15: r[15,4] = LOGISTIC ( exp_tau_var_15_4 )
- logistic_constraint_r_15: r[15,5] = LOGISTIC ( exp_tau_var_15_5 )
- logistic_constraint_r_15: r[15,6] = LOGISTIC ( exp_tau_var_15_6 )
- logistic_constraint_r_15: r[15,7] = LOGISTIC ( exp_tau_var_15_7 )
+ GC376: exp_tau_var_15_0 = EXP ( tau[15,0] )
+ GC377: exp_tau_var_15_1 = EXP ( tau[15,1] )
+ GC378: exp_tau_var_15_2 = EXP ( tau[15,2] )
+ GC379: exp_tau_var_15_3 = EXP ( tau[15,3] )
+ GC380: exp_tau_var_15_4 = EXP ( tau[15,4] )
+ GC381: exp_tau_var_15_5 = EXP ( tau[15,5] )
+ GC382: exp_tau_var_15_6 = EXP ( tau[15,6] )
+ GC383: exp_tau_var_15_7 = EXP ( tau[15,7] )
  MaxRConstraint_15: max_r_helper = MAX ( r[15,0] , r[15,1] , r[15,2] ,
    r[15,3] , r[15,4] , r[15,5] , r[15,6] , r[15,7] )
  Max_Constraint_15: Q1_var[15] = MAX ( Q_hat_adjusted[15] , 0 )
@@ -2926,22 +3651,14 @@ General Constraints
  Constr_Lost_1_max_15: Lost_1[15] = MAX ( Lost_0_aux_15 , 0 )
  logistic_constraint_16: Fraction_for_second_order_amount[16] =
    LOGISTIC ( f_var[16] )
- GC529: exp_tau_var_16_0 = EXP ( tau[16,0] )
- GC530: exp_tau_var_16_1 = EXP ( tau[16,1] )
- GC531: exp_tau_var_16_2 = EXP ( tau[16,2] )
- GC532: exp_tau_var_16_3 = EXP ( tau[16,3] )
- GC533: exp_tau_var_16_4 = EXP ( tau[16,4] )
- GC534: exp_tau_var_16_5 = EXP ( tau[16,5] )
- GC535: exp_tau_var_16_6 = EXP ( tau[16,6] )
- GC536: exp_tau_var_16_7 = EXP ( tau[16,7] )
- logistic_constraint_r_16: r[16,0] = LOGISTIC ( exp_tau_var_16_0 )
- logistic_constraint_r_16: r[16,1] = LOGISTIC ( exp_tau_var_16_1 )
- logistic_constraint_r_16: r[16,2] = LOGISTIC ( exp_tau_var_16_2 )
- logistic_constraint_r_16: r[16,3] = LOGISTIC ( exp_tau_var_16_3 )
- logistic_constraint_r_16: r[16,4] = LOGISTIC ( exp_tau_var_16_4 )
- logistic_constraint_r_16: r[16,5] = LOGISTIC ( exp_tau_var_16_5 )
- logistic_constraint_r_16: r[16,6] = LOGISTIC ( exp_tau_var_16_6 )
- logistic_constraint_r_16: r[16,7] = LOGISTIC ( exp_tau_var_16_7 )
+ GC401: exp_tau_var_16_0 = EXP ( tau[16,0] )
+ GC402: exp_tau_var_16_1 = EXP ( tau[16,1] )
+ GC403: exp_tau_var_16_2 = EXP ( tau[16,2] )
+ GC404: exp_tau_var_16_3 = EXP ( tau[16,3] )
+ GC405: exp_tau_var_16_4 = EXP ( tau[16,4] )
+ GC406: exp_tau_var_16_5 = EXP ( tau[16,5] )
+ GC407: exp_tau_var_16_6 = EXP ( tau[16,6] )
+ GC408: exp_tau_var_16_7 = EXP ( tau[16,7] )
  MaxRConstraint_16: max_r_helper = MAX ( r[16,0] , r[16,1] , r[16,2] ,
    r[16,3] , r[16,4] , r[16,5] , r[16,6] , r[16,7] )
  Max_Constraint_16: Q1_var[16] = MAX ( Q_hat_adjusted[16] , 0 )
@@ -2955,22 +3672,14 @@ General Constraints
  Constr_Lost_1_max_16: Lost_1[16] = MAX ( Lost_0_aux_16 , 0 )
  logistic_constraint_17: Fraction_for_second_order_amount[17] =
    LOGISTIC ( f_var[17] )
- GC562: exp_tau_var_17_0 = EXP ( tau[17,0] )
- GC563: exp_tau_var_17_1 = EXP ( tau[17,1] )
- GC564: exp_tau_var_17_2 = EXP ( tau[17,2] )
- GC565: exp_tau_var_17_3 = EXP ( tau[17,3] )
- GC566: exp_tau_var_17_4 = EXP ( tau[17,4] )
- GC567: exp_tau_var_17_5 = EXP ( tau[17,5] )
- GC568: exp_tau_var_17_6 = EXP ( tau[17,6] )
- GC569: exp_tau_var_17_7 = EXP ( tau[17,7] )
- logistic_constraint_r_17: r[17,0] = LOGISTIC ( exp_tau_var_17_0 )
- logistic_constraint_r_17: r[17,1] = LOGISTIC ( exp_tau_var_17_1 )
- logistic_constraint_r_17: r[17,2] = LOGISTIC ( exp_tau_var_17_2 )
- logistic_constraint_r_17: r[17,3] = LOGISTIC ( exp_tau_var_17_3 )
- logistic_constraint_r_17: r[17,4] = LOGISTIC ( exp_tau_var_17_4 )
- logistic_constraint_r_17: r[17,5] = LOGISTIC ( exp_tau_var_17_5 )
- logistic_constraint_r_17: r[17,6] = LOGISTIC ( exp_tau_var_17_6 )
- logistic_constraint_r_17: r[17,7] = LOGISTIC ( exp_tau_var_17_7 )
+ GC426: exp_tau_var_17_0 = EXP ( tau[17,0] )
+ GC427: exp_tau_var_17_1 = EXP ( tau[17,1] )
+ GC428: exp_tau_var_17_2 = EXP ( tau[17,2] )
+ GC429: exp_tau_var_17_3 = EXP ( tau[17,3] )
+ GC430: exp_tau_var_17_4 = EXP ( tau[17,4] )
+ GC431: exp_tau_var_17_5 = EXP ( tau[17,5] )
+ GC432: exp_tau_var_17_6 = EXP ( tau[17,6] )
+ GC433: exp_tau_var_17_7 = EXP ( tau[17,7] )
  MaxRConstraint_17: max_r_helper = MAX ( r[17,0] , r[17,1] , r[17,2] ,
    r[17,3] , r[17,4] , r[17,5] , r[17,6] , r[17,7] )
  Max_Constraint_17: Q1_var[17] = MAX ( Q_hat_adjusted[17] , 0 )
@@ -2984,22 +3693,14 @@ General Constraints
  Constr_Lost_1_max_17: Lost_1[17] = MAX ( Lost_0_aux_17 , 0 )
  logistic_constraint_18: Fraction_for_second_order_amount[18] =
    LOGISTIC ( f_var[18] )
- GC595: exp_tau_var_18_0 = EXP ( tau[18,0] )
- GC596: exp_tau_var_18_1 = EXP ( tau[18,1] )
- GC597: exp_tau_var_18_2 = EXP ( tau[18,2] )
- GC598: exp_tau_var_18_3 = EXP ( tau[18,3] )
- GC599: exp_tau_var_18_4 = EXP ( tau[18,4] )
- GC600: exp_tau_var_18_5 = EXP ( tau[18,5] )
- GC601: exp_tau_var_18_6 = EXP ( tau[18,6] )
- GC602: exp_tau_var_18_7 = EXP ( tau[18,7] )
- logistic_constraint_r_18: r[18,0] = LOGISTIC ( exp_tau_var_18_0 )
- logistic_constraint_r_18: r[18,1] = LOGISTIC ( exp_tau_var_18_1 )
- logistic_constraint_r_18: r[18,2] = LOGISTIC ( exp_tau_var_18_2 )
- logistic_constraint_r_18: r[18,3] = LOGISTIC ( exp_tau_var_18_3 )
- logistic_constraint_r_18: r[18,4] = LOGISTIC ( exp_tau_var_18_4 )
- logistic_constraint_r_18: r[18,5] = LOGISTIC ( exp_tau_var_18_5 )
- logistic_constraint_r_18: r[18,6] = LOGISTIC ( exp_tau_var_18_6 )
- logistic_constraint_r_18: r[18,7] = LOGISTIC ( exp_tau_var_18_7 )
+ GC451: exp_tau_var_18_0 = EXP ( tau[18,0] )
+ GC452: exp_tau_var_18_1 = EXP ( tau[18,1] )
+ GC453: exp_tau_var_18_2 = EXP ( tau[18,2] )
+ GC454: exp_tau_var_18_3 = EXP ( tau[18,3] )
+ GC455: exp_tau_var_18_4 = EXP ( tau[18,4] )
+ GC456: exp_tau_var_18_5 = EXP ( tau[18,5] )
+ GC457: exp_tau_var_18_6 = EXP ( tau[18,6] )
+ GC458: exp_tau_var_18_7 = EXP ( tau[18,7] )
  MaxRConstraint_18: max_r_helper = MAX ( r[18,0] , r[18,1] , r[18,2] ,
    r[18,3] , r[18,4] , r[18,5] , r[18,6] , r[18,7] )
  Max_Constraint_18: Q1_var[18] = MAX ( Q_hat_adjusted[18] , 0 )
@@ -3013,22 +3714,14 @@ General Constraints
  Constr_Lost_1_max_18: Lost_1[18] = MAX ( Lost_0_aux_18 , 0 )
  logistic_constraint_19: Fraction_for_second_order_amount[19] =
    LOGISTIC ( f_var[19] )
- GC628: exp_tau_var_19_0 = EXP ( tau[19,0] )
- GC629: exp_tau_var_19_1 = EXP ( tau[19,1] )
- GC630: exp_tau_var_19_2 = EXP ( tau[19,2] )
- GC631: exp_tau_var_19_3 = EXP ( tau[19,3] )
- GC632: exp_tau_var_19_4 = EXP ( tau[19,4] )
- GC633: exp_tau_var_19_5 = EXP ( tau[19,5] )
- GC634: exp_tau_var_19_6 = EXP ( tau[19,6] )
- GC635: exp_tau_var_19_7 = EXP ( tau[19,7] )
- logistic_constraint_r_19: r[19,0] = LOGISTIC ( exp_tau_var_19_0 )
- logistic_constraint_r_19: r[19,1] = LOGISTIC ( exp_tau_var_19_1 )
- logistic_constraint_r_19: r[19,2] = LOGISTIC ( exp_tau_var_19_2 )
- logistic_constraint_r_19: r[19,3] = LOGISTIC ( exp_tau_var_19_3 )
- logistic_constraint_r_19: r[19,4] = LOGISTIC ( exp_tau_var_19_4 )
- logistic_constraint_r_19: r[19,5] = LOGISTIC ( exp_tau_var_19_5 )
- logistic_constraint_r_19: r[19,6] = LOGISTIC ( exp_tau_var_19_6 )
- logistic_constraint_r_19: r[19,7] = LOGISTIC ( exp_tau_var_19_7 )
+ GC476: exp_tau_var_19_0 = EXP ( tau[19,0] )
+ GC477: exp_tau_var_19_1 = EXP ( tau[19,1] )
+ GC478: exp_tau_var_19_2 = EXP ( tau[19,2] )
+ GC479: exp_tau_var_19_3 = EXP ( tau[19,3] )
+ GC480: exp_tau_var_19_4 = EXP ( tau[19,4] )
+ GC481: exp_tau_var_19_5 = EXP ( tau[19,5] )
+ GC482: exp_tau_var_19_6 = EXP ( tau[19,6] )
+ GC483: exp_tau_var_19_7 = EXP ( tau[19,7] )
  MaxRConstraint_19: max_r_helper = MAX ( r[19,0] , r[19,1] , r[19,2] ,
    r[19,3] , r[19,4] , r[19,5] , r[19,6] , r[19,7] )
  Max_Constraint_19: Q1_var[19] = MAX ( Q_hat_adjusted[19] , 0 )
@@ -3042,22 +3735,14 @@ General Constraints
  Constr_Lost_1_max_19: Lost_1[19] = MAX ( Lost_0_aux_19 , 0 )
  logistic_constraint_20: Fraction_for_second_order_amount[20] =
    LOGISTIC ( f_var[20] )
- GC661: exp_tau_var_20_0 = EXP ( tau[20,0] )
- GC662: exp_tau_var_20_1 = EXP ( tau[20,1] )
- GC663: exp_tau_var_20_2 = EXP ( tau[20,2] )
- GC664: exp_tau_var_20_3 = EXP ( tau[20,3] )
- GC665: exp_tau_var_20_4 = EXP ( tau[20,4] )
- GC666: exp_tau_var_20_5 = EXP ( tau[20,5] )
- GC667: exp_tau_var_20_6 = EXP ( tau[20,6] )
- GC668: exp_tau_var_20_7 = EXP ( tau[20,7] )
- logistic_constraint_r_20: r[20,0] = LOGISTIC ( exp_tau_var_20_0 )
- logistic_constraint_r_20: r[20,1] = LOGISTIC ( exp_tau_var_20_1 )
- logistic_constraint_r_20: r[20,2] = LOGISTIC ( exp_tau_var_20_2 )
- logistic_constraint_r_20: r[20,3] = LOGISTIC ( exp_tau_var_20_3 )
- logistic_constraint_r_20: r[20,4] = LOGISTIC ( exp_tau_var_20_4 )
- logistic_constraint_r_20: r[20,5] = LOGISTIC ( exp_tau_var_20_5 )
- logistic_constraint_r_20: r[20,6] = LOGISTIC ( exp_tau_var_20_6 )
- logistic_constraint_r_20: r[20,7] = LOGISTIC ( exp_tau_var_20_7 )
+ GC501: exp_tau_var_20_0 = EXP ( tau[20,0] )
+ GC502: exp_tau_var_20_1 = EXP ( tau[20,1] )
+ GC503: exp_tau_var_20_2 = EXP ( tau[20,2] )
+ GC504: exp_tau_var_20_3 = EXP ( tau[20,3] )
+ GC505: exp_tau_var_20_4 = EXP ( tau[20,4] )
+ GC506: exp_tau_var_20_5 = EXP ( tau[20,5] )
+ GC507: exp_tau_var_20_6 = EXP ( tau[20,6] )
+ GC508: exp_tau_var_20_7 = EXP ( tau[20,7] )
  MaxRConstraint_20: max_r_helper = MAX ( r[20,0] , r[20,1] , r[20,2] ,
    r[20,3] , r[20,4] , r[20,5] , r[20,6] , r[20,7] )
  Max_Constraint_20: Q1_var[20] = MAX ( Q_hat_adjusted[20] , 0 )
@@ -3071,22 +3756,14 @@ General Constraints
  Constr_Lost_1_max_20: Lost_1[20] = MAX ( Lost_0_aux_20 , 0 )
  logistic_constraint_21: Fraction_for_second_order_amount[21] =
    LOGISTIC ( f_var[21] )
- GC694: exp_tau_var_21_0 = EXP ( tau[21,0] )
- GC695: exp_tau_var_21_1 = EXP ( tau[21,1] )
- GC696: exp_tau_var_21_2 = EXP ( tau[21,2] )
- GC697: exp_tau_var_21_3 = EXP ( tau[21,3] )
- GC698: exp_tau_var_21_4 = EXP ( tau[21,4] )
- GC699: exp_tau_var_21_5 = EXP ( tau[21,5] )
- GC700: exp_tau_var_21_6 = EXP ( tau[21,6] )
- GC701: exp_tau_var_21_7 = EXP ( tau[21,7] )
- logistic_constraint_r_21: r[21,0] = LOGISTIC ( exp_tau_var_21_0 )
- logistic_constraint_r_21: r[21,1] = LOGISTIC ( exp_tau_var_21_1 )
- logistic_constraint_r_21: r[21,2] = LOGISTIC ( exp_tau_var_21_2 )
- logistic_constraint_r_21: r[21,3] = LOGISTIC ( exp_tau_var_21_3 )
- logistic_constraint_r_21: r[21,4] = LOGISTIC ( exp_tau_var_21_4 )
- logistic_constraint_r_21: r[21,5] = LOGISTIC ( exp_tau_var_21_5 )
- logistic_constraint_r_21: r[21,6] = LOGISTIC ( exp_tau_var_21_6 )
- logistic_constraint_r_21: r[21,7] = LOGISTIC ( exp_tau_var_21_7 )
+ GC526: exp_tau_var_21_0 = EXP ( tau[21,0] )
+ GC527: exp_tau_var_21_1 = EXP ( tau[21,1] )
+ GC528: exp_tau_var_21_2 = EXP ( tau[21,2] )
+ GC529: exp_tau_var_21_3 = EXP ( tau[21,3] )
+ GC530: exp_tau_var_21_4 = EXP ( tau[21,4] )
+ GC531: exp_tau_var_21_5 = EXP ( tau[21,5] )
+ GC532: exp_tau_var_21_6 = EXP ( tau[21,6] )
+ GC533: exp_tau_var_21_7 = EXP ( tau[21,7] )
  MaxRConstraint_21: max_r_helper = MAX ( r[21,0] , r[21,1] , r[21,2] ,
    r[21,3] , r[21,4] , r[21,5] , r[21,6] , r[21,7] )
  Max_Constraint_21: Q1_var[21] = MAX ( Q_hat_adjusted[21] , 0 )
@@ -3100,22 +3777,14 @@ General Constraints
  Constr_Lost_1_max_21: Lost_1[21] = MAX ( Lost_0_aux_21 , 0 )
  logistic_constraint_22: Fraction_for_second_order_amount[22] =
    LOGISTIC ( f_var[22] )
- GC727: exp_tau_var_22_0 = EXP ( tau[22,0] )
- GC728: exp_tau_var_22_1 = EXP ( tau[22,1] )
- GC729: exp_tau_var_22_2 = EXP ( tau[22,2] )
- GC730: exp_tau_var_22_3 = EXP ( tau[22,3] )
- GC731: exp_tau_var_22_4 = EXP ( tau[22,4] )
- GC732: exp_tau_var_22_5 = EXP ( tau[22,5] )
- GC733: exp_tau_var_22_6 = EXP ( tau[22,6] )
- GC734: exp_tau_var_22_7 = EXP ( tau[22,7] )
- logistic_constraint_r_22: r[22,0] = LOGISTIC ( exp_tau_var_22_0 )
- logistic_constraint_r_22: r[22,1] = LOGISTIC ( exp_tau_var_22_1 )
- logistic_constraint_r_22: r[22,2] = LOGISTIC ( exp_tau_var_22_2 )
- logistic_constraint_r_22: r[22,3] = LOGISTIC ( exp_tau_var_22_3 )
- logistic_constraint_r_22: r[22,4] = LOGISTIC ( exp_tau_var_22_4 )
- logistic_constraint_r_22: r[22,5] = LOGISTIC ( exp_tau_var_22_5 )
- logistic_constraint_r_22: r[22,6] = LOGISTIC ( exp_tau_var_22_6 )
- logistic_constraint_r_22: r[22,7] = LOGISTIC ( exp_tau_var_22_7 )
+ GC551: exp_tau_var_22_0 = EXP ( tau[22,0] )
+ GC552: exp_tau_var_22_1 = EXP ( tau[22,1] )
+ GC553: exp_tau_var_22_2 = EXP ( tau[22,2] )
+ GC554: exp_tau_var_22_3 = EXP ( tau[22,3] )
+ GC555: exp_tau_var_22_4 = EXP ( tau[22,4] )
+ GC556: exp_tau_var_22_5 = EXP ( tau[22,5] )
+ GC557: exp_tau_var_22_6 = EXP ( tau[22,6] )
+ GC558: exp_tau_var_22_7 = EXP ( tau[22,7] )
  MaxRConstraint_22: max_r_helper = MAX ( r[22,0] , r[22,1] , r[22,2] ,
    r[22,3] , r[22,4] , r[22,5] , r[22,6] , r[22,7] )
  Max_Constraint_22: Q1_var[22] = MAX ( Q_hat_adjusted[22] , 0 )
@@ -3129,22 +3798,14 @@ General Constraints
  Constr_Lost_1_max_22: Lost_1[22] = MAX ( Lost_0_aux_22 , 0 )
  logistic_constraint_23: Fraction_for_second_order_amount[23] =
    LOGISTIC ( f_var[23] )
- GC760: exp_tau_var_23_0 = EXP ( tau[23,0] )
- GC761: exp_tau_var_23_1 = EXP ( tau[23,1] )
- GC762: exp_tau_var_23_2 = EXP ( tau[23,2] )
- GC763: exp_tau_var_23_3 = EXP ( tau[23,3] )
- GC764: exp_tau_var_23_4 = EXP ( tau[23,4] )
- GC765: exp_tau_var_23_5 = EXP ( tau[23,5] )
- GC766: exp_tau_var_23_6 = EXP ( tau[23,6] )
- GC767: exp_tau_var_23_7 = EXP ( tau[23,7] )
- logistic_constraint_r_23: r[23,0] = LOGISTIC ( exp_tau_var_23_0 )
- logistic_constraint_r_23: r[23,1] = LOGISTIC ( exp_tau_var_23_1 )
- logistic_constraint_r_23: r[23,2] = LOGISTIC ( exp_tau_var_23_2 )
- logistic_constraint_r_23: r[23,3] = LOGISTIC ( exp_tau_var_23_3 )
- logistic_constraint_r_23: r[23,4] = LOGISTIC ( exp_tau_var_23_4 )
- logistic_constraint_r_23: r[23,5] = LOGISTIC ( exp_tau_var_23_5 )
- logistic_constraint_r_23: r[23,6] = LOGISTIC ( exp_tau_var_23_6 )
- logistic_constraint_r_23: r[23,7] = LOGISTIC ( exp_tau_var_23_7 )
+ GC576: exp_tau_var_23_0 = EXP ( tau[23,0] )
+ GC577: exp_tau_var_23_1 = EXP ( tau[23,1] )
+ GC578: exp_tau_var_23_2 = EXP ( tau[23,2] )
+ GC579: exp_tau_var_23_3 = EXP ( tau[23,3] )
+ GC580: exp_tau_var_23_4 = EXP ( tau[23,4] )
+ GC581: exp_tau_var_23_5 = EXP ( tau[23,5] )
+ GC582: exp_tau_var_23_6 = EXP ( tau[23,6] )
+ GC583: exp_tau_var_23_7 = EXP ( tau[23,7] )
  MaxRConstraint_23: max_r_helper = MAX ( r[23,0] , r[23,1] , r[23,2] ,
    r[23,3] , r[23,4] , r[23,5] , r[23,6] , r[23,7] )
  Max_Constraint_23: Q1_var[23] = MAX ( Q_hat_adjusted[23] , 0 )
@@ -3158,22 +3819,14 @@ General Constraints
  Constr_Lost_1_max_23: Lost_1[23] = MAX ( Lost_0_aux_23 , 0 )
  logistic_constraint_24: Fraction_for_second_order_amount[24] =
    LOGISTIC ( f_var[24] )
- GC793: exp_tau_var_24_0 = EXP ( tau[24,0] )
- GC794: exp_tau_var_24_1 = EXP ( tau[24,1] )
- GC795: exp_tau_var_24_2 = EXP ( tau[24,2] )
- GC796: exp_tau_var_24_3 = EXP ( tau[24,3] )
- GC797: exp_tau_var_24_4 = EXP ( tau[24,4] )
- GC798: exp_tau_var_24_5 = EXP ( tau[24,5] )
- GC799: exp_tau_var_24_6 = EXP ( tau[24,6] )
- GC800: exp_tau_var_24_7 = EXP ( tau[24,7] )
- logistic_constraint_r_24: r[24,0] = LOGISTIC ( exp_tau_var_24_0 )
- logistic_constraint_r_24: r[24,1] = LOGISTIC ( exp_tau_var_24_1 )
- logistic_constraint_r_24: r[24,2] = LOGISTIC ( exp_tau_var_24_2 )
- logistic_constraint_r_24: r[24,3] = LOGISTIC ( exp_tau_var_24_3 )
- logistic_constraint_r_24: r[24,4] = LOGISTIC ( exp_tau_var_24_4 )
- logistic_constraint_r_24: r[24,5] = LOGISTIC ( exp_tau_var_24_5 )
- logistic_constraint_r_24: r[24,6] = LOGISTIC ( exp_tau_var_24_6 )
- logistic_constraint_r_24: r[24,7] = LOGISTIC ( exp_tau_var_24_7 )
+ GC601: exp_tau_var_24_0 = EXP ( tau[24,0] )
+ GC602: exp_tau_var_24_1 = EXP ( tau[24,1] )
+ GC603: exp_tau_var_24_2 = EXP ( tau[24,2] )
+ GC604: exp_tau_var_24_3 = EXP ( tau[24,3] )
+ GC605: exp_tau_var_24_4 = EXP ( tau[24,4] )
+ GC606: exp_tau_var_24_5 = EXP ( tau[24,5] )
+ GC607: exp_tau_var_24_6 = EXP ( tau[24,6] )
+ GC608: exp_tau_var_24_7 = EXP ( tau[24,7] )
  MaxRConstraint_24: max_r_helper = MAX ( r[24,0] , r[24,1] , r[24,2] ,
    r[24,3] , r[24,4] , r[24,5] , r[24,6] , r[24,7] )
  Max_Constraint_24: Q1_var[24] = MAX ( Q_hat_adjusted[24] , 0 )
