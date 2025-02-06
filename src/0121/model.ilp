@@ -1,18 +1,16 @@
 \ Model profit_maximization_copy
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
- 
+  0 exp_tau_var_22_0 + 0 exp_tau_var_22_2 + 0 exp_tau_var_22_5
 Subject To
- R25: Q0_var[2] + Q_hat_adjusted_2 = 161.0419013624181
- R26: Sold_0[2] - Q0_var[2] - Q1_var[2] + total_stock_second_period_2 = 0
- R27: total_stock_second_period_2 + Lost_1_expr_2 = 15.99922288911362
+ sum_r_22: r[22,0] + r[22,1] + r[22,2] + r[22,3] + r[22,4] + r[22,5]
+   + r[22,6] + r[22,7] = 1
 Bounds
- Sold_0[2] free
- Q0_var[2] free
- Q1_var[2] free
- Q_hat_adjusted_2 free
- total_stock_second_period_2 free
+ r[22,0] free
+ r[22,2] free
+ r[22,5] free
 General Constraints
- min_sales_constr_2: Sold_0[2] = MIN ( Q0_var[2] , 142.4477163512732 )
- max_Q1_constr_2: Q1_var[2] = MAX ( Q_hat_adjusted_2 , 0 )
+ logistic_constraint_r_22: r[22,0] = LOGISTIC ( exp_tau_var_22_0 )
+ logistic_constraint_r_22: r[22,2] = LOGISTIC ( exp_tau_var_22_2 )
+ logistic_constraint_r_22: r[22,5] = LOGISTIC ( exp_tau_var_22_5 )
 End
