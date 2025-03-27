@@ -4244,20 +4244,20 @@ def perform_single(data_size):
 
         # 4. S12 - Beta without r
 
-        results_df_12, stimulation_results_df_12 = None, None
-        results_df_12, stimulation_results_df_12 = fully_flexible_beta_with_softmax_12(
-            salvage_value=salvage_value,
-            cost=cost,
-            price=price,
-            Q_star=Q_star,
-            demand_df_train=demand_df_train,
-            Qk_hat_df=Qk_hat_df_train,
-            training_df=training_df,
-        )
-        if results_df_12 is not None:
-            S12_profit_training = results_df_12.iloc[0]["average_profits"]
-        else:
-            S12_profit_training = None
+        # results_df_12, stimulation_results_df_12 = None, None
+        # results_df_12, stimulation_results_df_12 = fully_flexible_beta_with_softmax_12(
+        #     salvage_value=salvage_value,
+        #     cost=cost,
+        #     price=price,
+        #     Q_star=Q_star,
+        #     demand_df_train=demand_df_train,
+        #     Qk_hat_df=Qk_hat_df_train,
+        #     training_df=training_df,
+        # )
+        # if results_df_12 is not None:
+        #     S12_profit_training = results_df_12.iloc[0]["average_profits"]
+        # else:
+        #     S12_profit_training = None
 
         # 5. S14 - Optimized F & Rk
         results_df_14, stimulation_results_df_14 = None, None
@@ -4272,22 +4272,22 @@ def perform_single(data_size):
         )
         S14_profit_training = results_df_14.iloc[0]["average_profits"]
 
-        # 6. S15 - Beta with Lasso
-        results_df_15, stimulation_results_df_15 = None, None
-        results_df_15, stimulation_results_df_15 = fully_flexible_beta_with_lasso_15(
-            salvage_value=salvage_value,
-            cost=cost,
-            price=price,
-            Q_star=Q_star,
-            demand_df_train=demand_df_train,
-            Qk_hat_df=Qk_hat_df_train,
-            training_df=training_df,
-            lambda_beta=LASSO_BETA,
-        )
-        if results_df_15 is not None:
-            S15_profit_training = results_df_15.iloc[0]["average_profits"]
-        else:
-            S15_profit_training = None
+        # # 6. S15 - Beta with Lasso
+        # results_df_15, stimulation_results_df_15 = None, None
+        # results_df_15, stimulation_results_df_15 = fully_flexible_beta_with_lasso_15(
+        #     salvage_value=salvage_value,
+        #     cost=cost,
+        #     price=price,
+        #     Q_star=Q_star,
+        #     demand_df_train=demand_df_train,
+        #     Qk_hat_df=Qk_hat_df_train,
+        #     training_df=training_df,
+        #     lambda_beta=LASSO_BETA,
+        # )
+        # if results_df_15 is not None:
+        #     S15_profit_training = results_df_15.iloc[0]["average_profits"]
+        # else:
+        #     S15_profit_training = None
 
         # print(f"baseline_profit: {baseline_avg_profits}")
         # print(f"S1_profit_training: {S1_profit_training}")
@@ -4301,16 +4301,20 @@ def perform_single(data_size):
             "baseline": baseline_avg_profits,
             "S1": S1_profit_training,
             "S2": S2_profit_training,
-            "S12": S12_profit_training,
-            "S15": S15_profit_training,
+            # "S12": S12_profit_training,
+            # "S15": S15_profit_training,
+            "S12": None,
+            "S15": None,
             "S14": S14_profit_training,
         }
 
         training_results = {
             "S1": results_df_1,
             "S2": results_df_2,
-            "S12": results_df_12,
-            "S15": results_df_15,
+            # "S12": results_df_12,
+            # "S15": results_df_15,
+            "S12": None,
+            "S15": None,
             "S14": results_df_14,
         }
 
@@ -4318,8 +4322,10 @@ def perform_single(data_size):
             "baseline": baseline_stimulation_df,
             "S1": stimulation_results_df_1,
             "S2": stimulation_results_df_2,
-            "S12": stimulation_results_df_12,
-            "S15": stimulation_results_df_15,
+            # "S12": stimulation_results_df_12,
+            # "S15": stimulation_results_df_15,
+            "S12": None,
+            "S15": None,
             "S14": stimulation_results_df_14,
         }
 
@@ -4396,28 +4402,28 @@ def perform_single(data_size):
 
         S2_profit_testing = test_results_df_2.iloc[0]["average_profits"]
 
-        # 4. S12 - Beta without r
-        test_results_df_12, test_stimulation_results_df_12 = None, None
-        if results_df_12 is not None:
-            alphas = results_df_12.iloc[0]["alpha_values"]
-            betas = results_df_12.iloc[0]["beta_values"]
+        # # 4. S12 - Beta without r
+        # test_results_df_12, test_stimulation_results_df_12 = None, None
+        # if results_df_12 is not None:
+        #     alphas = results_df_12.iloc[0]["alpha_values"]
+        #     betas = results_df_12.iloc[0]["beta_values"]
 
-            test_results_df_12, test_stimulation_results_df_12 = (
-                cal_test_fully_flexible_beta_with_softmax_12(
-                    alphas=alphas,
-                    betas=betas,
-                    salvage_value=salvage_value,
-                    cost=cost,
-                    price=price,
-                    Q_star=Q_star,
-                    demand_df_test=demand_df_test,
-                    Qk_hat_df_test=Qk_hat_df_test,
-                    testing_df=testing_df,
-                )
-            )
-            S12_profit_testing = test_results_df_12.iloc[0]["average_profits"]
-        else:
-            S12_profit_testing = None
+        #     test_results_df_12, test_stimulation_results_df_12 = (
+        #         cal_test_fully_flexible_beta_with_softmax_12(
+        #             alphas=alphas,
+        #             betas=betas,
+        #             salvage_value=salvage_value,
+        #             cost=cost,
+        #             price=price,
+        #             Q_star=Q_star,
+        #             demand_df_test=demand_df_test,
+        #             Qk_hat_df_test=Qk_hat_df_test,
+        #             testing_df=testing_df,
+        #         )
+        #     )
+        #     S12_profit_testing = test_results_df_12.iloc[0]["average_profits"]
+        # else:
+        #     S12_profit_testing = None
 
         # 5. S14 - Optimized F & Rk
         test_results_df_14, test_stimulation_results_df_14 = cal_optimized_F_R(
@@ -4432,28 +4438,28 @@ def perform_single(data_size):
 
         S14_profit_testing = test_results_df_14.iloc[0]["average_profits"]
 
-        # 6. S15 - Beta with Lasso
-        test_results_df_15, test_stimulation_results_df_15 = None, None
-        if results_df_15 is not None:
-            alphas = results_df_15.iloc[0]["alpha_values"]
-            betas = results_df_15.iloc[0]["beta_values"]
+        # # 6. S15 - Beta with Lasso
+        # test_results_df_15, test_stimulation_results_df_15 = None, None
+        # if results_df_15 is not None:
+        #     alphas = results_df_15.iloc[0]["alpha_values"]
+        #     betas = results_df_15.iloc[0]["beta_values"]
 
-            test_results_df_15, test_stimulation_results_df_15 = (
-                cal_test_fully_flexible_beta_with_lasso_15(
-                    alphas=alphas,
-                    betas=betas,
-                    salvage_value=salvage_value,
-                    cost=cost,
-                    price=price,
-                    Q_star=Q_star,
-                    demand_df_test=demand_df_test,
-                    Qk_hat_df_test=Qk_hat_df_test,
-                    testing_df=testing_df,
-                )
-            )
-            S15_profit_testing = test_results_df_15.iloc[0]["average_profits"]
-        else:
-            S15_profit_testing = None
+        #     test_results_df_15, test_stimulation_results_df_15 = (
+        #         cal_test_fully_flexible_beta_with_lasso_15(
+        #             alphas=alphas,
+        #             betas=betas,
+        #             salvage_value=salvage_value,
+        #             cost=cost,
+        #             price=price,
+        #             Q_star=Q_star,
+        #             demand_df_test=demand_df_test,
+        #             Qk_hat_df_test=Qk_hat_df_test,
+        #             testing_df=testing_df,
+        #         )
+        #     )
+        #     S15_profit_testing = test_results_df_15.iloc[0]["average_profits"]
+        # else:
+        #     S15_profit_testing = None
 
         # print(f"baseline_profit: {test_baseline_avg_profits}")
         # print(f"S1_profit_testing: {S1_profit_testing}")
@@ -4467,8 +4473,10 @@ def perform_single(data_size):
             "baseline": test_baseline_avg_profits,
             "S1": S1_profit_testing,
             "S2": S2_profit_testing,
-            "S12": S12_profit_testing,
-            "S15": S15_profit_testing,
+            # "S12": S12_profit_testing,
+            # "S15": S15_profit_testing,
+            # "S12": None,
+            # "S15": None,
             "S14": S14_profit_testing,
         }
 
@@ -4476,8 +4484,10 @@ def perform_single(data_size):
             "baseline": test_stimulation_df_baseline,
             "S1": test_stimulation_results_df_1,
             "S2": test_stimulation_results_df_2,
-            "S12": test_stimulation_results_df_12,
-            "S15": test_stimulation_results_df_15,
+            # "S12": test_stimulation_results_df_12,
+            # "S15": test_stimulation_results_df_15,
+            # "S12": None,
+            # "S15": None,
             "S14": test_stimulation_results_df_14,
         }
 
@@ -4515,15 +4525,15 @@ def perform_single(data_size):
         train_all_fold_profits.append(training_profits)
         train_all_fold_stimulation_results.append(training_stimulation_results)
 
-        if training_results["S12"] is not None:
-            beta_records["S12"].append(training_results["S12"].iloc[0]["beta_values"])
-        else:
-            beta_records["S12"].append(None)
+        # if training_results["S12"] is not None:
+        #     beta_records["S12"].append(training_results["S12"].iloc[0]["beta_values"])
+        # else:
+        #     beta_records["S12"].append(None)
 
-        if training_results["S15"] is not None:
-            beta_records["S15"].append(training_results["S15"].iloc[0]["beta_values"])
-        else:
-            beta_records["S15"].append(None)
+        # if training_results["S15"] is not None:
+        #     beta_records["S15"].append(training_results["S15"].iloc[0]["beta_values"])
+        # else:
+        #     beta_records["S15"].append(None)
 
         # ====測試階段====
         print(f"Fold {fold_idx + 1} Q_star: {Q_star}")
@@ -4560,15 +4570,18 @@ def perform_single(data_size):
 
 
 # 參數空間
-CHUNK_SIZES = [50, 70, 100]
-LASSO_BETAS = [10, 100, 1000]
-FOLDS = [3, 5, 10]
+CHUNK_SIZES = [400, 500]
+# LASSO_BETAS = [10, 100, 1000]
+LASSO_BETAS = [1]
+FOLDS = [10]
+# FOLDS = [3, 5, 10]
+
 
 # CHUNK_SIZES = [10, 20, 25]
 # LASSO_BETAS = [10, 100, 1000]
 # FOLDS = [1, 2, 3]
 
-os.makedirs("results", exist_ok=True)
+os.makedirs("results_0327", exist_ok=True)
 
 summary = []
 for chunk_size, lasso_beta, folds in itertools.product(CHUNK_SIZES, LASSO_BETAS, FOLDS):
@@ -4581,8 +4594,8 @@ for chunk_size, lasso_beta, folds in itertools.product(CHUNK_SIZES, LASSO_BETAS,
 
     # 存檔路徑
     tag = f"chunk{chunk_size}_lasso{lasso_beta}_fold{folds}"
-    train_df.to_csv(f"results/train_{tag}.csv", index=False)
-    test_df.to_csv(f"results/test_{tag}.csv", index=False)
+    train_df.to_csv(f"results_0327/train_{tag}.csv", index=False)
+    test_df.to_csv(f"results_0327/test_{tag}.csv", index=False)
 
     # 收集 summary metrics
     summary.append({
@@ -4595,292 +4608,6 @@ for chunk_size, lasso_beta, folds in itertools.product(CHUNK_SIZES, LASSO_BETAS,
 
 # 輸出 summary table
 summary_df = pd.DataFrame(summary)
-summary_df.to_csv("results/summary.csv", index=False)
-print("All experiments finished. Summary saved to results/summary.csv")
+summary_df.to_csv("results_0327/summary.csv", index=False)
+print("All experiments finished. Summary saved to results_0327/summary.csv")
 print(summary_df)
-
-
-
-    # %% [markdown]
-    # ### Analysis
-
-    # %%
-    # # 1️⃣ 計算平均 profit
-    # train_means = train_all_fold_profit_df.mean()
-    # test_means = test_all_fold_profit_df.mean()
-
-    # # 2️⃣ 定義 baseline & theory best
-    # baseline_train = train_means["baseline"]
-    # baseline_test = test_means["baseline"]
-    # theory_best_train = train_means["S14"]
-    # theory_best_test = test_means["S14"]
-
-    # # 3️⃣ 計算百分比變化：baseline & theory
-    # train_pct_base = (train_means - baseline_train) / baseline_train * 100
-    # test_pct_base = (test_means - baseline_test) / baseline_test * 100
-    # train_pct_theory = (train_means - theory_best_train) / theory_best_train * 100
-    # test_pct_theory = (test_means - theory_best_test) / theory_best_test * 100
-
-    # # 4️⃣ 建 DataFrame
-    # avg_df = pd.DataFrame(
-    #     {
-    #         "Method": train_means.index,
-    #         "Train": train_means.values,
-    #         "Test": test_means.values,
-    #         "Train_%_Base": train_pct_base.values,
-    #         "Test_%_Base": test_pct_base.values,
-    #         "Train_%_Theory": train_pct_theory.values,
-    #         "Test_%_Theory": test_pct_theory.values,
-    #     }
-    # )
-
-    # avg_df_melted = avg_df.melt(
-    #     id_vars=[
-    #         "Method",
-    #         "Train_%_Base",
-    #         "Test_%_Base",
-    #         "Train_%_Theory",
-    #         "Test_%_Theory",
-    #     ],
-    #     value_vars=["Train", "Test"],
-    #     var_name="Dataset",
-    #     value_name="Average Profit",
-    # )
-
-    # # 5️⃣ 畫圖
-    # plt.figure(figsize=(15, 9))
-    # ax = sns.barplot(x="Method", y="Average Profit", hue="Dataset", data=avg_df_melted)
-
-    # # 6️⃣ 標註：baseline (%) 在第一行、theory (%) 括號內第二行
-    # for patch, (method, ds) in zip(
-    #     ax.patches, zip(avg_df_melted["Method"], avg_df_melted["Dataset"])
-    # ):
-    #     if ds == "Train":
-    #         pct_base = avg_df.loc[avg_df.Method == method, "Train_%_Base"].values[0]
-    #         pct_theory = avg_df.loc[avg_df.Method == method, "Train_%_Theory"].values[0]
-    #     else:
-    #         pct_base = avg_df.loc[avg_df.Method == method, "Test_%_Base"].values[0]
-    #         pct_theory = avg_df.loc[avg_df.Method == method, "Test_%_Theory"].values[0]
-
-    #     ax.annotate(
-    #         f"{pct_base:.1f}%\n({pct_theory:.1f}%)",
-    #         (patch.get_x() + patch.get_width() / 2, patch.get_height()),
-    #         ha="center",
-    #         va="bottom",
-    #         fontsize=9,
-    #         xytext=(0, 5),
-    #         textcoords="offset points",
-    #     )
-
-    # plt.title("Average Profit (Train vs Test) — % Change vs Baseline / Theory Best")
-    # plt.ylabel("Average Profit")
-    # plt.xlabel("Method")
-    # plt.xticks(rotation=30)
-    # plt.legend(title="Dataset", bbox_to_anchor=(1.05, 1), loc="upper left")
-    # plt.tight_layout()
-    # plt.show()
-
-    # %%
-    # # 計算 baseline（訓練與測試）
-    # baseline_train = train_all_fold_profit_df["baseline"].to_numpy().reshape(-1, 1)
-    # baseline_test = test_all_fold_profit_df["baseline"].to_numpy().reshape(-1, 1)
-
-    # # 計算百分比變化
-    # train_relative = (
-    #     (train_all_fold_profit_df.to_numpy() - baseline_train) / baseline_train * 100
-    # )
-    # test_relative = (
-    #     (test_all_fold_profit_df.to_numpy() - baseline_test) / baseline_test * 100
-    # )
-
-    # # 轉回 DataFrame，並保留 column names
-    # train_relative = pd.DataFrame(
-    #     train_relative,
-    #     columns=train_all_fold_profit_df.columns,
-    #     index=train_all_fold_profit_df.index,
-    # )
-    # test_relative = pd.DataFrame(
-    #     test_relative,
-    #     columns=test_all_fold_profit_df.columns,
-    #     index=test_all_fold_profit_df.index,
-    # )
-
-    # # 加入 fold 編號
-    # train_relative["Fold"] = train_relative.index + 1
-    # test_relative["Fold"] = test_relative.index + 1
-
-    # # 轉換成長格式
-    # train_long = train_relative.melt(
-    #     id_vars="Fold", var_name="Method", value_name="Relative Profit (%)"
-    # )
-    # train_long["Dataset"] = "Train"
-
-    # test_long = test_relative.melt(
-    #     id_vars="Fold", var_name="Method", value_name="Relative Profit (%)"
-    # )
-    # test_long["Dataset"] = "Test"
-
-    # # 合併數據
-    # fold_long = pd.concat([train_long, test_long], axis=0)
-
-    # # === 1. 使用線圖 (Line Plot) 觀察不同 Fold 上的變化趨勢 ===
-    # plt.figure(figsize=(12, 6))
-    # sns.lineplot(
-    #     data=fold_long,
-    #     x="Fold",
-    #     y="Relative Profit (%)",
-    #     hue="Method",
-    #     style="Dataset",
-    #     markers=True,
-    #     dashes=False,
-    # )
-    # plt.axhline(0, color="gray", linestyle="--", linewidth=1)  # 基準線
-    # plt.title("Strategy Performance Across Folds (Relative to Baseline)")
-    # plt.legend(title="Method & Dataset", bbox_to_anchor=(1.05, 1), loc="upper left")
-    # plt.show()
-
-    # # === 2. 使用箱型圖 (Box Plot) 查看策略穩定性 ===
-    # plt.figure(figsize=(12, 6))
-    # sns.boxplot(data=fold_long, x="Method", y="Relative Profit (%)", hue="Dataset")
-    # plt.axhline(0, color="gray", linestyle="--", linewidth=1)
-    # plt.title("Strategy Performance Distribution Across Folds")
-    # plt.xticks(rotation=30)
-    # plt.legend(title="Dataset", bbox_to_anchor=(1.05, 1), loc="upper left")
-    # plt.show()
-
-    # # 3️⃣ Heatmap：同時顯示 vs Baseline & vs Theory Best（每 Fold 的 S14）
-    # theory_best_train = train_all_fold_profit_df["S14"].to_numpy().reshape(-1, 1)
-    # theory_best_test = test_all_fold_profit_df["S14"].to_numpy().reshape(-1, 1)
-
-    # # vs Theory (%) 計算
-    # train_theory_rel = (
-    #     (train_all_fold_profit_df.to_numpy() - theory_best_train) / theory_best_train * 100
-    # )
-    # test_theory_rel = (
-    #     (test_all_fold_profit_df.to_numpy() - theory_best_test) / theory_best_test * 100
-    # )
-
-    # # 回 DataFrame 並 melt
-    # train_theory_rel = pd.DataFrame(
-    #     train_theory_rel,
-    #     columns=train_all_fold_profit_df.columns,
-    #     index=train_all_fold_profit_df.index,
-    # )
-    # train_theory_rel["Fold"] = train_theory_rel.index + 1
-    # train_theory_long = train_theory_rel.melt(
-    #     id_vars="Fold", var_name="Method", value_name="Relative vs Theory (%)"
-    # )
-    # train_theory_long["Dataset"] = "Train"
-
-    # test_theory_rel = pd.DataFrame(
-    #     test_theory_rel,
-    #     columns=test_all_fold_profit_df.columns,
-    #     index=test_all_fold_profit_df.index,
-    # )
-    # test_theory_rel["Fold"] = test_theory_rel.index + 1
-    # test_theory_long = test_theory_rel.melt(
-    #     id_vars="Fold", var_name="Method", value_name="Relative vs Theory (%)"
-    # )
-    # test_theory_long["Dataset"] = "Test"
-
-    # # 合併 baseline (%) 與 theory (%) 資料
-    # merged = fold_long.merge(
-    #     pd.concat([train_theory_long, test_theory_long], axis=0),
-    #     on=["Fold", "Method", "Dataset"],
-    # )
-
-    # # Pivot heatmap values + annotations
-    # heatmap_data = merged.pivot(
-    #     index="Fold", columns=["Method", "Dataset"], values="Relative Profit (%)"
-    # )
-    # annot = merged.assign(
-    #     annot=merged["Relative Profit (%)"].round(1).astype(str)
-    #     + "\n("
-    #     + merged["Relative vs Theory (%)"].round(1).astype(str)
-    #     + "%)"
-    # ).pivot(index="Fold", columns=["Method", "Dataset"], values="annot")
-
-    # plt.figure(figsize=(14, 8))
-    # sns.heatmap(heatmap_data, annot=annot, fmt="", cmap="coolwarm", linewidths=0.5)
-    # plt.title("Relative Profit (%) Across Folds\n(vs Baseline / (vs Theory Best))")
-    # plt.ylabel("Fold")
-    # plt.tight_layout()
-    # plt.show()
-
-    # %%
-    # # 訓練階段分佈
-
-    # baseline_data = []
-    # S1_data = []
-    # S2_data = []
-    # S12_data = []
-    # S14_data = []
-    # S15_data = []
-
-    # for result in train_all_fold_stimulation_results:
-    #     baseline_data.append(result["baseline"])
-    #     S1_data.append(result["S1"])
-    #     S2_data.append(result["S2"])
-    #     S12_data.append(result["S12"])
-    #     S14_data.append(result["S14"])
-    #     S15_data.append(result["S15"])
-
-    # # 合併數據
-    # baseline_df = pd.concat(baseline_data, ignore_index=True)
-    # S1_df = pd.concat(S1_data, ignore_index=True)
-    # S2_df = pd.concat(S2_data, ignore_index=True)
-    # S12_df = pd.concat(S12_data, ignore_index=True)
-    # S14_df = pd.concat(S14_data, ignore_index=True)
-    # S15_df = pd.concat(S15_data, ignore_index=True)
-
-
-    # dfs = {
-    #     "baseline": baseline_df,
-    #     "S1": S1_df,
-    #     "S2": S2_df,
-    #     "S12": S12_df,
-    #     "S15": S15_df,
-    #     "S14": S14_df,
-    # }
-
-    # # 調用繪圖函數
-    # plot_strategies_profits_scatter(f"{status}_{model_prefix}", dfs)
-
-    # %%
-    # # 測試結果分布圖
-
-    # baseline_data = []
-    # S1_data = []
-    # S2_data = []
-    # S12_data = []
-    # S14_data = []
-    # S15_data = []
-
-    # for result in test_all_fold_stimulation_results:
-    #     baseline_data.append(result["baseline"])
-    #     S1_data.append(result["S1"])
-    #     S2_data.append(result["S2"])
-    #     S12_data.append(result["S12"])
-    #     S14_data.append(result["S14"])
-    #     S15_data.append(result["S15"])
-    # # 合併數據
-    # baseline_df = pd.concat(baseline_data, ignore_index=True)
-    # S1_df = pd.concat(S1_data, ignore_index=True)
-    # S2_df = pd.concat(S2_data, ignore_index=True)
-    # S12_df = pd.concat(S12_data, ignore_index=True)
-    # S14_df = pd.concat(S14_data, ignore_index=True)
-    # S15_df = pd.concat(S15_data, ignore_index=True)
-
-    # dfs = {
-    #     "baseline": baseline_df,
-    #     "S1": S1_df,
-    #     "S2": S2_df,
-    #     "S12": S12_df,
-    #     "S15": S15_df,
-    #     "S14": S14_df,
-    # }
-
-    # # 調用繪圖函數
-    # plot_strategies_profits_scatter(f"{status}_{model_prefix}", dfs)
-
-
