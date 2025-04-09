@@ -4493,10 +4493,7 @@ def perform_single(data_size):
 
         return testing_profits, testing_stimulation_results
 
-    # %% [markdown]
-    # ### Main
 
-    # %%
     train_all_fold_profits = []
     train_all_fold_stimulation_results = []
     test_all_fold_profits = []

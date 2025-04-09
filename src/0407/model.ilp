@@ -1,0 +1,16 @@
+\ Model profit_maximization_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  0 exp_tau_var_22_0 + 0 exp_tau_var_22_2 + 0 exp_tau_var_22_5
+Subject To
+ sum_r_22: r[22,0] + r[22,1] + r[22,2] + r[22,3] + r[22,4] + r[22,5]
+   + r[22,6] + r[22,7] = 1
+Bounds
+ r[22,0] free
+ r[22,2] free
+ r[22,5] free
+General Constraints
+ logistic_constraint_r_22: r[22,0] = LOGISTIC ( exp_tau_var_22_0 )
+ logistic_constraint_r_22: r[22,2] = LOGISTIC ( exp_tau_var_22_2 )
+ logistic_constraint_r_22: r[22,5] = LOGISTIC ( exp_tau_var_22_5 )
+End

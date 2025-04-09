@@ -1502,2007 +1502,607 @@ ROWS
  E  R1497   
  E  R1498   
  E  R1499   
- G  Fraction_lower_bound_150
- L  Fraction_upper_bound_150
- E  R1502   
- E  R1503   
- E  R1504   
- E  R1505   
- E  R1506   
- E  R1507   
- E  R1508   
- E  R1509   
- G  Fraction_lower_bound_151
- L  Fraction_upper_bound_151
- E  R1512   
- E  R1513   
- E  R1514   
- E  R1515   
- E  R1516   
- E  R1517   
- E  R1518   
- E  R1519   
- G  Fraction_lower_bound_152
- L  Fraction_upper_bound_152
- E  R1522   
- E  R1523   
- E  R1524   
- E  R1525   
- E  R1526   
- E  R1527   
- E  R1528   
- E  R1529   
- G  Fraction_lower_bound_153
- L  Fraction_upper_bound_153
- E  R1532   
- E  R1533   
- E  R1534   
- E  R1535   
- E  R1536   
- E  R1537   
- E  R1538   
- E  R1539   
- G  Fraction_lower_bound_154
- L  Fraction_upper_bound_154
- E  R1542   
- E  R1543   
- E  R1544   
- E  R1545   
- E  R1546   
- E  R1547   
- E  R1548   
- E  R1549   
- G  Fraction_lower_bound_155
- L  Fraction_upper_bound_155
- E  R1552   
- E  R1553   
- E  R1554   
- E  R1555   
- E  R1556   
- E  R1557   
- E  R1558   
- E  R1559   
- G  Fraction_lower_bound_156
- L  Fraction_upper_bound_156
- E  R1562   
- E  R1563   
- E  R1564   
- E  R1565   
- E  R1566   
- E  R1567   
- E  R1568   
- E  R1569   
- G  Fraction_lower_bound_157
- L  Fraction_upper_bound_157
- E  R1572   
- E  R1573   
- E  R1574   
- E  R1575   
- E  R1576   
- E  R1577   
- E  R1578   
- E  R1579   
- G  Fraction_lower_bound_158
- L  Fraction_upper_bound_158
- E  R1582   
- E  R1583   
- E  R1584   
- E  R1585   
- E  R1586   
- E  R1587   
- E  R1588   
- E  R1589   
- G  Fraction_lower_bound_159
- L  Fraction_upper_bound_159
- E  R1592   
- E  R1593   
- E  R1594   
- E  R1595   
- E  R1596   
- E  R1597   
- E  R1598   
- E  R1599   
- G  Fraction_lower_bound_160
- L  Fraction_upper_bound_160
- E  R1602   
- E  R1603   
- E  R1604   
- E  R1605   
- E  R1606   
- E  R1607   
- E  R1608   
- E  R1609   
- G  Fraction_lower_bound_161
- L  Fraction_upper_bound_161
- E  R1612   
- E  R1613   
- E  R1614   
- E  R1615   
- E  R1616   
- E  R1617   
- E  R1618   
- E  R1619   
- G  Fraction_lower_bound_162
- L  Fraction_upper_bound_162
- E  R1622   
- E  R1623   
- E  R1624   
- E  R1625   
- E  R1626   
- E  R1627   
- E  R1628   
- E  R1629   
- G  Fraction_lower_bound_163
- L  Fraction_upper_bound_163
- E  R1632   
- E  R1633   
- E  R1634   
- E  R1635   
- E  R1636   
- E  R1637   
- E  R1638   
- E  R1639   
- G  Fraction_lower_bound_164
- L  Fraction_upper_bound_164
- E  R1642   
- E  R1643   
- E  R1644   
- E  R1645   
- E  R1646   
- E  R1647   
- E  R1648   
- E  R1649   
- G  Fraction_lower_bound_165
- L  Fraction_upper_bound_165
- E  R1652   
- E  R1653   
- E  R1654   
- E  R1655   
- E  R1656   
- E  R1657   
- E  R1658   
- E  R1659   
- G  Fraction_lower_bound_166
- L  Fraction_upper_bound_166
- E  R1662   
- E  R1663   
- E  R1664   
- E  R1665   
- E  R1666   
- E  R1667   
- E  R1668   
- E  R1669   
- G  Fraction_lower_bound_167
- L  Fraction_upper_bound_167
- E  R1672   
- E  R1673   
- E  R1674   
- E  R1675   
- E  R1676   
- E  R1677   
- E  R1678   
- E  R1679   
- G  Fraction_lower_bound_168
- L  Fraction_upper_bound_168
- E  R1682   
- E  R1683   
- E  R1684   
- E  R1685   
- E  R1686   
- E  R1687   
- E  R1688   
- E  R1689   
- G  Fraction_lower_bound_169
- L  Fraction_upper_bound_169
- E  R1692   
- E  R1693   
- E  R1694   
- E  R1695   
- E  R1696   
- E  R1697   
- E  R1698   
- E  R1699   
- G  Fraction_lower_bound_170
- L  Fraction_upper_bound_170
- E  R1702   
- E  R1703   
- E  R1704   
- E  R1705   
- E  R1706   
- E  R1707   
- E  R1708   
- E  R1709   
- G  Fraction_lower_bound_171
- L  Fraction_upper_bound_171
- E  R1712   
- E  R1713   
- E  R1714   
- E  R1715   
- E  R1716   
- E  R1717   
- E  R1718   
- E  R1719   
- G  Fraction_lower_bound_172
- L  Fraction_upper_bound_172
- E  R1722   
- E  R1723   
- E  R1724   
- E  R1725   
- E  R1726   
- E  R1727   
- E  R1728   
- E  R1729   
- G  Fraction_lower_bound_173
- L  Fraction_upper_bound_173
- E  R1732   
- E  R1733   
- E  R1734   
- E  R1735   
- E  R1736   
- E  R1737   
- E  R1738   
- E  R1739   
- G  Fraction_lower_bound_174
- L  Fraction_upper_bound_174
- E  R1742   
- E  R1743   
- E  R1744   
- E  R1745   
- E  R1746   
- E  R1747   
- E  R1748   
- E  R1749   
- G  Fraction_lower_bound_175
- L  Fraction_upper_bound_175
- E  R1752   
- E  R1753   
- E  R1754   
- E  R1755   
- E  R1756   
- E  R1757   
- E  R1758   
- E  R1759   
- G  Fraction_lower_bound_176
- L  Fraction_upper_bound_176
- E  R1762   
- E  R1763   
- E  R1764   
- E  R1765   
- E  R1766   
- E  R1767   
- E  R1768   
- E  R1769   
- G  Fraction_lower_bound_177
- L  Fraction_upper_bound_177
- E  R1772   
- E  R1773   
- E  R1774   
- E  R1775   
- E  R1776   
- E  R1777   
- E  R1778   
- E  R1779   
- G  Fraction_lower_bound_178
- L  Fraction_upper_bound_178
- E  R1782   
- E  R1783   
- E  R1784   
- E  R1785   
- E  R1786   
- E  R1787   
- E  R1788   
- E  R1789   
- G  Fraction_lower_bound_179
- L  Fraction_upper_bound_179
- E  R1792   
- E  R1793   
- E  R1794   
- E  R1795   
- E  R1796   
- E  R1797   
- E  R1798   
- E  R1799   
- G  Fraction_lower_bound_180
- L  Fraction_upper_bound_180
- E  R1802   
- E  R1803   
- E  R1804   
- E  R1805   
- E  R1806   
- E  R1807   
- E  R1808   
- E  R1809   
- G  Fraction_lower_bound_181
- L  Fraction_upper_bound_181
- E  R1812   
- E  R1813   
- E  R1814   
- E  R1815   
- E  R1816   
- E  R1817   
- E  R1818   
- E  R1819   
- G  Fraction_lower_bound_182
- L  Fraction_upper_bound_182
- E  R1822   
- E  R1823   
- E  R1824   
- E  R1825   
- E  R1826   
- E  R1827   
- E  R1828   
- E  R1829   
- G  Fraction_lower_bound_183
- L  Fraction_upper_bound_183
- E  R1832   
- E  R1833   
- E  R1834   
- E  R1835   
- E  R1836   
- E  R1837   
- E  R1838   
- E  R1839   
- G  Fraction_lower_bound_184
- L  Fraction_upper_bound_184
- E  R1842   
- E  R1843   
- E  R1844   
- E  R1845   
- E  R1846   
- E  R1847   
- E  R1848   
- E  R1849   
- G  Fraction_lower_bound_185
- L  Fraction_upper_bound_185
- E  R1852   
- E  R1853   
- E  R1854   
- E  R1855   
- E  R1856   
- E  R1857   
- E  R1858   
- E  R1859   
- G  Fraction_lower_bound_186
- L  Fraction_upper_bound_186
- E  R1862   
- E  R1863   
- E  R1864   
- E  R1865   
- E  R1866   
- E  R1867   
- E  R1868   
- E  R1869   
- G  Fraction_lower_bound_187
- L  Fraction_upper_bound_187
- E  R1872   
- E  R1873   
- E  R1874   
- E  R1875   
- E  R1876   
- E  R1877   
- E  R1878   
- E  R1879   
- G  Fraction_lower_bound_188
- L  Fraction_upper_bound_188
- E  R1882   
- E  R1883   
- E  R1884   
- E  R1885   
- E  R1886   
- E  R1887   
- E  R1888   
- E  R1889   
- G  Fraction_lower_bound_189
- L  Fraction_upper_bound_189
- E  R1892   
- E  R1893   
- E  R1894   
- E  R1895   
- E  R1896   
- E  R1897   
- E  R1898   
- E  R1899   
- G  Fraction_lower_bound_190
- L  Fraction_upper_bound_190
- E  R1902   
- E  R1903   
- E  R1904   
- E  R1905   
- E  R1906   
- E  R1907   
- E  R1908   
- E  R1909   
- G  Fraction_lower_bound_191
- L  Fraction_upper_bound_191
- E  R1912   
- E  R1913   
- E  R1914   
- E  R1915   
- E  R1916   
- E  R1917   
- E  R1918   
- E  R1919   
- G  Fraction_lower_bound_192
- L  Fraction_upper_bound_192
- E  R1922   
- E  R1923   
- E  R1924   
- E  R1925   
- E  R1926   
- E  R1927   
- E  R1928   
- E  R1929   
- G  Fraction_lower_bound_193
- L  Fraction_upper_bound_193
- E  R1932   
- E  R1933   
- E  R1934   
- E  R1935   
- E  R1936   
- E  R1937   
- E  R1938   
- E  R1939   
- G  Fraction_lower_bound_194
- L  Fraction_upper_bound_194
- E  R1942   
- E  R1943   
- E  R1944   
- E  R1945   
- E  R1946   
- E  R1947   
- E  R1948   
- E  R1949   
- G  Fraction_lower_bound_195
- L  Fraction_upper_bound_195
- E  R1952   
- E  R1953   
- E  R1954   
- E  R1955   
- E  R1956   
- E  R1957   
- E  R1958   
- E  R1959   
- G  Fraction_lower_bound_196
- L  Fraction_upper_bound_196
- E  R1962   
- E  R1963   
- E  R1964   
- E  R1965   
- E  R1966   
- E  R1967   
- E  R1968   
- E  R1969   
- G  Fraction_lower_bound_197
- L  Fraction_upper_bound_197
- E  R1972   
- E  R1973   
- E  R1974   
- E  R1975   
- E  R1976   
- E  R1977   
- E  R1978   
- E  R1979   
- G  Fraction_lower_bound_198
- L  Fraction_upper_bound_198
- E  R1982   
- E  R1983   
- E  R1984   
- E  R1985   
- E  R1986   
- E  R1987   
- E  R1988   
- E  R1989   
- G  Fraction_lower_bound_199
- L  Fraction_upper_bound_199
- E  R1992   
- E  R1993   
- E  R1994   
- E  R1995   
- E  R1996   
- E  R1997   
- E  R1998   
- E  R1999   
- G  Fraction_lower_bound_200
- L  Fraction_upper_bound_200
- E  R2002   
- E  R2003   
- E  R2004   
- E  R2005   
- E  R2006   
- E  R2007   
- E  R2008   
- E  R2009   
- G  Fraction_lower_bound_201
- L  Fraction_upper_bound_201
- E  R2012   
- E  R2013   
- E  R2014   
- E  R2015   
- E  R2016   
- E  R2017   
- E  R2018   
- E  R2019   
- G  Fraction_lower_bound_202
- L  Fraction_upper_bound_202
- E  R2022   
- E  R2023   
- E  R2024   
- E  R2025   
- E  R2026   
- E  R2027   
- E  R2028   
- E  R2029   
- G  Fraction_lower_bound_203
- L  Fraction_upper_bound_203
- E  R2032   
- E  R2033   
- E  R2034   
- E  R2035   
- E  R2036   
- E  R2037   
- E  R2038   
- E  R2039   
- G  Fraction_lower_bound_204
- L  Fraction_upper_bound_204
- E  R2042   
- E  R2043   
- E  R2044   
- E  R2045   
- E  R2046   
- E  R2047   
- E  R2048   
- E  R2049   
- G  Fraction_lower_bound_205
- L  Fraction_upper_bound_205
- E  R2052   
- E  R2053   
- E  R2054   
- E  R2055   
- E  R2056   
- E  R2057   
- E  R2058   
- E  R2059   
- G  Fraction_lower_bound_206
- L  Fraction_upper_bound_206
- E  R2062   
- E  R2063   
- E  R2064   
- E  R2065   
- E  R2066   
- E  R2067   
- E  R2068   
- E  R2069   
- G  Fraction_lower_bound_207
- L  Fraction_upper_bound_207
- E  R2072   
- E  R2073   
- E  R2074   
- E  R2075   
- E  R2076   
- E  R2077   
- E  R2078   
- E  R2079   
- G  Fraction_lower_bound_208
- L  Fraction_upper_bound_208
- E  R2082   
- E  R2083   
- E  R2084   
- E  R2085   
- E  R2086   
- E  R2087   
- E  R2088   
- E  R2089   
- G  Fraction_lower_bound_209
- L  Fraction_upper_bound_209
- E  R2092   
- E  R2093   
- E  R2094   
- E  R2095   
- E  R2096   
- E  R2097   
- E  R2098   
- E  R2099   
- G  Fraction_lower_bound_210
- L  Fraction_upper_bound_210
- E  R2102   
- E  R2103   
- E  R2104   
- E  R2105   
- E  R2106   
- E  R2107   
- E  R2108   
- E  R2109   
- G  Fraction_lower_bound_211
- L  Fraction_upper_bound_211
- E  R2112   
- E  R2113   
- E  R2114   
- E  R2115   
- E  R2116   
- E  R2117   
- E  R2118   
- E  R2119   
- G  Fraction_lower_bound_212
- L  Fraction_upper_bound_212
- E  R2122   
- E  R2123   
- E  R2124   
- E  R2125   
- E  R2126   
- E  R2127   
- E  R2128   
- E  R2129   
- G  Fraction_lower_bound_213
- L  Fraction_upper_bound_213
- E  R2132   
- E  R2133   
- E  R2134   
- E  R2135   
- E  R2136   
- E  R2137   
- E  R2138   
- E  R2139   
- G  Fraction_lower_bound_214
- L  Fraction_upper_bound_214
- E  R2142   
- E  R2143   
- E  R2144   
- E  R2145   
- E  R2146   
- E  R2147   
- E  R2148   
- E  R2149   
- G  Fraction_lower_bound_215
- L  Fraction_upper_bound_215
- E  R2152   
- E  R2153   
- E  R2154   
- E  R2155   
- E  R2156   
- E  R2157   
- E  R2158   
- E  R2159   
- G  Fraction_lower_bound_216
- L  Fraction_upper_bound_216
- E  R2162   
- E  R2163   
- E  R2164   
- E  R2165   
- E  R2166   
- E  R2167   
- E  R2168   
- E  R2169   
- G  Fraction_lower_bound_217
- L  Fraction_upper_bound_217
- E  R2172   
- E  R2173   
- E  R2174   
- E  R2175   
- E  R2176   
- E  R2177   
- E  R2178   
- E  R2179   
- G  Fraction_lower_bound_218
- L  Fraction_upper_bound_218
- E  R2182   
- E  R2183   
- E  R2184   
- E  R2185   
- E  R2186   
- E  R2187   
- E  R2188   
- E  R2189   
- G  Fraction_lower_bound_219
- L  Fraction_upper_bound_219
- E  R2192   
- E  R2193   
- E  R2194   
- E  R2195   
- E  R2196   
- E  R2197   
- E  R2198   
- E  R2199   
- G  Fraction_lower_bound_220
- L  Fraction_upper_bound_220
- E  R2202   
- E  R2203   
- E  R2204   
- E  R2205   
- E  R2206   
- E  R2207   
- E  R2208   
- E  R2209   
- G  Fraction_lower_bound_221
- L  Fraction_upper_bound_221
- E  R2212   
- E  R2213   
- E  R2214   
- E  R2215   
- E  R2216   
- E  R2217   
- E  R2218   
- E  R2219   
- G  Fraction_lower_bound_222
- L  Fraction_upper_bound_222
- E  R2222   
- E  R2223   
- E  R2224   
- E  R2225   
- E  R2226   
- E  R2227   
- E  R2228   
- E  R2229   
- G  Fraction_lower_bound_223
- L  Fraction_upper_bound_223
- E  R2232   
- E  R2233   
- E  R2234   
- E  R2235   
- E  R2236   
- E  R2237   
- E  R2238   
- E  R2239   
- G  Fraction_lower_bound_224
- L  Fraction_upper_bound_224
- E  R2242   
- E  R2243   
- E  R2244   
- E  R2245   
- E  R2246   
- E  R2247   
- E  R2248   
- E  R2249   
- G  Fraction_lower_bound_225
- L  Fraction_upper_bound_225
- E  R2252   
- E  R2253   
- E  R2254   
- E  R2255   
- E  R2256   
- E  R2257   
- E  R2258   
- E  R2259   
- G  Fraction_lower_bound_226
- L  Fraction_upper_bound_226
- E  R2262   
- E  R2263   
- E  R2264   
- E  R2265   
- E  R2266   
- E  R2267   
- E  R2268   
- E  R2269   
- G  Fraction_lower_bound_227
- L  Fraction_upper_bound_227
- E  R2272   
- E  R2273   
- E  R2274   
- E  R2275   
- E  R2276   
- E  R2277   
- E  R2278   
- E  R2279   
- G  Fraction_lower_bound_228
- L  Fraction_upper_bound_228
- E  R2282   
- E  R2283   
- E  R2284   
- E  R2285   
- E  R2286   
- E  R2287   
- E  R2288   
- E  R2289   
- G  Fraction_lower_bound_229
- L  Fraction_upper_bound_229
- E  R2292   
- E  R2293   
- E  R2294   
- E  R2295   
- E  R2296   
- E  R2297   
- E  R2298   
- E  R2299   
- G  Fraction_lower_bound_230
- L  Fraction_upper_bound_230
- E  R2302   
- E  R2303   
- E  R2304   
- E  R2305   
- E  R2306   
- E  R2307   
- E  R2308   
- E  R2309   
- G  Fraction_lower_bound_231
- L  Fraction_upper_bound_231
- E  R2312   
- E  R2313   
- E  R2314   
- E  R2315   
- E  R2316   
- E  R2317   
- E  R2318   
- E  R2319   
- G  Fraction_lower_bound_232
- L  Fraction_upper_bound_232
- E  R2322   
- E  R2323   
- E  R2324   
- E  R2325   
- E  R2326   
- E  R2327   
- E  R2328   
- E  R2329   
- G  Fraction_lower_bound_233
- L  Fraction_upper_bound_233
- E  R2332   
- E  R2333   
- E  R2334   
- E  R2335   
- E  R2336   
- E  R2337   
- E  R2338   
- E  R2339   
- G  Fraction_lower_bound_234
- L  Fraction_upper_bound_234
- E  R2342   
- E  R2343   
- E  R2344   
- E  R2345   
- E  R2346   
- E  R2347   
- E  R2348   
- E  R2349   
- G  Fraction_lower_bound_235
- L  Fraction_upper_bound_235
- E  R2352   
- E  R2353   
- E  R2354   
- E  R2355   
- E  R2356   
- E  R2357   
- E  R2358   
- E  R2359   
- G  Fraction_lower_bound_236
- L  Fraction_upper_bound_236
- E  R2362   
- E  R2363   
- E  R2364   
- E  R2365   
- E  R2366   
- E  R2367   
- E  R2368   
- E  R2369   
- G  Fraction_lower_bound_237
- L  Fraction_upper_bound_237
- E  R2372   
- E  R2373   
- E  R2374   
- E  R2375   
- E  R2376   
- E  R2377   
- E  R2378   
- E  R2379   
- G  Fraction_lower_bound_238
- L  Fraction_upper_bound_238
- E  R2382   
- E  R2383   
- E  R2384   
- E  R2385   
- E  R2386   
- E  R2387   
- E  R2388   
- E  R2389   
- G  Fraction_lower_bound_239
- L  Fraction_upper_bound_239
- E  R2392   
- E  R2393   
- E  R2394   
- E  R2395   
- E  R2396   
- E  R2397   
- E  R2398   
- E  R2399   
- G  Fraction_lower_bound_240
- L  Fraction_upper_bound_240
- E  R2402   
- E  R2403   
- E  R2404   
- E  R2405   
- E  R2406   
- E  R2407   
- E  R2408   
- E  R2409   
- G  Fraction_lower_bound_241
- L  Fraction_upper_bound_241
- E  R2412   
- E  R2413   
- E  R2414   
- E  R2415   
- E  R2416   
- E  R2417   
- E  R2418   
- E  R2419   
- G  Fraction_lower_bound_242
- L  Fraction_upper_bound_242
- E  R2422   
- E  R2423   
- E  R2424   
- E  R2425   
- E  R2426   
- E  R2427   
- E  R2428   
- E  R2429   
- G  Fraction_lower_bound_243
- L  Fraction_upper_bound_243
- E  R2432   
- E  R2433   
- E  R2434   
- E  R2435   
- E  R2436   
- E  R2437   
- E  R2438   
- E  R2439   
- G  Fraction_lower_bound_244
- L  Fraction_upper_bound_244
- E  R2442   
- E  R2443   
- E  R2444   
- E  R2445   
- E  R2446   
- E  R2447   
- E  R2448   
- E  R2449   
- G  Fraction_lower_bound_245
- L  Fraction_upper_bound_245
- E  R2452   
- E  R2453   
- E  R2454   
- E  R2455   
- E  R2456   
- E  R2457   
- E  R2458   
- E  R2459   
- G  Fraction_lower_bound_246
- L  Fraction_upper_bound_246
- E  R2462   
- E  R2463   
- E  R2464   
- E  R2465   
- E  R2466   
- E  R2467   
- E  R2468   
- E  R2469   
- G  Fraction_lower_bound_247
- L  Fraction_upper_bound_247
- E  R2472   
- E  R2473   
- E  R2474   
- E  R2475   
- E  R2476   
- E  R2477   
- E  R2478   
- E  R2479   
- G  Fraction_lower_bound_248
- L  Fraction_upper_bound_248
- E  R2482   
- E  R2483   
- E  R2484   
- E  R2485   
- E  R2486   
- E  R2487   
- E  R2488   
- E  R2489   
- G  Fraction_lower_bound_249
- L  Fraction_upper_bound_249
- E  R2492   
- E  R2493   
- E  R2494   
- E  R2495   
- E  R2496   
- E  R2497   
- E  R2498   
- E  R2499   
 COLUMNS
-    alphas[0]  R2        -1.9943544984754963e-01
-    alphas[0]  R12       -7.8805268409207141e-01
-    alphas[0]  R22       -3.9030342830755205e-01
-    alphas[0]  R32       -1.8553046025493322e-01
-    alphas[0]  R42       2.4336057509131237e-01
-    alphas[0]  R52       -5.4289464405142240e-01
-    alphas[0]  R62       1.9406942400476676e-01
-    alphas[0]  R72       -1.4127837536807315e+00
-    alphas[0]  R82       -1.6671208366829955e+00
-    alphas[0]  R92       3.8563019045301944e-01
-    alphas[0]  R102      -1.0588264294002161e+00
-    alphas[0]  R112      -1.2896596133816376e-01
-    alphas[0]  R122      -2.6747255279415344e-01
-    alphas[0]  R132      -1.5324476019756590e+00
-    alphas[0]  R142      1.4908820911508074e+00
-    alphas[0]  R152      1.4339461921285805e+00
-    alphas[0]  R162      1.6706686929228229e+00
-    alphas[0]  R172      -1.2035072028694755e+00
-    alphas[0]  R182      -1.0108235068116820e+00
-    alphas[0]  R192      -1.3357965474486078e+00
-    alphas[0]  R202      -1.7200318360676363e+00
-    alphas[0]  R212      -1.0851253259433267e+00
-    alphas[0]  R222      1.0954194730622710e-01
-    alphas[0]  R232      -1.0192168543776186e+00
-    alphas[0]  R242      1.3237585858530776e+00
-    alphas[0]  R252      -5.2176258386127938e-01
-    alphas[0]  R262      1.2350326739281179e+00
-    alphas[0]  R272      -1.5999229665367005e+00
-    alphas[0]  R282      -1.0403596869196866e-01
-    alphas[0]  R292      2.7517619978471258e-01
-    alphas[0]  R302      8.0623383196952347e-01
-    alphas[0]  R312      -0.99694420013121
-    alphas[0]  R322      1.2839539680979992e-01
-    alphas[0]  R332      -2.6885015860568040e-01
-    alphas[0]  R342      1.6757228925222678e+00
-    alphas[0]  R352      -4.4291915395555870e-01
-    alphas[0]  R362      -4.2332011711001960e-01
-    alphas[0]  R372      -4.4043733296219462e-01
-    alphas[0]  R382      -1.5966651536324248e+00
-    alphas[0]  R392      -6.6999704911892488e-01
-    alphas[0]  R402      4.7030437319753032e-01
-    alphas[0]  R412      1.9603385627016992e-01
-    alphas[0]  R422      -7.2593404756670765e-01
-    alphas[0]  R432      1.5291286100452186e+00
-    alphas[0]  R442      -6.1673933103463152e-01
-    alphas[0]  R452      -0.63043499595176
-    alphas[0]  R462      9.9789138974087166e-01
-    alphas[0]  R472      1.2860735802398111e+00
-    alphas[0]  R482      6.2625237082281737e-01
-    alphas[0]  R492      4.5543513738389613e-01
-    alphas[0]  R502      -2.7508680333001556e-01
-    alphas[0]  R512      1.9048094820870548e-01
-    alphas[0]  R522      -1.7545455743447331e+00
-    alphas[0]  R532      1.3811769578748776e+00
-    alphas[0]  R542      1.0032187416116796e+00
-    alphas[0]  R552      1.1715057502212682e+00
-    alphas[0]  R562      -5.6841763571015391e-01
-    alphas[0]  R572      0.84608450537325
-    alphas[0]  R582      9.2449013841817085e-02
-    alphas[0]  R592      8.7745135465698054e-01
-    alphas[0]  R602      1.1797841483020559e+00
-    alphas[0]  R612      1.3517052786426196e+00
-    alphas[0]  R622      -5.7981406953482240e-01
-    alphas[0]  R632      1.2533246837622416e+00
-    alphas[0]  R642      1.0467147892401512e+00
-    alphas[0]  R652      4.3769481105151886e-01
-    alphas[0]  R662      -1.1623736737842818e+00
-    alphas[0]  R672      1.3986665734346102e+00
-    alphas[0]  R682      -1.2223466137770154e+00
-    alphas[0]  R692      1.4022145960888852e+00
-    alphas[0]  R702      -1.7123939953420484e+00
-    alphas[0]  R712      8.4168866097476480e-02
-    alphas[0]  R722      -1.7134611008559504e+00
-    alphas[0]  R732      -3.9766979523317580e-01
-    alphas[0]  R742      -0.873224273766533
-    alphas[0]  R752      1.6035573190335324e+00
-    alphas[0]  R762      7.4166281019962377e-01
-    alphas[0]  R772      1.3169583086161010e+00
-    alphas[0]  R782      6.9449147319224280e-01
-    alphas[0]  R792      1.3221548909525269e+00
-    alphas[0]  R802      6.1721370352001337e-01
-    alphas[0]  R812      2.7658761956135830e-01
-    alphas[0]  R822      1.5152529714212495e+00
-    alphas[0]  R832      -7.0768187246298075e-01
-    alphas[0]  R842      -2.6236701902097392e-01
-    alphas[0]  R852      8.0328367173454474e-01
-    alphas[0]  R862      -1.0898804647307074e-01
-    alphas[0]  R872      1.40984896939898
-    alphas[0]  R882      -2.9542862009859328e-01
-    alphas[0]  R892      -1.5455361853879752e+00
-    alphas[0]  R902      6.1514131085533474e-01
-    alphas[0]  R912      -6.1901653653071020e-01
-    alphas[0]  R922      1.2759143391336354e+00
-    alphas[0]  R932      -7.9207821338047169e-01
-    alphas[0]  R942      7.1831590272044332e-01
-    alphas[0]  R952      1.0940904907115971e+00
-    alphas[0]  R962      -3.3281137597460408e-01
-    alphas[0]  R972      1.67106087095211
-    alphas[0]  R982      -1.1904884675842087e+00
-    alphas[0]  R992      1.7255868693817331e+00
-    alphas[0]  R1002     -6.5583223301379079e-01
-    alphas[0]  R1012     0.78694405245293
-    alphas[0]  R1022     -8.5882668319646571e-01
-    alphas[0]  R1032     -1.6619052448957163e+00
-    alphas[0]  R1042     8.6214101234920881e-01
-    alphas[0]  R1052     -2.9617454192761561e-01
-    alphas[0]  R1062     -3.5237228197165288e-01
-    alphas[0]  R1072     -2.8235761822751276e-01
-    alphas[0]  R1082     0.952963644374102
-    alphas[0]  R1092     -1.6285093419155556e+00
-    alphas[0]  R1102     1.6032456699417819e-01
-    alphas[0]  R1112     -1.2522903679736264e+00
-    alphas[0]  R1122     -7.3247232399310969e-01
-    alphas[0]  R1132     6.8990372020245350e-01
-    alphas[0]  R1142     -1.1369172021733707e+00
-    alphas[0]  R1152     3.3941058791772394e-01
-    alphas[0]  R1162     -1.3750353072750496e+00
-    alphas[0]  R1172     -3.1427268376930073e-01
-    alphas[0]  R1182     -1.3772718279911544e+00
-    alphas[0]  R1192     -0.707892272475324
-    alphas[0]  R1202     -8.2366110366175993e-01
-    alphas[0]  R1212     -3.1424806729581235e-02
-    alphas[0]  R1222     -1.6403068265990786e+00
-    alphas[0]  R1232     -5.3615883225447036e-01
-    alphas[0]  R1242     2.4265211810796686e-01
-    alphas[0]  R1252     -4.0314534663659096e-01
-    alphas[0]  R1262     1.6742957207149922e+00
-    alphas[0]  R1272     6.7526446244892535e-01
-    alphas[0]  R1282     -5.9341348247383252e-01
-    alphas[0]  R1292     7.1594016826848050e-01
-    alphas[0]  R1302     -4.4426330613250348e-01
-    alphas[0]  R1312     2.2526822337759581e-01
-    alphas[0]  R1322     1.2629083915468322e+00
-    alphas[0]  R1332     6.8691288759923574e-01
-    alphas[0]  R1342     -2.7426651231471655e-01
-    alphas[0]  R1352     -3.4823590295862855e-01
-    alphas[0]  R1362     -2.8969284966625580e-01
-    alphas[0]  R1372     -5.6874486943412150e-01
-    alphas[0]  R1382     -5.6486187372270591e-01
-    alphas[0]  R1392     2.1589379031374994e-01
-    alphas[0]  R1402     -1.4296721429315193e+00
-    alphas[0]  R1412     4.4181042481541316e-01
-    alphas[0]  R1422     2.0016265895647450e-01
-    alphas[0]  R1432     -1.4133156883726608e+00
-    alphas[0]  R1442     -1.1100157892829883e+00
-    alphas[0]  R1452     -7.4807191141480656e-01
-    alphas[0]  R1462     1.3876085462620393e+00
-    alphas[0]  R1472     -1.5108169389296475e+00
-    alphas[0]  R1482     -7.8469854086953039e-01
-    alphas[0]  R1492     -1.7915983498539632e+00
-    alphas[0]  R1502     1.2134692563564617e+00
-    alphas[0]  R1512     -1.3291237910752809e+00
-    alphas[0]  R1522     1.1673189679052354e+00
-    alphas[0]  R1532     -4.3557476036044174e-01
-    alphas[0]  R1542     1.3041390907878638e+00
-    alphas[0]  R1552     -1.2579494023784876e+00
-    alphas[0]  R1562     -1.1139957929402875e+00
-    alphas[0]  R1572     -2.7120917829947838e-01
-    alphas[0]  R1582     3.0163471338917014e-01
-    alphas[0]  R1592     1.4974946040844632e+00
-    alphas[0]  R1602     -7.2521790078465187e-01
-    alphas[0]  R1612     1.3762093852397372e-01
-    alphas[0]  R1622     -8.1234456800109989e-01
-    alphas[0]  R1632     -1.3229546847989879e+00
-    alphas[0]  R1642     -1.7090756087738015e+00
-    alphas[0]  R1652     -1.2855275488035594e+00
-    alphas[0]  R1662     1.7007559019321807e+00
-    alphas[0]  R1672     4.6864099142395321e-01
-    alphas[0]  R1682     -8.4041748602541366e-01
-    alphas[0]  R1692     1.1349943021070326e+00
-    alphas[0]  R1702     -1.0116421943324706e-01
-    alphas[0]  R1712     1.5499577981251533e+00
-    alphas[0]  R1722     1.0346359018334612e+00
-    alphas[0]  R1732     1.6766710645340206e+00
-    alphas[0]  R1742     -1.0658054752849540e+00
-    alphas[0]  R1752     9.4998101851598682e-01
-    alphas[0]  R1762     5.2038732915538788e-01
-    alphas[0]  R1772     -1.5412380048288616e+00
-    alphas[0]  R1782     -7.4993219185372351e-01
-    alphas[0]  R1792     1.6295566868942992e+00
-    alphas[0]  R1802     1.1595313172117356e+00
-    alphas[0]  R1812     -4.5651487475430574e-01
-    alphas[0]  R1822     -2.9996450681232883e-01
-    alphas[0]  R1832     9.0056348956623045e-01
-    alphas[0]  R1842     -1.5629347550915771e+00
-    alphas[0]  R1852     -4.2993677113054768e-01
-    alphas[0]  R1862     -1.5280375942962324e-01
-    alphas[0]  R1872     -3.4482968902280808e-01
-    alphas[0]  R1882     -8.4088260034770046e-01
-    alphas[0]  R1892     6.3857605177958587e-01
-    alphas[0]  R1902     3.3334199295877837e-01
-    alphas[0]  R1912     0.999797640339152
-    alphas[0]  R1922     1.0834710457459882e+00
-    alphas[0]  R1932     -1.5988738904345745e+00
-    alphas[0]  R1942     -8.7424040723463547e-01
-    alphas[0]  R1952     7.0162484554204358e-03
-    alphas[0]  R1962     9.3763404252411686e-01
-    alphas[0]  R1972     0.842317094293812
-    alphas[0]  R1982     1.5368988879396324e+00
-    alphas[0]  R1992     2.0528656428541403e-01
-    alphas[0]  R2002     6.3910359685813956e-01
-    alphas[0]  R2012     -7.2137829898918737e-01
-    alphas[0]  R2022     4.0575957329382667e-01
-    alphas[0]  R2032     1.1067832747836608e+00
-    alphas[0]  R2042     1.6548885933962914e+00
-    alphas[0]  R2052     1.5042780008666639e+00
-    alphas[0]  R2062     -6.6140876361510037e-01
-    alphas[0]  R2072     1.3707553285690829e-01
-    alphas[0]  R2082     -1.5615203423670812e-01
-    alphas[0]  R2092     -1.4301133061723452e+00
-    alphas[0]  R2102     -1.7614978882574321e+00
-    alphas[0]  R2112     9.7484416531966667e-01
-    alphas[0]  R2122     -6.0368983032330792e-01
-    alphas[0]  R2132     8.1059686624930594e-01
-    alphas[0]  R2142     1.6691382004344348e+00
-    alphas[0]  R2152     -0.940851044156333
-    alphas[0]  R2162     6.1001776404191654e-01
-    alphas[0]  R2172     3.8555102924444612e-01
-    alphas[0]  R2182     -3.3919433733984006e-01
-    alphas[0]  R2192     -1.1979478181989696e+00
-    alphas[0]  R2202     -4.8306112531154988e-01
-    alphas[0]  R2212     -1.3451312597567107e+00
-    alphas[0]  R2222     7.7444097930346012e-01
-    alphas[0]  R2232     -1.0811921615573179e+00
-    alphas[0]  R2242     1.0854418607332053e+00
-    alphas[0]  R2252     -1.6286602162634469e+00
-    alphas[0]  R2262     -0.690049652085687
-    alphas[0]  R2272     9.7975936275001951e-01
-    alphas[0]  R2282     -1.6094811531890543e+00
-    alphas[0]  R2292     -8.4347861356195819e-01
-    alphas[0]  R2302     8.4378474401458570e-01
-    alphas[0]  R2312     9.8752747702316590e-01
-    alphas[0]  R2322     -9.1131183137650520e-02
-    alphas[0]  R2332     1.6514073596069294e+00
-    alphas[0]  R2342     1.0081954038732164e+00
-    alphas[0]  R2352     2.3971419411903558e-01
-    alphas[0]  R2362     4.1843174750514189e-01
-    alphas[0]  R2372     1.0212633866584490e-01
-    alphas[0]  R2382     0.759982840797429
-    alphas[0]  R2392     -0.333771596834109
-    alphas[0]  R2402     -1.3140154617684936e+00
-    alphas[0]  R2412     1.3263857063885285e+00
-    alphas[0]  R2422     -8.8224439927778148e-02
-    alphas[0]  R2432     1.2749582494782938e+00
-    alphas[0]  R2442     -7.9396205144452037e-01
-    alphas[0]  R2452     0.340988615363727
-    alphas[0]  R2462     -2.5819182128059970e-01
-    alphas[0]  R2472     1.09377747990439
-    alphas[0]  R2482     1.2297454169684001e+00
-    alphas[0]  R2492     0.0155160954121656
-    alphas[1]  R2        5.9595413908939920e-01
-    alphas[1]  R12       3.8243380049409836e-01
-    alphas[1]  R22       -1.3535144090215581e-01
-    alphas[1]  R32       -9.0426336541787822e-01
-    alphas[1]  R42       5.1714025687923837e-01
-    alphas[1]  R52       -1.4957557985078522e+00
-    alphas[1]  R62       -1.2850088920092029e+00
-    alphas[1]  R72       1.4877761579997479e+00
-    alphas[1]  R82       7.8931408524913260e-01
-    alphas[1]  R92       0.133312182771857
-    alphas[1]  R102      1.2971449688864629e+00
-    alphas[1]  R112      4.6612863403692056e-01
-    alphas[1]  R122      -8.6848866907895927e-01
-    alphas[1]  R132      -0.66543404950399
-    alphas[1]  R142      -4.6733111911680031e-01
-    alphas[1]  R152      -7.6771927984085464e-01
-    alphas[1]  R162      9.5534428831598506e-01
-    alphas[1]  R172      4.8922712913725630e-01
-    alphas[1]  R182      -6.5087539255592086e-01
-    alphas[1]  R192      -1.3426581087366125e+00
-    alphas[1]  R202      -1.9910560091127646e-01
-    alphas[1]  R212      6.9028954130847719e-01
-    alphas[1]  R222      1.5506695658001692e+00
-    alphas[1]  R232      -0.767066410641397
-    alphas[1]  R242      1.6268406512752489e+00
-    alphas[1]  R252      3.8364632039949592e-01
-    alphas[1]  R262      -1.5432259021701672e-01
-    alphas[1]  R272      -1.4887787346156038e+00
-    alphas[1]  R282      1.3487182877211783e+00
-    alphas[1]  R292      2.7028761122101275e-01
-    alphas[1]  R302      1.5708515035470212e+00
-    alphas[1]  R312      4.8611613731099534e-01
-    alphas[1]  R322      -4.6680844640538810e-01
-    alphas[1]  R332      7.0266611622331643e-01
-    alphas[1]  R342      9.3889674112652988e-01
-    alphas[1]  R352      1.2594010116732552e+00
-    alphas[1]  R362      -3.1314227626946778e-01
-    alphas[1]  R372      -7.1571978924011426e-01
-    alphas[1]  R382      -6.3627126427440184e-01
-    alphas[1]  R392      -1.5799392579647513e+00
-    alphas[1]  R402      1.6444967408405446e+00
-    alphas[1]  R412      -5.5188935240610271e-01
-    alphas[1]  R422      -3.9238335316111417e-01
-    alphas[1]  R432      -3.5267205963377873e-01
-    alphas[1]  R442      -1.6273411231464487e+00
-    alphas[1]  R452      1.5962116762835361e+00
-    alphas[1]  R462      -7.1985164349563291e-01
-    alphas[1]  R472      -1.1192477111939843e+00
-    alphas[1]  R482      -8.3676218519637746e-02
-    alphas[1]  R492      0.515581458456912
-    alphas[1]  R502      -1.0414158342965860e+00
-    alphas[1]  R512      1.3223123783080988e+00
-    alphas[1]  R522      1.4728425404492751e-01
-    alphas[1]  R532      -1.1825023646656323e-01
-    alphas[1]  R542      -7.1124315449800046e-01
-    alphas[1]  R552      1.3439772250676536e+00
-    alphas[1]  R562      8.7752151704404380e-01
-    alphas[1]  R572      2.5543164046270656e-01
-    alphas[1]  R582      -4.7043316505926175e-01
-    alphas[1]  R592      -1.3689878086945912e+00
-    alphas[1]  R602      -4.5520483045642479e-01
-    alphas[1]  R612      1.1988822480960828e+00
-    alphas[1]  R622      -1.6880356516744202e+00
-    alphas[1]  R632      -1.3172723699566651e+00
-    alphas[1]  R642      -5.9526169248796036e-02
-    alphas[1]  R652      -1.4895847774256530e+00
-    alphas[1]  R662      -1.9127670807968750e-01
-    alphas[1]  R672      -1.4928498641420738e+00
-    alphas[1]  R682      -1.1745199086044920e+00
-    alphas[1]  R692      -1.6461395524405726e+00
-    alphas[1]  R702      -1.4808428638512148e+00
-    alphas[1]  R712      1.5309085031016512e+00
-    alphas[1]  R722      1.0580989987240998e+00
-    alphas[1]  R732      3.2756682487180178e-01
-    alphas[1]  R742      -1.5911229696122540e+00
-    alphas[1]  R752      6.3123267269820815e-01
-    alphas[1]  R762      1.1068472031699439e+00
-    alphas[1]  R772      -1.3667518167363442e+00
-    alphas[1]  R782      1.3242986104933091e-01
-    alphas[1]  R792      -1.4402639487848925e+00
-    alphas[1]  R802      1.1076554868210449e+00
-    alphas[1]  R812      -5.9933060808369376e-01
-    alphas[1]  R822      1.5332270705717660e-01
-    alphas[1]  R832      1.3930478286334746e+00
-    alphas[1]  R842      -7.1978591806372427e-01
-    alphas[1]  R852      8.1059238837806080e-01
-    alphas[1]  R862      1.5187023162029198e+00
-    alphas[1]  R872      1.4494233485622192e+00
-    alphas[1]  R882      1.4455579463565
-    alphas[1]  R892      -1.4397778528580123e+00
-    alphas[1]  R902      -8.6776070949530693e-01
-    alphas[1]  R912      -1.4068211606235301e+00
-    alphas[1]  R922      -6.3840179989772716e-01
-    alphas[1]  R932      -1.4887915897091583e-01
-    alphas[1]  R942      6.1617834649230330e-01
-    alphas[1]  R952      -1.7472726292229341e+00
-    alphas[1]  R962      4.1939550353834454e-01
-    alphas[1]  R972      4.9772199577615174e-02
-    alphas[1]  R982      3.6467744487363185e-01
-    alphas[1]  R992      -1.6844464120152187e+00
-    alphas[1]  R1002     1.0584862030956903e+00
-    alphas[1]  R1012     5.3595018597891075e-01
-    alphas[1]  R1022     -6.6486896378208915e-01
-    alphas[1]  R1032     1.4383021944641849e+00
-    alphas[1]  R1042     -4.1575196984892554e-01
-    alphas[1]  R1052     2.5925052970407134e-02
-    alphas[1]  R1062     6.8585812686275460e-01
-    alphas[1]  R1072     8.4121422292427528e-01
-    alphas[1]  R1082     -9.9712374423500186e-02
-    alphas[1]  R1092     3.9983904531765635e-01
-    alphas[1]  R1102     9.7922986643477511e-02
-    alphas[1]  R1112     5.0361107614099820e-01
-    alphas[1]  R1122     -1.6536618110808812e+00
-    alphas[1]  R1132     1.1989573560272848e+00
-    alphas[1]  R1142     1.3238083640444225e+00
-    alphas[1]  R1152     4.8345541783047241e-01
-    alphas[1]  R1162     -3.6046697826694812e-01
-    alphas[1]  R1172     -5.9271568813753528e-01
-    alphas[1]  R1182     2.9988740932460345e-01
-    alphas[1]  R1192     -1.7517565829070056e+00
-    alphas[1]  R1202     4.5448372574158763e-01
-    alphas[1]  R1212     -8.0479160517981874e-01
-    alphas[1]  R1222     -5.1912568820736626e-01
-    alphas[1]  R1232     -1.1171184850536870e+00
-    alphas[1]  R1242     -1.6731959414556818e+00
-    alphas[1]  R1252     -1.3786420384644806e+00
-    alphas[1]  R1262     -9.5186170541505366e-01
-    alphas[1]  R1272     -7.2587020177210448e-01
-    alphas[1]  R1282     5.1035608491317874e-01
-    alphas[1]  R1292     1.1504075399585652e+00
-    alphas[1]  R1302     1.4402502171610310e+00
-    alphas[1]  R1312     8.2932593376823349e-01
-    alphas[1]  R1322     1.8052569990780040e-01
-    alphas[1]  R1332     -1.2521569366268448e-01
-    alphas[1]  R1342     -0.980902620306796
-    alphas[1]  R1352     -1.6136092361938477e+00
-    alphas[1]  R1362     1.2538895530199112e+00
-    alphas[1]  R1372     1.2890468792585428e+00
-    alphas[1]  R1382     -3.5592701441764568e-01
-    alphas[1]  R1392     -0.886552546715524
-    alphas[1]  R1402     -1.2367248259323846e+00
-    alphas[1]  R1412     -1.5355375899941937e+00
-    alphas[1]  R1422     -1.6977349827756636e+00
-    alphas[1]  R1432     2.9121442433637240e-01
-    alphas[1]  R1442     3.5755484975019336e-01
-    alphas[1]  R1452     1.1499880293848401e+00
-    alphas[1]  R1462     -6.8049693870143424e-01
-    alphas[1]  R1472     -5.8448720458012215e-01
-    alphas[1]  R1482     -1.2841366299372465e+00
-    alphas[1]  R1492     1.3222610237389145e+00
-    alphas[1]  R1502     -4.2677881888336218e-02
-    alphas[1]  R1512     -3.2657525015572347e-01
-    alphas[1]  R1522     8.3050052380177108e-01
-    alphas[1]  R1532     1.0776829808364186e+00
-    alphas[1]  R1542     -1.2756789768968768e+00
-    alphas[1]  R1552     1.4542263980352041e+00
-    alphas[1]  R1562     4.9867775876663988e-02
-    alphas[1]  R1572     1.2589553640665430e+00
-    alphas[1]  R1582     0.0960865572067635
-    alphas[1]  R1592     -1.6859302128912790e+00
-    alphas[1]  R1602     2.0974910253048934e-01
-    alphas[1]  R1612     -1.2673093864303520e+00
-    alphas[1]  R1622     1.2539063070723087e+00
-    alphas[1]  R1632     7.2930202953241718e-01
-    alphas[1]  R1642     2.7761322570004304e-01
-    alphas[1]  R1652     2.9117881905658805e-01
-    alphas[1]  R1662     -6.3431626675609654e-01
-    alphas[1]  R1672     4.7893514931494419e-01
-    alphas[1]  R1682     -7.7875573197270342e-01
-    alphas[1]  R1692     -5.2459269944946207e-01
-    alphas[1]  R1702     2.9339736115018261e-01
-    alphas[1]  R1712     1.8230243426264711e-01
-    alphas[1]  R1722     -4.4055596718138085e-01
-    alphas[1]  R1732     1.4150104779992161e+00
-    alphas[1]  R1742     -1.1489923933739510e+00
-    alphas[1]  R1752     -5.7310201377071379e-01
-    alphas[1]  R1762     -8.2161243534867334e-01
-    alphas[1]  R1772     -1.7608487953698096e-01
-    alphas[1]  R1782     1.2772112510124745e+00
-    alphas[1]  R1792     0.273377607476587
-    alphas[1]  R1802     2.7222583217987040e-01
-    alphas[1]  R1812     5.5961827060831959e-01
-    alphas[1]  R1822     1.5516405967870068e+00
-    alphas[1]  R1832     -8.5879897031812447e-01
-    alphas[1]  R1842     1.2795717610918891e+00
-    alphas[1]  R1852     -4.1254429007934384e-01
-    alphas[1]  R1862     -7.4280425071692135e-01
-    alphas[1]  R1872     -5.0959586011879654e-01
-    alphas[1]  R1882     -1.6149769355481505e+00
-    alphas[1]  R1892     1.3016766030838434e+00
-    alphas[1]  R1902     -1.3015326048957445e+00
-    alphas[1]  R1912     1.5542309276183834e+00
-    alphas[1]  R1922     -1.6924808145175604e-01
-    alphas[1]  R1932     2.7607666922273483e-01
-    alphas[1]  R1942     -1.3267082795501084e-01
-    alphas[1]  R1952     4.0947565014139542e-01
-    alphas[1]  R1962     1.0042711081263
-    alphas[1]  R1972     1.5885396707172343e+00
-    alphas[1]  R1982     -1.1210724232114253e-01
-    alphas[1]  R1992     -1.2184122741941772e+00
-    alphas[1]  R2002     3.8181665278225807e-01
-    alphas[1]  R2012     8.9420564528991564e-01
-    alphas[1]  R2022     1.3792619681112097e+00
-    alphas[1]  R2032     1.3629757625400623e+00
-    alphas[1]  R2042     8.9920633985754161e-01
-    alphas[1]  R2052     1.3128685536951650e+00
-    alphas[1]  R2062     7.5047335676576277e-01
-    alphas[1]  R2072     1.4282766079148326e+00
-    alphas[1]  R2082     1.4301325471781565e+00
-    alphas[1]  R2092     -1.2644169503485143e+00
-    alphas[1]  R2102     1.1012152069720980e+00
-    alphas[1]  R2112     -2.5364725172154362e-01
-    alphas[1]  R2122     -9.8217033612489857e-01
-    alphas[1]  R2132     0.0982989692512982
-    alphas[1]  R2142     1.1310392740522461e+00
-    alphas[1]  R2152     9.7350016806676754e-01
-    alphas[1]  R2162     1.7813086461396860e-01
-    alphas[1]  R2172     -1.4647370883048630e-01
-    alphas[1]  R2182     4.6284236050727340e-01
-    alphas[1]  R2192     -1.0095157262331054e+00
-    alphas[1]  R2202     -9.0571727510233246e-01
-    alphas[1]  R2212     -1.5061603361406648e+00
-    alphas[1]  R2222     1.5550409433633048e+00
-    alphas[1]  R2232     -1.3987407426190854e+00
-    alphas[1]  R2242     3.1586362671996615e-01
-    alphas[1]  R2252     -1.3397195641983737e+00
-    alphas[1]  R2262     -7.0043445717551078e-01
-    alphas[1]  R2272     -1.7111026238590803e+00
-    alphas[1]  R2282     -9.3386948177387508e-01
-    alphas[1]  R2292     4.1136790479882485e-01
-    alphas[1]  R2302     -5.3877230582072819e-02
-    alphas[1]  R2312     3.7100262317460320e-01
-    alphas[1]  R2322     4.1011648012799290e-01
-    alphas[1]  R2332     0.764565809809178
-    alphas[1]  R2342     -3.6521079942958806e-02
-    alphas[1]  R2352     -6.6961034015175136e-01
-    alphas[1]  R2362     0.708553911711315
-    alphas[1]  R2372     -1.3333861342714431e-01
-    alphas[1]  R2382     1.2536857120511073e+00
-    alphas[1]  R2392     1.1089681500227382e+00
-    alphas[1]  R2402     1.4941964908293413e+00
-    alphas[1]  R2412     -1.6544720427271387e+00
-    alphas[1]  R2422     1.6405533012154361e+00
-    alphas[1]  R2432     1.0451217387130032e+00
-    alphas[1]  R2442     -4.3489558339400286e-01
-    alphas[1]  R2452     1.3764075048483913e+00
-    alphas[1]  R2462     -1.3517291224985342e+00
-    alphas[1]  R2472     -7.9870331050628574e-01
-    alphas[1]  R2482     -1.6396766287358804e+00
-    alphas[1]  R2492     -7.6275397652578070e-02
-    alphas[2]  R2        -3.1602900495213115e-01
-    alphas[2]  R12       1.5943758839791111e+00
-    alphas[2]  R22       0.0676606266545596
-    alphas[2]  R32       -6.9590332833556656e-01
-    alphas[2]  R42       1.4832171597515660e+00
-    alphas[2]  R52       -1.2556055314431303e+00
-    alphas[2]  R62       -7.7402835409368279e-02
-    alphas[2]  R72       1.5268601596182383e+00
-    alphas[2]  R82       8.9176181044096081e-01
-    alphas[2]  R92       -1.4986744108597050e+00
-    alphas[2]  R102      -2.8141279160389104e-01
-    alphas[2]  R112      1.2750809403350165e+00
-    alphas[2]  R122      6.8482610076263950e-01
-    alphas[2]  R132      1.3034218508974993e-01
-    alphas[2]  R142      1.5586916185377229e+00
-    alphas[2]  R152      2.7813576843171484e-01
-    alphas[2]  R162      2.2975076640337207e-02
-    alphas[2]  R172      8.2861579765391091e-01
-    alphas[2]  R182      -3.0212661400511076e-01
-    alphas[2]  R192      -8.4166992223576731e-01
-    alphas[2]  R202      8.5432637314623594e-01
-    alphas[2]  R212      -4.0656293531214555e-01
-    alphas[2]  R222      -4.6924374864183283e-01
-    alphas[2]  R232      -1.4818411828707962e+00
-    alphas[2]  R242      -9.2373517222198109e-01
-    alphas[2]  R252      -1.1534135336138156e+00
-    alphas[2]  R262      1.9824135640733421e-02
-    alphas[2]  R272      1.0198124147299115e+00
-    alphas[2]  R282      -1.6368031029197465e+00
-    alphas[2]  R292      1.2033503801681855e+00
-    alphas[2]  R302      8.1981295260450962e-02
-    alphas[2]  R312      1.4041622540927359e+00
-    alphas[2]  R322      -1.4664697320537392e+00
-    alphas[2]  R332      -1.5355481245736486e+00
-    alphas[2]  R342      -7.3071009598491043e-01
-    alphas[2]  R352      4.8012770728552112e-01
-    alphas[2]  R362      7.9352760805129707e-01
-    alphas[2]  R372      7.5773009236184974e-01
-    alphas[2]  R382      1.2101085095241659e+00
-    alphas[2]  R392      -9.6177033133867385e-02
-    alphas[2]  R402      1.1625029857196822e+00
-    alphas[2]  R412      5.8915725176992884e-01
-    alphas[2]  R422      -4.2690736789518030e-01
-    alphas[2]  R432      -7.5743975372235028e-01
-    alphas[2]  R442      1.5478004066265187e+00
-    alphas[2]  R452      2.1749337886764941e-01
-    alphas[2]  R462      -5.1022500272937132e-01
-    alphas[2]  R472      -1.1694774786098938e+00
-    alphas[2]  R482      6.9304202214927682e-02
-    alphas[2]  R492      -1.5495805176297812e+00
-    alphas[2]  R502      0.756650937677515
-    alphas[2]  R512      1.5830835390431550e+00
-    alphas[2]  R522      4.1677928907420406e-02
-    alphas[2]  R532      7.8785230038680809e-01
-    alphas[2]  R542      -1.0726871349757860e+00
-    alphas[2]  R552      8.6436178396664953e-01
-    alphas[2]  R562      6.0915708891778475e-01
-    alphas[2]  R572      -9.6618790707825108e-01
-    alphas[2]  R582      -7.1679282511992881e-01
-    alphas[2]  R592      -2.0186348546126179e-01
-    alphas[2]  R602      -0.68337417876209
-    alphas[2]  R612      2.5512060061416841e-01
-    alphas[2]  R622      1.6099577888977366e+00
-    alphas[2]  R632      1.5901427174095280e+00
-    alphas[2]  R642      -4.8362002673091979e-02
-    alphas[2]  R652      1.3543453710395761e+00
-    alphas[2]  R662      1.4599440284318843e+00
-    alphas[2]  R672      -1.5374876426868729e+00
-    alphas[2]  R682      -1.1883471514415291e+00
-    alphas[2]  R692      1.1290359531929832e+00
-    alphas[2]  R702      1.6251862756297224e+00
-    alphas[2]  R712      -1.4593139090705656e+00
-    alphas[2]  R722      7.1504557815878811e-01
-    alphas[2]  R732      1.0180128045976751e+00
-    alphas[2]  R742      -6.3931957376500925e-01
-    alphas[2]  R752      1.2703897281586030e+00
-    alphas[2]  R762      7.5987293184231863e-01
-    alphas[2]  R772      -1.5688833463717287e+00
-    alphas[2]  R782      -4.6872102949585132e-01
-    alphas[2]  R792      -7.9357682734826449e-02
-    alphas[2]  R802      3.2303260820440161e-01
-    alphas[2]  R812      -9.1136046539839255e-01
-    alphas[2]  R822      1.1653213073372251e+00
-    alphas[2]  R832      -1.5434572026741042e+00
-    alphas[2]  R842      -1.1952974722548828e+00
-    alphas[2]  R852      -3.9724418199379657e-01
-    alphas[2]  R862      1.4867220093190066e+00
-    alphas[2]  R872      -6.6995972705723383e-01
-    alphas[2]  R882      -1.3662762492578016e+00
-    alphas[2]  R892      -9.2139055544257192e-02
-    alphas[2]  R902      4.6625577539023538e-01
-    alphas[2]  R912      1.2331083712129378e+00
-    alphas[2]  R922      -8.4711443622419347e-01
-    alphas[2]  R932      -1.2736350980785127e+00
-    alphas[2]  R942      1.2987499598411509e+00
-    alphas[2]  R952      -8.6049951199438579e-01
-    alphas[2]  R962      1.5714412188626652e+00
-    alphas[2]  R972      -1.5425299419838698e+00
-    alphas[2]  R982      -3.8872508731280664e-01
-    alphas[2]  R992      -1.8346742037394273e-01
-    alphas[2]  R1002     6.5727440317898034e-01
-    alphas[2]  R1012     -1.4187464158646257e+00
-    alphas[2]  R1022     0.755755813896965
-    alphas[2]  R1032     -1.0872046886453683e+00
-    alphas[2]  R1042     -1.6017080697972954e+00
-    alphas[2]  R1052     -9.4051950375875282e-01
-    alphas[2]  R1062     -7.3825037762907511e-02
-    alphas[2]  R1072     1.4107797614946249e+00
-    alphas[2]  R1082     7.8846098541393086e-02
-    alphas[2]  R1092     1.9081152903556617e-01
-    alphas[2]  R1102     9.6262169085512428e-01
-    alphas[2]  R1112     2.3889254255526962e-01
-    alphas[2]  R1122     4.5467480860025278e-01
-    alphas[2]  R1132     1.0908255528991921e+00
-    alphas[2]  R1142     1.8059044434694291e-01
-    alphas[2]  R1152     7.6593584195131570e-01
-    alphas[2]  R1162     -8.3896336069997857e-02
-    alphas[2]  R1172     1.5121129239997613e+00
-    alphas[2]  R1182     -1.3431575949121362e+00
-    alphas[2]  R1192     -1.0485836555663022e+00
-    alphas[2]  R1202     -1.8393377640707223e-01
-    alphas[2]  R1212     -1.1647658703641710e+00
-    alphas[2]  R1222     -1.5272555149202354e+00
-    alphas[2]  R1232     1.2650842925881152e+00
-    alphas[2]  R1242     -4.4042972744816788e-01
-    alphas[2]  R1252     -1.6439446540467983e+00
-    alphas[2]  R1262     -1.6108221923350698e+00
-    alphas[2]  R1272     -3.5025903044751378e-01
-    alphas[2]  R1282     1.2077259961237417e+00
-    alphas[2]  R1292     -2.8427470501089486e-01
-    alphas[2]  R1302     1.6205958717747586e+00
-    alphas[2]  R1312     9.7535530661843317e-01
-    alphas[2]  R1322     -1.5066969101050027e+00
-    alphas[2]  R1332     5.4421777567847129e-01
-    alphas[2]  R1342     -4.6520494637376381e-01
-    alphas[2]  R1352     7.0673877764755921e-01
-    alphas[2]  R1362     -1.4794863053511591e+00
-    alphas[2]  R1372     -7.6076720009047827e-01
-    alphas[2]  R1382     5.4680538622474739e-01
-    alphas[2]  R1392     -9.6793826466629773e-01
-    alphas[2]  R1402     1.2728095089132097e+00
-    alphas[2]  R1412     3.4138769025357096e-01
-    alphas[2]  R1422     0.902236235634396
-    alphas[2]  R1432     -6.1381219630921235e-01
-    alphas[2]  R1442     1.2915565207344493e+00
-    alphas[2]  R1452     3.2595904548397137e-01
-    alphas[2]  R1462     7.2053789537739321e-01
-    alphas[2]  R1472     -3.2369640487739347e-02
-    alphas[2]  R1482     4.8043964093578012e-01
-    alphas[2]  R1492     -6.8816813512367325e-01
-    alphas[2]  R1502     1.5468028821245510e+00
-    alphas[2]  R1512     -4.5077182024220530e-01
-    alphas[2]  R1522     0.871577659502152
-    alphas[2]  R1532     7.4656659037948547e-01
-    alphas[2]  R1542     -9.9578120579571672e-01
-    alphas[2]  R1552     -1.5048784531142505e+00
-    alphas[2]  R1562     5.8974876725684233e-01
-    alphas[2]  R1572     -1.0828079229334893e+00
-    alphas[2]  R1582     1.2864936453113478e+00
-    alphas[2]  R1592     -4.5075455137291326e-01
-    alphas[2]  R1602     -8.3443294509529886e-01
-    alphas[2]  R1612     1.1160860157809436e+00
-    alphas[2]  R1622     2.3097727001951054e-01
-    alphas[2]  R1632     -1.2988266595848685e+00
-    alphas[2]  R1642     1.2878453609937219e+00
-    alphas[2]  R1652     1.5680457512190069e+00
-    alphas[2]  R1662     -3.0850661699365911e-01
-    alphas[2]  R1672     1.9974181620656162e-01
-    alphas[2]  R1682     -0.990646877426085
-    alphas[2]  R1692     -1.3996162500627163e+00
-    alphas[2]  R1702     6.4677268381707531e-01
-    alphas[2]  R1712     3.5422002399234653e-01
-    alphas[2]  R1722     3.3420213668977128e-02
-    alphas[2]  R1732     -3.0052851510827638e-01
-    alphas[2]  R1742     -1.5975948187006606e+00
-    alphas[2]  R1752     -0.658403880771953
-    alphas[2]  R1762     3.5046884620971119e-01
-    alphas[2]  R1772     7.6276373524960039e-01
-    alphas[2]  R1782     -1.4690096364456913e+00
-    alphas[2]  R1792     1.1830515219979831e+00
-    alphas[2]  R1802     -0.733584113181329
-    alphas[2]  R1812     -1.4059736629670720e+00
-    alphas[2]  R1822     -5.5133291362890968e-01
-    alphas[2]  R1832     2.4064029877203844e-01
-    alphas[2]  R1842     9.7509436984732634e-01
-    alphas[2]  R1852     4.2282217745827461e-01
-    alphas[2]  R1862     -6.8967999911945033e-01
-    alphas[2]  R1872     -5.0173406922251707e-01
-    alphas[2]  R1882     -1.4144343437031821e+00
-    alphas[2]  R1892     -1.2141056588543542e+00
-    alphas[2]  R1902     -1.0478836528606095e+00
-    alphas[2]  R1912     -1.3602663626644742e+00
-    alphas[2]  R1922     7.2156248794464872e-01
-    alphas[2]  R1932     0.416108357650625
-    alphas[2]  R1942     3.8211551280786338e-01
-    alphas[2]  R1952     -2.0972828218639533e-01
-    alphas[2]  R1962     -5.6297806385527260e-01
-    alphas[2]  R1972     6.8753959586738556e-01
-    alphas[2]  R1982     1.5635678045891555e+00
-    alphas[2]  R1992     3.1875900577141247e-01
-    alphas[2]  R2002     6.1604477045469541e-01
-    alphas[2]  R2012     -1.4610083245502212e+00
-    alphas[2]  R2022     -1.2842658951774220e+00
-    alphas[2]  R2032     -1.1926347499863863e+00
-    alphas[2]  R2042     -5.1309369533928550e-01
-    alphas[2]  R2052     4.9882370287002853e-01
-    alphas[2]  R2062     -1.7170050141362170e-01
-    alphas[2]  R2072     -1.0448492781596630e+00
-    alphas[2]  R2082     1.3041301971797019e+00
-    alphas[2]  R2092     -0.998466699355714
-    alphas[2]  R2102     1.4923809445188887e+00
-    alphas[2]  R2112     -1.0487695957895651e+00
-    alphas[2]  R2122     -1.0197366365542757e+00
-    alphas[2]  R2132     1.4601674861503786e+00
-    alphas[2]  R2142     -4.2839629899670217e-01
-    alphas[2]  R2152     -1.9619181349842037e-02
-    alphas[2]  R2162     1.07071494374674
-    alphas[2]  R2172     1.1409946215905733e+00
-    alphas[2]  R2182     -9.0728989509409919e-01
-    alphas[2]  R2192     -2.3346724003981040e-01
-    alphas[2]  R2202     -1.5947932287537545e+00
-    alphas[2]  R2212     -1.5923303659123560e+00
-    alphas[2]  R2222     -1.6264833436601867e+00
-    alphas[2]  R2232     1.2385556454032687e+00
-    alphas[2]  R2242     -1.4481308898940737e+00
-    alphas[2]  R2252     8.2569279826104625e-01
-    alphas[2]  R2262     1.2539705878826748e-01
-    alphas[2]  R2272     -8.5532701519102983e-01
-    alphas[2]  R2282     9.5991779454056769e-01
-    alphas[2]  R2292     -2.2894001313542225e-01
-    alphas[2]  R2302     1.0182778366610818e+00
-    alphas[2]  R2312     1.2840507412347761e+00
-    alphas[2]  R2322     1.2452979436223652e+00
-    alphas[2]  R2332     4.5506438254817788e-01
-    alphas[2]  R2342     1.61210549355476
-    alphas[2]  R2352     2.3474180941086803e-01
-    alphas[2]  R2362     -5.4979728595986832e-01
-    alphas[2]  R2372     3.1067639599719238e-01
-    alphas[2]  R2382     1.3461387934951394e+00
-    alphas[2]  R2392     1.4218767146001197e+00
-    alphas[2]  R2402     7.1572995290466279e-01
-    alphas[2]  R2412     1.0723762165448123e+00
-    alphas[2]  R2422     -1.5361054708878932e+00
-    alphas[2]  R2432     1.1316484337437156e+00
-    alphas[2]  R2442     -1.0128486009470299e+00
-    alphas[2]  R2452     -2.9383009871011989e-01
-    alphas[2]  R2462     -2.3869274748737859e-01
-    alphas[2]  R2472     -5.1177469818851906e-02
-    alphas[2]  R2482     -1.5579627359624943e+00
-    alphas[2]  R2492     4.3472268842611012e-01
-    alphas[3]  R2        2.2820127308561783e-01
-    alphas[3]  R12       -1.0833807853194524e+00
-    alphas[3]  R22       9.8439788736828637e-01
-    alphas[3]  R32       6.9707934515420747e-02
-    alphas[3]  R42       -1.3947355616478829e+00
-    alphas[3]  R52       -5.1270832497054952e-01
-    alphas[3]  R62       -9.5258680998428014e-01
-    alphas[3]  R72       -1.2205177099242165e-01
-    alphas[3]  R82       -1.5656516599016870e+00
-    alphas[3]  R92       -2.4866706857318524e-01
-    alphas[3]  R102      1.5770455910153425e+00
-    alphas[3]  R112      1.0645361935735969e+00
-    alphas[3]  R122      3.6944343284355424e-01
-    alphas[3]  R132      -2.9107033981633762e-01
-    alphas[3]  R142      -8.6469417234043711e-01
-    alphas[3]  R152      3.4150236563702219e-01
-    alphas[3]  R162      -6.5671990959510207e-01
-    alphas[3]  R172      -9.2499189381971980e-01
-    alphas[3]  R182      6.6360518622183806e-01
-    alphas[3]  R192      -1.5616307706029464e+00
-    alphas[3]  R202      -4.5368933559684310e-01
-    alphas[3]  R212      -1.2313052880744606e+00
-    alphas[3]  R222      -1.3866925370355793e-01
-    alphas[3]  R232      -7.6275248225816061e-01
-    alphas[3]  R242      -8.6003265678120466e-01
-    alphas[3]  R252      -1.3229026725963577e+00
-    alphas[3]  R262      1.2246466954064699e+00
-    alphas[3]  R272      -1.4655405050774181e-01
-    alphas[3]  R282      2.9009956557629935e-01
-    alphas[3]  R292      -1.3730222998496486e+00
-    alphas[3]  R302      1.3767640139774748e+00
-    alphas[3]  R312      -1.5727354325848750e+00
-    alphas[3]  R322      -1.21266086105037
-    alphas[3]  R332      1.4818675497579019e+00
-    alphas[3]  R342      0.079720907849908
-    alphas[3]  R352      -6.8193392175860568e-01
-    alphas[3]  R362      -0.751150636101142
-    alphas[3]  R372      -1.3170060413997366e+00
-    alphas[3]  R382      -9.5859154778829514e-01
-    alphas[3]  R392      6.8488180631635831e-01
-    alphas[3]  R402      5.4617130169297388e-02
-    alphas[3]  R412      -0.628913143986337
-    alphas[3]  R422      1.2646899669938312e+00
-    alphas[3]  R432      1.0779546412884073e+00
-    alphas[3]  R442      1.1307856253279702e-01
-    alphas[3]  R452      7.2751890444958356e-01
-    alphas[3]  R462      -1.1693263110333203e+00
-    alphas[3]  R472      -2.4065085105746017e-01
-    alphas[3]  R482      5.5804253346770638e-01
-    alphas[3]  R492      -1.1231879058400418e+00
-    alphas[3]  R502      -9.7544195185500748e-01
-    alphas[3]  R512      -1.6257805838562784e+00
-    alphas[3]  R522      -1.1180607399035432e+00
-    alphas[3]  R532      3.3689596548183576e-01
-    alphas[3]  R542      1.3014560874612016e+00
-    alphas[3]  R552      -1.0956514743184771e+00
-    alphas[3]  R562      1.5291559993609389e+00
-    alphas[3]  R572      5.5264420090944821e-01
-    alphas[3]  R582      -1.3615230451234153e+00
-    alphas[3]  R592      -1.4994334562222049e+00
-    alphas[3]  R602      -0.423128429713686
-    alphas[3]  R612      -5.8475381825991046e-01
-    alphas[3]  R622      1.5873185806229662e+00
-    alphas[3]  R632      6.8268185141650314e-04
-    alphas[3]  R642      -1.0818361381372289e-01
-    alphas[3]  R652      0.586830504051697
-    alphas[3]  R662      1.4994454599475362e+00
-    alphas[3]  R672      9.6058765504582189e-01
-    alphas[3]  R682      5.2671915153586846e-01
-    alphas[3]  R692      2.6736528172362628e-01
-    alphas[3]  R702      -2.5627904446656180e-01
-    alphas[3]  R712      -6.9817594315332243e-01
-    alphas[3]  R722      6.6235585947547548e-01
-    alphas[3]  R732      6.2429923248593477e-01
-    alphas[3]  R742      1.6638320775931306e+00
-    alphas[3]  R752      1.5926282378820331e+00
-    alphas[3]  R762      8.6339776551346492e-01
-    alphas[3]  R772      -7.5818742455960353e-01
-    alphas[3]  R782      -3.8194953982976176e-01
-    alphas[3]  R792      -8.5749471303910862e-01
-    alphas[3]  R802      -8.5457175041085365e-01
-    alphas[3]  R812      -1.1491859383114944e+00
-    alphas[3]  R822      -0.691210412501363
-    alphas[3]  R832      -1.56075910634691
-    alphas[3]  R842      -1.2912282976562852e+00
-    alphas[3]  R852      -2.4212931540758106e-01
-    alphas[3]  R862      -2.4697132940405303e-01
-    alphas[3]  R872      1.6148393179795022e+00
-    alphas[3]  R882      -1.6263577267158285e+00
-    alphas[3]  R892      1.2877515457800621e+00
-    alphas[3]  R902      -7.5853094924708053e-01
-    alphas[3]  R912      -1.0296829246094126e+00
-    alphas[3]  R922      4.7606187743178840e-01
-    alphas[3]  R932      1.0683370045585732e+00
-    alphas[3]  R942      1.3980574089791153e+00
-    alphas[3]  R952      -7.8629155407201146e-01
-    alphas[3]  R962      2.0850316191669771e-01
-    alphas[3]  R972      -0.669020551676746
-    alphas[3]  R982      -1.3469673591527798e+00
-    alphas[3]  R992      1.2373055437310716e+00
-    alphas[3]  R1002     -1.3596172365904631e+00
-    alphas[3]  R1012     3.4640878991792096e-01
-    alphas[3]  R1022     7.0391827818316943e-01
-    alphas[3]  R1032     -1.4399237079437217e+00
-    alphas[3]  R1042     -1.5998876184815296e+00
-    alphas[3]  R1052     1.0614793377570964e+00
-    alphas[3]  R1062     -4.7782992809919284e-01
-    alphas[3]  R1072     1.3720560658786729e+00
-    alphas[3]  R1082     -4.5791624035675049e-01
-    alphas[3]  R1092     -1.0508527072527236e+00
-    alphas[3]  R1102     -5.7080505941553639e-01
-    alphas[3]  R1112     3.2722673165146088e-01
-    alphas[3]  R1122     4.4240878571850234e-01
-    alphas[3]  R1132     4.0860703772157925e-01
-    alphas[3]  R1142     -2.5219533611028577e-01
-    alphas[3]  R1152     -1.2332185898208305e+00
-    alphas[3]  R1162     -1.3928781491434112e+00
-    alphas[3]  R1172     1.5500913798147353e+00
-    alphas[3]  R1182     1.1195289576946239e+00
-    alphas[3]  R1192     1.3527989843383084e+00
-    alphas[3]  R1202     1.0801602026611534e+00
-    alphas[3]  R1212     5.6495809588610224e-01
-    alphas[3]  R1222     2.7400766904457273e-02
-    alphas[3]  R1232     -3.8580632157695605e-01
-    alphas[3]  R1242     -7.3095129069226383e-01
-    alphas[3]  R1252     -1.2619387277680396e+00
-    alphas[3]  R1262     -1.5946329971783686e+00
-    alphas[3]  R1272     -4.9805887022263678e-01
-    alphas[3]  R1282     -1.1115291003037331e+00
-    alphas[3]  R1292     -0.88522512317734
-    alphas[3]  R1302     0.696304761221882
-    alphas[3]  R1312     -1.2134707611777906e+00
-    alphas[3]  R1322     1.5862811079215473e+00
-    alphas[3]  R1332     1.7287874742401641e+00
-    alphas[3]  R1342     8.0991582028863363e-01
-    alphas[3]  R1352     1.7675873516099352e-01
-    alphas[3]  R1362     -4.1572778863975446e-01
-    alphas[3]  R1372     1.3879385212896087e+00
-    alphas[3]  R1382     -5.3218868300025945e-01
-    alphas[3]  R1392     -9.6514759675174078e-01
-    alphas[3]  R1402     1.1071238758209090e+00
-    alphas[3]  R1412     3.3464817503911709e-01
-    alphas[3]  R1422     -1.7820273979572587e-02
-    alphas[3]  R1432     2.1134856736833288e-01
-    alphas[3]  R1442     -9.5847220470244576e-01
-    alphas[3]  R1452     -1.4986130378660254e+00
-    alphas[3]  R1462     -9.5552509958064757e-01
-    alphas[3]  R1472     1.4678624353084007e+00
-    alphas[3]  R1482     -9.7563396329194330e-01
-    alphas[3]  R1492     1.5061698143346394e+00
-    alphas[3]  R1502     9.3684728364295833e-01
-    alphas[3]  R1512     1.2154126442108371e+00
-    alphas[3]  R1522     1.0660948202988221e+00
-    alphas[3]  R1532     -4.5820635622407811e-02
-    alphas[3]  R1542     -5.2775079545071157e-01
-    alphas[3]  R1552     1.4911596685768483e-01
-    alphas[3]  R1562     -1.4958340255610878e+00
-    alphas[3]  R1572     9.2231982322231887e-01
-    alphas[3]  R1582     -8.3514591685395612e-01
-    alphas[3]  R1592     -1.1949495100704064e+00
-    alphas[3]  R1602     -1.5926891834866824e-01
-    alphas[3]  R1612     1.9650665734428696e-01
-    alphas[3]  R1622     -2.7395199443814011e-01
-    alphas[3]  R1632     2.8864996716803382e-01
-    alphas[3]  R1642     -1.3616907269587356e-01
-    alphas[3]  R1652     3.2856854180065936e-01
-    alphas[3]  R1662     0.383910335073444
-    alphas[3]  R1672     -6.0726853228667610e-01
-    alphas[3]  R1682     1.4179184267505631e+00
-    alphas[3]  R1692     1.1702189357932828e+00
-    alphas[3]  R1702     -1.13113895703116
-    alphas[3]  R1712     -8.6182520571999255e-01
-    alphas[3]  R1722     7.8396264197409093e-01
-    alphas[3]  R1732     4.6189586590874487e-01
-    alphas[3]  R1742     -1.3826608722687446e+00
-    alphas[3]  R1752     -1.0198074303551332e+00
-    alphas[3]  R1762     -3.3500002418404123e-01
-    alphas[3]  R1772     9.8552007400404029e-01
-    alphas[3]  R1782     1.5812766437459362e+00
-    alphas[3]  R1792     2.8042116714267945e-01
-    alphas[3]  R1802     -5.3090131083100323e-01
-    alphas[3]  R1812     -1.0547762655927659e+00
-    alphas[3]  R1822     -1.1361491376900283e+00
-    alphas[3]  R1832     1.6198515323508302e+00
-    alphas[3]  R1842     9.0932923460625381e-01
-    alphas[3]  R1852     0.590212534578405
-    alphas[3]  R1862     1.0956305001408955e+00
-    alphas[3]  R1872     -9.6904509993079657e-01
-    alphas[3]  R1882     -8.4968547148906448e-01
-    alphas[3]  R1892     -7.2255230405207354e-03
-    alphas[3]  R1902     -1.5739206025534471e+00
-    alphas[3]  R1912     1.2457935642788254e+00
-    alphas[3]  R1922     -1.2940063853788322e+00
-    alphas[3]  R1932     1.3385505026097575e+00
-    alphas[3]  R1942     1.1815142477538372e+00
-    alphas[3]  R1952     -6.1020207520711023e-01
-    alphas[3]  R1962     1.3617220578870488e+00
-    alphas[3]  R1972     -1.7197134280014179e-01
-    alphas[3]  R1982     3.1747754128710526e-01
-    alphas[3]  R1992     -7.1862107018352506e-01
-    alphas[3]  R2002     -1.2974468285876080e+00
-    alphas[3]  R2012     -8.5777200278340560e-01
-    alphas[3]  R2022     -1.1260680664477356e+00
-    alphas[3]  R2032     1.6192816276882080e+00
-    alphas[3]  R2042     6.8735198949637855e-01
-    alphas[3]  R2052     -2.5198130091595608e-03
-    alphas[3]  R2062     3.3186479062228141e-01
-    alphas[3]  R2072     9.5269741995955359e-01
-    alphas[3]  R2082     6.9515498801404785e-01
-    alphas[3]  R2092     -1.4478857294429708e+00
-    alphas[3]  R2102     0.741182448756684
-    alphas[3]  R2112     5.4043280607634081e-01
-    alphas[3]  R2122     1.7175524552294730e+00
-    alphas[3]  R2132     -1.1105647629142326e+00
-    alphas[3]  R2142     1.2095511303042565e+00
-    alphas[3]  R2152     1.0438254246908283e+00
-    alphas[3]  R2162     8.7199328872668869e-01
-    alphas[3]  R2172     -1.24348674427005
-    alphas[3]  R2182     1.0360703740758446e+00
-    alphas[3]  R2192     -9.5072913963174377e-01
-    alphas[3]  R2202     -9.8610037381661719e-01
-    alphas[3]  R2212     -1.3860022458343229e+00
-    alphas[3]  R2222     1.3415822248479123e+00
-    alphas[3]  R2232     9.9967533969816469e-01
-    alphas[3]  R2242     -7.6710602961716978e-01
-    alphas[3]  R2252     1.0711985083174027e+00
-    alphas[3]  R2262     7.6757339053517559e-01
-    alphas[3]  R2272     1.1695483251188350e+00
-    alphas[3]  R2282     1.1495312328714848e+00
-    alphas[3]  R2292     1.1136123578290885e-01
-    alphas[3]  R2302     1.3613409833674621e+00
-    alphas[3]  R2312     6.4868953751262093e-01
-    alphas[3]  R2322     2.9609821157219746e-01
-    alphas[3]  R2332     1.6475078537516457e+00
-    alphas[3]  R2342     4.2470529580468425e-01
-    alphas[3]  R2352     1.4136454233443165e+00
-    alphas[3]  R2362     0.0709406175965907
-    alphas[3]  R2372     -1.0455584765364787e+00
-    alphas[3]  R2382     -1.0209668783744508e+00
-    alphas[3]  R2392     1.4596080186342457e+00
-    alphas[3]  R2402     -2.9090423990316250e-01
-    alphas[3]  R2412     -1.0753001977575489e+00
-    alphas[3]  R2422     9.3011736566302294e-01
-    alphas[3]  R2432     -8.3106620423294186e-01
-    alphas[3]  R2442     -1.2641330227302943e+00
-    alphas[3]  R2452     -0.9796291736111
-    alphas[3]  R2462     1.3693477805353811e+00
-    alphas[3]  R2472     1.6995685667740956e+00
-    alphas[3]  R2482     1.0855737325389483e+00
-    alphas[3]  R2492     8.2085792754147480e-01
+    alphas[0]  R2        -1.3777498762038368e-01
+    alphas[0]  R12       -7.3266017864307742e-01
+    alphas[0]  R22       -3.3067544520217029e-01
+    alphas[0]  R32       -1.2372192918319919e-01
+    alphas[0]  R42       3.0973620055936668e-01
+    alphas[0]  R52       -4.8489154565781578e-01
+    alphas[0]  R62       2.5992016711025595e-01
+    alphas[0]  R72       -1.3640437672446895e+00
+    alphas[0]  R82       -1.6210891872622477e+00
+    alphas[0]  R92       4.5352078991105360e-01
+    alphas[0]  R102      -1.0063172886125262e+00
+    alphas[0]  R112      -6.6555096841985711e-02
+    alphas[0]  R122      -2.0653659130493937e-01
+    alphas[0]  R132      -1.4849818694781463e+00
+    alphas[0]  R142      1.5705420897013735e+00
+    alphas[0]  R152      1.5129999023589351e+00
+    alphas[0]  R162      1.7522431693099882e+00
+    alphas[0]  R172      -1.1525387115598829e+00
+    alphas[0]  R182      -9.5780320150738218e-01
+    alphas[0]  R192      -1.2862367540938056e+00
+    alphas[0]  R202      -1.6745636153709189e+00
+    alphas[0]  R212      -1.0328962319114159e+00
+    alphas[0]  R222      1.7449259007538417e-01
+    alphas[0]  R232      -0.966285926578269
+    alphas[0]  R242      1.4016389509731559e+00
+    alphas[0]  R252      -4.6353445834953966e-01
+    alphas[0]  R262      1.3119682312024605e+00
+    alphas[0]  R272      -1.5531757530428028e+00
+    alphas[0]  R282      -0.0413596343670197
+    alphas[0]  R292      3.4189061750832278e-01
+    alphas[0]  R302      8.7860327657919657e-01
+    alphas[0]  R312      -9.4377609946971874e-01
+    alphas[0]  R322      1.9354680265508320e-01
+    alphas[0]  R332      -2.0792886670679031e-01
+    alphas[0]  R342      1.7573511891219491e+00
+    alphas[0]  R352      -3.8385145531863485e-01
+    alphas[0]  R362      -3.6404371592635620e-01
+    alphas[0]  R372      -3.8134320637547159e-01
+    alphas[0]  R382      -1.5498832489516445e+00
+    alphas[0]  R392      -6.1334741497171830e-01
+    alphas[0]  R402      5.3909663520771656e-01
+    alphas[0]  R412      2.6190551785343524e-01
+    alphas[0]  R422      -6.6988006483467133e-01
+    alphas[0]  R432      1.6091958809510589e+00
+    alphas[0]  R442      -5.5952257609035061e-01
+    alphas[0]  R452      -5.7336408083471269e-01
+    alphas[0]  R462      1.0723017213963728e+00
+    alphas[0]  R472      1.3635526523419026e+00
+    alphas[0]  R482      6.9670526261393817e-01
+    alphas[0]  R492      5.2406906266525066e-01
+    alphas[0]  R502      -2.1423192304345809e-01
+    alphas[0]  R512      2.5629347902634331e-01
+    alphas[0]  R522      -1.7094448770693298e+00
+    alphas[0]  R532      1.4596687489831324e+00
+    alphas[0]  R542      1.0776858021723599e+00
+    alphas[0]  R552      1.2477648339082279e+00
+    alphas[0]  R562      -5.1068632176195494e-01
+    alphas[0]  R572      9.1887830435779316e-01
+    alphas[0]  R582      1.5721764058776919e-01
+    alphas[0]  R592      9.5057916706168832e-01
+    alphas[0]  R602      1.2561313854414533e+00
+    alphas[0]  R612      1.4298832372620160e+00
+    alphas[0]  R622      -5.2220411179314030e-01
+    alphas[0]  R632      1.3304550255592857e+00
+    alphas[0]  R642      1.1216450223528660e+00
+    alphas[0]  R652      5.0613982647394828e-01
+    alphas[0]  R662      -1.1109671674669046e+00
+    alphas[0]  R672      1.4773446046799483e+00
+    alphas[0]  R682      -1.1715787360519812e+00
+    alphas[0]  R692      1.4809304088522475e+00
+    alphas[0]  R702      -1.6668444422398878e+00
+    alphas[0]  R712      1.4884932075950205e-01
+    alphas[0]  R722      -1.6679229109467948e+00
+    alphas[0]  R732      -3.3812025371396548e-01
+    alphas[0]  R742      -8.1873872756329213e-01
+    alphas[0]  R752      1.6844171524126625e+00
+    alphas[0]  R762      8.1334466302633524e-01
+    alphas[0]  R772      1.3947662602196849e+00
+    alphas[0]  R782      7.6567101673487370e-01
+    alphas[0]  R792      1.4000181789472050e+00
+    alphas[0]  R802      6.8757034604643341e-01
+    alphas[0]  R812      3.4331706694710068e-01
+    alphas[0]  R822      1.5951724860296101e+00
+    alphas[0]  R832      -6.5143352939284693e-01
+    alphas[0]  R842      -2.0137669068152508e-01
+    alphas[0]  R852      0.875621701231364
+    alphas[0]  R862      -4.6364444904976806e-02
+    alphas[0]  R872      1.4886460776446222e+00
+    alphas[0]  R882      -2.3479035193427272e-01
+    alphas[0]  R892      -1.4982098281420573e+00
+    alphas[0]  R902      6.8547588527553238e-01
+    alphas[0]  R912      -5.6182403066510733e-01
+    alphas[0]  R922      1.3532852294149309e+00
+    alphas[0]  R932      -7.3672857423256610e-01
+    alphas[0]  R942      7.8974914337872026e-01
+    alphas[0]  R952      1.1695252093063584e+00
+    alphas[0]  R962      -2.7257118228797111e-01
+    alphas[0]  R972      1.7526395234911
+    alphas[0]  R982      -1.1393813448086525e+00
+    alphas[0]  R992      1.8077461481436068e+00
+    alphas[0]  R1002     -5.9903176323019358e-01
+    alphas[0]  R1012     8.5910808767729063e-01
+    alphas[0]  R1022     -8.0418782263178112e-01
+    alphas[0]  R1032     -1.6158180566596003e+00
+    alphas[0]  R1042     9.3510579085300261e-01
+    alphas[0]  R1052     -2.3554421679573143e-01
+    alphas[0]  R1062     -2.9234038479113350e-01
+    alphas[0]  R1072     -2.2158016203061537e-01
+    alphas[0]  R1082     1.0268955578832826e+00
+    alphas[0]  R1092     -1.5820665336529272e+00
+    alphas[0]  R1102     2.2581597419694033e-01
+    alphas[0]  R1112     -1.2018413496807687e+00
+    alphas[0]  R1122     -6.7648796483248819e-01
+    alphas[0]  R1132     0.761034410541719
+    alphas[0]  R1142     -1.0852396197567915e+00
+    alphas[0]  R1152     4.0680901274317649e-01
+    alphas[0]  R1162     -1.3258933522646121e+00
+    alphas[0]  R1172     -2.5383507873501021e-01
+    alphas[0]  R1182     -1.3281536888229424e+00
+    alphas[0]  R1192     -6.5164616987337021e-01
+    alphas[0]  R1202     -0.768647778470864
+    alphas[0]  R1212     3.2024735714863639e-02
+    alphas[0]  R1222     -1.5939896451781146e+00
+    alphas[0]  R1232     -0.478084006811853
+    alphas[0]  R1242     3.0902019949220494e-01
+    alphas[0]  R1252     -3.4365411214194014e-01
+    alphas[0]  R1262     1.7559088199152724e+00
+    alphas[0]  R1272     7.4623926500658111e-01
+    alphas[0]  R1282     -5.3594833960937649e-01
+    alphas[0]  R1292     7.8734811065141819e-01
+    alphas[0]  R1302     -3.8520992085111566e-01
+    alphas[0]  R1312     2.9145119040488493e-01
+    alphas[0]  R1322     1.3401407865334087e+00
+    alphas[0]  R1332     7.5801172972136266e-01
+    alphas[0]  R1342     -2.1340289706708374e-01
+    alphas[0]  R1352     -2.8815995908126885e-01
+    alphas[0]  R1362     -2.2899350350579820e-01
+    alphas[0]  R1372     -5.1101704007101267e-01
+    alphas[0]  R1382     -5.0709269584332362e-01
+    alphas[0]  R1392     2.8197693263689244e-01
+    alphas[0]  R1402     -1.3811119944066332e+00
+    alphas[0]  R1412     5.1029926581359364e-01
+    alphas[0]  R1422     2.6607828655921356e-01
+    alphas[0]  R1432     -1.3645813663029740e+00
+    alphas[0]  R1442     -1.0580517441475847e+00
+    alphas[0]  R1452     -6.9225366621420525e-01
+    alphas[0]  R1462     1.4661688248621316e+00
+    alphas[0]  R1472     -1.4631208698854490e+00
+    alphas[0]  R1482     -7.2927031844943269e-01
+    alphas[0]  R1492     -1.7468922132232230e+00
+    alphas[1]  R2        -1.4639471239779163e+00
+    alphas[1]  R12       -1.0146132749840766e+00
+    alphas[1]  R22       4.8048154874912513e-01
+    alphas[1]  R32       1.3351593900076559e+00
+    alphas[1]  R42       2.2922269837634371e-01
+    alphas[1]  R52       8.2266975989988678e-01
+    alphas[1]  R62       1.1609091550690429e+00
+    alphas[1]  R72       1.4290023493906463e+00
+    alphas[1]  R82       -8.5030975017291854e-01
+    alphas[1]  R92       1.5714229847388419e+00
+    alphas[1]  R102      -1.0028581231284119e+00
+    alphas[1]  R112      1.1118787966006551e+00
+    alphas[1]  R122      1.3405148053904754e+00
+    alphas[1]  R132      1.3063304005638052e+00
+    alphas[1]  R142      -0.668733918854781
+    alphas[1]  R152      7.7813566056494676e-01
+    alphas[1]  R162      1.8412831397821169e-01
+    alphas[1]  R172      -2.7985853838666691e-01
+    alphas[1]  R182      -1.3079469230740026e+00
+    alphas[1]  R192      -8.5522634128642838e-01
+    alphas[1]  R202      0.693494195622574
+    alphas[1]  R212      1.1643165419477288e+00
+    alphas[1]  R222      1.4223996220262276e+00
+    alphas[1]  R232      5.8745546985947639e-01
+    alphas[1]  R242      7.2133339496520266e-01
+    alphas[1]  R252      6.3405344478932993e-02
+    alphas[1]  R262      -7.0682669904751794e-01
+    alphas[1]  R272      -7.4868545119264440e-01
+    alphas[1]  R282      6.4876384728817860e-01
+    alphas[1]  R292      0.321844926206539
+    alphas[1]  R302      9.9589230674849516e-01
+    alphas[1]  R312      -1.0637764550172446e+00
+    alphas[1]  R322      1.4174021303338484e+00
+    alphas[1]  R332      -7.5333719781016839e-01
+    alphas[1]  R342      -1.0303748103061137e+00
+    alphas[1]  R352      -1.02600777795809
+    alphas[1]  R362      7.3047409600757884e-01
+    alphas[1]  R372      3.4257682093805153e-01
+    alphas[1]  R382      -3.8237102340576229e-01
+    alphas[1]  R392      6.8503707645578427e-01
+    alphas[1]  R402      3.5261529950052634e-01
+    alphas[1]  R412      9.4196431515463330e-01
+    alphas[1]  R422      5.0806742357490629e-02
+    alphas[1]  R432      1.4588935198907691e+00
+    alphas[1]  R442      -1.1019263532816765e+00
+    alphas[1]  R452      1.3492148496939547e+00
+    alphas[1]  R462      -1.4919134744101845e-01
+    alphas[1]  R472      5.6978344467286557e-01
+    alphas[1]  R482      -3.4826890192069354e-01
+    alphas[1]  R492      -1.6432553486832633e+00
+    alphas[1]  R502      -5.7894877156070190e-01
+    alphas[1]  R512      1.4902597199993841e+00
+    alphas[1]  R522      1.5068307313295182e-01
+    alphas[1]  R532      -1.1928859338543944e-01
+    alphas[1]  R542      -2.0799906643462010e-01
+    alphas[1]  R552      -7.0042171281636367e-01
+    alphas[1]  R562      6.6884782858092107e-01
+    alphas[1]  R572      1.1732085102571848e+00
+    alphas[1]  R582      2.7861414376961252e-01
+    alphas[1]  R592      -1.6329887266193996e+00
+    alphas[1]  R602      9.7561442471002358e-01
+    alphas[1]  R612      -1.4552270433570045e+00
+    alphas[1]  R622      -2.3386708125193789e-01
+    alphas[1]  R632      6.0791383515334321e-02
+    alphas[1]  R642      -1.3808200967908042e+00
+    alphas[1]  R652      5.5051997121863150e-02
+    alphas[1]  R662      -8.4547173135215936e-01
+    alphas[1]  R672      2.5708256143344982e-01
+    alphas[1]  R682      -1.4554319879096360e+00
+    alphas[1]  R692      -7.2969446529021287e-01
+    alphas[1]  R702      -7.6223791046762346e-01
+    alphas[1]  R712      4.9887682258899019e-01
+    alphas[1]  R722      -9.5605532243498359e-01
+    alphas[1]  R732      -0.546703208058506
+    alphas[1]  R742      7.9626706792534252e-01
+    alphas[1]  R752      1.0657878619357588e+00
+    alphas[1]  R762      -1.0903820333130183e+00
+    alphas[1]  R772      -1.6423508435143825e+00
+    alphas[1]  R782      5.6629263523688959e-02
+    alphas[1]  R792      -3.9384793074697755e-01
+    alphas[1]  R802      -1.2983554077632919e+00
+    alphas[1]  R812      5.9733287157319431e-02
+    alphas[1]  R822      -1.6176233175067336e+00
+    alphas[1]  R832      -3.4219297109707331e-01
+    alphas[1]  R842      -1.1730396023444187e+00
+    alphas[1]  R852      -1.4717064520530658e+00
+    alphas[1]  R862      -1.1552596186595876e+00
+    alphas[1]  R872      1.0696005520264180e+00
+    alphas[1]  R882      -5.2241484852717823e-01
+    alphas[1]  R892      2.5908685035573520e-01
+    alphas[1]  R902      1.3975143966799097e+00
+    alphas[1]  R912      1.7228431475016506e-01
+    alphas[1]  R922      7.3297833339204621e-01
+    alphas[1]  R932      -1.2689069132465545e+00
+    alphas[1]  R942      1.4972377301594255e+00
+    alphas[1]  R952      -1.6417273043256084e+00
+    alphas[1]  R962      4.0512121946681984e-01
+    alphas[1]  R972      4.0058393284837329e-01
+    alphas[1]  R982      1.5548035940343525e+00
+    alphas[1]  R992      9.8205244450903872e-01
+    alphas[1]  R1002     2.4950648275907245e-01
+    alphas[1]  R1012     -1.5410443916413921e+00
+    alphas[1]  R1022     1.2723801628110851e+00
+    alphas[1]  R1032     -1.5953345332466733e+00
+    alphas[1]  R1042     -1.3382534090759366e+00
+    alphas[1]  R1052     7.0113298526443144e-02
+    alphas[1]  R1062     5.0233400385468530e-01
+    alphas[1]  R1072     8.2094039878773850e-01
+    alphas[1]  R1082     -4.7347020769566783e-01
+    alphas[1]  R1092     1.4980177767531881e+00
+    alphas[1]  R1102     1.5572533747698083e+00
+    alphas[1]  R1112     1.5613143422053055e-01
+    alphas[1]  R1122     1.37933488650665
+    alphas[1]  R1132     7.5584404469409938e-01
+    alphas[1]  R1142     8.6021895977617790e-01
+    alphas[1]  R1152     7.5160461059997663e-01
+    alphas[1]  R1162     1.1657664209572978e+00
+    alphas[1]  R1172     1.5693586712634819e+00
+    alphas[1]  R1182     1.2185673005154438e+00
+    alphas[1]  R1192     -0.487086907321053
+    alphas[1]  R1202     -1.6935195572734683e+00
+    alphas[1]  R1212     -1.7480764767539063e+00
+    alphas[1]  R1222     2.2307509161426353e-01
+    alphas[1]  R1232     1.0575965747543798e+00
+    alphas[1]  R1242     -5.5586126088098786e-01
+    alphas[1]  R1252     -5.2447077203318246e-02
+    alphas[1]  R1262     -1.7449051407159584e+00
+    alphas[1]  R1272     1.3887274768157178e+00
+    alphas[1]  R1282     -1.0457666569643260e+00
+    alphas[1]  R1292     6.3221700107875678e-01
+    alphas[1]  R1302     7.9152528845605175e-01
+    alphas[1]  R1312     -6.3637290295706606e-01
+    alphas[1]  R1322     0.77577561592904
+    alphas[1]  R1332     -6.4774813451657209e-01
+    alphas[1]  R1342     -0.14401455506691
+    alphas[1]  R1352     1.7209192169798482e-01
+    alphas[1]  R1362     -0.270767353364338
+    alphas[1]  R1372     0.636784587823516
+    alphas[1]  R1382     -7.8581428297321032e-01
+    alphas[1]  R1392     2.0339794395657332e-01
+    alphas[1]  R1402     0.387567041521336
+    alphas[1]  R1412     -1.1997938132992032e+00
+    alphas[1]  R1422     -1.5263800378533219e+00
+    alphas[1]  R1432     1.4541630563705841e+00
+    alphas[1]  R1442     8.2133760729947658e-01
+    alphas[1]  R1452     4.2834773322948361e-01
+    alphas[1]  R1462     -1.1533696864115168e+00
+    alphas[1]  R1472     -1.7316180568164548e+00
+    alphas[1]  R1482     -1.6755998437315804e+00
+    alphas[1]  R1492     -1.4584972821758606e+00
+    alphas[2]  R2        1.0322614312240928e+00
+    alphas[2]  R12       0.498648104244913
+    alphas[2]  R22       -7.2762736886007817e-01
+    alphas[2]  R32       1.4201291918281291e+00
+    alphas[2]  R42       -4.7322931095545162e-01
+    alphas[2]  R52       -2.2189118745675623e-02
+    alphas[2]  R62       6.5173396331546363e-01
+    alphas[2]  R72       8.1038347372300723e-01
+    alphas[2]  R82       -1.5048995051357447e-01
+    alphas[2]  R92       3.5965152558237246e-01
+    alphas[2]  R102      5.1335108607875490e-02
+    alphas[2]  R112      0.4656234333574
+    alphas[2]  R122      -1.7373817659859818e+00
+    alphas[2]  R132      1.1757104506314522e+00
+    alphas[2]  R142      1.3032081916146154e+00
+    alphas[2]  R152      4.4504049259117207e-01
+    alphas[2]  R162      -4.1677232555403804e-01
+    alphas[2]  R172      -6.5394450642012625e-01
+    alphas[2]  R182      2.5758100169091613e-01
+    alphas[2]  R192      -1.8375560618024238e+00
+    alphas[2]  R202      4.1545462578515013e-01
+    alphas[2]  R212      -8.7051624876530931e-01
+    alphas[2]  R222      -5.7879446238716348e-01
+    alphas[2]  R232      -1.1894641873095624e+00
+    alphas[2]  R242      -1.7573300029638985e+00
+    alphas[2]  R252      -1.4565318129805458e+00
+    alphas[2]  R262      -1.0207041074295018e+00
+    alphas[2]  R272      -7.8992178013015546e-01
+    alphas[2]  R282      0.472511430459086
+    alphas[2]  R292      1.1261314206162505e+00
+    alphas[2]  R302      1.4221185109147458e+00
+    alphas[2]  R312      0.79824316315906
+    alphas[2]  R322      1.3568892767224028e-01
+    alphas[2]  R332      -0.176533917976954
+    alphas[2]  R342      -1.0503606645016981e+00
+    alphas[2]  R352      -1.6964801112876482e+00
+    alphas[2]  R362      1.2318071625045404e+00
+    alphas[2]  R372      1.2677097935335051e+00
+    alphas[2]  R382      -4.1213611841302827e-01
+    alphas[2]  R392      -9.5401045127129147e-01
+    alphas[2]  R402      -1.3116060787647188e+00
+    alphas[2]  R412      -1.6167534139755508e+00
+    alphas[2]  R422      -1.7823892506534387e+00
+    alphas[2]  R432      2.4872415695139607e-01
+    alphas[2]  R442      3.1647094178282620e-01
+    alphas[2]  R452      1.1257030167826092e+00
+    alphas[2]  R462      -7.4358664327846813e-01
+    alphas[2]  R472      -6.4554158615581159e-01
+    alphas[2]  R482      -1.3600229718484071e+00
+    alphas[2]  R492      1.3016280490381347e+00
+    alphas[2]  R502      -9.2246376257799759e-02
+    alphas[2]  R512      -3.8216212223390478e-01
+    alphas[2]  R522      7.9944265348145171e-01
+    alphas[2]  R532      1.0518651639850070e+00
+    alphas[2]  R542      -1.3513860239070774e+00
+    alphas[2]  R552      1.4363909746884027e+00
+    alphas[2]  R562      2.2611690975319980e-03
+    alphas[2]  R572      1.2369803643468873e+00
+    alphas[2]  R582      4.9459748461613544e-02
+    alphas[2]  R592      -1.7703342298971902e+00
+    alphas[2]  R602      1.6553184105683144e-01
+    alphas[2]  R612      -1.3428390053896966e+00
+    alphas[2]  R622      1.2318242717283014e+00
+    alphas[2]  R632      6.9609883900084157e-01
+    alphas[2]  R642      2.3483462471344044e-01
+    alphas[2]  R652      2.4868779687059503e-01
+    alphas[2]  R662      -6.9642698118501589e-01
+    alphas[2]  R672      4.4042439830791169e-01
+    alphas[2]  R682      -8.4392843765227754e-01
+    alphas[2]  R692      -5.8437736952076891e-01
+    alphas[2]  R702      2.5095337013028868e-01
+    alphas[2]  R712      1.3750332725273151e-01
+    alphas[2]  R722      -0.498559131494877
+    alphas[2]  R732      1.3963437111975183e+00
+    alphas[2]  R742      -1.2220137948111716e+00
+    alphas[2]  R752      -6.3391503918662284e-01
+    alphas[2]  R762      -8.8769366592878174e-01
+    alphas[2]  R772      -2.2848148642377955e-01
+    alphas[2]  R782      1.2556232602450987e+00
+    alphas[2]  R792      2.3050921506129229e-01
+    alphas[2]  R802      2.2933302312833290e-01
+    alphas[2]  R812      5.2281793171826219e-01
+    alphas[2]  R822      1.5358702698722664e+00
+    alphas[2]  R832      -9.2566852315176562e-01
+    alphas[2]  R842      1.2580338110886458e+00
+    alphas[2]  R852      -4.6995363115987554e-01
+    alphas[2]  R862      -8.0721481620933655e-01
+    alphas[2]  R872      -5.6906261021754523e-01
+    alphas[2]  R882      -1.6978768046807355e+00
+    alphas[2]  R892      1.2806072565379367e+00
+    alphas[2]  R902      -1.3777877263716840e+00
+    alphas[2]  R912      1.5385155134681709e+00
+    alphas[2]  R922      -2.2149975415531040e-01
+    alphas[2]  R932      2.3326549457295381e-01
+    alphas[2]  R942      -1.8414709464323498e-01
+    alphas[2]  R952      3.6949241806123423e-01
+    alphas[2]  R962      9.7689702331449735e-01
+    alphas[2]  R972      1.5735515721315878e+00
+    alphas[2]  R982      -1.6314757884859935e-01
+    alphas[2]  R992      -1.2929053168298357e+00
+    alphas[2]  R1002     3.4124707397346193e-01
+    alphas[2]  R1012     8.6449826823212716e-01
+    alphas[2]  R1022     1.3598373639391170e+00
+    alphas[2]  R1032     1.3432059049506262e+00
+    alphas[2]  R1042     8.6960497318265129e-01
+    alphas[2]  R1052     1.2920364667846240e+00
+    alphas[2]  R1062     7.1771897998918177e-01
+    alphas[2]  R1072     1.4098910715488107e+00
+    alphas[2]  R1082     1.4117863551130672e+00
+    alphas[2]  R1092     -1.3398852521743294e+00
+    alphas[2]  R1102     1.0758962528825207e+00
+    alphas[2]  R1112     -3.0768811355385212e-01
+    alphas[2]  R1122     -1.0516552547944296e+00
+    alphas[2]  R1132     5.1719061720529355e-02
+    alphas[2]  R1142     1.1063525642895324e+00
+    alphas[2]  R1152     9.4547376604307665e-01
+    alphas[2]  R1162     1.3324332394953434e-01
+    alphas[2]  R1172     -1.9824258460869254e-01
+    alphas[2]  R1182     4.2399045635034710e-01
+    alphas[2]  R1192     -1.0795803434298465e+00
+    alphas[2]  R1202     -9.7358145525981032e-01
+    alphas[2]  R1212     -1.5867533878476092e+00
+    alphas[2]  R1222     1.5393427008435752e+00
+    alphas[2]  R1232     -1.4770565922121985e+00
+    alphas[2]  R1242     2.7389590102344724e-01
+    alphas[2]  R1252     -1.4167842160550745e+00
+    alphas[2]  R1262     -7.6394681983311674e-01
+    alphas[2]  R1272     -1.7960402741211499e+00
+    alphas[2]  R1282     -1.0023304642691739e+00
+    alphas[2]  R1292     3.7142478687442010e-01
+    alphas[2]  R1302     -1.0368314141982521e-01
+    alphas[2]  R1312     3.3020379632758368e-01
+    alphas[2]  R1322     3.7014683308713675e-01
+    alphas[2]  R1332     7.3211018080111323e-01
+    alphas[2]  R1342     -8.5959055456924671e-02
+    alphas[2]  R1352     -7.3246925829199938e-01
+    alphas[2]  R1362     6.7491087909682590e-01
+    alphas[2]  R1372     -1.8482903658756186e-01
+    alphas[2]  R1382     1.2315990002841863e+00
+    alphas[2]  R1392     1.0838135515942142e+00
+    alphas[2]  R1402     1.4772083987450866e+00
+    alphas[2]  R1412     -1.7382091738396426e+00
+    alphas[2]  R1422     1.6266678464346627e+00
+    alphas[2]  R1432     1.0186136518004081e+00
+    alphas[2]  R1442     -4.9277875248592751e-01
+    alphas[2]  R1452     1.3569223885335613e+00
+    alphas[2]  R1462     -1.4290483665637024e+00
+    alphas[2]  R1472     -8.6429888753095940e-01
+    alphas[2]  R1482     -1.7231001099181307e+00
+    alphas[2]  R1492     -1.2655613018464881e-01
+    alphas[3]  R2        -1.0835591595980172e+00
+    alphas[3]  R12       4.8128834366141404e-01
+    alphas[3]  R22       9.4378552737124644e-01
+    alphas[3]  R32       1.4581497062390221e+00
+    alphas[3]  R42       -1.3040506262296905e+00
+    alphas[3]  R52       -1.4478681418159471e+00
+    alphas[3]  R62       1.2527140264065004e+00
+    alphas[3]  R72       0.527688532525546
+    alphas[3]  R82       1.0658310698566358e+00
+    alphas[3]  R92       1.2669934711105866e+00
+    alphas[3]  R102      -1.3846862441212986e+00
+    alphas[3]  R112      1.4666257134269740e+00
+    alphas[3]  R122      -1.6573701818695112e+00
+    alphas[3]  R132      1.3327726992795250e+00
+    alphas[3]  R142      -1.2615807730971138e+00
+    alphas[3]  R152      -2.5713342663259781e-01
+    alphas[3]  R162      4.1456902674428525e-01
+    alphas[3]  R172      5.0107380735669360e-01
+    alphas[3]  R182      -9.0268810005658617e-01
+    alphas[3]  R192      5.9499943275556577e-01
+    alphas[3]  R202      -0.564296985550078
+    alphas[3]  R212      -0.0907878295794809
+    alphas[3]  R222      1.8667515485776724e-02
+    alphas[3]  R232      -1.3890678745174652e+00
+    alphas[3]  R242      -2.1701483714715417e-01
+    alphas[3]  R252      -1.1377550160425236e+00
+    alphas[3]  R262      -7.9516013475699532e-01
+    alphas[3]  R272      1.5285909850893378e+00
+    alphas[3]  R282      -9.5594677081982993e-01
+    alphas[3]  R292      9.2546839540046777e-01
+    alphas[3]  R302      -1.3957902770738551e+00
+    alphas[3]  R312      1.5138203130330807e+00
+    alphas[3]  R322      5.3242964029589568e-01
+    alphas[3]  R332      1.3216714307952269e+00
+    alphas[3]  R342      5.0382509714681438e-02
+    alphas[3]  R352      -1.1146223441284882e+00
+    alphas[3]  R362      6.5042291581065992e-01
+    alphas[3]  R372      1.1484869067905636e+00
+    alphas[3]  R382      5.4191721601083009e-01
+    alphas[3]  R392      -1.0938467632709341e+00
+    alphas[3]  R402      1.1841742084345899e+00
+    alphas[3]  R412      0.889979776616903
+    alphas[3]  R422      1.4261226926884514e+00
+    alphas[3]  R432      -7.2797423509942139e-01
+    alphas[3]  R442      3.2217672244959761e-01
+    alphas[3]  R452      6.0762693767963771e-01
+    alphas[3]  R462      -7.7166224486152446e-01
+    alphas[3]  R472      5.2260210450860045e-01
+    alphas[3]  R482      -8.0259372667276985e-01
+    alphas[3]  R492      -1.0983089814224922e+00
+    alphas[3]  R502      9.2278754233263915e-01
+    alphas[3]  R512      -1.6348199579143103e+00
+    alphas[3]  R522      1.10984979281002
+    alphas[3]  R532      6.7527142187589340e-01
+    alphas[3]  R542      1.0508700483050086e+00
+    alphas[3]  R552      4.9037438880483825e-01
+    alphas[3]  R562      3.5257275515534342e-02
+    alphas[3]  R572      -1.0719165384150561e-01
+    alphas[3]  R582      -1.2282149101278521e+00
+    alphas[3]  R592      -1.3494457730810450e+00
+    alphas[3]  R602      9.1453109072151684e-01
+    alphas[3]  R612      -4.4785889646786736e-01
+    alphas[3]  R622      1.2818841060115735e+00
+    alphas[3]  R632      1.0659517528171672e-01
+    alphas[3]  R642      5.6875133096561070e-01
+    alphas[3]  R652      5.8848006019044730e-01
+    alphas[3]  R662      2.6722330226989031e-02
+    alphas[3]  R672      -8.0954912833516179e-01
+    alphas[3]  R682      1.4250041584396438e+00
+    alphas[3]  R692      -1.3146932547182961e+00
+    alphas[3]  R702      -8.2641415253037254e-01
+    alphas[3]  R712      1.0620180457654689e+00
+    alphas[3]  R722      -1.5175941009481762e+00
+    alphas[3]  R732      -5.3534755998219156e-02
+    alphas[3]  R742      -1.7227276491281498e+00
+    alphas[3]  R752      9.9179951883513284e-01
+    alphas[3]  R762      -1.5025724802391330e-01
+    alphas[3]  R772      6.7727671437458214e-01
+    alphas[3]  R782      6.3017531191545562e-01
+    alphas[3]  R792      -3.4020225788569469e-01
+    alphas[3]  R802      -1.4585991381091667e+00
+    alphas[3]  R812      -1.0647031965413369e+00
+    alphas[3]  R822      -7.8963962964724388e-01
+    alphas[3]  R832      -2.3233270725393351e-01
+    alphas[3]  R842      -1.4605590143572962e+00
+    alphas[3]  R852      -6.3477708227326441e-03
+    alphas[3]  R862      -1.2966274166252187e+00
+    alphas[3]  R872      -1.1618377097649852e+00
+    alphas[3]  R882      9.3573359586258265e-01
+    alphas[3]  R892      -9.4957237019919438e-01
+    alphas[3]  R902      1.6178388023510921e+00
+    alphas[3]  R912      5.6707367147333454e-01
+    alphas[3]  R922      8.8252164044530046e-01
+    alphas[3]  R932      -5.5397550009886269e-02
+    alphas[3]  R942      -8.3331213737329690e-01
+    alphas[3]  R952      1.3286275680314790e+00
+    alphas[3]  R962      -8.2656985217959486e-02
+    alphas[3]  R972      -1.5150610781532645e+00
+    alphas[3]  R982      8.8563645420561976e-01
+    alphas[3]  R992      -6.3134331929702769e-01
+    alphas[3]  R1002     -3.4634090790103073e-01
+    alphas[3]  R1012     1.6249670402274270e+00
+    alphas[3]  R1022     4.9580618882693980e-02
+    alphas[3]  R1032     -7.3832549573079842e-01
+    alphas[3]  R1042     1.5102646136145175e+00
+    alphas[3]  R1052     -1.3158708150312557e+00
+    alphas[3]  R1062     -1.0010741709675328e-01
+    alphas[3]  R1072     1.5552989374983259e+00
+    alphas[3]  R1082     8.9995386859157966e-01
+    alphas[3]  R1092     -1.5666886477916373e+00
+    alphas[3]  R1102     -0.310621141424893
+    alphas[3]  R1112     1.2954930821938715e+00
+    alphas[3]  R1122     6.8642111875199341e-01
+    alphas[3]  R1132     1.1426044411780194e-01
+    alphas[3]  R1142     1.5881451725200597e+00
+    alphas[3]  R1152     2.6676563671464093e-01
+    alphas[3]  R1162     3.4705087066211871e-03
+    alphas[3]  R1172     8.3479478235757631e-01
+    alphas[3]  R1182     -3.3199531345105932e-01
+    alphas[3]  R1192     -8.8873907915071659e-01
+    alphas[3]  R1202     0.861325002266787
+    alphas[3]  R1212     -4.3976102922088761e-01
+    alphas[3]  R1222     -5.0444008559678255e-01
+    alphas[3]  R1232     -1.5493187822100229e+00
+    alphas[3]  R1242     -9.7342054144192536e-01
+    alphas[3]  R1252     -1.2104209710095755e+00
+    alphas[3]  R1262     2.1911677782501731e-04
+    alphas[3]  R1272     1.0320866826667565e+00
+    alphas[3]  R1282     -1.7092208356541174e+00
+    alphas[3]  R1292     1.2214757761244304e+00
+    alphas[3]  R1302     0.0643578255412784
+    alphas[3]  R1312     1.4286894644057122e+00
+    alphas[3]  R1322     -1.5334572947601650e+00
+    alphas[3]  R1332     -1.6047378829786223e+00
+    alphas[3]  R1342     -7.7424189131445809e-01
+    alphas[3]  R1352     4.7519700999444231e-01
+    alphas[3]  R1362     7.9858799318433094e-01
+    alphas[3]  R1372     7.6164926484944917e-01
+    alphas[3]  R1382     1.2284493523496132e+00
+    alphas[3]  R1392     -1.1948012987008884e-01
+    alphas[3]  R1402     1.1793261806102979e+00
+    alphas[3]  R1412     5.8770237933694836e-01
+    alphas[3]  R1422     -0.460754035406889
+    alphas[3]  R1432     -8.0182368146473715e-01
+    alphas[3]  R1442     1.5769067524711458e+00
+    alphas[3]  R1452     2.0418998836188609e-01
+    alphas[3]  R1462     -5.4672780814979161e-01
+    alphas[3]  R1472     -1.2269970291177519e+00
+    alphas[3]  R1482     5.1276591073863870e-02
+    alphas[3]  R1492     -1.6192176239608027e+00
     alphas[4]  R2        -1
     alphas[4]  R12       -1
     alphas[4]  R22       -1
@@ -3653,106 +2253,6 @@ COLUMNS
     alphas[4]  R1472     -1
     alphas[4]  R1482     -1
     alphas[4]  R1492     -1
-    alphas[4]  R1502     -1
-    alphas[4]  R1512     -1
-    alphas[4]  R1522     -1
-    alphas[4]  R1532     -1
-    alphas[4]  R1542     -1
-    alphas[4]  R1552     -1
-    alphas[4]  R1562     -1
-    alphas[4]  R1572     -1
-    alphas[4]  R1582     -1
-    alphas[4]  R1592     -1
-    alphas[4]  R1602     -1
-    alphas[4]  R1612     -1
-    alphas[4]  R1622     -1
-    alphas[4]  R1632     -1
-    alphas[4]  R1642     -1
-    alphas[4]  R1652     -1
-    alphas[4]  R1662     -1
-    alphas[4]  R1672     -1
-    alphas[4]  R1682     -1
-    alphas[4]  R1692     -1
-    alphas[4]  R1702     -1
-    alphas[4]  R1712     -1
-    alphas[4]  R1722     -1
-    alphas[4]  R1732     -1
-    alphas[4]  R1742     -1
-    alphas[4]  R1752     -1
-    alphas[4]  R1762     -1
-    alphas[4]  R1772     -1
-    alphas[4]  R1782     -1
-    alphas[4]  R1792     -1
-    alphas[4]  R1802     -1
-    alphas[4]  R1812     -1
-    alphas[4]  R1822     -1
-    alphas[4]  R1832     -1
-    alphas[4]  R1842     -1
-    alphas[4]  R1852     -1
-    alphas[4]  R1862     -1
-    alphas[4]  R1872     -1
-    alphas[4]  R1882     -1
-    alphas[4]  R1892     -1
-    alphas[4]  R1902     -1
-    alphas[4]  R1912     -1
-    alphas[4]  R1922     -1
-    alphas[4]  R1932     -1
-    alphas[4]  R1942     -1
-    alphas[4]  R1952     -1
-    alphas[4]  R1962     -1
-    alphas[4]  R1972     -1
-    alphas[4]  R1982     -1
-    alphas[4]  R1992     -1
-    alphas[4]  R2002     -1
-    alphas[4]  R2012     -1
-    alphas[4]  R2022     -1
-    alphas[4]  R2032     -1
-    alphas[4]  R2042     -1
-    alphas[4]  R2052     -1
-    alphas[4]  R2062     -1
-    alphas[4]  R2072     -1
-    alphas[4]  R2082     -1
-    alphas[4]  R2092     -1
-    alphas[4]  R2102     -1
-    alphas[4]  R2112     -1
-    alphas[4]  R2122     -1
-    alphas[4]  R2132     -1
-    alphas[4]  R2142     -1
-    alphas[4]  R2152     -1
-    alphas[4]  R2162     -1
-    alphas[4]  R2172     -1
-    alphas[4]  R2182     -1
-    alphas[4]  R2192     -1
-    alphas[4]  R2202     -1
-    alphas[4]  R2212     -1
-    alphas[4]  R2222     -1
-    alphas[4]  R2232     -1
-    alphas[4]  R2242     -1
-    alphas[4]  R2252     -1
-    alphas[4]  R2262     -1
-    alphas[4]  R2272     -1
-    alphas[4]  R2282     -1
-    alphas[4]  R2292     -1
-    alphas[4]  R2302     -1
-    alphas[4]  R2312     -1
-    alphas[4]  R2322     -1
-    alphas[4]  R2332     -1
-    alphas[4]  R2342     -1
-    alphas[4]  R2352     -1
-    alphas[4]  R2362     -1
-    alphas[4]  R2372     -1
-    alphas[4]  R2382     -1
-    alphas[4]  R2392     -1
-    alphas[4]  R2402     -1
-    alphas[4]  R2412     -1
-    alphas[4]  R2422     -1
-    alphas[4]  R2432     -1
-    alphas[4]  R2442     -1
-    alphas[4]  R2452     -1
-    alphas[4]  R2462     -1
-    alphas[4]  R2472     -1
-    alphas[4]  R2482     -1
-    alphas[4]  R2492     -1
     Sold_0[0]  R6        1
     Sold_0[0]  R9        -700
     Sold_0[1]  R16       1
@@ -4053,206 +2553,6 @@ COLUMNS
     Sold_0[148]  R1489     -700
     Sold_0[149]  R1496     1
     Sold_0[149]  R1499     -700
-    Sold_0[150]  R1506     1
-    Sold_0[150]  R1509     -700
-    Sold_0[151]  R1516     1
-    Sold_0[151]  R1519     -700
-    Sold_0[152]  R1526     1
-    Sold_0[152]  R1529     -700
-    Sold_0[153]  R1536     1
-    Sold_0[153]  R1539     -700
-    Sold_0[154]  R1546     1
-    Sold_0[154]  R1549     -700
-    Sold_0[155]  R1556     1
-    Sold_0[155]  R1559     -700
-    Sold_0[156]  R1566     1
-    Sold_0[156]  R1569     -700
-    Sold_0[157]  R1576     1
-    Sold_0[157]  R1579     -700
-    Sold_0[158]  R1586     1
-    Sold_0[158]  R1589     -700
-    Sold_0[159]  R1596     1
-    Sold_0[159]  R1599     -700
-    Sold_0[160]  R1606     1
-    Sold_0[160]  R1609     -700
-    Sold_0[161]  R1616     1
-    Sold_0[161]  R1619     -700
-    Sold_0[162]  R1626     1
-    Sold_0[162]  R1629     -700
-    Sold_0[163]  R1636     1
-    Sold_0[163]  R1639     -700
-    Sold_0[164]  R1646     1
-    Sold_0[164]  R1649     -700
-    Sold_0[165]  R1656     1
-    Sold_0[165]  R1659     -700
-    Sold_0[166]  R1666     1
-    Sold_0[166]  R1669     -700
-    Sold_0[167]  R1676     1
-    Sold_0[167]  R1679     -700
-    Sold_0[168]  R1686     1
-    Sold_0[168]  R1689     -700
-    Sold_0[169]  R1696     1
-    Sold_0[169]  R1699     -700
-    Sold_0[170]  R1706     1
-    Sold_0[170]  R1709     -700
-    Sold_0[171]  R1716     1
-    Sold_0[171]  R1719     -700
-    Sold_0[172]  R1726     1
-    Sold_0[172]  R1729     -700
-    Sold_0[173]  R1736     1
-    Sold_0[173]  R1739     -700
-    Sold_0[174]  R1746     1
-    Sold_0[174]  R1749     -700
-    Sold_0[175]  R1756     1
-    Sold_0[175]  R1759     -700
-    Sold_0[176]  R1766     1
-    Sold_0[176]  R1769     -700
-    Sold_0[177]  R1776     1
-    Sold_0[177]  R1779     -700
-    Sold_0[178]  R1786     1
-    Sold_0[178]  R1789     -700
-    Sold_0[179]  R1796     1
-    Sold_0[179]  R1799     -700
-    Sold_0[180]  R1806     1
-    Sold_0[180]  R1809     -700
-    Sold_0[181]  R1816     1
-    Sold_0[181]  R1819     -700
-    Sold_0[182]  R1826     1
-    Sold_0[182]  R1829     -700
-    Sold_0[183]  R1836     1
-    Sold_0[183]  R1839     -700
-    Sold_0[184]  R1846     1
-    Sold_0[184]  R1849     -700
-    Sold_0[185]  R1856     1
-    Sold_0[185]  R1859     -700
-    Sold_0[186]  R1866     1
-    Sold_0[186]  R1869     -700
-    Sold_0[187]  R1876     1
-    Sold_0[187]  R1879     -700
-    Sold_0[188]  R1886     1
-    Sold_0[188]  R1889     -700
-    Sold_0[189]  R1896     1
-    Sold_0[189]  R1899     -700
-    Sold_0[190]  R1906     1
-    Sold_0[190]  R1909     -700
-    Sold_0[191]  R1916     1
-    Sold_0[191]  R1919     -700
-    Sold_0[192]  R1926     1
-    Sold_0[192]  R1929     -700
-    Sold_0[193]  R1936     1
-    Sold_0[193]  R1939     -700
-    Sold_0[194]  R1946     1
-    Sold_0[194]  R1949     -700
-    Sold_0[195]  R1956     1
-    Sold_0[195]  R1959     -700
-    Sold_0[196]  R1966     1
-    Sold_0[196]  R1969     -700
-    Sold_0[197]  R1976     1
-    Sold_0[197]  R1979     -700
-    Sold_0[198]  R1986     1
-    Sold_0[198]  R1989     -700
-    Sold_0[199]  R1996     1
-    Sold_0[199]  R1999     -700
-    Sold_0[200]  R2006     1
-    Sold_0[200]  R2009     -700
-    Sold_0[201]  R2016     1
-    Sold_0[201]  R2019     -700
-    Sold_0[202]  R2026     1
-    Sold_0[202]  R2029     -700
-    Sold_0[203]  R2036     1
-    Sold_0[203]  R2039     -700
-    Sold_0[204]  R2046     1
-    Sold_0[204]  R2049     -700
-    Sold_0[205]  R2056     1
-    Sold_0[205]  R2059     -700
-    Sold_0[206]  R2066     1
-    Sold_0[206]  R2069     -700
-    Sold_0[207]  R2076     1
-    Sold_0[207]  R2079     -700
-    Sold_0[208]  R2086     1
-    Sold_0[208]  R2089     -700
-    Sold_0[209]  R2096     1
-    Sold_0[209]  R2099     -700
-    Sold_0[210]  R2106     1
-    Sold_0[210]  R2109     -700
-    Sold_0[211]  R2116     1
-    Sold_0[211]  R2119     -700
-    Sold_0[212]  R2126     1
-    Sold_0[212]  R2129     -700
-    Sold_0[213]  R2136     1
-    Sold_0[213]  R2139     -700
-    Sold_0[214]  R2146     1
-    Sold_0[214]  R2149     -700
-    Sold_0[215]  R2156     1
-    Sold_0[215]  R2159     -700
-    Sold_0[216]  R2166     1
-    Sold_0[216]  R2169     -700
-    Sold_0[217]  R2176     1
-    Sold_0[217]  R2179     -700
-    Sold_0[218]  R2186     1
-    Sold_0[218]  R2189     -700
-    Sold_0[219]  R2196     1
-    Sold_0[219]  R2199     -700
-    Sold_0[220]  R2206     1
-    Sold_0[220]  R2209     -700
-    Sold_0[221]  R2216     1
-    Sold_0[221]  R2219     -700
-    Sold_0[222]  R2226     1
-    Sold_0[222]  R2229     -700
-    Sold_0[223]  R2236     1
-    Sold_0[223]  R2239     -700
-    Sold_0[224]  R2246     1
-    Sold_0[224]  R2249     -700
-    Sold_0[225]  R2256     1
-    Sold_0[225]  R2259     -700
-    Sold_0[226]  R2266     1
-    Sold_0[226]  R2269     -700
-    Sold_0[227]  R2276     1
-    Sold_0[227]  R2279     -700
-    Sold_0[228]  R2286     1
-    Sold_0[228]  R2289     -700
-    Sold_0[229]  R2296     1
-    Sold_0[229]  R2299     -700
-    Sold_0[230]  R2306     1
-    Sold_0[230]  R2309     -700
-    Sold_0[231]  R2316     1
-    Sold_0[231]  R2319     -700
-    Sold_0[232]  R2326     1
-    Sold_0[232]  R2329     -700
-    Sold_0[233]  R2336     1
-    Sold_0[233]  R2339     -700
-    Sold_0[234]  R2346     1
-    Sold_0[234]  R2349     -700
-    Sold_0[235]  R2356     1
-    Sold_0[235]  R2359     -700
-    Sold_0[236]  R2366     1
-    Sold_0[236]  R2369     -700
-    Sold_0[237]  R2376     1
-    Sold_0[237]  R2379     -700
-    Sold_0[238]  R2386     1
-    Sold_0[238]  R2389     -700
-    Sold_0[239]  R2396     1
-    Sold_0[239]  R2399     -700
-    Sold_0[240]  R2406     1
-    Sold_0[240]  R2409     -700
-    Sold_0[241]  R2416     1
-    Sold_0[241]  R2419     -700
-    Sold_0[242]  R2426     1
-    Sold_0[242]  R2429     -700
-    Sold_0[243]  R2436     1
-    Sold_0[243]  R2439     -700
-    Sold_0[244]  R2446     1
-    Sold_0[244]  R2449     -700
-    Sold_0[245]  R2456     1
-    Sold_0[245]  R2459     -700
-    Sold_0[246]  R2466     1
-    Sold_0[246]  R2469     -700
-    Sold_0[247]  R2476     1
-    Sold_0[247]  R2479     -700
-    Sold_0[248]  R2486     1
-    Sold_0[248]  R2489     -700
-    Sold_0[249]  R2496     1
-    Sold_0[249]  R2499     -700
     Sold_1[0]  R8        1
     Sold_1[0]  R9        -700
     Sold_1[1]  R18       1
@@ -4553,206 +2853,6 @@ COLUMNS
     Sold_1[148]  R1489     -700
     Sold_1[149]  R1498     1
     Sold_1[149]  R1499     -700
-    Sold_1[150]  R1508     1
-    Sold_1[150]  R1509     -700
-    Sold_1[151]  R1518     1
-    Sold_1[151]  R1519     -700
-    Sold_1[152]  R1528     1
-    Sold_1[152]  R1529     -700
-    Sold_1[153]  R1538     1
-    Sold_1[153]  R1539     -700
-    Sold_1[154]  R1548     1
-    Sold_1[154]  R1549     -700
-    Sold_1[155]  R1558     1
-    Sold_1[155]  R1559     -700
-    Sold_1[156]  R1568     1
-    Sold_1[156]  R1569     -700
-    Sold_1[157]  R1578     1
-    Sold_1[157]  R1579     -700
-    Sold_1[158]  R1588     1
-    Sold_1[158]  R1589     -700
-    Sold_1[159]  R1598     1
-    Sold_1[159]  R1599     -700
-    Sold_1[160]  R1608     1
-    Sold_1[160]  R1609     -700
-    Sold_1[161]  R1618     1
-    Sold_1[161]  R1619     -700
-    Sold_1[162]  R1628     1
-    Sold_1[162]  R1629     -700
-    Sold_1[163]  R1638     1
-    Sold_1[163]  R1639     -700
-    Sold_1[164]  R1648     1
-    Sold_1[164]  R1649     -700
-    Sold_1[165]  R1658     1
-    Sold_1[165]  R1659     -700
-    Sold_1[166]  R1668     1
-    Sold_1[166]  R1669     -700
-    Sold_1[167]  R1678     1
-    Sold_1[167]  R1679     -700
-    Sold_1[168]  R1688     1
-    Sold_1[168]  R1689     -700
-    Sold_1[169]  R1698     1
-    Sold_1[169]  R1699     -700
-    Sold_1[170]  R1708     1
-    Sold_1[170]  R1709     -700
-    Sold_1[171]  R1718     1
-    Sold_1[171]  R1719     -700
-    Sold_1[172]  R1728     1
-    Sold_1[172]  R1729     -700
-    Sold_1[173]  R1738     1
-    Sold_1[173]  R1739     -700
-    Sold_1[174]  R1748     1
-    Sold_1[174]  R1749     -700
-    Sold_1[175]  R1758     1
-    Sold_1[175]  R1759     -700
-    Sold_1[176]  R1768     1
-    Sold_1[176]  R1769     -700
-    Sold_1[177]  R1778     1
-    Sold_1[177]  R1779     -700
-    Sold_1[178]  R1788     1
-    Sold_1[178]  R1789     -700
-    Sold_1[179]  R1798     1
-    Sold_1[179]  R1799     -700
-    Sold_1[180]  R1808     1
-    Sold_1[180]  R1809     -700
-    Sold_1[181]  R1818     1
-    Sold_1[181]  R1819     -700
-    Sold_1[182]  R1828     1
-    Sold_1[182]  R1829     -700
-    Sold_1[183]  R1838     1
-    Sold_1[183]  R1839     -700
-    Sold_1[184]  R1848     1
-    Sold_1[184]  R1849     -700
-    Sold_1[185]  R1858     1
-    Sold_1[185]  R1859     -700
-    Sold_1[186]  R1868     1
-    Sold_1[186]  R1869     -700
-    Sold_1[187]  R1878     1
-    Sold_1[187]  R1879     -700
-    Sold_1[188]  R1888     1
-    Sold_1[188]  R1889     -700
-    Sold_1[189]  R1898     1
-    Sold_1[189]  R1899     -700
-    Sold_1[190]  R1908     1
-    Sold_1[190]  R1909     -700
-    Sold_1[191]  R1918     1
-    Sold_1[191]  R1919     -700
-    Sold_1[192]  R1928     1
-    Sold_1[192]  R1929     -700
-    Sold_1[193]  R1938     1
-    Sold_1[193]  R1939     -700
-    Sold_1[194]  R1948     1
-    Sold_1[194]  R1949     -700
-    Sold_1[195]  R1958     1
-    Sold_1[195]  R1959     -700
-    Sold_1[196]  R1968     1
-    Sold_1[196]  R1969     -700
-    Sold_1[197]  R1978     1
-    Sold_1[197]  R1979     -700
-    Sold_1[198]  R1988     1
-    Sold_1[198]  R1989     -700
-    Sold_1[199]  R1998     1
-    Sold_1[199]  R1999     -700
-    Sold_1[200]  R2008     1
-    Sold_1[200]  R2009     -700
-    Sold_1[201]  R2018     1
-    Sold_1[201]  R2019     -700
-    Sold_1[202]  R2028     1
-    Sold_1[202]  R2029     -700
-    Sold_1[203]  R2038     1
-    Sold_1[203]  R2039     -700
-    Sold_1[204]  R2048     1
-    Sold_1[204]  R2049     -700
-    Sold_1[205]  R2058     1
-    Sold_1[205]  R2059     -700
-    Sold_1[206]  R2068     1
-    Sold_1[206]  R2069     -700
-    Sold_1[207]  R2078     1
-    Sold_1[207]  R2079     -700
-    Sold_1[208]  R2088     1
-    Sold_1[208]  R2089     -700
-    Sold_1[209]  R2098     1
-    Sold_1[209]  R2099     -700
-    Sold_1[210]  R2108     1
-    Sold_1[210]  R2109     -700
-    Sold_1[211]  R2118     1
-    Sold_1[211]  R2119     -700
-    Sold_1[212]  R2128     1
-    Sold_1[212]  R2129     -700
-    Sold_1[213]  R2138     1
-    Sold_1[213]  R2139     -700
-    Sold_1[214]  R2148     1
-    Sold_1[214]  R2149     -700
-    Sold_1[215]  R2158     1
-    Sold_1[215]  R2159     -700
-    Sold_1[216]  R2168     1
-    Sold_1[216]  R2169     -700
-    Sold_1[217]  R2178     1
-    Sold_1[217]  R2179     -700
-    Sold_1[218]  R2188     1
-    Sold_1[218]  R2189     -700
-    Sold_1[219]  R2198     1
-    Sold_1[219]  R2199     -700
-    Sold_1[220]  R2208     1
-    Sold_1[220]  R2209     -700
-    Sold_1[221]  R2218     1
-    Sold_1[221]  R2219     -700
-    Sold_1[222]  R2228     1
-    Sold_1[222]  R2229     -700
-    Sold_1[223]  R2238     1
-    Sold_1[223]  R2239     -700
-    Sold_1[224]  R2248     1
-    Sold_1[224]  R2249     -700
-    Sold_1[225]  R2258     1
-    Sold_1[225]  R2259     -700
-    Sold_1[226]  R2268     1
-    Sold_1[226]  R2269     -700
-    Sold_1[227]  R2278     1
-    Sold_1[227]  R2279     -700
-    Sold_1[228]  R2288     1
-    Sold_1[228]  R2289     -700
-    Sold_1[229]  R2298     1
-    Sold_1[229]  R2299     -700
-    Sold_1[230]  R2308     1
-    Sold_1[230]  R2309     -700
-    Sold_1[231]  R2318     1
-    Sold_1[231]  R2319     -700
-    Sold_1[232]  R2328     1
-    Sold_1[232]  R2329     -700
-    Sold_1[233]  R2338     1
-    Sold_1[233]  R2339     -700
-    Sold_1[234]  R2348     1
-    Sold_1[234]  R2349     -700
-    Sold_1[235]  R2358     1
-    Sold_1[235]  R2359     -700
-    Sold_1[236]  R2368     1
-    Sold_1[236]  R2369     -700
-    Sold_1[237]  R2378     1
-    Sold_1[237]  R2379     -700
-    Sold_1[238]  R2388     1
-    Sold_1[238]  R2389     -700
-    Sold_1[239]  R2398     1
-    Sold_1[239]  R2399     -700
-    Sold_1[240]  R2408     1
-    Sold_1[240]  R2409     -700
-    Sold_1[241]  R2418     1
-    Sold_1[241]  R2419     -700
-    Sold_1[242]  R2428     1
-    Sold_1[242]  R2429     -700
-    Sold_1[243]  R2438     1
-    Sold_1[243]  R2439     -700
-    Sold_1[244]  R2448     1
-    Sold_1[244]  R2449     -700
-    Sold_1[245]  R2458     1
-    Sold_1[245]  R2459     -700
-    Sold_1[246]  R2468     1
-    Sold_1[246]  R2469     -700
-    Sold_1[247]  R2478     1
-    Sold_1[247]  R2479     -700
-    Sold_1[248]  R2488     1
-    Sold_1[248]  R2489     -700
-    Sold_1[249]  R2498     1
-    Sold_1[249]  R2499     -700
     Lost_0[0]  R9        700
     Lost_0[1]  R19       700
     Lost_0[2]  R29       700
@@ -4903,106 +3003,6 @@ COLUMNS
     Lost_0[147]  R1479     700
     Lost_0[148]  R1489     700
     Lost_0[149]  R1499     700
-    Lost_0[150]  R1509     700
-    Lost_0[151]  R1519     700
-    Lost_0[152]  R1529     700
-    Lost_0[153]  R1539     700
-    Lost_0[154]  R1549     700
-    Lost_0[155]  R1559     700
-    Lost_0[156]  R1569     700
-    Lost_0[157]  R1579     700
-    Lost_0[158]  R1589     700
-    Lost_0[159]  R1599     700
-    Lost_0[160]  R1609     700
-    Lost_0[161]  R1619     700
-    Lost_0[162]  R1629     700
-    Lost_0[163]  R1639     700
-    Lost_0[164]  R1649     700
-    Lost_0[165]  R1659     700
-    Lost_0[166]  R1669     700
-    Lost_0[167]  R1679     700
-    Lost_0[168]  R1689     700
-    Lost_0[169]  R1699     700
-    Lost_0[170]  R1709     700
-    Lost_0[171]  R1719     700
-    Lost_0[172]  R1729     700
-    Lost_0[173]  R1739     700
-    Lost_0[174]  R1749     700
-    Lost_0[175]  R1759     700
-    Lost_0[176]  R1769     700
-    Lost_0[177]  R1779     700
-    Lost_0[178]  R1789     700
-    Lost_0[179]  R1799     700
-    Lost_0[180]  R1809     700
-    Lost_0[181]  R1819     700
-    Lost_0[182]  R1829     700
-    Lost_0[183]  R1839     700
-    Lost_0[184]  R1849     700
-    Lost_0[185]  R1859     700
-    Lost_0[186]  R1869     700
-    Lost_0[187]  R1879     700
-    Lost_0[188]  R1889     700
-    Lost_0[189]  R1899     700
-    Lost_0[190]  R1909     700
-    Lost_0[191]  R1919     700
-    Lost_0[192]  R1929     700
-    Lost_0[193]  R1939     700
-    Lost_0[194]  R1949     700
-    Lost_0[195]  R1959     700
-    Lost_0[196]  R1969     700
-    Lost_0[197]  R1979     700
-    Lost_0[198]  R1989     700
-    Lost_0[199]  R1999     700
-    Lost_0[200]  R2009     700
-    Lost_0[201]  R2019     700
-    Lost_0[202]  R2029     700
-    Lost_0[203]  R2039     700
-    Lost_0[204]  R2049     700
-    Lost_0[205]  R2059     700
-    Lost_0[206]  R2069     700
-    Lost_0[207]  R2079     700
-    Lost_0[208]  R2089     700
-    Lost_0[209]  R2099     700
-    Lost_0[210]  R2109     700
-    Lost_0[211]  R2119     700
-    Lost_0[212]  R2129     700
-    Lost_0[213]  R2139     700
-    Lost_0[214]  R2149     700
-    Lost_0[215]  R2159     700
-    Lost_0[216]  R2169     700
-    Lost_0[217]  R2179     700
-    Lost_0[218]  R2189     700
-    Lost_0[219]  R2199     700
-    Lost_0[220]  R2209     700
-    Lost_0[221]  R2219     700
-    Lost_0[222]  R2229     700
-    Lost_0[223]  R2239     700
-    Lost_0[224]  R2249     700
-    Lost_0[225]  R2259     700
-    Lost_0[226]  R2269     700
-    Lost_0[227]  R2279     700
-    Lost_0[228]  R2289     700
-    Lost_0[229]  R2299     700
-    Lost_0[230]  R2309     700
-    Lost_0[231]  R2319     700
-    Lost_0[232]  R2329     700
-    Lost_0[233]  R2339     700
-    Lost_0[234]  R2349     700
-    Lost_0[235]  R2359     700
-    Lost_0[236]  R2369     700
-    Lost_0[237]  R2379     700
-    Lost_0[238]  R2389     700
-    Lost_0[239]  R2399     700
-    Lost_0[240]  R2409     700
-    Lost_0[241]  R2419     700
-    Lost_0[242]  R2429     700
-    Lost_0[243]  R2439     700
-    Lost_0[244]  R2449     700
-    Lost_0[245]  R2459     700
-    Lost_0[246]  R2469     700
-    Lost_0[247]  R2479     700
-    Lost_0[248]  R2489     700
-    Lost_0[249]  R2499     700
     Lost_1[0]  R9        700
     Lost_1[1]  R19       700
     Lost_1[2]  R29       700
@@ -5153,106 +3153,6 @@ COLUMNS
     Lost_1[147]  R1479     700
     Lost_1[148]  R1489     700
     Lost_1[149]  R1499     700
-    Lost_1[150]  R1509     700
-    Lost_1[151]  R1519     700
-    Lost_1[152]  R1529     700
-    Lost_1[153]  R1539     700
-    Lost_1[154]  R1549     700
-    Lost_1[155]  R1559     700
-    Lost_1[156]  R1569     700
-    Lost_1[157]  R1579     700
-    Lost_1[158]  R1589     700
-    Lost_1[159]  R1599     700
-    Lost_1[160]  R1609     700
-    Lost_1[161]  R1619     700
-    Lost_1[162]  R1629     700
-    Lost_1[163]  R1639     700
-    Lost_1[164]  R1649     700
-    Lost_1[165]  R1659     700
-    Lost_1[166]  R1669     700
-    Lost_1[167]  R1679     700
-    Lost_1[168]  R1689     700
-    Lost_1[169]  R1699     700
-    Lost_1[170]  R1709     700
-    Lost_1[171]  R1719     700
-    Lost_1[172]  R1729     700
-    Lost_1[173]  R1739     700
-    Lost_1[174]  R1749     700
-    Lost_1[175]  R1759     700
-    Lost_1[176]  R1769     700
-    Lost_1[177]  R1779     700
-    Lost_1[178]  R1789     700
-    Lost_1[179]  R1799     700
-    Lost_1[180]  R1809     700
-    Lost_1[181]  R1819     700
-    Lost_1[182]  R1829     700
-    Lost_1[183]  R1839     700
-    Lost_1[184]  R1849     700
-    Lost_1[185]  R1859     700
-    Lost_1[186]  R1869     700
-    Lost_1[187]  R1879     700
-    Lost_1[188]  R1889     700
-    Lost_1[189]  R1899     700
-    Lost_1[190]  R1909     700
-    Lost_1[191]  R1919     700
-    Lost_1[192]  R1929     700
-    Lost_1[193]  R1939     700
-    Lost_1[194]  R1949     700
-    Lost_1[195]  R1959     700
-    Lost_1[196]  R1969     700
-    Lost_1[197]  R1979     700
-    Lost_1[198]  R1989     700
-    Lost_1[199]  R1999     700
-    Lost_1[200]  R2009     700
-    Lost_1[201]  R2019     700
-    Lost_1[202]  R2029     700
-    Lost_1[203]  R2039     700
-    Lost_1[204]  R2049     700
-    Lost_1[205]  R2059     700
-    Lost_1[206]  R2069     700
-    Lost_1[207]  R2079     700
-    Lost_1[208]  R2089     700
-    Lost_1[209]  R2099     700
-    Lost_1[210]  R2109     700
-    Lost_1[211]  R2119     700
-    Lost_1[212]  R2129     700
-    Lost_1[213]  R2139     700
-    Lost_1[214]  R2149     700
-    Lost_1[215]  R2159     700
-    Lost_1[216]  R2169     700
-    Lost_1[217]  R2179     700
-    Lost_1[218]  R2189     700
-    Lost_1[219]  R2199     700
-    Lost_1[220]  R2209     700
-    Lost_1[221]  R2219     700
-    Lost_1[222]  R2229     700
-    Lost_1[223]  R2239     700
-    Lost_1[224]  R2249     700
-    Lost_1[225]  R2259     700
-    Lost_1[226]  R2269     700
-    Lost_1[227]  R2279     700
-    Lost_1[228]  R2289     700
-    Lost_1[229]  R2299     700
-    Lost_1[230]  R2309     700
-    Lost_1[231]  R2319     700
-    Lost_1[232]  R2329     700
-    Lost_1[233]  R2339     700
-    Lost_1[234]  R2349     700
-    Lost_1[235]  R2359     700
-    Lost_1[236]  R2369     700
-    Lost_1[237]  R2379     700
-    Lost_1[238]  R2389     700
-    Lost_1[239]  R2399     700
-    Lost_1[240]  R2409     700
-    Lost_1[241]  R2419     700
-    Lost_1[242]  R2429     700
-    Lost_1[243]  R2439     700
-    Lost_1[244]  R2449     700
-    Lost_1[245]  R2459     700
-    Lost_1[246]  R2469     700
-    Lost_1[247]  R2479     700
-    Lost_1[248]  R2489     700
-    Lost_1[249]  R2499     700
     Left_1[0]  R8        1
     Left_1[0]  R9        300
     Left_1[1]  R18       1
@@ -5553,206 +3453,6 @@ COLUMNS
     Left_1[148]  R1489     300
     Left_1[149]  R1498     1
     Left_1[149]  R1499     300
-    Left_1[150]  R1508     1
-    Left_1[150]  R1509     300
-    Left_1[151]  R1518     1
-    Left_1[151]  R1519     300
-    Left_1[152]  R1528     1
-    Left_1[152]  R1529     300
-    Left_1[153]  R1538     1
-    Left_1[153]  R1539     300
-    Left_1[154]  R1548     1
-    Left_1[154]  R1549     300
-    Left_1[155]  R1558     1
-    Left_1[155]  R1559     300
-    Left_1[156]  R1568     1
-    Left_1[156]  R1569     300
-    Left_1[157]  R1578     1
-    Left_1[157]  R1579     300
-    Left_1[158]  R1588     1
-    Left_1[158]  R1589     300
-    Left_1[159]  R1598     1
-    Left_1[159]  R1599     300
-    Left_1[160]  R1608     1
-    Left_1[160]  R1609     300
-    Left_1[161]  R1618     1
-    Left_1[161]  R1619     300
-    Left_1[162]  R1628     1
-    Left_1[162]  R1629     300
-    Left_1[163]  R1638     1
-    Left_1[163]  R1639     300
-    Left_1[164]  R1648     1
-    Left_1[164]  R1649     300
-    Left_1[165]  R1658     1
-    Left_1[165]  R1659     300
-    Left_1[166]  R1668     1
-    Left_1[166]  R1669     300
-    Left_1[167]  R1678     1
-    Left_1[167]  R1679     300
-    Left_1[168]  R1688     1
-    Left_1[168]  R1689     300
-    Left_1[169]  R1698     1
-    Left_1[169]  R1699     300
-    Left_1[170]  R1708     1
-    Left_1[170]  R1709     300
-    Left_1[171]  R1718     1
-    Left_1[171]  R1719     300
-    Left_1[172]  R1728     1
-    Left_1[172]  R1729     300
-    Left_1[173]  R1738     1
-    Left_1[173]  R1739     300
-    Left_1[174]  R1748     1
-    Left_1[174]  R1749     300
-    Left_1[175]  R1758     1
-    Left_1[175]  R1759     300
-    Left_1[176]  R1768     1
-    Left_1[176]  R1769     300
-    Left_1[177]  R1778     1
-    Left_1[177]  R1779     300
-    Left_1[178]  R1788     1
-    Left_1[178]  R1789     300
-    Left_1[179]  R1798     1
-    Left_1[179]  R1799     300
-    Left_1[180]  R1808     1
-    Left_1[180]  R1809     300
-    Left_1[181]  R1818     1
-    Left_1[181]  R1819     300
-    Left_1[182]  R1828     1
-    Left_1[182]  R1829     300
-    Left_1[183]  R1838     1
-    Left_1[183]  R1839     300
-    Left_1[184]  R1848     1
-    Left_1[184]  R1849     300
-    Left_1[185]  R1858     1
-    Left_1[185]  R1859     300
-    Left_1[186]  R1868     1
-    Left_1[186]  R1869     300
-    Left_1[187]  R1878     1
-    Left_1[187]  R1879     300
-    Left_1[188]  R1888     1
-    Left_1[188]  R1889     300
-    Left_1[189]  R1898     1
-    Left_1[189]  R1899     300
-    Left_1[190]  R1908     1
-    Left_1[190]  R1909     300
-    Left_1[191]  R1918     1
-    Left_1[191]  R1919     300
-    Left_1[192]  R1928     1
-    Left_1[192]  R1929     300
-    Left_1[193]  R1938     1
-    Left_1[193]  R1939     300
-    Left_1[194]  R1948     1
-    Left_1[194]  R1949     300
-    Left_1[195]  R1958     1
-    Left_1[195]  R1959     300
-    Left_1[196]  R1968     1
-    Left_1[196]  R1969     300
-    Left_1[197]  R1978     1
-    Left_1[197]  R1979     300
-    Left_1[198]  R1988     1
-    Left_1[198]  R1989     300
-    Left_1[199]  R1998     1
-    Left_1[199]  R1999     300
-    Left_1[200]  R2008     1
-    Left_1[200]  R2009     300
-    Left_1[201]  R2018     1
-    Left_1[201]  R2019     300
-    Left_1[202]  R2028     1
-    Left_1[202]  R2029     300
-    Left_1[203]  R2038     1
-    Left_1[203]  R2039     300
-    Left_1[204]  R2048     1
-    Left_1[204]  R2049     300
-    Left_1[205]  R2058     1
-    Left_1[205]  R2059     300
-    Left_1[206]  R2068     1
-    Left_1[206]  R2069     300
-    Left_1[207]  R2078     1
-    Left_1[207]  R2079     300
-    Left_1[208]  R2088     1
-    Left_1[208]  R2089     300
-    Left_1[209]  R2098     1
-    Left_1[209]  R2099     300
-    Left_1[210]  R2108     1
-    Left_1[210]  R2109     300
-    Left_1[211]  R2118     1
-    Left_1[211]  R2119     300
-    Left_1[212]  R2128     1
-    Left_1[212]  R2129     300
-    Left_1[213]  R2138     1
-    Left_1[213]  R2139     300
-    Left_1[214]  R2148     1
-    Left_1[214]  R2149     300
-    Left_1[215]  R2158     1
-    Left_1[215]  R2159     300
-    Left_1[216]  R2168     1
-    Left_1[216]  R2169     300
-    Left_1[217]  R2178     1
-    Left_1[217]  R2179     300
-    Left_1[218]  R2188     1
-    Left_1[218]  R2189     300
-    Left_1[219]  R2198     1
-    Left_1[219]  R2199     300
-    Left_1[220]  R2208     1
-    Left_1[220]  R2209     300
-    Left_1[221]  R2218     1
-    Left_1[221]  R2219     300
-    Left_1[222]  R2228     1
-    Left_1[222]  R2229     300
-    Left_1[223]  R2238     1
-    Left_1[223]  R2239     300
-    Left_1[224]  R2248     1
-    Left_1[224]  R2249     300
-    Left_1[225]  R2258     1
-    Left_1[225]  R2259     300
-    Left_1[226]  R2268     1
-    Left_1[226]  R2269     300
-    Left_1[227]  R2278     1
-    Left_1[227]  R2279     300
-    Left_1[228]  R2288     1
-    Left_1[228]  R2289     300
-    Left_1[229]  R2298     1
-    Left_1[229]  R2299     300
-    Left_1[230]  R2308     1
-    Left_1[230]  R2309     300
-    Left_1[231]  R2318     1
-    Left_1[231]  R2319     300
-    Left_1[232]  R2328     1
-    Left_1[232]  R2329     300
-    Left_1[233]  R2338     1
-    Left_1[233]  R2339     300
-    Left_1[234]  R2348     1
-    Left_1[234]  R2349     300
-    Left_1[235]  R2358     1
-    Left_1[235]  R2359     300
-    Left_1[236]  R2368     1
-    Left_1[236]  R2369     300
-    Left_1[237]  R2378     1
-    Left_1[237]  R2379     300
-    Left_1[238]  R2388     1
-    Left_1[238]  R2389     300
-    Left_1[239]  R2398     1
-    Left_1[239]  R2399     300
-    Left_1[240]  R2408     1
-    Left_1[240]  R2409     300
-    Left_1[241]  R2418     1
-    Left_1[241]  R2419     300
-    Left_1[242]  R2428     1
-    Left_1[242]  R2429     300
-    Left_1[243]  R2438     1
-    Left_1[243]  R2439     300
-    Left_1[244]  R2448     1
-    Left_1[244]  R2449     300
-    Left_1[245]  R2458     1
-    Left_1[245]  R2459     300
-    Left_1[246]  R2468     1
-    Left_1[246]  R2469     300
-    Left_1[247]  R2478     1
-    Left_1[247]  R2479     300
-    Left_1[248]  R2488     1
-    Left_1[248]  R2489     300
-    Left_1[249]  R2498     1
-    Left_1[249]  R2499     300
     f_var[0]  R2        1
     f_var[1]  R12       1
     f_var[2]  R22       1
@@ -5903,856 +3603,456 @@ COLUMNS
     f_var[147]  R1472     1
     f_var[148]  R1482     1
     f_var[149]  R1492     1
-    f_var[150]  R1502     1
-    f_var[151]  R1512     1
-    f_var[152]  R1522     1
-    f_var[153]  R1532     1
-    f_var[154]  R1542     1
-    f_var[155]  R1552     1
-    f_var[156]  R1562     1
-    f_var[157]  R1572     1
-    f_var[158]  R1582     1
-    f_var[159]  R1592     1
-    f_var[160]  R1602     1
-    f_var[161]  R1612     1
-    f_var[162]  R1622     1
-    f_var[163]  R1632     1
-    f_var[164]  R1642     1
-    f_var[165]  R1652     1
-    f_var[166]  R1662     1
-    f_var[167]  R1672     1
-    f_var[168]  R1682     1
-    f_var[169]  R1692     1
-    f_var[170]  R1702     1
-    f_var[171]  R1712     1
-    f_var[172]  R1722     1
-    f_var[173]  R1732     1
-    f_var[174]  R1742     1
-    f_var[175]  R1752     1
-    f_var[176]  R1762     1
-    f_var[177]  R1772     1
-    f_var[178]  R1782     1
-    f_var[179]  R1792     1
-    f_var[180]  R1802     1
-    f_var[181]  R1812     1
-    f_var[182]  R1822     1
-    f_var[183]  R1832     1
-    f_var[184]  R1842     1
-    f_var[185]  R1852     1
-    f_var[186]  R1862     1
-    f_var[187]  R1872     1
-    f_var[188]  R1882     1
-    f_var[189]  R1892     1
-    f_var[190]  R1902     1
-    f_var[191]  R1912     1
-    f_var[192]  R1922     1
-    f_var[193]  R1932     1
-    f_var[194]  R1942     1
-    f_var[195]  R1952     1
-    f_var[196]  R1962     1
-    f_var[197]  R1972     1
-    f_var[198]  R1982     1
-    f_var[199]  R1992     1
-    f_var[200]  R2002     1
-    f_var[201]  R2012     1
-    f_var[202]  R2022     1
-    f_var[203]  R2032     1
-    f_var[204]  R2042     1
-    f_var[205]  R2052     1
-    f_var[206]  R2062     1
-    f_var[207]  R2072     1
-    f_var[208]  R2082     1
-    f_var[209]  R2092     1
-    f_var[210]  R2102     1
-    f_var[211]  R2112     1
-    f_var[212]  R2122     1
-    f_var[213]  R2132     1
-    f_var[214]  R2142     1
-    f_var[215]  R2152     1
-    f_var[216]  R2162     1
-    f_var[217]  R2172     1
-    f_var[218]  R2182     1
-    f_var[219]  R2192     1
-    f_var[220]  R2202     1
-    f_var[221]  R2212     1
-    f_var[222]  R2222     1
-    f_var[223]  R2232     1
-    f_var[224]  R2242     1
-    f_var[225]  R2252     1
-    f_var[226]  R2262     1
-    f_var[227]  R2272     1
-    f_var[228]  R2282     1
-    f_var[229]  R2292     1
-    f_var[230]  R2302     1
-    f_var[231]  R2312     1
-    f_var[232]  R2322     1
-    f_var[233]  R2332     1
-    f_var[234]  R2342     1
-    f_var[235]  R2352     1
-    f_var[236]  R2362     1
-    f_var[237]  R2372     1
-    f_var[238]  R2382     1
-    f_var[239]  R2392     1
-    f_var[240]  R2402     1
-    f_var[241]  R2412     1
-    f_var[242]  R2422     1
-    f_var[243]  R2432     1
-    f_var[244]  R2442     1
-    f_var[245]  R2452     1
-    f_var[246]  R2462     1
-    f_var[247]  R2472     1
-    f_var[248]  R2482     1
-    f_var[249]  R2492     1
     Fraction[0]  Fraction_lower_bound_0  1
     Fraction[0]  Fraction_upper_bound_0  1
-    Fraction[0]  R3        -2.1561794361257403e+03
+    Fraction[0]  R3        -1.8577703970561556e+03
     Fraction[1]  Fraction_lower_bound_1  1
     Fraction[1]  Fraction_upper_bound_1  1
-    Fraction[1]  R13       -2.1561794361257403e+03
+    Fraction[1]  R13       -1.8577703970561556e+03
     Fraction[2]  Fraction_lower_bound_2  1
     Fraction[2]  Fraction_upper_bound_2  1
-    Fraction[2]  R23       -2.1561794361257403e+03
+    Fraction[2]  R23       -1.8577703970561556e+03
     Fraction[3]  Fraction_lower_bound_3  1
     Fraction[3]  Fraction_upper_bound_3  1
-    Fraction[3]  R33       -2.1561794361257403e+03
+    Fraction[3]  R33       -1.8577703970561556e+03
     Fraction[4]  Fraction_lower_bound_4  1
     Fraction[4]  Fraction_upper_bound_4  1
-    Fraction[4]  R43       -2.1561794361257403e+03
+    Fraction[4]  R43       -1.8577703970561556e+03
     Fraction[5]  Fraction_lower_bound_5  1
     Fraction[5]  Fraction_upper_bound_5  1
-    Fraction[5]  R53       -2.1561794361257403e+03
+    Fraction[5]  R53       -1.8577703970561556e+03
     Fraction[6]  Fraction_lower_bound_6  1
     Fraction[6]  Fraction_upper_bound_6  1
-    Fraction[6]  R63       -2.1561794361257403e+03
+    Fraction[6]  R63       -1.8577703970561556e+03
     Fraction[7]  Fraction_lower_bound_7  1
     Fraction[7]  Fraction_upper_bound_7  1
-    Fraction[7]  R73       -2.1561794361257403e+03
+    Fraction[7]  R73       -1.8577703970561556e+03
     Fraction[8]  Fraction_lower_bound_8  1
     Fraction[8]  Fraction_upper_bound_8  1
-    Fraction[8]  R83       -2.1561794361257403e+03
+    Fraction[8]  R83       -1.8577703970561556e+03
     Fraction[9]  Fraction_lower_bound_9  1
     Fraction[9]  Fraction_upper_bound_9  1
-    Fraction[9]  R93       -2.1561794361257403e+03
+    Fraction[9]  R93       -1.8577703970561556e+03
     Fraction[10]  Fraction_lower_bound_10  1
     Fraction[10]  Fraction_upper_bound_10  1
-    Fraction[10]  R103      -2.1561794361257403e+03
+    Fraction[10]  R103      -1.8577703970561556e+03
     Fraction[11]  Fraction_lower_bound_11  1
     Fraction[11]  Fraction_upper_bound_11  1
-    Fraction[11]  R113      -2.1561794361257403e+03
+    Fraction[11]  R113      -1.8577703970561556e+03
     Fraction[12]  Fraction_lower_bound_12  1
     Fraction[12]  Fraction_upper_bound_12  1
-    Fraction[12]  R123      -2.1561794361257403e+03
+    Fraction[12]  R123      -1.8577703970561556e+03
     Fraction[13]  Fraction_lower_bound_13  1
     Fraction[13]  Fraction_upper_bound_13  1
-    Fraction[13]  R133      -2.1561794361257403e+03
+    Fraction[13]  R133      -1.8577703970561556e+03
     Fraction[14]  Fraction_lower_bound_14  1
     Fraction[14]  Fraction_upper_bound_14  1
-    Fraction[14]  R143      -2.1561794361257403e+03
+    Fraction[14]  R143      -1.8577703970561556e+03
     Fraction[15]  Fraction_lower_bound_15  1
     Fraction[15]  Fraction_upper_bound_15  1
-    Fraction[15]  R153      -2.1561794361257403e+03
+    Fraction[15]  R153      -1.8577703970561556e+03
     Fraction[16]  Fraction_lower_bound_16  1
     Fraction[16]  Fraction_upper_bound_16  1
-    Fraction[16]  R163      -2.1561794361257403e+03
+    Fraction[16]  R163      -1.8577703970561556e+03
     Fraction[17]  Fraction_lower_bound_17  1
     Fraction[17]  Fraction_upper_bound_17  1
-    Fraction[17]  R173      -2.1561794361257403e+03
+    Fraction[17]  R173      -1.8577703970561556e+03
     Fraction[18]  Fraction_lower_bound_18  1
     Fraction[18]  Fraction_upper_bound_18  1
-    Fraction[18]  R183      -2.1561794361257403e+03
+    Fraction[18]  R183      -1.8577703970561556e+03
     Fraction[19]  Fraction_lower_bound_19  1
     Fraction[19]  Fraction_upper_bound_19  1
-    Fraction[19]  R193      -2.1561794361257403e+03
+    Fraction[19]  R193      -1.8577703970561556e+03
     Fraction[20]  Fraction_lower_bound_20  1
     Fraction[20]  Fraction_upper_bound_20  1
-    Fraction[20]  R203      -2.1561794361257403e+03
+    Fraction[20]  R203      -1.8577703970561556e+03
     Fraction[21]  Fraction_lower_bound_21  1
     Fraction[21]  Fraction_upper_bound_21  1
-    Fraction[21]  R213      -2.1561794361257403e+03
+    Fraction[21]  R213      -1.8577703970561556e+03
     Fraction[22]  Fraction_lower_bound_22  1
     Fraction[22]  Fraction_upper_bound_22  1
-    Fraction[22]  R223      -2.1561794361257403e+03
+    Fraction[22]  R223      -1.8577703970561556e+03
     Fraction[23]  Fraction_lower_bound_23  1
     Fraction[23]  Fraction_upper_bound_23  1
-    Fraction[23]  R233      -2.1561794361257403e+03
+    Fraction[23]  R233      -1.8577703970561556e+03
     Fraction[24]  Fraction_lower_bound_24  1
     Fraction[24]  Fraction_upper_bound_24  1
-    Fraction[24]  R243      -2.1561794361257403e+03
+    Fraction[24]  R243      -1.8577703970561556e+03
     Fraction[25]  Fraction_lower_bound_25  1
     Fraction[25]  Fraction_upper_bound_25  1
-    Fraction[25]  R253      -2.1561794361257403e+03
+    Fraction[25]  R253      -1.8577703970561556e+03
     Fraction[26]  Fraction_lower_bound_26  1
     Fraction[26]  Fraction_upper_bound_26  1
-    Fraction[26]  R263      -2.1561794361257403e+03
+    Fraction[26]  R263      -1.8577703970561556e+03
     Fraction[27]  Fraction_lower_bound_27  1
     Fraction[27]  Fraction_upper_bound_27  1
-    Fraction[27]  R273      -2.1561794361257403e+03
+    Fraction[27]  R273      -1.8577703970561556e+03
     Fraction[28]  Fraction_lower_bound_28  1
     Fraction[28]  Fraction_upper_bound_28  1
-    Fraction[28]  R283      -2.1561794361257403e+03
+    Fraction[28]  R283      -1.8577703970561556e+03
     Fraction[29]  Fraction_lower_bound_29  1
     Fraction[29]  Fraction_upper_bound_29  1
-    Fraction[29]  R293      -2.1561794361257403e+03
+    Fraction[29]  R293      -1.8577703970561556e+03
     Fraction[30]  Fraction_lower_bound_30  1
     Fraction[30]  Fraction_upper_bound_30  1
-    Fraction[30]  R303      -2.1561794361257403e+03
+    Fraction[30]  R303      -1.8577703970561556e+03
     Fraction[31]  Fraction_lower_bound_31  1
     Fraction[31]  Fraction_upper_bound_31  1
-    Fraction[31]  R313      -2.1561794361257403e+03
+    Fraction[31]  R313      -1.8577703970561556e+03
     Fraction[32]  Fraction_lower_bound_32  1
     Fraction[32]  Fraction_upper_bound_32  1
-    Fraction[32]  R323      -2.1561794361257403e+03
+    Fraction[32]  R323      -1.8577703970561556e+03
     Fraction[33]  Fraction_lower_bound_33  1
     Fraction[33]  Fraction_upper_bound_33  1
-    Fraction[33]  R333      -2.1561794361257403e+03
+    Fraction[33]  R333      -1.8577703970561556e+03
     Fraction[34]  Fraction_lower_bound_34  1
     Fraction[34]  Fraction_upper_bound_34  1
-    Fraction[34]  R343      -2.1561794361257403e+03
+    Fraction[34]  R343      -1.8577703970561556e+03
     Fraction[35]  Fraction_lower_bound_35  1
     Fraction[35]  Fraction_upper_bound_35  1
-    Fraction[35]  R353      -2.1561794361257403e+03
+    Fraction[35]  R353      -1.8577703970561556e+03
     Fraction[36]  Fraction_lower_bound_36  1
     Fraction[36]  Fraction_upper_bound_36  1
-    Fraction[36]  R363      -2.1561794361257403e+03
+    Fraction[36]  R363      -1.8577703970561556e+03
     Fraction[37]  Fraction_lower_bound_37  1
     Fraction[37]  Fraction_upper_bound_37  1
-    Fraction[37]  R373      -2.1561794361257403e+03
+    Fraction[37]  R373      -1.8577703970561556e+03
     Fraction[38]  Fraction_lower_bound_38  1
     Fraction[38]  Fraction_upper_bound_38  1
-    Fraction[38]  R383      -2.1561794361257403e+03
+    Fraction[38]  R383      -1.8577703970561556e+03
     Fraction[39]  Fraction_lower_bound_39  1
     Fraction[39]  Fraction_upper_bound_39  1
-    Fraction[39]  R393      -2.1561794361257403e+03
+    Fraction[39]  R393      -1.8577703970561556e+03
     Fraction[40]  Fraction_lower_bound_40  1
     Fraction[40]  Fraction_upper_bound_40  1
-    Fraction[40]  R403      -2.1561794361257403e+03
+    Fraction[40]  R403      -1.8577703970561556e+03
     Fraction[41]  Fraction_lower_bound_41  1
     Fraction[41]  Fraction_upper_bound_41  1
-    Fraction[41]  R413      -2.1561794361257403e+03
+    Fraction[41]  R413      -1.8577703970561556e+03
     Fraction[42]  Fraction_lower_bound_42  1
     Fraction[42]  Fraction_upper_bound_42  1
-    Fraction[42]  R423      -2.1561794361257403e+03
+    Fraction[42]  R423      -1.8577703970561556e+03
     Fraction[43]  Fraction_lower_bound_43  1
     Fraction[43]  Fraction_upper_bound_43  1
-    Fraction[43]  R433      -2.1561794361257403e+03
+    Fraction[43]  R433      -1.8577703970561556e+03
     Fraction[44]  Fraction_lower_bound_44  1
     Fraction[44]  Fraction_upper_bound_44  1
-    Fraction[44]  R443      -2.1561794361257403e+03
+    Fraction[44]  R443      -1.8577703970561556e+03
     Fraction[45]  Fraction_lower_bound_45  1
     Fraction[45]  Fraction_upper_bound_45  1
-    Fraction[45]  R453      -2.1561794361257403e+03
+    Fraction[45]  R453      -1.8577703970561556e+03
     Fraction[46]  Fraction_lower_bound_46  1
     Fraction[46]  Fraction_upper_bound_46  1
-    Fraction[46]  R463      -2.1561794361257403e+03
+    Fraction[46]  R463      -1.8577703970561556e+03
     Fraction[47]  Fraction_lower_bound_47  1
     Fraction[47]  Fraction_upper_bound_47  1
-    Fraction[47]  R473      -2.1561794361257403e+03
+    Fraction[47]  R473      -1.8577703970561556e+03
     Fraction[48]  Fraction_lower_bound_48  1
     Fraction[48]  Fraction_upper_bound_48  1
-    Fraction[48]  R483      -2.1561794361257403e+03
+    Fraction[48]  R483      -1.8577703970561556e+03
     Fraction[49]  Fraction_lower_bound_49  1
     Fraction[49]  Fraction_upper_bound_49  1
-    Fraction[49]  R493      -2.1561794361257403e+03
+    Fraction[49]  R493      -1.8577703970561556e+03
     Fraction[50]  Fraction_lower_bound_50  1
     Fraction[50]  Fraction_upper_bound_50  1
-    Fraction[50]  R503      -2.1561794361257403e+03
+    Fraction[50]  R503      -1.8577703970561556e+03
     Fraction[51]  Fraction_lower_bound_51  1
     Fraction[51]  Fraction_upper_bound_51  1
-    Fraction[51]  R513      -2.1561794361257403e+03
+    Fraction[51]  R513      -1.8577703970561556e+03
     Fraction[52]  Fraction_lower_bound_52  1
     Fraction[52]  Fraction_upper_bound_52  1
-    Fraction[52]  R523      -2.1561794361257403e+03
+    Fraction[52]  R523      -1.8577703970561556e+03
     Fraction[53]  Fraction_lower_bound_53  1
     Fraction[53]  Fraction_upper_bound_53  1
-    Fraction[53]  R533      -2.1561794361257403e+03
+    Fraction[53]  R533      -1.8577703970561556e+03
     Fraction[54]  Fraction_lower_bound_54  1
     Fraction[54]  Fraction_upper_bound_54  1
-    Fraction[54]  R543      -2.1561794361257403e+03
+    Fraction[54]  R543      -1.8577703970561556e+03
     Fraction[55]  Fraction_lower_bound_55  1
     Fraction[55]  Fraction_upper_bound_55  1
-    Fraction[55]  R553      -2.1561794361257403e+03
+    Fraction[55]  R553      -1.8577703970561556e+03
     Fraction[56]  Fraction_lower_bound_56  1
     Fraction[56]  Fraction_upper_bound_56  1
-    Fraction[56]  R563      -2.1561794361257403e+03
+    Fraction[56]  R563      -1.8577703970561556e+03
     Fraction[57]  Fraction_lower_bound_57  1
     Fraction[57]  Fraction_upper_bound_57  1
-    Fraction[57]  R573      -2.1561794361257403e+03
+    Fraction[57]  R573      -1.8577703970561556e+03
     Fraction[58]  Fraction_lower_bound_58  1
     Fraction[58]  Fraction_upper_bound_58  1
-    Fraction[58]  R583      -2.1561794361257403e+03
+    Fraction[58]  R583      -1.8577703970561556e+03
     Fraction[59]  Fraction_lower_bound_59  1
     Fraction[59]  Fraction_upper_bound_59  1
-    Fraction[59]  R593      -2.1561794361257403e+03
+    Fraction[59]  R593      -1.8577703970561556e+03
     Fraction[60]  Fraction_lower_bound_60  1
     Fraction[60]  Fraction_upper_bound_60  1
-    Fraction[60]  R603      -2.1561794361257403e+03
+    Fraction[60]  R603      -1.8577703970561556e+03
     Fraction[61]  Fraction_lower_bound_61  1
     Fraction[61]  Fraction_upper_bound_61  1
-    Fraction[61]  R613      -2.1561794361257403e+03
+    Fraction[61]  R613      -1.8577703970561556e+03
     Fraction[62]  Fraction_lower_bound_62  1
     Fraction[62]  Fraction_upper_bound_62  1
-    Fraction[62]  R623      -2.1561794361257403e+03
+    Fraction[62]  R623      -1.8577703970561556e+03
     Fraction[63]  Fraction_lower_bound_63  1
     Fraction[63]  Fraction_upper_bound_63  1
-    Fraction[63]  R633      -2.1561794361257403e+03
+    Fraction[63]  R633      -1.8577703970561556e+03
     Fraction[64]  Fraction_lower_bound_64  1
     Fraction[64]  Fraction_upper_bound_64  1
-    Fraction[64]  R643      -2.1561794361257403e+03
+    Fraction[64]  R643      -1.8577703970561556e+03
     Fraction[65]  Fraction_lower_bound_65  1
     Fraction[65]  Fraction_upper_bound_65  1
-    Fraction[65]  R653      -2.1561794361257403e+03
+    Fraction[65]  R653      -1.8577703970561556e+03
     Fraction[66]  Fraction_lower_bound_66  1
     Fraction[66]  Fraction_upper_bound_66  1
-    Fraction[66]  R663      -2.1561794361257403e+03
+    Fraction[66]  R663      -1.8577703970561556e+03
     Fraction[67]  Fraction_lower_bound_67  1
     Fraction[67]  Fraction_upper_bound_67  1
-    Fraction[67]  R673      -2.1561794361257403e+03
+    Fraction[67]  R673      -1.8577703970561556e+03
     Fraction[68]  Fraction_lower_bound_68  1
     Fraction[68]  Fraction_upper_bound_68  1
-    Fraction[68]  R683      -2.1561794361257403e+03
+    Fraction[68]  R683      -1.8577703970561556e+03
     Fraction[69]  Fraction_lower_bound_69  1
     Fraction[69]  Fraction_upper_bound_69  1
-    Fraction[69]  R693      -2.1561794361257403e+03
+    Fraction[69]  R693      -1.8577703970561556e+03
     Fraction[70]  Fraction_lower_bound_70  1
     Fraction[70]  Fraction_upper_bound_70  1
-    Fraction[70]  R703      -2.1561794361257403e+03
+    Fraction[70]  R703      -1.8577703970561556e+03
     Fraction[71]  Fraction_lower_bound_71  1
     Fraction[71]  Fraction_upper_bound_71  1
-    Fraction[71]  R713      -2.1561794361257403e+03
+    Fraction[71]  R713      -1.8577703970561556e+03
     Fraction[72]  Fraction_lower_bound_72  1
     Fraction[72]  Fraction_upper_bound_72  1
-    Fraction[72]  R723      -2.1561794361257403e+03
+    Fraction[72]  R723      -1.8577703970561556e+03
     Fraction[73]  Fraction_lower_bound_73  1
     Fraction[73]  Fraction_upper_bound_73  1
-    Fraction[73]  R733      -2.1561794361257403e+03
+    Fraction[73]  R733      -1.8577703970561556e+03
     Fraction[74]  Fraction_lower_bound_74  1
     Fraction[74]  Fraction_upper_bound_74  1
-    Fraction[74]  R743      -2.1561794361257403e+03
+    Fraction[74]  R743      -1.8577703970561556e+03
     Fraction[75]  Fraction_lower_bound_75  1
     Fraction[75]  Fraction_upper_bound_75  1
-    Fraction[75]  R753      -2.1561794361257403e+03
+    Fraction[75]  R753      -1.8577703970561556e+03
     Fraction[76]  Fraction_lower_bound_76  1
     Fraction[76]  Fraction_upper_bound_76  1
-    Fraction[76]  R763      -2.1561794361257403e+03
+    Fraction[76]  R763      -1.8577703970561556e+03
     Fraction[77]  Fraction_lower_bound_77  1
     Fraction[77]  Fraction_upper_bound_77  1
-    Fraction[77]  R773      -2.1561794361257403e+03
+    Fraction[77]  R773      -1.8577703970561556e+03
     Fraction[78]  Fraction_lower_bound_78  1
     Fraction[78]  Fraction_upper_bound_78  1
-    Fraction[78]  R783      -2.1561794361257403e+03
+    Fraction[78]  R783      -1.8577703970561556e+03
     Fraction[79]  Fraction_lower_bound_79  1
     Fraction[79]  Fraction_upper_bound_79  1
-    Fraction[79]  R793      -2.1561794361257403e+03
+    Fraction[79]  R793      -1.8577703970561556e+03
     Fraction[80]  Fraction_lower_bound_80  1
     Fraction[80]  Fraction_upper_bound_80  1
-    Fraction[80]  R803      -2.1561794361257403e+03
+    Fraction[80]  R803      -1.8577703970561556e+03
     Fraction[81]  Fraction_lower_bound_81  1
     Fraction[81]  Fraction_upper_bound_81  1
-    Fraction[81]  R813      -2.1561794361257403e+03
+    Fraction[81]  R813      -1.8577703970561556e+03
     Fraction[82]  Fraction_lower_bound_82  1
     Fraction[82]  Fraction_upper_bound_82  1
-    Fraction[82]  R823      -2.1561794361257403e+03
+    Fraction[82]  R823      -1.8577703970561556e+03
     Fraction[83]  Fraction_lower_bound_83  1
     Fraction[83]  Fraction_upper_bound_83  1
-    Fraction[83]  R833      -2.1561794361257403e+03
+    Fraction[83]  R833      -1.8577703970561556e+03
     Fraction[84]  Fraction_lower_bound_84  1
     Fraction[84]  Fraction_upper_bound_84  1
-    Fraction[84]  R843      -2.1561794361257403e+03
+    Fraction[84]  R843      -1.8577703970561556e+03
     Fraction[85]  Fraction_lower_bound_85  1
     Fraction[85]  Fraction_upper_bound_85  1
-    Fraction[85]  R853      -2.1561794361257403e+03
+    Fraction[85]  R853      -1.8577703970561556e+03
     Fraction[86]  Fraction_lower_bound_86  1
     Fraction[86]  Fraction_upper_bound_86  1
-    Fraction[86]  R863      -2.1561794361257403e+03
+    Fraction[86]  R863      -1.8577703970561556e+03
     Fraction[87]  Fraction_lower_bound_87  1
     Fraction[87]  Fraction_upper_bound_87  1
-    Fraction[87]  R873      -2.1561794361257403e+03
+    Fraction[87]  R873      -1.8577703970561556e+03
     Fraction[88]  Fraction_lower_bound_88  1
     Fraction[88]  Fraction_upper_bound_88  1
-    Fraction[88]  R883      -2.1561794361257403e+03
+    Fraction[88]  R883      -1.8577703970561556e+03
     Fraction[89]  Fraction_lower_bound_89  1
     Fraction[89]  Fraction_upper_bound_89  1
-    Fraction[89]  R893      -2.1561794361257403e+03
+    Fraction[89]  R893      -1.8577703970561556e+03
     Fraction[90]  Fraction_lower_bound_90  1
     Fraction[90]  Fraction_upper_bound_90  1
-    Fraction[90]  R903      -2.1561794361257403e+03
+    Fraction[90]  R903      -1.8577703970561556e+03
     Fraction[91]  Fraction_lower_bound_91  1
     Fraction[91]  Fraction_upper_bound_91  1
-    Fraction[91]  R913      -2.1561794361257403e+03
+    Fraction[91]  R913      -1.8577703970561556e+03
     Fraction[92]  Fraction_lower_bound_92  1
     Fraction[92]  Fraction_upper_bound_92  1
-    Fraction[92]  R923      -2.1561794361257403e+03
+    Fraction[92]  R923      -1.8577703970561556e+03
     Fraction[93]  Fraction_lower_bound_93  1
     Fraction[93]  Fraction_upper_bound_93  1
-    Fraction[93]  R933      -2.1561794361257403e+03
+    Fraction[93]  R933      -1.8577703970561556e+03
     Fraction[94]  Fraction_lower_bound_94  1
     Fraction[94]  Fraction_upper_bound_94  1
-    Fraction[94]  R943      -2.1561794361257403e+03
+    Fraction[94]  R943      -1.8577703970561556e+03
     Fraction[95]  Fraction_lower_bound_95  1
     Fraction[95]  Fraction_upper_bound_95  1
-    Fraction[95]  R953      -2.1561794361257403e+03
+    Fraction[95]  R953      -1.8577703970561556e+03
     Fraction[96]  Fraction_lower_bound_96  1
     Fraction[96]  Fraction_upper_bound_96  1
-    Fraction[96]  R963      -2.1561794361257403e+03
+    Fraction[96]  R963      -1.8577703970561556e+03
     Fraction[97]  Fraction_lower_bound_97  1
     Fraction[97]  Fraction_upper_bound_97  1
-    Fraction[97]  R973      -2.1561794361257403e+03
+    Fraction[97]  R973      -1.8577703970561556e+03
     Fraction[98]  Fraction_lower_bound_98  1
     Fraction[98]  Fraction_upper_bound_98  1
-    Fraction[98]  R983      -2.1561794361257403e+03
+    Fraction[98]  R983      -1.8577703970561556e+03
     Fraction[99]  Fraction_lower_bound_99  1
     Fraction[99]  Fraction_upper_bound_99  1
-    Fraction[99]  R993      -2.1561794361257403e+03
+    Fraction[99]  R993      -1.8577703970561556e+03
     Fraction[100]  Fraction_lower_bound_100  1
     Fraction[100]  Fraction_upper_bound_100  1
-    Fraction[100]  R1003     -2.1561794361257403e+03
+    Fraction[100]  R1003     -1.8577703970561556e+03
     Fraction[101]  Fraction_lower_bound_101  1
     Fraction[101]  Fraction_upper_bound_101  1
-    Fraction[101]  R1013     -2.1561794361257403e+03
+    Fraction[101]  R1013     -1.8577703970561556e+03
     Fraction[102]  Fraction_lower_bound_102  1
     Fraction[102]  Fraction_upper_bound_102  1
-    Fraction[102]  R1023     -2.1561794361257403e+03
+    Fraction[102]  R1023     -1.8577703970561556e+03
     Fraction[103]  Fraction_lower_bound_103  1
     Fraction[103]  Fraction_upper_bound_103  1
-    Fraction[103]  R1033     -2.1561794361257403e+03
+    Fraction[103]  R1033     -1.8577703970561556e+03
     Fraction[104]  Fraction_lower_bound_104  1
     Fraction[104]  Fraction_upper_bound_104  1
-    Fraction[104]  R1043     -2.1561794361257403e+03
+    Fraction[104]  R1043     -1.8577703970561556e+03
     Fraction[105]  Fraction_lower_bound_105  1
     Fraction[105]  Fraction_upper_bound_105  1
-    Fraction[105]  R1053     -2.1561794361257403e+03
+    Fraction[105]  R1053     -1.8577703970561556e+03
     Fraction[106]  Fraction_lower_bound_106  1
     Fraction[106]  Fraction_upper_bound_106  1
-    Fraction[106]  R1063     -2.1561794361257403e+03
+    Fraction[106]  R1063     -1.8577703970561556e+03
     Fraction[107]  Fraction_lower_bound_107  1
     Fraction[107]  Fraction_upper_bound_107  1
-    Fraction[107]  R1073     -2.1561794361257403e+03
+    Fraction[107]  R1073     -1.8577703970561556e+03
     Fraction[108]  Fraction_lower_bound_108  1
     Fraction[108]  Fraction_upper_bound_108  1
-    Fraction[108]  R1083     -2.1561794361257403e+03
+    Fraction[108]  R1083     -1.8577703970561556e+03
     Fraction[109]  Fraction_lower_bound_109  1
     Fraction[109]  Fraction_upper_bound_109  1
-    Fraction[109]  R1093     -2.1561794361257403e+03
+    Fraction[109]  R1093     -1.8577703970561556e+03
     Fraction[110]  Fraction_lower_bound_110  1
     Fraction[110]  Fraction_upper_bound_110  1
-    Fraction[110]  R1103     -2.1561794361257403e+03
+    Fraction[110]  R1103     -1.8577703970561556e+03
     Fraction[111]  Fraction_lower_bound_111  1
     Fraction[111]  Fraction_upper_bound_111  1
-    Fraction[111]  R1113     -2.1561794361257403e+03
+    Fraction[111]  R1113     -1.8577703970561556e+03
     Fraction[112]  Fraction_lower_bound_112  1
     Fraction[112]  Fraction_upper_bound_112  1
-    Fraction[112]  R1123     -2.1561794361257403e+03
+    Fraction[112]  R1123     -1.8577703970561556e+03
     Fraction[113]  Fraction_lower_bound_113  1
     Fraction[113]  Fraction_upper_bound_113  1
-    Fraction[113]  R1133     -2.1561794361257403e+03
+    Fraction[113]  R1133     -1.8577703970561556e+03
     Fraction[114]  Fraction_lower_bound_114  1
     Fraction[114]  Fraction_upper_bound_114  1
-    Fraction[114]  R1143     -2.1561794361257403e+03
+    Fraction[114]  R1143     -1.8577703970561556e+03
     Fraction[115]  Fraction_lower_bound_115  1
     Fraction[115]  Fraction_upper_bound_115  1
-    Fraction[115]  R1153     -2.1561794361257403e+03
+    Fraction[115]  R1153     -1.8577703970561556e+03
     Fraction[116]  Fraction_lower_bound_116  1
     Fraction[116]  Fraction_upper_bound_116  1
-    Fraction[116]  R1163     -2.1561794361257403e+03
+    Fraction[116]  R1163     -1.8577703970561556e+03
     Fraction[117]  Fraction_lower_bound_117  1
     Fraction[117]  Fraction_upper_bound_117  1
-    Fraction[117]  R1173     -2.1561794361257403e+03
+    Fraction[117]  R1173     -1.8577703970561556e+03
     Fraction[118]  Fraction_lower_bound_118  1
     Fraction[118]  Fraction_upper_bound_118  1
-    Fraction[118]  R1183     -2.1561794361257403e+03
+    Fraction[118]  R1183     -1.8577703970561556e+03
     Fraction[119]  Fraction_lower_bound_119  1
     Fraction[119]  Fraction_upper_bound_119  1
-    Fraction[119]  R1193     -2.1561794361257403e+03
+    Fraction[119]  R1193     -1.8577703970561556e+03
     Fraction[120]  Fraction_lower_bound_120  1
     Fraction[120]  Fraction_upper_bound_120  1
-    Fraction[120]  R1203     -2.1561794361257403e+03
+    Fraction[120]  R1203     -1.8577703970561556e+03
     Fraction[121]  Fraction_lower_bound_121  1
     Fraction[121]  Fraction_upper_bound_121  1
-    Fraction[121]  R1213     -2.1561794361257403e+03
+    Fraction[121]  R1213     -1.8577703970561556e+03
     Fraction[122]  Fraction_lower_bound_122  1
     Fraction[122]  Fraction_upper_bound_122  1
-    Fraction[122]  R1223     -2.1561794361257403e+03
+    Fraction[122]  R1223     -1.8577703970561556e+03
     Fraction[123]  Fraction_lower_bound_123  1
     Fraction[123]  Fraction_upper_bound_123  1
-    Fraction[123]  R1233     -2.1561794361257403e+03
+    Fraction[123]  R1233     -1.8577703970561556e+03
     Fraction[124]  Fraction_lower_bound_124  1
     Fraction[124]  Fraction_upper_bound_124  1
-    Fraction[124]  R1243     -2.1561794361257403e+03
+    Fraction[124]  R1243     -1.8577703970561556e+03
     Fraction[125]  Fraction_lower_bound_125  1
     Fraction[125]  Fraction_upper_bound_125  1
-    Fraction[125]  R1253     -2.1561794361257403e+03
+    Fraction[125]  R1253     -1.8577703970561556e+03
     Fraction[126]  Fraction_lower_bound_126  1
     Fraction[126]  Fraction_upper_bound_126  1
-    Fraction[126]  R1263     -2.1561794361257403e+03
+    Fraction[126]  R1263     -1.8577703970561556e+03
     Fraction[127]  Fraction_lower_bound_127  1
     Fraction[127]  Fraction_upper_bound_127  1
-    Fraction[127]  R1273     -2.1561794361257403e+03
+    Fraction[127]  R1273     -1.8577703970561556e+03
     Fraction[128]  Fraction_lower_bound_128  1
     Fraction[128]  Fraction_upper_bound_128  1
-    Fraction[128]  R1283     -2.1561794361257403e+03
+    Fraction[128]  R1283     -1.8577703970561556e+03
     Fraction[129]  Fraction_lower_bound_129  1
     Fraction[129]  Fraction_upper_bound_129  1
-    Fraction[129]  R1293     -2.1561794361257403e+03
+    Fraction[129]  R1293     -1.8577703970561556e+03
     Fraction[130]  Fraction_lower_bound_130  1
     Fraction[130]  Fraction_upper_bound_130  1
-    Fraction[130]  R1303     -2.1561794361257403e+03
+    Fraction[130]  R1303     -1.8577703970561556e+03
     Fraction[131]  Fraction_lower_bound_131  1
     Fraction[131]  Fraction_upper_bound_131  1
-    Fraction[131]  R1313     -2.1561794361257403e+03
+    Fraction[131]  R1313     -1.8577703970561556e+03
     Fraction[132]  Fraction_lower_bound_132  1
     Fraction[132]  Fraction_upper_bound_132  1
-    Fraction[132]  R1323     -2.1561794361257403e+03
+    Fraction[132]  R1323     -1.8577703970561556e+03
     Fraction[133]  Fraction_lower_bound_133  1
     Fraction[133]  Fraction_upper_bound_133  1
-    Fraction[133]  R1333     -2.1561794361257403e+03
+    Fraction[133]  R1333     -1.8577703970561556e+03
     Fraction[134]  Fraction_lower_bound_134  1
     Fraction[134]  Fraction_upper_bound_134  1
-    Fraction[134]  R1343     -2.1561794361257403e+03
+    Fraction[134]  R1343     -1.8577703970561556e+03
     Fraction[135]  Fraction_lower_bound_135  1
     Fraction[135]  Fraction_upper_bound_135  1
-    Fraction[135]  R1353     -2.1561794361257403e+03
+    Fraction[135]  R1353     -1.8577703970561556e+03
     Fraction[136]  Fraction_lower_bound_136  1
     Fraction[136]  Fraction_upper_bound_136  1
-    Fraction[136]  R1363     -2.1561794361257403e+03
+    Fraction[136]  R1363     -1.8577703970561556e+03
     Fraction[137]  Fraction_lower_bound_137  1
     Fraction[137]  Fraction_upper_bound_137  1
-    Fraction[137]  R1373     -2.1561794361257403e+03
+    Fraction[137]  R1373     -1.8577703970561556e+03
     Fraction[138]  Fraction_lower_bound_138  1
     Fraction[138]  Fraction_upper_bound_138  1
-    Fraction[138]  R1383     -2.1561794361257403e+03
+    Fraction[138]  R1383     -1.8577703970561556e+03
     Fraction[139]  Fraction_lower_bound_139  1
     Fraction[139]  Fraction_upper_bound_139  1
-    Fraction[139]  R1393     -2.1561794361257403e+03
+    Fraction[139]  R1393     -1.8577703970561556e+03
     Fraction[140]  Fraction_lower_bound_140  1
     Fraction[140]  Fraction_upper_bound_140  1
-    Fraction[140]  R1403     -2.1561794361257403e+03
+    Fraction[140]  R1403     -1.8577703970561556e+03
     Fraction[141]  Fraction_lower_bound_141  1
     Fraction[141]  Fraction_upper_bound_141  1
-    Fraction[141]  R1413     -2.1561794361257403e+03
+    Fraction[141]  R1413     -1.8577703970561556e+03
     Fraction[142]  Fraction_lower_bound_142  1
     Fraction[142]  Fraction_upper_bound_142  1
-    Fraction[142]  R1423     -2.1561794361257403e+03
+    Fraction[142]  R1423     -1.8577703970561556e+03
     Fraction[143]  Fraction_lower_bound_143  1
     Fraction[143]  Fraction_upper_bound_143  1
-    Fraction[143]  R1433     -2.1561794361257403e+03
+    Fraction[143]  R1433     -1.8577703970561556e+03
     Fraction[144]  Fraction_lower_bound_144  1
     Fraction[144]  Fraction_upper_bound_144  1
-    Fraction[144]  R1443     -2.1561794361257403e+03
+    Fraction[144]  R1443     -1.8577703970561556e+03
     Fraction[145]  Fraction_lower_bound_145  1
     Fraction[145]  Fraction_upper_bound_145  1
-    Fraction[145]  R1453     -2.1561794361257403e+03
+    Fraction[145]  R1453     -1.8577703970561556e+03
     Fraction[146]  Fraction_lower_bound_146  1
     Fraction[146]  Fraction_upper_bound_146  1
-    Fraction[146]  R1463     -2.1561794361257403e+03
+    Fraction[146]  R1463     -1.8577703970561556e+03
     Fraction[147]  Fraction_lower_bound_147  1
     Fraction[147]  Fraction_upper_bound_147  1
-    Fraction[147]  R1473     -2.1561794361257403e+03
+    Fraction[147]  R1473     -1.8577703970561556e+03
     Fraction[148]  Fraction_lower_bound_148  1
     Fraction[148]  Fraction_upper_bound_148  1
-    Fraction[148]  R1483     -2.1561794361257403e+03
+    Fraction[148]  R1483     -1.8577703970561556e+03
     Fraction[149]  Fraction_lower_bound_149  1
     Fraction[149]  Fraction_upper_bound_149  1
-    Fraction[149]  R1493     -2.1561794361257403e+03
-    Fraction[150]  Fraction_lower_bound_150  1
-    Fraction[150]  Fraction_upper_bound_150  1
-    Fraction[150]  R1503     -2.1561794361257403e+03
-    Fraction[151]  Fraction_lower_bound_151  1
-    Fraction[151]  Fraction_upper_bound_151  1
-    Fraction[151]  R1513     -2.1561794361257403e+03
-    Fraction[152]  Fraction_lower_bound_152  1
-    Fraction[152]  Fraction_upper_bound_152  1
-    Fraction[152]  R1523     -2.1561794361257403e+03
-    Fraction[153]  Fraction_lower_bound_153  1
-    Fraction[153]  Fraction_upper_bound_153  1
-    Fraction[153]  R1533     -2.1561794361257403e+03
-    Fraction[154]  Fraction_lower_bound_154  1
-    Fraction[154]  Fraction_upper_bound_154  1
-    Fraction[154]  R1543     -2.1561794361257403e+03
-    Fraction[155]  Fraction_lower_bound_155  1
-    Fraction[155]  Fraction_upper_bound_155  1
-    Fraction[155]  R1553     -2.1561794361257403e+03
-    Fraction[156]  Fraction_lower_bound_156  1
-    Fraction[156]  Fraction_upper_bound_156  1
-    Fraction[156]  R1563     -2.1561794361257403e+03
-    Fraction[157]  Fraction_lower_bound_157  1
-    Fraction[157]  Fraction_upper_bound_157  1
-    Fraction[157]  R1573     -2.1561794361257403e+03
-    Fraction[158]  Fraction_lower_bound_158  1
-    Fraction[158]  Fraction_upper_bound_158  1
-    Fraction[158]  R1583     -2.1561794361257403e+03
-    Fraction[159]  Fraction_lower_bound_159  1
-    Fraction[159]  Fraction_upper_bound_159  1
-    Fraction[159]  R1593     -2.1561794361257403e+03
-    Fraction[160]  Fraction_lower_bound_160  1
-    Fraction[160]  Fraction_upper_bound_160  1
-    Fraction[160]  R1603     -2.1561794361257403e+03
-    Fraction[161]  Fraction_lower_bound_161  1
-    Fraction[161]  Fraction_upper_bound_161  1
-    Fraction[161]  R1613     -2.1561794361257403e+03
-    Fraction[162]  Fraction_lower_bound_162  1
-    Fraction[162]  Fraction_upper_bound_162  1
-    Fraction[162]  R1623     -2.1561794361257403e+03
-    Fraction[163]  Fraction_lower_bound_163  1
-    Fraction[163]  Fraction_upper_bound_163  1
-    Fraction[163]  R1633     -2.1561794361257403e+03
-    Fraction[164]  Fraction_lower_bound_164  1
-    Fraction[164]  Fraction_upper_bound_164  1
-    Fraction[164]  R1643     -2.1561794361257403e+03
-    Fraction[165]  Fraction_lower_bound_165  1
-    Fraction[165]  Fraction_upper_bound_165  1
-    Fraction[165]  R1653     -2.1561794361257403e+03
-    Fraction[166]  Fraction_lower_bound_166  1
-    Fraction[166]  Fraction_upper_bound_166  1
-    Fraction[166]  R1663     -2.1561794361257403e+03
-    Fraction[167]  Fraction_lower_bound_167  1
-    Fraction[167]  Fraction_upper_bound_167  1
-    Fraction[167]  R1673     -2.1561794361257403e+03
-    Fraction[168]  Fraction_lower_bound_168  1
-    Fraction[168]  Fraction_upper_bound_168  1
-    Fraction[168]  R1683     -2.1561794361257403e+03
-    Fraction[169]  Fraction_lower_bound_169  1
-    Fraction[169]  Fraction_upper_bound_169  1
-    Fraction[169]  R1693     -2.1561794361257403e+03
-    Fraction[170]  Fraction_lower_bound_170  1
-    Fraction[170]  Fraction_upper_bound_170  1
-    Fraction[170]  R1703     -2.1561794361257403e+03
-    Fraction[171]  Fraction_lower_bound_171  1
-    Fraction[171]  Fraction_upper_bound_171  1
-    Fraction[171]  R1713     -2.1561794361257403e+03
-    Fraction[172]  Fraction_lower_bound_172  1
-    Fraction[172]  Fraction_upper_bound_172  1
-    Fraction[172]  R1723     -2.1561794361257403e+03
-    Fraction[173]  Fraction_lower_bound_173  1
-    Fraction[173]  Fraction_upper_bound_173  1
-    Fraction[173]  R1733     -2.1561794361257403e+03
-    Fraction[174]  Fraction_lower_bound_174  1
-    Fraction[174]  Fraction_upper_bound_174  1
-    Fraction[174]  R1743     -2.1561794361257403e+03
-    Fraction[175]  Fraction_lower_bound_175  1
-    Fraction[175]  Fraction_upper_bound_175  1
-    Fraction[175]  R1753     -2.1561794361257403e+03
-    Fraction[176]  Fraction_lower_bound_176  1
-    Fraction[176]  Fraction_upper_bound_176  1
-    Fraction[176]  R1763     -2.1561794361257403e+03
-    Fraction[177]  Fraction_lower_bound_177  1
-    Fraction[177]  Fraction_upper_bound_177  1
-    Fraction[177]  R1773     -2.1561794361257403e+03
-    Fraction[178]  Fraction_lower_bound_178  1
-    Fraction[178]  Fraction_upper_bound_178  1
-    Fraction[178]  R1783     -2.1561794361257403e+03
-    Fraction[179]  Fraction_lower_bound_179  1
-    Fraction[179]  Fraction_upper_bound_179  1
-    Fraction[179]  R1793     -2.1561794361257403e+03
-    Fraction[180]  Fraction_lower_bound_180  1
-    Fraction[180]  Fraction_upper_bound_180  1
-    Fraction[180]  R1803     -2.1561794361257403e+03
-    Fraction[181]  Fraction_lower_bound_181  1
-    Fraction[181]  Fraction_upper_bound_181  1
-    Fraction[181]  R1813     -2.1561794361257403e+03
-    Fraction[182]  Fraction_lower_bound_182  1
-    Fraction[182]  Fraction_upper_bound_182  1
-    Fraction[182]  R1823     -2.1561794361257403e+03
-    Fraction[183]  Fraction_lower_bound_183  1
-    Fraction[183]  Fraction_upper_bound_183  1
-    Fraction[183]  R1833     -2.1561794361257403e+03
-    Fraction[184]  Fraction_lower_bound_184  1
-    Fraction[184]  Fraction_upper_bound_184  1
-    Fraction[184]  R1843     -2.1561794361257403e+03
-    Fraction[185]  Fraction_lower_bound_185  1
-    Fraction[185]  Fraction_upper_bound_185  1
-    Fraction[185]  R1853     -2.1561794361257403e+03
-    Fraction[186]  Fraction_lower_bound_186  1
-    Fraction[186]  Fraction_upper_bound_186  1
-    Fraction[186]  R1863     -2.1561794361257403e+03
-    Fraction[187]  Fraction_lower_bound_187  1
-    Fraction[187]  Fraction_upper_bound_187  1
-    Fraction[187]  R1873     -2.1561794361257403e+03
-    Fraction[188]  Fraction_lower_bound_188  1
-    Fraction[188]  Fraction_upper_bound_188  1
-    Fraction[188]  R1883     -2.1561794361257403e+03
-    Fraction[189]  Fraction_lower_bound_189  1
-    Fraction[189]  Fraction_upper_bound_189  1
-    Fraction[189]  R1893     -2.1561794361257403e+03
-    Fraction[190]  Fraction_lower_bound_190  1
-    Fraction[190]  Fraction_upper_bound_190  1
-    Fraction[190]  R1903     -2.1561794361257403e+03
-    Fraction[191]  Fraction_lower_bound_191  1
-    Fraction[191]  Fraction_upper_bound_191  1
-    Fraction[191]  R1913     -2.1561794361257403e+03
-    Fraction[192]  Fraction_lower_bound_192  1
-    Fraction[192]  Fraction_upper_bound_192  1
-    Fraction[192]  R1923     -2.1561794361257403e+03
-    Fraction[193]  Fraction_lower_bound_193  1
-    Fraction[193]  Fraction_upper_bound_193  1
-    Fraction[193]  R1933     -2.1561794361257403e+03
-    Fraction[194]  Fraction_lower_bound_194  1
-    Fraction[194]  Fraction_upper_bound_194  1
-    Fraction[194]  R1943     -2.1561794361257403e+03
-    Fraction[195]  Fraction_lower_bound_195  1
-    Fraction[195]  Fraction_upper_bound_195  1
-    Fraction[195]  R1953     -2.1561794361257403e+03
-    Fraction[196]  Fraction_lower_bound_196  1
-    Fraction[196]  Fraction_upper_bound_196  1
-    Fraction[196]  R1963     -2.1561794361257403e+03
-    Fraction[197]  Fraction_lower_bound_197  1
-    Fraction[197]  Fraction_upper_bound_197  1
-    Fraction[197]  R1973     -2.1561794361257403e+03
-    Fraction[198]  Fraction_lower_bound_198  1
-    Fraction[198]  Fraction_upper_bound_198  1
-    Fraction[198]  R1983     -2.1561794361257403e+03
-    Fraction[199]  Fraction_lower_bound_199  1
-    Fraction[199]  Fraction_upper_bound_199  1
-    Fraction[199]  R1993     -2.1561794361257403e+03
-    Fraction[200]  Fraction_lower_bound_200  1
-    Fraction[200]  Fraction_upper_bound_200  1
-    Fraction[200]  R2003     -2.1561794361257403e+03
-    Fraction[201]  Fraction_lower_bound_201  1
-    Fraction[201]  Fraction_upper_bound_201  1
-    Fraction[201]  R2013     -2.1561794361257403e+03
-    Fraction[202]  Fraction_lower_bound_202  1
-    Fraction[202]  Fraction_upper_bound_202  1
-    Fraction[202]  R2023     -2.1561794361257403e+03
-    Fraction[203]  Fraction_lower_bound_203  1
-    Fraction[203]  Fraction_upper_bound_203  1
-    Fraction[203]  R2033     -2.1561794361257403e+03
-    Fraction[204]  Fraction_lower_bound_204  1
-    Fraction[204]  Fraction_upper_bound_204  1
-    Fraction[204]  R2043     -2.1561794361257403e+03
-    Fraction[205]  Fraction_lower_bound_205  1
-    Fraction[205]  Fraction_upper_bound_205  1
-    Fraction[205]  R2053     -2.1561794361257403e+03
-    Fraction[206]  Fraction_lower_bound_206  1
-    Fraction[206]  Fraction_upper_bound_206  1
-    Fraction[206]  R2063     -2.1561794361257403e+03
-    Fraction[207]  Fraction_lower_bound_207  1
-    Fraction[207]  Fraction_upper_bound_207  1
-    Fraction[207]  R2073     -2.1561794361257403e+03
-    Fraction[208]  Fraction_lower_bound_208  1
-    Fraction[208]  Fraction_upper_bound_208  1
-    Fraction[208]  R2083     -2.1561794361257403e+03
-    Fraction[209]  Fraction_lower_bound_209  1
-    Fraction[209]  Fraction_upper_bound_209  1
-    Fraction[209]  R2093     -2.1561794361257403e+03
-    Fraction[210]  Fraction_lower_bound_210  1
-    Fraction[210]  Fraction_upper_bound_210  1
-    Fraction[210]  R2103     -2.1561794361257403e+03
-    Fraction[211]  Fraction_lower_bound_211  1
-    Fraction[211]  Fraction_upper_bound_211  1
-    Fraction[211]  R2113     -2.1561794361257403e+03
-    Fraction[212]  Fraction_lower_bound_212  1
-    Fraction[212]  Fraction_upper_bound_212  1
-    Fraction[212]  R2123     -2.1561794361257403e+03
-    Fraction[213]  Fraction_lower_bound_213  1
-    Fraction[213]  Fraction_upper_bound_213  1
-    Fraction[213]  R2133     -2.1561794361257403e+03
-    Fraction[214]  Fraction_lower_bound_214  1
-    Fraction[214]  Fraction_upper_bound_214  1
-    Fraction[214]  R2143     -2.1561794361257403e+03
-    Fraction[215]  Fraction_lower_bound_215  1
-    Fraction[215]  Fraction_upper_bound_215  1
-    Fraction[215]  R2153     -2.1561794361257403e+03
-    Fraction[216]  Fraction_lower_bound_216  1
-    Fraction[216]  Fraction_upper_bound_216  1
-    Fraction[216]  R2163     -2.1561794361257403e+03
-    Fraction[217]  Fraction_lower_bound_217  1
-    Fraction[217]  Fraction_upper_bound_217  1
-    Fraction[217]  R2173     -2.1561794361257403e+03
-    Fraction[218]  Fraction_lower_bound_218  1
-    Fraction[218]  Fraction_upper_bound_218  1
-    Fraction[218]  R2183     -2.1561794361257403e+03
-    Fraction[219]  Fraction_lower_bound_219  1
-    Fraction[219]  Fraction_upper_bound_219  1
-    Fraction[219]  R2193     -2.1561794361257403e+03
-    Fraction[220]  Fraction_lower_bound_220  1
-    Fraction[220]  Fraction_upper_bound_220  1
-    Fraction[220]  R2203     -2.1561794361257403e+03
-    Fraction[221]  Fraction_lower_bound_221  1
-    Fraction[221]  Fraction_upper_bound_221  1
-    Fraction[221]  R2213     -2.1561794361257403e+03
-    Fraction[222]  Fraction_lower_bound_222  1
-    Fraction[222]  Fraction_upper_bound_222  1
-    Fraction[222]  R2223     -2.1561794361257403e+03
-    Fraction[223]  Fraction_lower_bound_223  1
-    Fraction[223]  Fraction_upper_bound_223  1
-    Fraction[223]  R2233     -2.1561794361257403e+03
-    Fraction[224]  Fraction_lower_bound_224  1
-    Fraction[224]  Fraction_upper_bound_224  1
-    Fraction[224]  R2243     -2.1561794361257403e+03
-    Fraction[225]  Fraction_lower_bound_225  1
-    Fraction[225]  Fraction_upper_bound_225  1
-    Fraction[225]  R2253     -2.1561794361257403e+03
-    Fraction[226]  Fraction_lower_bound_226  1
-    Fraction[226]  Fraction_upper_bound_226  1
-    Fraction[226]  R2263     -2.1561794361257403e+03
-    Fraction[227]  Fraction_lower_bound_227  1
-    Fraction[227]  Fraction_upper_bound_227  1
-    Fraction[227]  R2273     -2.1561794361257403e+03
-    Fraction[228]  Fraction_lower_bound_228  1
-    Fraction[228]  Fraction_upper_bound_228  1
-    Fraction[228]  R2283     -2.1561794361257403e+03
-    Fraction[229]  Fraction_lower_bound_229  1
-    Fraction[229]  Fraction_upper_bound_229  1
-    Fraction[229]  R2293     -2.1561794361257403e+03
-    Fraction[230]  Fraction_lower_bound_230  1
-    Fraction[230]  Fraction_upper_bound_230  1
-    Fraction[230]  R2303     -2.1561794361257403e+03
-    Fraction[231]  Fraction_lower_bound_231  1
-    Fraction[231]  Fraction_upper_bound_231  1
-    Fraction[231]  R2313     -2.1561794361257403e+03
-    Fraction[232]  Fraction_lower_bound_232  1
-    Fraction[232]  Fraction_upper_bound_232  1
-    Fraction[232]  R2323     -2.1561794361257403e+03
-    Fraction[233]  Fraction_lower_bound_233  1
-    Fraction[233]  Fraction_upper_bound_233  1
-    Fraction[233]  R2333     -2.1561794361257403e+03
-    Fraction[234]  Fraction_lower_bound_234  1
-    Fraction[234]  Fraction_upper_bound_234  1
-    Fraction[234]  R2343     -2.1561794361257403e+03
-    Fraction[235]  Fraction_lower_bound_235  1
-    Fraction[235]  Fraction_upper_bound_235  1
-    Fraction[235]  R2353     -2.1561794361257403e+03
-    Fraction[236]  Fraction_lower_bound_236  1
-    Fraction[236]  Fraction_upper_bound_236  1
-    Fraction[236]  R2363     -2.1561794361257403e+03
-    Fraction[237]  Fraction_lower_bound_237  1
-    Fraction[237]  Fraction_upper_bound_237  1
-    Fraction[237]  R2373     -2.1561794361257403e+03
-    Fraction[238]  Fraction_lower_bound_238  1
-    Fraction[238]  Fraction_upper_bound_238  1
-    Fraction[238]  R2383     -2.1561794361257403e+03
-    Fraction[239]  Fraction_lower_bound_239  1
-    Fraction[239]  Fraction_upper_bound_239  1
-    Fraction[239]  R2393     -2.1561794361257403e+03
-    Fraction[240]  Fraction_lower_bound_240  1
-    Fraction[240]  Fraction_upper_bound_240  1
-    Fraction[240]  R2403     -2.1561794361257403e+03
-    Fraction[241]  Fraction_lower_bound_241  1
-    Fraction[241]  Fraction_upper_bound_241  1
-    Fraction[241]  R2413     -2.1561794361257403e+03
-    Fraction[242]  Fraction_lower_bound_242  1
-    Fraction[242]  Fraction_upper_bound_242  1
-    Fraction[242]  R2423     -2.1561794361257403e+03
-    Fraction[243]  Fraction_lower_bound_243  1
-    Fraction[243]  Fraction_upper_bound_243  1
-    Fraction[243]  R2433     -2.1561794361257403e+03
-    Fraction[244]  Fraction_lower_bound_244  1
-    Fraction[244]  Fraction_upper_bound_244  1
-    Fraction[244]  R2443     -2.1561794361257403e+03
-    Fraction[245]  Fraction_lower_bound_245  1
-    Fraction[245]  Fraction_upper_bound_245  1
-    Fraction[245]  R2453     -2.1561794361257403e+03
-    Fraction[246]  Fraction_lower_bound_246  1
-    Fraction[246]  Fraction_upper_bound_246  1
-    Fraction[246]  R2463     -2.1561794361257403e+03
-    Fraction[247]  Fraction_lower_bound_247  1
-    Fraction[247]  Fraction_upper_bound_247  1
-    Fraction[247]  R2473     -2.1561794361257403e+03
-    Fraction[248]  Fraction_lower_bound_248  1
-    Fraction[248]  Fraction_upper_bound_248  1
-    Fraction[248]  R2483     -2.1561794361257403e+03
-    Fraction[249]  Fraction_lower_bound_249  1
-    Fraction[249]  Fraction_upper_bound_249  1
-    Fraction[249]  R2493     -2.1561794361257403e+03
+    Fraction[149]  R1493     -1.8577703970561556e+03
     Q0_var[0]  R3        1
     Q0_var[0]  R4        1
     Q0_var[0]  R5        1
@@ -7353,406 +4653,6 @@ COLUMNS
     Q0_var[149]  R1494     1
     Q0_var[149]  R1495     1
     Q0_var[149]  R1496     -1
-    Q0_var[150]  R1503     1
-    Q0_var[150]  R1504     1
-    Q0_var[150]  R1505     1
-    Q0_var[150]  R1506     -1
-    Q0_var[151]  R1513     1
-    Q0_var[151]  R1514     1
-    Q0_var[151]  R1515     1
-    Q0_var[151]  R1516     -1
-    Q0_var[152]  R1523     1
-    Q0_var[152]  R1524     1
-    Q0_var[152]  R1525     1
-    Q0_var[152]  R1526     -1
-    Q0_var[153]  R1533     1
-    Q0_var[153]  R1534     1
-    Q0_var[153]  R1535     1
-    Q0_var[153]  R1536     -1
-    Q0_var[154]  R1543     1
-    Q0_var[154]  R1544     1
-    Q0_var[154]  R1545     1
-    Q0_var[154]  R1546     -1
-    Q0_var[155]  R1553     1
-    Q0_var[155]  R1554     1
-    Q0_var[155]  R1555     1
-    Q0_var[155]  R1556     -1
-    Q0_var[156]  R1563     1
-    Q0_var[156]  R1564     1
-    Q0_var[156]  R1565     1
-    Q0_var[156]  R1566     -1
-    Q0_var[157]  R1573     1
-    Q0_var[157]  R1574     1
-    Q0_var[157]  R1575     1
-    Q0_var[157]  R1576     -1
-    Q0_var[158]  R1583     1
-    Q0_var[158]  R1584     1
-    Q0_var[158]  R1585     1
-    Q0_var[158]  R1586     -1
-    Q0_var[159]  R1593     1
-    Q0_var[159]  R1594     1
-    Q0_var[159]  R1595     1
-    Q0_var[159]  R1596     -1
-    Q0_var[160]  R1603     1
-    Q0_var[160]  R1604     1
-    Q0_var[160]  R1605     1
-    Q0_var[160]  R1606     -1
-    Q0_var[161]  R1613     1
-    Q0_var[161]  R1614     1
-    Q0_var[161]  R1615     1
-    Q0_var[161]  R1616     -1
-    Q0_var[162]  R1623     1
-    Q0_var[162]  R1624     1
-    Q0_var[162]  R1625     1
-    Q0_var[162]  R1626     -1
-    Q0_var[163]  R1633     1
-    Q0_var[163]  R1634     1
-    Q0_var[163]  R1635     1
-    Q0_var[163]  R1636     -1
-    Q0_var[164]  R1643     1
-    Q0_var[164]  R1644     1
-    Q0_var[164]  R1645     1
-    Q0_var[164]  R1646     -1
-    Q0_var[165]  R1653     1
-    Q0_var[165]  R1654     1
-    Q0_var[165]  R1655     1
-    Q0_var[165]  R1656     -1
-    Q0_var[166]  R1663     1
-    Q0_var[166]  R1664     1
-    Q0_var[166]  R1665     1
-    Q0_var[166]  R1666     -1
-    Q0_var[167]  R1673     1
-    Q0_var[167]  R1674     1
-    Q0_var[167]  R1675     1
-    Q0_var[167]  R1676     -1
-    Q0_var[168]  R1683     1
-    Q0_var[168]  R1684     1
-    Q0_var[168]  R1685     1
-    Q0_var[168]  R1686     -1
-    Q0_var[169]  R1693     1
-    Q0_var[169]  R1694     1
-    Q0_var[169]  R1695     1
-    Q0_var[169]  R1696     -1
-    Q0_var[170]  R1703     1
-    Q0_var[170]  R1704     1
-    Q0_var[170]  R1705     1
-    Q0_var[170]  R1706     -1
-    Q0_var[171]  R1713     1
-    Q0_var[171]  R1714     1
-    Q0_var[171]  R1715     1
-    Q0_var[171]  R1716     -1
-    Q0_var[172]  R1723     1
-    Q0_var[172]  R1724     1
-    Q0_var[172]  R1725     1
-    Q0_var[172]  R1726     -1
-    Q0_var[173]  R1733     1
-    Q0_var[173]  R1734     1
-    Q0_var[173]  R1735     1
-    Q0_var[173]  R1736     -1
-    Q0_var[174]  R1743     1
-    Q0_var[174]  R1744     1
-    Q0_var[174]  R1745     1
-    Q0_var[174]  R1746     -1
-    Q0_var[175]  R1753     1
-    Q0_var[175]  R1754     1
-    Q0_var[175]  R1755     1
-    Q0_var[175]  R1756     -1
-    Q0_var[176]  R1763     1
-    Q0_var[176]  R1764     1
-    Q0_var[176]  R1765     1
-    Q0_var[176]  R1766     -1
-    Q0_var[177]  R1773     1
-    Q0_var[177]  R1774     1
-    Q0_var[177]  R1775     1
-    Q0_var[177]  R1776     -1
-    Q0_var[178]  R1783     1
-    Q0_var[178]  R1784     1
-    Q0_var[178]  R1785     1
-    Q0_var[178]  R1786     -1
-    Q0_var[179]  R1793     1
-    Q0_var[179]  R1794     1
-    Q0_var[179]  R1795     1
-    Q0_var[179]  R1796     -1
-    Q0_var[180]  R1803     1
-    Q0_var[180]  R1804     1
-    Q0_var[180]  R1805     1
-    Q0_var[180]  R1806     -1
-    Q0_var[181]  R1813     1
-    Q0_var[181]  R1814     1
-    Q0_var[181]  R1815     1
-    Q0_var[181]  R1816     -1
-    Q0_var[182]  R1823     1
-    Q0_var[182]  R1824     1
-    Q0_var[182]  R1825     1
-    Q0_var[182]  R1826     -1
-    Q0_var[183]  R1833     1
-    Q0_var[183]  R1834     1
-    Q0_var[183]  R1835     1
-    Q0_var[183]  R1836     -1
-    Q0_var[184]  R1843     1
-    Q0_var[184]  R1844     1
-    Q0_var[184]  R1845     1
-    Q0_var[184]  R1846     -1
-    Q0_var[185]  R1853     1
-    Q0_var[185]  R1854     1
-    Q0_var[185]  R1855     1
-    Q0_var[185]  R1856     -1
-    Q0_var[186]  R1863     1
-    Q0_var[186]  R1864     1
-    Q0_var[186]  R1865     1
-    Q0_var[186]  R1866     -1
-    Q0_var[187]  R1873     1
-    Q0_var[187]  R1874     1
-    Q0_var[187]  R1875     1
-    Q0_var[187]  R1876     -1
-    Q0_var[188]  R1883     1
-    Q0_var[188]  R1884     1
-    Q0_var[188]  R1885     1
-    Q0_var[188]  R1886     -1
-    Q0_var[189]  R1893     1
-    Q0_var[189]  R1894     1
-    Q0_var[189]  R1895     1
-    Q0_var[189]  R1896     -1
-    Q0_var[190]  R1903     1
-    Q0_var[190]  R1904     1
-    Q0_var[190]  R1905     1
-    Q0_var[190]  R1906     -1
-    Q0_var[191]  R1913     1
-    Q0_var[191]  R1914     1
-    Q0_var[191]  R1915     1
-    Q0_var[191]  R1916     -1
-    Q0_var[192]  R1923     1
-    Q0_var[192]  R1924     1
-    Q0_var[192]  R1925     1
-    Q0_var[192]  R1926     -1
-    Q0_var[193]  R1933     1
-    Q0_var[193]  R1934     1
-    Q0_var[193]  R1935     1
-    Q0_var[193]  R1936     -1
-    Q0_var[194]  R1943     1
-    Q0_var[194]  R1944     1
-    Q0_var[194]  R1945     1
-    Q0_var[194]  R1946     -1
-    Q0_var[195]  R1953     1
-    Q0_var[195]  R1954     1
-    Q0_var[195]  R1955     1
-    Q0_var[195]  R1956     -1
-    Q0_var[196]  R1963     1
-    Q0_var[196]  R1964     1
-    Q0_var[196]  R1965     1
-    Q0_var[196]  R1966     -1
-    Q0_var[197]  R1973     1
-    Q0_var[197]  R1974     1
-    Q0_var[197]  R1975     1
-    Q0_var[197]  R1976     -1
-    Q0_var[198]  R1983     1
-    Q0_var[198]  R1984     1
-    Q0_var[198]  R1985     1
-    Q0_var[198]  R1986     -1
-    Q0_var[199]  R1993     1
-    Q0_var[199]  R1994     1
-    Q0_var[199]  R1995     1
-    Q0_var[199]  R1996     -1
-    Q0_var[200]  R2003     1
-    Q0_var[200]  R2004     1
-    Q0_var[200]  R2005     1
-    Q0_var[200]  R2006     -1
-    Q0_var[201]  R2013     1
-    Q0_var[201]  R2014     1
-    Q0_var[201]  R2015     1
-    Q0_var[201]  R2016     -1
-    Q0_var[202]  R2023     1
-    Q0_var[202]  R2024     1
-    Q0_var[202]  R2025     1
-    Q0_var[202]  R2026     -1
-    Q0_var[203]  R2033     1
-    Q0_var[203]  R2034     1
-    Q0_var[203]  R2035     1
-    Q0_var[203]  R2036     -1
-    Q0_var[204]  R2043     1
-    Q0_var[204]  R2044     1
-    Q0_var[204]  R2045     1
-    Q0_var[204]  R2046     -1
-    Q0_var[205]  R2053     1
-    Q0_var[205]  R2054     1
-    Q0_var[205]  R2055     1
-    Q0_var[205]  R2056     -1
-    Q0_var[206]  R2063     1
-    Q0_var[206]  R2064     1
-    Q0_var[206]  R2065     1
-    Q0_var[206]  R2066     -1
-    Q0_var[207]  R2073     1
-    Q0_var[207]  R2074     1
-    Q0_var[207]  R2075     1
-    Q0_var[207]  R2076     -1
-    Q0_var[208]  R2083     1
-    Q0_var[208]  R2084     1
-    Q0_var[208]  R2085     1
-    Q0_var[208]  R2086     -1
-    Q0_var[209]  R2093     1
-    Q0_var[209]  R2094     1
-    Q0_var[209]  R2095     1
-    Q0_var[209]  R2096     -1
-    Q0_var[210]  R2103     1
-    Q0_var[210]  R2104     1
-    Q0_var[210]  R2105     1
-    Q0_var[210]  R2106     -1
-    Q0_var[211]  R2113     1
-    Q0_var[211]  R2114     1
-    Q0_var[211]  R2115     1
-    Q0_var[211]  R2116     -1
-    Q0_var[212]  R2123     1
-    Q0_var[212]  R2124     1
-    Q0_var[212]  R2125     1
-    Q0_var[212]  R2126     -1
-    Q0_var[213]  R2133     1
-    Q0_var[213]  R2134     1
-    Q0_var[213]  R2135     1
-    Q0_var[213]  R2136     -1
-    Q0_var[214]  R2143     1
-    Q0_var[214]  R2144     1
-    Q0_var[214]  R2145     1
-    Q0_var[214]  R2146     -1
-    Q0_var[215]  R2153     1
-    Q0_var[215]  R2154     1
-    Q0_var[215]  R2155     1
-    Q0_var[215]  R2156     -1
-    Q0_var[216]  R2163     1
-    Q0_var[216]  R2164     1
-    Q0_var[216]  R2165     1
-    Q0_var[216]  R2166     -1
-    Q0_var[217]  R2173     1
-    Q0_var[217]  R2174     1
-    Q0_var[217]  R2175     1
-    Q0_var[217]  R2176     -1
-    Q0_var[218]  R2183     1
-    Q0_var[218]  R2184     1
-    Q0_var[218]  R2185     1
-    Q0_var[218]  R2186     -1
-    Q0_var[219]  R2193     1
-    Q0_var[219]  R2194     1
-    Q0_var[219]  R2195     1
-    Q0_var[219]  R2196     -1
-    Q0_var[220]  R2203     1
-    Q0_var[220]  R2204     1
-    Q0_var[220]  R2205     1
-    Q0_var[220]  R2206     -1
-    Q0_var[221]  R2213     1
-    Q0_var[221]  R2214     1
-    Q0_var[221]  R2215     1
-    Q0_var[221]  R2216     -1
-    Q0_var[222]  R2223     1
-    Q0_var[222]  R2224     1
-    Q0_var[222]  R2225     1
-    Q0_var[222]  R2226     -1
-    Q0_var[223]  R2233     1
-    Q0_var[223]  R2234     1
-    Q0_var[223]  R2235     1
-    Q0_var[223]  R2236     -1
-    Q0_var[224]  R2243     1
-    Q0_var[224]  R2244     1
-    Q0_var[224]  R2245     1
-    Q0_var[224]  R2246     -1
-    Q0_var[225]  R2253     1
-    Q0_var[225]  R2254     1
-    Q0_var[225]  R2255     1
-    Q0_var[225]  R2256     -1
-    Q0_var[226]  R2263     1
-    Q0_var[226]  R2264     1
-    Q0_var[226]  R2265     1
-    Q0_var[226]  R2266     -1
-    Q0_var[227]  R2273     1
-    Q0_var[227]  R2274     1
-    Q0_var[227]  R2275     1
-    Q0_var[227]  R2276     -1
-    Q0_var[228]  R2283     1
-    Q0_var[228]  R2284     1
-    Q0_var[228]  R2285     1
-    Q0_var[228]  R2286     -1
-    Q0_var[229]  R2293     1
-    Q0_var[229]  R2294     1
-    Q0_var[229]  R2295     1
-    Q0_var[229]  R2296     -1
-    Q0_var[230]  R2303     1
-    Q0_var[230]  R2304     1
-    Q0_var[230]  R2305     1
-    Q0_var[230]  R2306     -1
-    Q0_var[231]  R2313     1
-    Q0_var[231]  R2314     1
-    Q0_var[231]  R2315     1
-    Q0_var[231]  R2316     -1
-    Q0_var[232]  R2323     1
-    Q0_var[232]  R2324     1
-    Q0_var[232]  R2325     1
-    Q0_var[232]  R2326     -1
-    Q0_var[233]  R2333     1
-    Q0_var[233]  R2334     1
-    Q0_var[233]  R2335     1
-    Q0_var[233]  R2336     -1
-    Q0_var[234]  R2343     1
-    Q0_var[234]  R2344     1
-    Q0_var[234]  R2345     1
-    Q0_var[234]  R2346     -1
-    Q0_var[235]  R2353     1
-    Q0_var[235]  R2354     1
-    Q0_var[235]  R2355     1
-    Q0_var[235]  R2356     -1
-    Q0_var[236]  R2363     1
-    Q0_var[236]  R2364     1
-    Q0_var[236]  R2365     1
-    Q0_var[236]  R2366     -1
-    Q0_var[237]  R2373     1
-    Q0_var[237]  R2374     1
-    Q0_var[237]  R2375     1
-    Q0_var[237]  R2376     -1
-    Q0_var[238]  R2383     1
-    Q0_var[238]  R2384     1
-    Q0_var[238]  R2385     1
-    Q0_var[238]  R2386     -1
-    Q0_var[239]  R2393     1
-    Q0_var[239]  R2394     1
-    Q0_var[239]  R2395     1
-    Q0_var[239]  R2396     -1
-    Q0_var[240]  R2403     1
-    Q0_var[240]  R2404     1
-    Q0_var[240]  R2405     1
-    Q0_var[240]  R2406     -1
-    Q0_var[241]  R2413     1
-    Q0_var[241]  R2414     1
-    Q0_var[241]  R2415     1
-    Q0_var[241]  R2416     -1
-    Q0_var[242]  R2423     1
-    Q0_var[242]  R2424     1
-    Q0_var[242]  R2425     1
-    Q0_var[242]  R2426     -1
-    Q0_var[243]  R2433     1
-    Q0_var[243]  R2434     1
-    Q0_var[243]  R2435     1
-    Q0_var[243]  R2436     -1
-    Q0_var[244]  R2443     1
-    Q0_var[244]  R2444     1
-    Q0_var[244]  R2445     1
-    Q0_var[244]  R2446     -1
-    Q0_var[245]  R2453     1
-    Q0_var[245]  R2454     1
-    Q0_var[245]  R2455     1
-    Q0_var[245]  R2456     -1
-    Q0_var[246]  R2463     1
-    Q0_var[246]  R2464     1
-    Q0_var[246]  R2465     1
-    Q0_var[246]  R2466     -1
-    Q0_var[247]  R2473     1
-    Q0_var[247]  R2474     1
-    Q0_var[247]  R2475     1
-    Q0_var[247]  R2476     -1
-    Q0_var[248]  R2483     1
-    Q0_var[248]  R2484     1
-    Q0_var[248]  R2485     1
-    Q0_var[248]  R2486     -1
-    Q0_var[249]  R2493     1
-    Q0_var[249]  R2494     1
-    Q0_var[249]  R2495     1
-    Q0_var[249]  R2496     -1
     Q1_var[0]  R6        -1
     Q1_var[1]  R16       -1
     Q1_var[2]  R26       -1
@@ -7903,106 +4803,6 @@ COLUMNS
     Q1_var[147]  R1476     -1
     Q1_var[148]  R1486     -1
     Q1_var[149]  R1496     -1
-    Q1_var[150]  R1506     -1
-    Q1_var[151]  R1516     -1
-    Q1_var[152]  R1526     -1
-    Q1_var[153]  R1536     -1
-    Q1_var[154]  R1546     -1
-    Q1_var[155]  R1556     -1
-    Q1_var[156]  R1566     -1
-    Q1_var[157]  R1576     -1
-    Q1_var[158]  R1586     -1
-    Q1_var[159]  R1596     -1
-    Q1_var[160]  R1606     -1
-    Q1_var[161]  R1616     -1
-    Q1_var[162]  R1626     -1
-    Q1_var[163]  R1636     -1
-    Q1_var[164]  R1646     -1
-    Q1_var[165]  R1656     -1
-    Q1_var[166]  R1666     -1
-    Q1_var[167]  R1676     -1
-    Q1_var[168]  R1686     -1
-    Q1_var[169]  R1696     -1
-    Q1_var[170]  R1706     -1
-    Q1_var[171]  R1716     -1
-    Q1_var[172]  R1726     -1
-    Q1_var[173]  R1736     -1
-    Q1_var[174]  R1746     -1
-    Q1_var[175]  R1756     -1
-    Q1_var[176]  R1766     -1
-    Q1_var[177]  R1776     -1
-    Q1_var[178]  R1786     -1
-    Q1_var[179]  R1796     -1
-    Q1_var[180]  R1806     -1
-    Q1_var[181]  R1816     -1
-    Q1_var[182]  R1826     -1
-    Q1_var[183]  R1836     -1
-    Q1_var[184]  R1846     -1
-    Q1_var[185]  R1856     -1
-    Q1_var[186]  R1866     -1
-    Q1_var[187]  R1876     -1
-    Q1_var[188]  R1886     -1
-    Q1_var[189]  R1896     -1
-    Q1_var[190]  R1906     -1
-    Q1_var[191]  R1916     -1
-    Q1_var[192]  R1926     -1
-    Q1_var[193]  R1936     -1
-    Q1_var[194]  R1946     -1
-    Q1_var[195]  R1956     -1
-    Q1_var[196]  R1966     -1
-    Q1_var[197]  R1976     -1
-    Q1_var[198]  R1986     -1
-    Q1_var[199]  R1996     -1
-    Q1_var[200]  R2006     -1
-    Q1_var[201]  R2016     -1
-    Q1_var[202]  R2026     -1
-    Q1_var[203]  R2036     -1
-    Q1_var[204]  R2046     -1
-    Q1_var[205]  R2056     -1
-    Q1_var[206]  R2066     -1
-    Q1_var[207]  R2076     -1
-    Q1_var[208]  R2086     -1
-    Q1_var[209]  R2096     -1
-    Q1_var[210]  R2106     -1
-    Q1_var[211]  R2116     -1
-    Q1_var[212]  R2126     -1
-    Q1_var[213]  R2136     -1
-    Q1_var[214]  R2146     -1
-    Q1_var[215]  R2156     -1
-    Q1_var[216]  R2166     -1
-    Q1_var[217]  R2176     -1
-    Q1_var[218]  R2186     -1
-    Q1_var[219]  R2196     -1
-    Q1_var[220]  R2206     -1
-    Q1_var[221]  R2216     -1
-    Q1_var[222]  R2226     -1
-    Q1_var[223]  R2236     -1
-    Q1_var[224]  R2246     -1
-    Q1_var[225]  R2256     -1
-    Q1_var[226]  R2266     -1
-    Q1_var[227]  R2276     -1
-    Q1_var[228]  R2286     -1
-    Q1_var[229]  R2296     -1
-    Q1_var[230]  R2306     -1
-    Q1_var[231]  R2316     -1
-    Q1_var[232]  R2326     -1
-    Q1_var[233]  R2336     -1
-    Q1_var[234]  R2346     -1
-    Q1_var[235]  R2356     -1
-    Q1_var[236]  R2366     -1
-    Q1_var[237]  R2376     -1
-    Q1_var[238]  R2386     -1
-    Q1_var[239]  R2396     -1
-    Q1_var[240]  R2406     -1
-    Q1_var[241]  R2416     -1
-    Q1_var[242]  R2426     -1
-    Q1_var[243]  R2436     -1
-    Q1_var[244]  R2446     -1
-    Q1_var[245]  R2456     -1
-    Q1_var[246]  R2466     -1
-    Q1_var[247]  R2476     -1
-    Q1_var[248]  R2486     -1
-    Q1_var[249]  R2496     -1
     profits_vars[0]  OBJ       1
     profits_vars[0]  R9        1
     profits_vars[1]  OBJ       1
@@ -8303,206 +5103,6 @@ COLUMNS
     profits_vars[148]  R1489     1
     profits_vars[149]  OBJ       1
     profits_vars[149]  R1499     1
-    profits_vars[150]  OBJ       1
-    profits_vars[150]  R1509     1
-    profits_vars[151]  OBJ       1
-    profits_vars[151]  R1519     1
-    profits_vars[152]  OBJ       1
-    profits_vars[152]  R1529     1
-    profits_vars[153]  OBJ       1
-    profits_vars[153]  R1539     1
-    profits_vars[154]  OBJ       1
-    profits_vars[154]  R1549     1
-    profits_vars[155]  OBJ       1
-    profits_vars[155]  R1559     1
-    profits_vars[156]  OBJ       1
-    profits_vars[156]  R1569     1
-    profits_vars[157]  OBJ       1
-    profits_vars[157]  R1579     1
-    profits_vars[158]  OBJ       1
-    profits_vars[158]  R1589     1
-    profits_vars[159]  OBJ       1
-    profits_vars[159]  R1599     1
-    profits_vars[160]  OBJ       1
-    profits_vars[160]  R1609     1
-    profits_vars[161]  OBJ       1
-    profits_vars[161]  R1619     1
-    profits_vars[162]  OBJ       1
-    profits_vars[162]  R1629     1
-    profits_vars[163]  OBJ       1
-    profits_vars[163]  R1639     1
-    profits_vars[164]  OBJ       1
-    profits_vars[164]  R1649     1
-    profits_vars[165]  OBJ       1
-    profits_vars[165]  R1659     1
-    profits_vars[166]  OBJ       1
-    profits_vars[166]  R1669     1
-    profits_vars[167]  OBJ       1
-    profits_vars[167]  R1679     1
-    profits_vars[168]  OBJ       1
-    profits_vars[168]  R1689     1
-    profits_vars[169]  OBJ       1
-    profits_vars[169]  R1699     1
-    profits_vars[170]  OBJ       1
-    profits_vars[170]  R1709     1
-    profits_vars[171]  OBJ       1
-    profits_vars[171]  R1719     1
-    profits_vars[172]  OBJ       1
-    profits_vars[172]  R1729     1
-    profits_vars[173]  OBJ       1
-    profits_vars[173]  R1739     1
-    profits_vars[174]  OBJ       1
-    profits_vars[174]  R1749     1
-    profits_vars[175]  OBJ       1
-    profits_vars[175]  R1759     1
-    profits_vars[176]  OBJ       1
-    profits_vars[176]  R1769     1
-    profits_vars[177]  OBJ       1
-    profits_vars[177]  R1779     1
-    profits_vars[178]  OBJ       1
-    profits_vars[178]  R1789     1
-    profits_vars[179]  OBJ       1
-    profits_vars[179]  R1799     1
-    profits_vars[180]  OBJ       1
-    profits_vars[180]  R1809     1
-    profits_vars[181]  OBJ       1
-    profits_vars[181]  R1819     1
-    profits_vars[182]  OBJ       1
-    profits_vars[182]  R1829     1
-    profits_vars[183]  OBJ       1
-    profits_vars[183]  R1839     1
-    profits_vars[184]  OBJ       1
-    profits_vars[184]  R1849     1
-    profits_vars[185]  OBJ       1
-    profits_vars[185]  R1859     1
-    profits_vars[186]  OBJ       1
-    profits_vars[186]  R1869     1
-    profits_vars[187]  OBJ       1
-    profits_vars[187]  R1879     1
-    profits_vars[188]  OBJ       1
-    profits_vars[188]  R1889     1
-    profits_vars[189]  OBJ       1
-    profits_vars[189]  R1899     1
-    profits_vars[190]  OBJ       1
-    profits_vars[190]  R1909     1
-    profits_vars[191]  OBJ       1
-    profits_vars[191]  R1919     1
-    profits_vars[192]  OBJ       1
-    profits_vars[192]  R1929     1
-    profits_vars[193]  OBJ       1
-    profits_vars[193]  R1939     1
-    profits_vars[194]  OBJ       1
-    profits_vars[194]  R1949     1
-    profits_vars[195]  OBJ       1
-    profits_vars[195]  R1959     1
-    profits_vars[196]  OBJ       1
-    profits_vars[196]  R1969     1
-    profits_vars[197]  OBJ       1
-    profits_vars[197]  R1979     1
-    profits_vars[198]  OBJ       1
-    profits_vars[198]  R1989     1
-    profits_vars[199]  OBJ       1
-    profits_vars[199]  R1999     1
-    profits_vars[200]  OBJ       1
-    profits_vars[200]  R2009     1
-    profits_vars[201]  OBJ       1
-    profits_vars[201]  R2019     1
-    profits_vars[202]  OBJ       1
-    profits_vars[202]  R2029     1
-    profits_vars[203]  OBJ       1
-    profits_vars[203]  R2039     1
-    profits_vars[204]  OBJ       1
-    profits_vars[204]  R2049     1
-    profits_vars[205]  OBJ       1
-    profits_vars[205]  R2059     1
-    profits_vars[206]  OBJ       1
-    profits_vars[206]  R2069     1
-    profits_vars[207]  OBJ       1
-    profits_vars[207]  R2079     1
-    profits_vars[208]  OBJ       1
-    profits_vars[208]  R2089     1
-    profits_vars[209]  OBJ       1
-    profits_vars[209]  R2099     1
-    profits_vars[210]  OBJ       1
-    profits_vars[210]  R2109     1
-    profits_vars[211]  OBJ       1
-    profits_vars[211]  R2119     1
-    profits_vars[212]  OBJ       1
-    profits_vars[212]  R2129     1
-    profits_vars[213]  OBJ       1
-    profits_vars[213]  R2139     1
-    profits_vars[214]  OBJ       1
-    profits_vars[214]  R2149     1
-    profits_vars[215]  OBJ       1
-    profits_vars[215]  R2159     1
-    profits_vars[216]  OBJ       1
-    profits_vars[216]  R2169     1
-    profits_vars[217]  OBJ       1
-    profits_vars[217]  R2179     1
-    profits_vars[218]  OBJ       1
-    profits_vars[218]  R2189     1
-    profits_vars[219]  OBJ       1
-    profits_vars[219]  R2199     1
-    profits_vars[220]  OBJ       1
-    profits_vars[220]  R2209     1
-    profits_vars[221]  OBJ       1
-    profits_vars[221]  R2219     1
-    profits_vars[222]  OBJ       1
-    profits_vars[222]  R2229     1
-    profits_vars[223]  OBJ       1
-    profits_vars[223]  R2239     1
-    profits_vars[224]  OBJ       1
-    profits_vars[224]  R2249     1
-    profits_vars[225]  OBJ       1
-    profits_vars[225]  R2259     1
-    profits_vars[226]  OBJ       1
-    profits_vars[226]  R2269     1
-    profits_vars[227]  OBJ       1
-    profits_vars[227]  R2279     1
-    profits_vars[228]  OBJ       1
-    profits_vars[228]  R2289     1
-    profits_vars[229]  OBJ       1
-    profits_vars[229]  R2299     1
-    profits_vars[230]  OBJ       1
-    profits_vars[230]  R2309     1
-    profits_vars[231]  OBJ       1
-    profits_vars[231]  R2319     1
-    profits_vars[232]  OBJ       1
-    profits_vars[232]  R2329     1
-    profits_vars[233]  OBJ       1
-    profits_vars[233]  R2339     1
-    profits_vars[234]  OBJ       1
-    profits_vars[234]  R2349     1
-    profits_vars[235]  OBJ       1
-    profits_vars[235]  R2359     1
-    profits_vars[236]  OBJ       1
-    profits_vars[236]  R2369     1
-    profits_vars[237]  OBJ       1
-    profits_vars[237]  R2379     1
-    profits_vars[238]  OBJ       1
-    profits_vars[238]  R2389     1
-    profits_vars[239]  OBJ       1
-    profits_vars[239]  R2399     1
-    profits_vars[240]  OBJ       1
-    profits_vars[240]  R2409     1
-    profits_vars[241]  OBJ       1
-    profits_vars[241]  R2419     1
-    profits_vars[242]  OBJ       1
-    profits_vars[242]  R2429     1
-    profits_vars[243]  OBJ       1
-    profits_vars[243]  R2439     1
-    profits_vars[244]  OBJ       1
-    profits_vars[244]  R2449     1
-    profits_vars[245]  OBJ       1
-    profits_vars[245]  R2459     1
-    profits_vars[246]  OBJ       1
-    profits_vars[246]  R2469     1
-    profits_vars[247]  OBJ       1
-    profits_vars[247]  R2479     1
-    profits_vars[248]  OBJ       1
-    profits_vars[248]  R2489     1
-    profits_vars[249]  OBJ       1
-    profits_vars[249]  R2499     1
     Lost_0_expr_0  R4        1
     Q_hat_adjusted_0  R5        1
     total_stock_second_period_0  R6        1
@@ -9403,1607 +6003,607 @@ COLUMNS
     total_stock_second_period_149  R1497     1
     total_stock_second_period_149  R1498     -1
     Lost_1_expr_149  R1497     1
-    Lost_0_expr_150  R1504     1
-    Q_hat_adjusted_150  R1505     1
-    total_stock_second_period_150  R1506     1
-    total_stock_second_period_150  R1507     1
-    total_stock_second_period_150  R1508     -1
-    Lost_1_expr_150  R1507     1
-    Lost_0_expr_151  R1514     1
-    Q_hat_adjusted_151  R1515     1
-    total_stock_second_period_151  R1516     1
-    total_stock_second_period_151  R1517     1
-    total_stock_second_period_151  R1518     -1
-    Lost_1_expr_151  R1517     1
-    Lost_0_expr_152  R1524     1
-    Q_hat_adjusted_152  R1525     1
-    total_stock_second_period_152  R1526     1
-    total_stock_second_period_152  R1527     1
-    total_stock_second_period_152  R1528     -1
-    Lost_1_expr_152  R1527     1
-    Lost_0_expr_153  R1534     1
-    Q_hat_adjusted_153  R1535     1
-    total_stock_second_period_153  R1536     1
-    total_stock_second_period_153  R1537     1
-    total_stock_second_period_153  R1538     -1
-    Lost_1_expr_153  R1537     1
-    Lost_0_expr_154  R1544     1
-    Q_hat_adjusted_154  R1545     1
-    total_stock_second_period_154  R1546     1
-    total_stock_second_period_154  R1547     1
-    total_stock_second_period_154  R1548     -1
-    Lost_1_expr_154  R1547     1
-    Lost_0_expr_155  R1554     1
-    Q_hat_adjusted_155  R1555     1
-    total_stock_second_period_155  R1556     1
-    total_stock_second_period_155  R1557     1
-    total_stock_second_period_155  R1558     -1
-    Lost_1_expr_155  R1557     1
-    Lost_0_expr_156  R1564     1
-    Q_hat_adjusted_156  R1565     1
-    total_stock_second_period_156  R1566     1
-    total_stock_second_period_156  R1567     1
-    total_stock_second_period_156  R1568     -1
-    Lost_1_expr_156  R1567     1
-    Lost_0_expr_157  R1574     1
-    Q_hat_adjusted_157  R1575     1
-    total_stock_second_period_157  R1576     1
-    total_stock_second_period_157  R1577     1
-    total_stock_second_period_157  R1578     -1
-    Lost_1_expr_157  R1577     1
-    Lost_0_expr_158  R1584     1
-    Q_hat_adjusted_158  R1585     1
-    total_stock_second_period_158  R1586     1
-    total_stock_second_period_158  R1587     1
-    total_stock_second_period_158  R1588     -1
-    Lost_1_expr_158  R1587     1
-    Lost_0_expr_159  R1594     1
-    Q_hat_adjusted_159  R1595     1
-    total_stock_second_period_159  R1596     1
-    total_stock_second_period_159  R1597     1
-    total_stock_second_period_159  R1598     -1
-    Lost_1_expr_159  R1597     1
-    Lost_0_expr_160  R1604     1
-    Q_hat_adjusted_160  R1605     1
-    total_stock_second_period_160  R1606     1
-    total_stock_second_period_160  R1607     1
-    total_stock_second_period_160  R1608     -1
-    Lost_1_expr_160  R1607     1
-    Lost_0_expr_161  R1614     1
-    Q_hat_adjusted_161  R1615     1
-    total_stock_second_period_161  R1616     1
-    total_stock_second_period_161  R1617     1
-    total_stock_second_period_161  R1618     -1
-    Lost_1_expr_161  R1617     1
-    Lost_0_expr_162  R1624     1
-    Q_hat_adjusted_162  R1625     1
-    total_stock_second_period_162  R1626     1
-    total_stock_second_period_162  R1627     1
-    total_stock_second_period_162  R1628     -1
-    Lost_1_expr_162  R1627     1
-    Lost_0_expr_163  R1634     1
-    Q_hat_adjusted_163  R1635     1
-    total_stock_second_period_163  R1636     1
-    total_stock_second_period_163  R1637     1
-    total_stock_second_period_163  R1638     -1
-    Lost_1_expr_163  R1637     1
-    Lost_0_expr_164  R1644     1
-    Q_hat_adjusted_164  R1645     1
-    total_stock_second_period_164  R1646     1
-    total_stock_second_period_164  R1647     1
-    total_stock_second_period_164  R1648     -1
-    Lost_1_expr_164  R1647     1
-    Lost_0_expr_165  R1654     1
-    Q_hat_adjusted_165  R1655     1
-    total_stock_second_period_165  R1656     1
-    total_stock_second_period_165  R1657     1
-    total_stock_second_period_165  R1658     -1
-    Lost_1_expr_165  R1657     1
-    Lost_0_expr_166  R1664     1
-    Q_hat_adjusted_166  R1665     1
-    total_stock_second_period_166  R1666     1
-    total_stock_second_period_166  R1667     1
-    total_stock_second_period_166  R1668     -1
-    Lost_1_expr_166  R1667     1
-    Lost_0_expr_167  R1674     1
-    Q_hat_adjusted_167  R1675     1
-    total_stock_second_period_167  R1676     1
-    total_stock_second_period_167  R1677     1
-    total_stock_second_period_167  R1678     -1
-    Lost_1_expr_167  R1677     1
-    Lost_0_expr_168  R1684     1
-    Q_hat_adjusted_168  R1685     1
-    total_stock_second_period_168  R1686     1
-    total_stock_second_period_168  R1687     1
-    total_stock_second_period_168  R1688     -1
-    Lost_1_expr_168  R1687     1
-    Lost_0_expr_169  R1694     1
-    Q_hat_adjusted_169  R1695     1
-    total_stock_second_period_169  R1696     1
-    total_stock_second_period_169  R1697     1
-    total_stock_second_period_169  R1698     -1
-    Lost_1_expr_169  R1697     1
-    Lost_0_expr_170  R1704     1
-    Q_hat_adjusted_170  R1705     1
-    total_stock_second_period_170  R1706     1
-    total_stock_second_period_170  R1707     1
-    total_stock_second_period_170  R1708     -1
-    Lost_1_expr_170  R1707     1
-    Lost_0_expr_171  R1714     1
-    Q_hat_adjusted_171  R1715     1
-    total_stock_second_period_171  R1716     1
-    total_stock_second_period_171  R1717     1
-    total_stock_second_period_171  R1718     -1
-    Lost_1_expr_171  R1717     1
-    Lost_0_expr_172  R1724     1
-    Q_hat_adjusted_172  R1725     1
-    total_stock_second_period_172  R1726     1
-    total_stock_second_period_172  R1727     1
-    total_stock_second_period_172  R1728     -1
-    Lost_1_expr_172  R1727     1
-    Lost_0_expr_173  R1734     1
-    Q_hat_adjusted_173  R1735     1
-    total_stock_second_period_173  R1736     1
-    total_stock_second_period_173  R1737     1
-    total_stock_second_period_173  R1738     -1
-    Lost_1_expr_173  R1737     1
-    Lost_0_expr_174  R1744     1
-    Q_hat_adjusted_174  R1745     1
-    total_stock_second_period_174  R1746     1
-    total_stock_second_period_174  R1747     1
-    total_stock_second_period_174  R1748     -1
-    Lost_1_expr_174  R1747     1
-    Lost_0_expr_175  R1754     1
-    Q_hat_adjusted_175  R1755     1
-    total_stock_second_period_175  R1756     1
-    total_stock_second_period_175  R1757     1
-    total_stock_second_period_175  R1758     -1
-    Lost_1_expr_175  R1757     1
-    Lost_0_expr_176  R1764     1
-    Q_hat_adjusted_176  R1765     1
-    total_stock_second_period_176  R1766     1
-    total_stock_second_period_176  R1767     1
-    total_stock_second_period_176  R1768     -1
-    Lost_1_expr_176  R1767     1
-    Lost_0_expr_177  R1774     1
-    Q_hat_adjusted_177  R1775     1
-    total_stock_second_period_177  R1776     1
-    total_stock_second_period_177  R1777     1
-    total_stock_second_period_177  R1778     -1
-    Lost_1_expr_177  R1777     1
-    Lost_0_expr_178  R1784     1
-    Q_hat_adjusted_178  R1785     1
-    total_stock_second_period_178  R1786     1
-    total_stock_second_period_178  R1787     1
-    total_stock_second_period_178  R1788     -1
-    Lost_1_expr_178  R1787     1
-    Lost_0_expr_179  R1794     1
-    Q_hat_adjusted_179  R1795     1
-    total_stock_second_period_179  R1796     1
-    total_stock_second_period_179  R1797     1
-    total_stock_second_period_179  R1798     -1
-    Lost_1_expr_179  R1797     1
-    Lost_0_expr_180  R1804     1
-    Q_hat_adjusted_180  R1805     1
-    total_stock_second_period_180  R1806     1
-    total_stock_second_period_180  R1807     1
-    total_stock_second_period_180  R1808     -1
-    Lost_1_expr_180  R1807     1
-    Lost_0_expr_181  R1814     1
-    Q_hat_adjusted_181  R1815     1
-    total_stock_second_period_181  R1816     1
-    total_stock_second_period_181  R1817     1
-    total_stock_second_period_181  R1818     -1
-    Lost_1_expr_181  R1817     1
-    Lost_0_expr_182  R1824     1
-    Q_hat_adjusted_182  R1825     1
-    total_stock_second_period_182  R1826     1
-    total_stock_second_period_182  R1827     1
-    total_stock_second_period_182  R1828     -1
-    Lost_1_expr_182  R1827     1
-    Lost_0_expr_183  R1834     1
-    Q_hat_adjusted_183  R1835     1
-    total_stock_second_period_183  R1836     1
-    total_stock_second_period_183  R1837     1
-    total_stock_second_period_183  R1838     -1
-    Lost_1_expr_183  R1837     1
-    Lost_0_expr_184  R1844     1
-    Q_hat_adjusted_184  R1845     1
-    total_stock_second_period_184  R1846     1
-    total_stock_second_period_184  R1847     1
-    total_stock_second_period_184  R1848     -1
-    Lost_1_expr_184  R1847     1
-    Lost_0_expr_185  R1854     1
-    Q_hat_adjusted_185  R1855     1
-    total_stock_second_period_185  R1856     1
-    total_stock_second_period_185  R1857     1
-    total_stock_second_period_185  R1858     -1
-    Lost_1_expr_185  R1857     1
-    Lost_0_expr_186  R1864     1
-    Q_hat_adjusted_186  R1865     1
-    total_stock_second_period_186  R1866     1
-    total_stock_second_period_186  R1867     1
-    total_stock_second_period_186  R1868     -1
-    Lost_1_expr_186  R1867     1
-    Lost_0_expr_187  R1874     1
-    Q_hat_adjusted_187  R1875     1
-    total_stock_second_period_187  R1876     1
-    total_stock_second_period_187  R1877     1
-    total_stock_second_period_187  R1878     -1
-    Lost_1_expr_187  R1877     1
-    Lost_0_expr_188  R1884     1
-    Q_hat_adjusted_188  R1885     1
-    total_stock_second_period_188  R1886     1
-    total_stock_second_period_188  R1887     1
-    total_stock_second_period_188  R1888     -1
-    Lost_1_expr_188  R1887     1
-    Lost_0_expr_189  R1894     1
-    Q_hat_adjusted_189  R1895     1
-    total_stock_second_period_189  R1896     1
-    total_stock_second_period_189  R1897     1
-    total_stock_second_period_189  R1898     -1
-    Lost_1_expr_189  R1897     1
-    Lost_0_expr_190  R1904     1
-    Q_hat_adjusted_190  R1905     1
-    total_stock_second_period_190  R1906     1
-    total_stock_second_period_190  R1907     1
-    total_stock_second_period_190  R1908     -1
-    Lost_1_expr_190  R1907     1
-    Lost_0_expr_191  R1914     1
-    Q_hat_adjusted_191  R1915     1
-    total_stock_second_period_191  R1916     1
-    total_stock_second_period_191  R1917     1
-    total_stock_second_period_191  R1918     -1
-    Lost_1_expr_191  R1917     1
-    Lost_0_expr_192  R1924     1
-    Q_hat_adjusted_192  R1925     1
-    total_stock_second_period_192  R1926     1
-    total_stock_second_period_192  R1927     1
-    total_stock_second_period_192  R1928     -1
-    Lost_1_expr_192  R1927     1
-    Lost_0_expr_193  R1934     1
-    Q_hat_adjusted_193  R1935     1
-    total_stock_second_period_193  R1936     1
-    total_stock_second_period_193  R1937     1
-    total_stock_second_period_193  R1938     -1
-    Lost_1_expr_193  R1937     1
-    Lost_0_expr_194  R1944     1
-    Q_hat_adjusted_194  R1945     1
-    total_stock_second_period_194  R1946     1
-    total_stock_second_period_194  R1947     1
-    total_stock_second_period_194  R1948     -1
-    Lost_1_expr_194  R1947     1
-    Lost_0_expr_195  R1954     1
-    Q_hat_adjusted_195  R1955     1
-    total_stock_second_period_195  R1956     1
-    total_stock_second_period_195  R1957     1
-    total_stock_second_period_195  R1958     -1
-    Lost_1_expr_195  R1957     1
-    Lost_0_expr_196  R1964     1
-    Q_hat_adjusted_196  R1965     1
-    total_stock_second_period_196  R1966     1
-    total_stock_second_period_196  R1967     1
-    total_stock_second_period_196  R1968     -1
-    Lost_1_expr_196  R1967     1
-    Lost_0_expr_197  R1974     1
-    Q_hat_adjusted_197  R1975     1
-    total_stock_second_period_197  R1976     1
-    total_stock_second_period_197  R1977     1
-    total_stock_second_period_197  R1978     -1
-    Lost_1_expr_197  R1977     1
-    Lost_0_expr_198  R1984     1
-    Q_hat_adjusted_198  R1985     1
-    total_stock_second_period_198  R1986     1
-    total_stock_second_period_198  R1987     1
-    total_stock_second_period_198  R1988     -1
-    Lost_1_expr_198  R1987     1
-    Lost_0_expr_199  R1994     1
-    Q_hat_adjusted_199  R1995     1
-    total_stock_second_period_199  R1996     1
-    total_stock_second_period_199  R1997     1
-    total_stock_second_period_199  R1998     -1
-    Lost_1_expr_199  R1997     1
-    Lost_0_expr_200  R2004     1
-    Q_hat_adjusted_200  R2005     1
-    total_stock_second_period_200  R2006     1
-    total_stock_second_period_200  R2007     1
-    total_stock_second_period_200  R2008     -1
-    Lost_1_expr_200  R2007     1
-    Lost_0_expr_201  R2014     1
-    Q_hat_adjusted_201  R2015     1
-    total_stock_second_period_201  R2016     1
-    total_stock_second_period_201  R2017     1
-    total_stock_second_period_201  R2018     -1
-    Lost_1_expr_201  R2017     1
-    Lost_0_expr_202  R2024     1
-    Q_hat_adjusted_202  R2025     1
-    total_stock_second_period_202  R2026     1
-    total_stock_second_period_202  R2027     1
-    total_stock_second_period_202  R2028     -1
-    Lost_1_expr_202  R2027     1
-    Lost_0_expr_203  R2034     1
-    Q_hat_adjusted_203  R2035     1
-    total_stock_second_period_203  R2036     1
-    total_stock_second_period_203  R2037     1
-    total_stock_second_period_203  R2038     -1
-    Lost_1_expr_203  R2037     1
-    Lost_0_expr_204  R2044     1
-    Q_hat_adjusted_204  R2045     1
-    total_stock_second_period_204  R2046     1
-    total_stock_second_period_204  R2047     1
-    total_stock_second_period_204  R2048     -1
-    Lost_1_expr_204  R2047     1
-    Lost_0_expr_205  R2054     1
-    Q_hat_adjusted_205  R2055     1
-    total_stock_second_period_205  R2056     1
-    total_stock_second_period_205  R2057     1
-    total_stock_second_period_205  R2058     -1
-    Lost_1_expr_205  R2057     1
-    Lost_0_expr_206  R2064     1
-    Q_hat_adjusted_206  R2065     1
-    total_stock_second_period_206  R2066     1
-    total_stock_second_period_206  R2067     1
-    total_stock_second_period_206  R2068     -1
-    Lost_1_expr_206  R2067     1
-    Lost_0_expr_207  R2074     1
-    Q_hat_adjusted_207  R2075     1
-    total_stock_second_period_207  R2076     1
-    total_stock_second_period_207  R2077     1
-    total_stock_second_period_207  R2078     -1
-    Lost_1_expr_207  R2077     1
-    Lost_0_expr_208  R2084     1
-    Q_hat_adjusted_208  R2085     1
-    total_stock_second_period_208  R2086     1
-    total_stock_second_period_208  R2087     1
-    total_stock_second_period_208  R2088     -1
-    Lost_1_expr_208  R2087     1
-    Lost_0_expr_209  R2094     1
-    Q_hat_adjusted_209  R2095     1
-    total_stock_second_period_209  R2096     1
-    total_stock_second_period_209  R2097     1
-    total_stock_second_period_209  R2098     -1
-    Lost_1_expr_209  R2097     1
-    Lost_0_expr_210  R2104     1
-    Q_hat_adjusted_210  R2105     1
-    total_stock_second_period_210  R2106     1
-    total_stock_second_period_210  R2107     1
-    total_stock_second_period_210  R2108     -1
-    Lost_1_expr_210  R2107     1
-    Lost_0_expr_211  R2114     1
-    Q_hat_adjusted_211  R2115     1
-    total_stock_second_period_211  R2116     1
-    total_stock_second_period_211  R2117     1
-    total_stock_second_period_211  R2118     -1
-    Lost_1_expr_211  R2117     1
-    Lost_0_expr_212  R2124     1
-    Q_hat_adjusted_212  R2125     1
-    total_stock_second_period_212  R2126     1
-    total_stock_second_period_212  R2127     1
-    total_stock_second_period_212  R2128     -1
-    Lost_1_expr_212  R2127     1
-    Lost_0_expr_213  R2134     1
-    Q_hat_adjusted_213  R2135     1
-    total_stock_second_period_213  R2136     1
-    total_stock_second_period_213  R2137     1
-    total_stock_second_period_213  R2138     -1
-    Lost_1_expr_213  R2137     1
-    Lost_0_expr_214  R2144     1
-    Q_hat_adjusted_214  R2145     1
-    total_stock_second_period_214  R2146     1
-    total_stock_second_period_214  R2147     1
-    total_stock_second_period_214  R2148     -1
-    Lost_1_expr_214  R2147     1
-    Lost_0_expr_215  R2154     1
-    Q_hat_adjusted_215  R2155     1
-    total_stock_second_period_215  R2156     1
-    total_stock_second_period_215  R2157     1
-    total_stock_second_period_215  R2158     -1
-    Lost_1_expr_215  R2157     1
-    Lost_0_expr_216  R2164     1
-    Q_hat_adjusted_216  R2165     1
-    total_stock_second_period_216  R2166     1
-    total_stock_second_period_216  R2167     1
-    total_stock_second_period_216  R2168     -1
-    Lost_1_expr_216  R2167     1
-    Lost_0_expr_217  R2174     1
-    Q_hat_adjusted_217  R2175     1
-    total_stock_second_period_217  R2176     1
-    total_stock_second_period_217  R2177     1
-    total_stock_second_period_217  R2178     -1
-    Lost_1_expr_217  R2177     1
-    Lost_0_expr_218  R2184     1
-    Q_hat_adjusted_218  R2185     1
-    total_stock_second_period_218  R2186     1
-    total_stock_second_period_218  R2187     1
-    total_stock_second_period_218  R2188     -1
-    Lost_1_expr_218  R2187     1
-    Lost_0_expr_219  R2194     1
-    Q_hat_adjusted_219  R2195     1
-    total_stock_second_period_219  R2196     1
-    total_stock_second_period_219  R2197     1
-    total_stock_second_period_219  R2198     -1
-    Lost_1_expr_219  R2197     1
-    Lost_0_expr_220  R2204     1
-    Q_hat_adjusted_220  R2205     1
-    total_stock_second_period_220  R2206     1
-    total_stock_second_period_220  R2207     1
-    total_stock_second_period_220  R2208     -1
-    Lost_1_expr_220  R2207     1
-    Lost_0_expr_221  R2214     1
-    Q_hat_adjusted_221  R2215     1
-    total_stock_second_period_221  R2216     1
-    total_stock_second_period_221  R2217     1
-    total_stock_second_period_221  R2218     -1
-    Lost_1_expr_221  R2217     1
-    Lost_0_expr_222  R2224     1
-    Q_hat_adjusted_222  R2225     1
-    total_stock_second_period_222  R2226     1
-    total_stock_second_period_222  R2227     1
-    total_stock_second_period_222  R2228     -1
-    Lost_1_expr_222  R2227     1
-    Lost_0_expr_223  R2234     1
-    Q_hat_adjusted_223  R2235     1
-    total_stock_second_period_223  R2236     1
-    total_stock_second_period_223  R2237     1
-    total_stock_second_period_223  R2238     -1
-    Lost_1_expr_223  R2237     1
-    Lost_0_expr_224  R2244     1
-    Q_hat_adjusted_224  R2245     1
-    total_stock_second_period_224  R2246     1
-    total_stock_second_period_224  R2247     1
-    total_stock_second_period_224  R2248     -1
-    Lost_1_expr_224  R2247     1
-    Lost_0_expr_225  R2254     1
-    Q_hat_adjusted_225  R2255     1
-    total_stock_second_period_225  R2256     1
-    total_stock_second_period_225  R2257     1
-    total_stock_second_period_225  R2258     -1
-    Lost_1_expr_225  R2257     1
-    Lost_0_expr_226  R2264     1
-    Q_hat_adjusted_226  R2265     1
-    total_stock_second_period_226  R2266     1
-    total_stock_second_period_226  R2267     1
-    total_stock_second_period_226  R2268     -1
-    Lost_1_expr_226  R2267     1
-    Lost_0_expr_227  R2274     1
-    Q_hat_adjusted_227  R2275     1
-    total_stock_second_period_227  R2276     1
-    total_stock_second_period_227  R2277     1
-    total_stock_second_period_227  R2278     -1
-    Lost_1_expr_227  R2277     1
-    Lost_0_expr_228  R2284     1
-    Q_hat_adjusted_228  R2285     1
-    total_stock_second_period_228  R2286     1
-    total_stock_second_period_228  R2287     1
-    total_stock_second_period_228  R2288     -1
-    Lost_1_expr_228  R2287     1
-    Lost_0_expr_229  R2294     1
-    Q_hat_adjusted_229  R2295     1
-    total_stock_second_period_229  R2296     1
-    total_stock_second_period_229  R2297     1
-    total_stock_second_period_229  R2298     -1
-    Lost_1_expr_229  R2297     1
-    Lost_0_expr_230  R2304     1
-    Q_hat_adjusted_230  R2305     1
-    total_stock_second_period_230  R2306     1
-    total_stock_second_period_230  R2307     1
-    total_stock_second_period_230  R2308     -1
-    Lost_1_expr_230  R2307     1
-    Lost_0_expr_231  R2314     1
-    Q_hat_adjusted_231  R2315     1
-    total_stock_second_period_231  R2316     1
-    total_stock_second_period_231  R2317     1
-    total_stock_second_period_231  R2318     -1
-    Lost_1_expr_231  R2317     1
-    Lost_0_expr_232  R2324     1
-    Q_hat_adjusted_232  R2325     1
-    total_stock_second_period_232  R2326     1
-    total_stock_second_period_232  R2327     1
-    total_stock_second_period_232  R2328     -1
-    Lost_1_expr_232  R2327     1
-    Lost_0_expr_233  R2334     1
-    Q_hat_adjusted_233  R2335     1
-    total_stock_second_period_233  R2336     1
-    total_stock_second_period_233  R2337     1
-    total_stock_second_period_233  R2338     -1
-    Lost_1_expr_233  R2337     1
-    Lost_0_expr_234  R2344     1
-    Q_hat_adjusted_234  R2345     1
-    total_stock_second_period_234  R2346     1
-    total_stock_second_period_234  R2347     1
-    total_stock_second_period_234  R2348     -1
-    Lost_1_expr_234  R2347     1
-    Lost_0_expr_235  R2354     1
-    Q_hat_adjusted_235  R2355     1
-    total_stock_second_period_235  R2356     1
-    total_stock_second_period_235  R2357     1
-    total_stock_second_period_235  R2358     -1
-    Lost_1_expr_235  R2357     1
-    Lost_0_expr_236  R2364     1
-    Q_hat_adjusted_236  R2365     1
-    total_stock_second_period_236  R2366     1
-    total_stock_second_period_236  R2367     1
-    total_stock_second_period_236  R2368     -1
-    Lost_1_expr_236  R2367     1
-    Lost_0_expr_237  R2374     1
-    Q_hat_adjusted_237  R2375     1
-    total_stock_second_period_237  R2376     1
-    total_stock_second_period_237  R2377     1
-    total_stock_second_period_237  R2378     -1
-    Lost_1_expr_237  R2377     1
-    Lost_0_expr_238  R2384     1
-    Q_hat_adjusted_238  R2385     1
-    total_stock_second_period_238  R2386     1
-    total_stock_second_period_238  R2387     1
-    total_stock_second_period_238  R2388     -1
-    Lost_1_expr_238  R2387     1
-    Lost_0_expr_239  R2394     1
-    Q_hat_adjusted_239  R2395     1
-    total_stock_second_period_239  R2396     1
-    total_stock_second_period_239  R2397     1
-    total_stock_second_period_239  R2398     -1
-    Lost_1_expr_239  R2397     1
-    Lost_0_expr_240  R2404     1
-    Q_hat_adjusted_240  R2405     1
-    total_stock_second_period_240  R2406     1
-    total_stock_second_period_240  R2407     1
-    total_stock_second_period_240  R2408     -1
-    Lost_1_expr_240  R2407     1
-    Lost_0_expr_241  R2414     1
-    Q_hat_adjusted_241  R2415     1
-    total_stock_second_period_241  R2416     1
-    total_stock_second_period_241  R2417     1
-    total_stock_second_period_241  R2418     -1
-    Lost_1_expr_241  R2417     1
-    Lost_0_expr_242  R2424     1
-    Q_hat_adjusted_242  R2425     1
-    total_stock_second_period_242  R2426     1
-    total_stock_second_period_242  R2427     1
-    total_stock_second_period_242  R2428     -1
-    Lost_1_expr_242  R2427     1
-    Lost_0_expr_243  R2434     1
-    Q_hat_adjusted_243  R2435     1
-    total_stock_second_period_243  R2436     1
-    total_stock_second_period_243  R2437     1
-    total_stock_second_period_243  R2438     -1
-    Lost_1_expr_243  R2437     1
-    Lost_0_expr_244  R2444     1
-    Q_hat_adjusted_244  R2445     1
-    total_stock_second_period_244  R2446     1
-    total_stock_second_period_244  R2447     1
-    total_stock_second_period_244  R2448     -1
-    Lost_1_expr_244  R2447     1
-    Lost_0_expr_245  R2454     1
-    Q_hat_adjusted_245  R2455     1
-    total_stock_second_period_245  R2456     1
-    total_stock_second_period_245  R2457     1
-    total_stock_second_period_245  R2458     -1
-    Lost_1_expr_245  R2457     1
-    Lost_0_expr_246  R2464     1
-    Q_hat_adjusted_246  R2465     1
-    total_stock_second_period_246  R2466     1
-    total_stock_second_period_246  R2467     1
-    total_stock_second_period_246  R2468     -1
-    Lost_1_expr_246  R2467     1
-    Lost_0_expr_247  R2474     1
-    Q_hat_adjusted_247  R2475     1
-    total_stock_second_period_247  R2476     1
-    total_stock_second_period_247  R2477     1
-    total_stock_second_period_247  R2478     -1
-    Lost_1_expr_247  R2477     1
-    Lost_0_expr_248  R2484     1
-    Q_hat_adjusted_248  R2485     1
-    total_stock_second_period_248  R2486     1
-    total_stock_second_period_248  R2487     1
-    total_stock_second_period_248  R2488     -1
-    Lost_1_expr_248  R2487     1
-    Lost_0_expr_249  R2494     1
-    Q_hat_adjusted_249  R2495     1
-    total_stock_second_period_249  R2496     1
-    total_stock_second_period_249  R2497     1
-    total_stock_second_period_249  R2498     -1
-    Lost_1_expr_249  R2497     1
 RHS
     RHS1      Fraction_upper_bound_0  1
-    RHS1      R4        1.4774048188485415e+03
-    RHS1      R5        1.8738552934497607e+03
-    RHS1      R7        3.9644013539057880e+02
+    RHS1      R4        7.3037079272798076e+02
+    RHS1      R5        8.9914270415126032e+02
+    RHS1      R7        1.6870864467097249e+02
     RHS1      Fraction_upper_bound_1  1
-    RHS1      R14       3.2545218298796863e+02
-    RHS1      R15       4.3049438197483943e+02
-    RHS1      R17       1.0503184782751026e+02
+    RHS1      R14       8.6968450499364633e+02
+    RHS1      R15       1.1243735175364520e+03
+    RHS1      R17       254.633373824361
     RHS1      Fraction_upper_bound_2  1
-    RHS1      R24       1.1711271772388325e+03
-    RHS1      R25       1.5090506146428675e+03
-    RHS1      R27       3.3791309792861136e+02
+    RHS1      R24       1.3292981184066616e+03
+    RHS1      R25       1.7082262514134122e+03
+    RHS1      R27       3.7887789096395517e+02
     RHS1      Fraction_upper_bound_3  1
-    RHS1      R34       1.8919660294142786e+03
-    RHS1      R35       2.3463615643561470e+03
-    RHS1      R37       4.5438519547052431e+02
+    RHS1      R34       3.7776117038311912e+02
+    RHS1      R35       4.2163178126821362e+02
+    RHS1      R37       4.3829772268967830e+01
     RHS1      Fraction_upper_bound_4  1
-    RHS1      R44       9.7830558558232292e+02
-    RHS1      R45       1.1003036465367882e+03
-    RHS1      R47       1.2198771601072733e+02
+    RHS1      R44       1.7942102375851960e+03
+    RHS1      R45       2.1117294267360253e+03
+    RHS1      R47       3.1747254213360878e+02
     RHS1      Fraction_upper_bound_5  1
-    RHS1      R54       2.1744010445020695e+03
-    RHS1      R55       2.7141721249676393e+03
-    RHS1      R57       539.760741511865
+    RHS1      R54       1.0308240171354664e+03
+    RHS1      R55       1.2697320593813233e+03
+    RHS1      R57       2.3885905147522158e+02
     RHS1      Fraction_upper_bound_6  1
-    RHS1      R64       1.5286070934759932e+03
-    RHS1      R65       1.8886581392504802e+03
-    RHS1      R67       3.6004070831783656e+02
+    RHS1      R64       8.0388090124464861e+02
+    RHS1      R65       9.5759822979124715e+02
+    RHS1      R67       1.5367098221742529e+02
     RHS1      Fraction_upper_bound_7  1
-    RHS1      R74       3.2216061866155087e+02
-    RHS1      R75       4.3750148191256608e+02
-    RHS1      R77       1.1533052416287217e+02
+    RHS1      R74       4.0316309610496489e+02
+    RHS1      R75       5.3420485467473623e+02
+    RHS1      R77       1.3098366914933479e+02
     RHS1      Fraction_upper_bound_8  1
-    RHS1      R84       711.607186804144
-    RHS1      R85       9.2382433117670257e+02
-    RHS1      R87       2.1220680596042010e+02
+    RHS1      R84       1.2664503193966511e+03
+    RHS1      R85       1.6254383185568636e+03
+    RHS1      R87       3.5893311949552736e+02
     RHS1      Fraction_upper_bound_9  1
-    RHS1      R94       2.2283659500330295e+03
-    RHS1      R95       2.8052141353568668e+03
-    RHS1      R97       5.7683784821365646e+02
+    RHS1      R94       7.5292327123742734e+02
+    RHS1      R95       9.3207912875172792e+02
+    RHS1      R97       1.7911060380496843e+02
     RHS1      Fraction_upper_bound_10  1
-    RHS1      R104      1.9603533647540758e+03
-    RHS1      R105      2.3515235671292326e+03
-    RHS1      R107      3.9115986652602766e+02
+    RHS1      R104      1.6520663249401189e+03
+    RHS1      R105      1.9516076190712931e+03
+    RHS1      R107      2.9947776375641433e+02
     RHS1      Fraction_upper_bound_11  1
-    RHS1      R114      8.9410380500981944e+02
-    RHS1      R115      1.0478504342352899e+03
-    RHS1      R117      1.5373628388439550e+02
+    RHS1      R114      1.0656550928678248e+03
+    RHS1      R115      1.2540315339388862e+03
+    RHS1      R117      1.8832679125591508e+02
     RHS1      Fraction_upper_bound_12  1
-    RHS1      R124      1.0520591625675850e+03
-    RHS1      R125      1.2958417534567745e+03
-    RHS1      R127      2.4377225114028292e+02
+    RHS1      R124      1.9808674311163809e+03
+    RHS1      R125      2.4423064218285972e+03
+    RHS1      R127      4.6136564911484464e+02
     RHS1      Fraction_upper_bound_13  1
-    RHS1      R134      1.4134023746217451e+03
-    RHS1      R135      1.7417645279109672e+03
-    RHS1      R137      3.2835181293024209e+02
+    RHS1      R134      5.3984688294014791e+02
+    RHS1      R135      6.3359922075106931e+02
+    RHS1      R137      93.7117075866938
     RHS1      Fraction_upper_bound_14  1
-    RHS1      R144      4.8795852690490625e+02
-    RHS1      R145      598.443914719948
-    RHS1      R147      1.1047503463660979e+02
+    RHS1      R144      4.4937676298616719e+02
+    RHS1      R145      5.2983466727835457e+02
+    RHS1      R147      8.0424126289602015e+01
     RHS1      Fraction_upper_bound_15  1
-    RHS1      R154      1.2363033074985960e+03
-    RHS1      R155      1.5421214026049470e+03
-    RHS1      R157      3.0580775680687941e+02
+    RHS1      R154      7.3733313661446994e+02
+    RHS1      R155      9.0241369731757516e+02
+    RHS1      R157      1.6503865378774267e+02
     RHS1      Fraction_upper_bound_16  1
-    RHS1      R164      1.1741943757929018e+03
-    RHS1      R165      1.5189340334506007e+03
-    RHS1      R167      3.4472931771734909e+02
+    RHS1      R164      1.1321295056734314e+03
+    RHS1      R165      1.4473328143560959e+03
+    RHS1      R167      3.1514401932320368e+02
     RHS1      Fraction_upper_bound_17  1
-    RHS1      R174      7.5145238408974842e+02
-    RHS1      R175      9.7330166287313989e+02
-    RHS1      R177      2.2183893764061617e+02
+    RHS1      R174      1.4885260644061686e+03
+    RHS1      R175      1.8877587790690986e+03
+    RHS1      R177      3.9915738614224358e+02
     RHS1      Fraction_upper_bound_18  1
-    RHS1      R184      1.6643110795074208e+03
-    RHS1      R185      2.0586409211193395e+03
-    RHS1      R187      3.9431950014599329e+02
+    RHS1      R184      1.2886702061875751e+03
+    RHS1      R185      1.5745288695732866e+03
+    RHS1      R187      2.8580001525341032e+02
     RHS1      Fraction_upper_bound_19  1
-    RHS1      R194      1.8247394086602237e+03
-    RHS1      R195      2.3013698073464993e+03
-    RHS1      R197      4.7662005979608841e+02
+    RHS1      R194      2.3453951392252238e+03
+    RHS1      R195      2.9376368966028881e+03
+    RHS1      R197      5.9217565911759436e+02
     RHS1      Fraction_upper_bound_20  1
-    RHS1      R204      698.899117548079
-    RHS1      R205      916.826575199072
-    RHS1      R207      217.917112052819
+    RHS1      R204      7.0172710291966655e+02
+    RHS1      R205      9.0609696447062379e+02
+    RHS1      R207      2.0431162025124007e+02
     RHS1      Fraction_upper_bound_21  1
-    RHS1      R214      1.4927656526532005e+03
-    RHS1      R215      1.9030259376816759e+03
-    RHS1      R217      4.1024995013999387e+02
+    RHS1      R214      1.3935126507102011e+03
+    RHS1      R215      1.7644139701286181e+03
+    RHS1      R217      3.7082836562438541e+02
     RHS1      Fraction_upper_bound_22  1
-    RHS1      R224      1.8232113519367228e+03
-    RHS1      R225      2.2430328085899941e+03
-    RHS1      R227      4.1981112148187077e+02
+    RHS1      R224      1.4326826045517464e+03
+    RHS1      R225      1.7403095983867968e+03
+    RHS1      R227      3.0757061090118282e+02
     RHS1      Fraction_upper_bound_23  1
-    RHS1      R234      2.4465847647391984e+03
-    RHS1      R235      3.0208652497807930e+03
-    RHS1      R237      5.7427015056442053e+02
+    RHS1      R234      1.8918064754010245e+03
+    RHS1      R235      2.3128325782729416e+03
+    RHS1      R237      4.2096724448838336e+02
     RHS1      Fraction_upper_bound_24  1
-    RHS1      R244      1.9890771370656330e+03
-    RHS1      R245      2.4782255613728526e+03
-    RHS1      R247      4.8913808364822188e+02
+    RHS1      R244      2.0317020617341771e+03
+    RHS1      R245      2.5169543926106226e+03
+    RHS1      R247      4.8518598082706649e+02
     RHS1      Fraction_upper_bound_25  1
-    RHS1      R254      2.0809883785155912e+03
-    RHS1      R255      2.6051713505137350e+03
-    RHS1      R257      5.2417263489500306e+02
+    RHS1      R254      1.9436506516608101e+03
+    RHS1      R255      2.4189509623005365e+03
+    RHS1      R257      4.7522986947142891e+02
     RHS1      Fraction_upper_bound_26  1
-    RHS1      R264      1.5423440804841562e+03
-    RHS1      R265      1.8875643737769635e+03
-    RHS1      R267      3.4520995421813757e+02
+    RHS1      R264      1.9161765246250125e+03
+    RHS1      R265      2.3402986686698787e+03
+    RHS1      R267      4.2405973407832636e+02
     RHS1      Fraction_upper_bound_27  1
-    RHS1      R274      8.4349134520794655e+02
-    RHS1      R275      1.0361759928251488e+03
-    RHS1      R277      1.9267429349237980e+02
+    RHS1      R274      1.6903940392353982e+03
+    RHS1      R275      2.1424037512346922e+03
+    RHS1      R277      4.5191755572687970e+02
     RHS1      Fraction_upper_bound_28  1
-    RHS1      R284      2.5171108631587608e+03
-    RHS1      R285      3.1150288456762464e+03
-    RHS1      R287      5.9790764647981746e+02
+    RHS1      R284      8.9741193547930391e+02
+    RHS1      R285      1.0722469510482551e+03
+    RHS1      R287      1.7479467369904404e+02
     RHS1      Fraction_upper_bound_29  1
-    RHS1      R294      3.8061884344641288e+02
-    RHS1      R295      5.4530707709988519e+02
-    RHS1      R297      1.6467788051943666e+02
+    RHS1      R294      2.6217808046307670e+02
+    RHS1      R295      3.7265778709402525e+02
+    RHS1      R297      1.1041948790879769e+02
     RHS1      Fraction_upper_bound_30  1
-    RHS1      R304      1.2206036212600447e+03
-    RHS1      R305      1.5563426221355487e+03
-    RHS1      R307      3.3572865967713267e+02
+    RHS1      R304      2.7103278220466785e+02
+    RHS1      R305      2.8295581125212192e+02
+    RHS1      R307      1.0586152049862676e+01
     RHS1      Fraction_upper_bound_31  1
-    RHS1      R314      6.6326511719696532e+02
-    RHS1      R315      7.9732201262482636e+02
-    RHS1      R317      1.3404654962092602e+02
+    RHS1      R314      1.0971067981816482e+03
+    RHS1      R315      1.3250539803756742e+03
+    RHS1      R317      2.2790249003198664e+02
     RHS1      Fraction_upper_bound_32  1
-    RHS1      R324      2.2614087705439233e+03
-    RHS1      R325      2.8333445459057230e+03
-    RHS1      R327      5.7192542867540976e+02
+    RHS1      R324      8.7597439332062527e+02
+    RHS1      R325      1.0869947079327210e+03
+    RHS1      R327      2.1095943817377548e+02
     RHS1      Fraction_upper_bound_33  1
-    RHS1      R334      2.2721190034225465e+03
-    RHS1      R335      2.8545918001574182e+03
-    RHS1      R337      5.8246247042421976e+02
+    RHS1      R334      1.4131477468845715e+03
+    RHS1      R335      1.7596869246316098e+03
+    RHS1      R337      3.4645964238879367e+02
     RHS1      Fraction_upper_bound_34  1
-    RHS1      R344      1.9657295664301073e+03
-    RHS1      R345      2.4254344339860377e+03
-    RHS1      R347      4.5969453100198677e+02
+    RHS1      R344      1.9645329439503680e+03
+    RHS1      R345      2409.38930880327
+    RHS1      R347      4.4478704837587679e+02
     RHS1      Fraction_upper_bound_35  1
-    RHS1      R354      9.2845405713254559e+02
-    RHS1      R355      1.2034608248838063e+03
-    RHS1      R357      2.7499642181508443e+02
+    RHS1      R354      2.0520163583716817e+03
+    RHS1      R355      2.5997386715034963e+03
+    RHS1      R357      547.63768789984
     RHS1      Fraction_upper_bound_36  1
-    RHS1      R364      7.5971021185192194e+02
-    RHS1      R365      986.911754035311
-    RHS1      R367      2.2719120055881322e+02
+    RHS1      R364      3.1132606268848758e+02
+    RHS1      R365      3.9680311628223654e+02
+    RHS1      R367      85.4210789376722
     RHS1      Fraction_upper_bound_37  1
-    RHS1      R374      8.2195896436203839e+02
-    RHS1      R375      1.0546209736666472e+03
-    RHS1      R377      2.3265166226851005e+02
+    RHS1      R374      3.9750144335023344e+02
+    RHS1      R375      4.9763312915547772e+02
+    RHS1      R377      1.0007340713281172e+02
     RHS1      Fraction_upper_bound_38  1
-    RHS1      R384      1.0618557173067188e+03
-    RHS1      R385      1.2255130864203848e+03
-    RHS1      R387      163.647012710459
+    RHS1      R384      1.8816176605578548e+03
+    RHS1      R385      2.2546293722700748e+03
+    RHS1      R387      3.7297235594449921e+02
     RHS1      Fraction_upper_bound_39  1
-    RHS1      R394      1.4786814486334424e+03
-    RHS1      R395      1.8415962637103285e+03
-    RHS1      R397      3.6290447653836145e+02
+    RHS1      R394      1.6184129731863886e+03
+    RHS1      R395      2.0017082604335369e+03
+    RHS1      R397      3.8322906805334458e+02
     RHS1      Fraction_upper_bound_40  1
-    RHS1      R404      6.6747563154425393e+02
-    RHS1      R405      8.3839462054075125e+02
-    RHS1      R407      1.7090863785073876e+02
+    RHS1      R404      1.8635903383522129e+03
+    RHS1      R405      2.3240837843628678e+03
+    RHS1      R407      4.6041628029206470e+02
     RHS1      Fraction_upper_bound_41  1
-    RHS1      R414      9.8881898134509538e+02
-    RHS1      R415      1.2471946603757647e+03
-    RHS1      R417      2.5836533327672771e+02
+    RHS1      R414      1.9384748548878965e+03
+    RHS1      R415      2.4215498812909373e+03
+    RHS1      R417      4.8302313042099280e+02
     RHS1      Fraction_upper_bound_42  1
-    RHS1      R424      2.0280350167308466e+03
-    RHS1      R425      2.4413985908241707e+03
-    RHS1      R427      4.1335323797955243e+02
+    RHS1      R424      2.6535385749139864e+03
+    RHS1      R425      3.2087166299723276e+03
+    RHS1      R427      5.5512079293984573e+02
     RHS1      Fraction_upper_bound_43  1
-    RHS1      R434      1.7973849029988310e+03
-    RHS1      R435      2.2611670439538466e+03
-    RHS1      R437      4.6377180479537492e+02
+    RHS1      R434      6.9508646254062353e+02
+    RHS1      R435      8.5765798185002882e+02
+    RHS1      R437      1.6250873586979128e+02
     RHS1      Fraction_upper_bound_44  1
-    RHS1      R444      559.083140507922
-    RHS1      R445      6.7122983845747945e+02
-    RHS1      R447      1.1213634835721399e+02
+    RHS1      R444      1.2409465052986870e+03
+    RHS1      R445      1.5210817169985007e+03
+    RHS1      R447      2.8007823329008215e+02
     RHS1      Fraction_upper_bound_45  1
-    RHS1      R454      1.1202597120441385e+03
-    RHS1      R455      1.4353280431881155e+03
-    RHS1      R457      3.1505799218836995e+02
+    RHS1      R454      3.6547525568346708e+02
+    RHS1      R455      4.4612306993822568e+02
+    RHS1      R457      8.0604824187474037e+01
     RHS1      Fraction_upper_bound_46  1
-    RHS1      R464      1.8494652630682390e+03
-    RHS1      R465      2.2755378977999380e+03
-    RHS1      R467      4.2606229742106950e+02
+    RHS1      R464      1.6735353305175045e+03
+    RHS1      R465      2.0410679228611270e+03
+    RHS1      R467      3.6747148053231854e+02
     RHS1      Fraction_upper_bound_47  1
-    RHS1      R474      2.0943627709424945e+03
-    RHS1      R475      2.6209960695889849e+03
-    RHS1      R477      5.2662298807925640e+02
+    RHS1      R474      1.4062640804000387e+03
+    RHS1      R475      1.7463029176775322e+03
+    RHS1      R477      3.3998993787987411e+02
     RHS1      Fraction_upper_bound_48  1
-    RHS1      R484      1.4371960034139420e+03
-    RHS1      R485      1.7748687353547980e+03
-    RHS1      R487      3.3766239110604118e+02
+    RHS1      R484      2.0126456142156951e+03
+    RHS1      R485      2.4796196154524496e+03
+    RHS1      R487      4.6691653139520747e+02
     RHS1      Fraction_upper_bound_49  1
-    RHS1      R494      2.1340240428687021e+03
-    RHS1      R495      2.7186373122120976e+03
-    RHS1      R497      5.8460293585884267e+02
+    RHS1      R494      5.1805766273118752e+02
+    RHS1      R495      6.4687694136756454e+02
+    RHS1      R497      1.2877524939996746e+02
     RHS1      Fraction_upper_bound_50  1
-    RHS1      R504      7.3424989754964611e+02
-    RHS1      R505      9.6707651693372054e+02
-    RHS1      R507      2.3281627377084720e+02
+    RHS1      R504      1.1555438908607766e+03
+    RHS1      R505      1.4791461266290223e+03
+    RHS1      R507      3.2353203682724518e+02
     RHS1      Fraction_upper_bound_51  1
-    RHS1      R514      5.9507667000492756e+02
-    RHS1      R515      7.0184137078586411e+02
-    RHS1      R517      1.0675435331332176e+02
+    RHS1      R514      1.2035860686172330e+03
+    RHS1      R515      1.4600860440583019e+03
+    RHS1      R517      2.5644956629279210e+02
     RHS1      Fraction_upper_bound_52  1
-    RHS1      R524      1.6836297009604907e+03
-    RHS1      R525      2.0255164721615502e+03
-    RHS1      R527      3.4187643235086807e+02
+    RHS1      R524      1.1287524839238190e+03
+    RHS1      R525      1.3173374552606990e+03
+    RHS1      R527      1.8854124486823707e+02
     RHS1      Fraction_upper_bound_53  1
-    RHS1      R534      8.3671887014109893e+02
-    RHS1      R535      1.0647861089400296e+03
-    RHS1      R537      2.2805689751000941e+02
+    RHS1      R534      606.111457300907
+    RHS1      R535      727.393690457932
+    RHS1      R537      1.2123667800787986e+02
     RHS1      Fraction_upper_bound_54  1
-    RHS1      R544      2.2286850311449707e+03
-    RHS1      R545      2.7405542111836889e+03
-    RHS1      R547      5.1185883601158469e+02
+    RHS1      R544      2.1531581030408670e+03
+    RHS1      R545      2.6315958420204583e+03
+    RHS1      R547      4.7836877268612477e+02
     RHS1      Fraction_upper_bound_55  1
-    RHS1      R554      6.9276849810121962e+02
-    RHS1      R555      9.0916518059641078e+02
-    RHS1      R557      2.1638633609055603e+02
+    RHS1      R554      2.5519218418310049e+02
+    RHS1      R555      3.4200522455941257e+02
+    RHS1      R557      8.6740513356272544e+01
     RHS1      Fraction_upper_bound_56  1
-    RHS1      R564      1.0767098606935031e+03
-    RHS1      R565      1.3320348090198152e+03
-    RHS1      R567      2.5531460914565315e+02
+    RHS1      R564      1.1206950964177270e+03
+    RHS1      R565      1.3793776277102825e+03
+    RHS1      R567      2.5861767769408220e+02
     RHS1      Fraction_upper_bound_57  1
-    RHS1      R574      2.0983288245826479e+03
-    RHS1      R575      2.5939528833852619e+03
-    RHS1      R577      4.9561371550955613e+02
+    RHS1      R574      4.4556002319542938e+02
+    RHS1      R575      4.9130774351327506e+02
+    RHS1      R577      4.5698694349355947e+01
     RHS1      Fraction_upper_bound_58  1
-    RHS1      R584      2.0935228458409438e+03
-    RHS1      R585      2.5511048095852939e+03
-    RHS1      R587      457.57162601268
+    RHS1      R584      1.2945996404397633e+03
+    RHS1      R585      1.5378748504357093e+03
+    RHS1      R587      2.4323244757518452e+02
     RHS1      Fraction_upper_bound_59  1
-    RHS1      R594      1.4894799634449591e+03
-    RHS1      R595      1.8685159213668826e+03
-    RHS1      R597      3.7902561832863125e+02
+    RHS1      R594      2.2799018585147091e+03
+    RHS1      R595      2.8419949954579911e+03
+    RHS1      R597      5.6202275373554608e+02
     RHS1      Fraction_upper_bound_60  1
-    RHS1      R604      1.9808086715205086e+03
-    RHS1      R605      2.4332930362421725e+03
-    RHS1      R607      4.5247403096137975e+02
+    RHS1      R604      1.0891281296592492e+03
+    RHS1      R605      1.3041090056399116e+03
+    RHS1      R607      2.1493730915387044e+02
     RHS1      Fraction_upper_bound_61  1
-    RHS1      R614      1.2800758075798290e+03
-    RHS1      R615      1.5894045824453890e+03
-    RHS1      R617      3.0931843178501327e+02
+    RHS1      R614      2.0312324225043644e+03
+    RHS1      R615      2.5309148244010657e+03
+    RHS1      R617      4.9961357420426236e+02
     RHS1      Fraction_upper_bound_62  1
-    RHS1      R624      4.9264081735150262e+02
-    RHS1      R625      5.9530618558011270e+02
-    RHS1      R627      1.0265502557654349e+02
+    RHS1      R624      6.4082018502286917e+02
+    RHS1      R625      7.6965079790084746e+02
+    RHS1      R627      1.2878163388895922e+02
     RHS1      Fraction_upper_bound_63  1
-    RHS1      R634      3.5655040833416535e+02
-    RHS1      R635      4.6223832095549972e+02
-    RHS1      R637      1.0567756774936367e+02
+    RHS1      R634      6.0774691947746908e+02
+    RHS1      R635      7.6849939274708731e+02
+    RHS1      R637      1.6069772912653394e+02
     RHS1      Fraction_upper_bound_64  1
-    RHS1      R644      1.1433645919648143e+03
-    RHS1      R645      1.4989858240816354e+03
-    RHS1      R647      3.5561089378684329e+02
+    RHS1      R644      9.2249501291989975e+02
+    RHS1      R645      1.2083445832047428e+03
+    RHS1      R647      2.8578508900803979e+02
     RHS1      Fraction_upper_bound_65  1
-    RHS1      R654      7.3777552591080371e+02
-    RHS1      R655      8.7943136704753738e+02
-    RHS1      R657      1.4164548972898456e+02
+    RHS1      R654      1.1142271599639835e+03
+    RHS1      R655      1.3543944721616811e+03
+    RHS1      R657      2.4010131892663810e+02
     RHS1      Fraction_upper_bound_66  1
-    RHS1      R664      5.6654594246186366e+02
-    RHS1      R665      6.9209403389668580e+02
-    RHS1      R667      1.2553774008429998e+02
+    RHS1      R664      1.7214919555567685e+03
+    RHS1      R665      2.1407631366349729e+03
+    RHS1      R667      4.1920201175534328e+02
     RHS1      Fraction_upper_bound_67  1
-    RHS1      R674      2.7438338989151825e+03
-    RHS1      R675      3.3266025479201080e+03
-    RHS1      R677      5.8275831956873662e+02
+    RHS1      R674      1.1832618827040967e+03
+    RHS1      R675      1.3613134574992202e+03
+    RHS1      R677      178.006844404126
     RHS1      Fraction_upper_bound_68  1
-    RHS1      R684      1.9585296871941516e+03
-    RHS1      R685      2.4880413444766859e+03
-    RHS1      R687      5.2950131982902928e+02
+    RHS1      R684      1.8157299486446134e+03
+    RHS1      R685      2.2949889963265668e+03
+    RHS1      R687      4.7919304780282783e+02
     RHS1      Fraction_upper_bound_69  1
-    RHS1      R694      8.7512327063656312e+02
-    RHS1      R695      1.0511472325791706e+03
-    RHS1      R697      1.7601361359771062e+02
+    RHS1      R694      1.6461823807353844e+03
+    RHS1      R695      2.0003820707000748e+03
+    RHS1      R697      354.147251345354
     RHS1      Fraction_upper_bound_70  1
-    RHS1      R704      7.1984582974497062e+02
-    RHS1      R705      8.2018827469285884e+02
-    RHS1      R707      1.0033208170152542e+02
+    RHS1      R704      1.3937184206673414e+03
+    RHS1      R705      1.6700415059133311e+03
+    RHS1      R707      276.27484325421
     RHS1      Fraction_upper_bound_71  1
-    RHS1      R714      2.3254546307695441e+03
-    RHS1      R715      2.8962988427472883e+03
-    RHS1      R717      5.7083389769487826e+02
+    RHS1      R714      1.1004213042257938e+03
+    RHS1      R715      1.3504305847311377e+03
+    RHS1      R717      2.4996638102580772e+02
     RHS1      Fraction_upper_bound_72  1
-    RHS1      R724      9.6464532448217051e+02
-    RHS1      R725      1.2038183199574503e+03
-    RHS1      R727      2.3916264916005716e+02
+    RHS1      R724      1.5970429071108133e+03
+    RHS1      R725      1.9797667916150069e+03
+    RHS1      R727      3.8265509069915390e+02
     RHS1      Fraction_upper_bound_73  1
-    RHS1      R734      8.0742374259336134e+02
-    RHS1      R735      1.0003828777138151e+03
-    RHS1      R737      1.9294880142775003e+02
+    RHS1      R734      5.2532427455576169e+02
+    RHS1      R735      6.2369381758777172e+02
+    RHS1      R737      9.8363550056377775e+01
     RHS1      Fraction_upper_bound_74  1
-    RHS1      R744      1.5169539636523664e+03
-    RHS1      R745      1.9627183571825130e+03
-    RHS1      R747      4.4575405391576766e+02
+    RHS1      R744      1.4430022680306129e+03
+    RHS1      R745      1.8557378748283477e+03
+    RHS1      R747      4.1265779853611195e+02
     RHS1      Fraction_upper_bound_75  1
-    RHS1      R754      7.4063691392278224e+02
-    RHS1      R755      8.9509912795906951e+02
-    RHS1      R757      1.5445186942066204e+02
+    RHS1      R754      1.4342386486585981e+03
+    RHS1      R755      1.7570340343673604e+03
+    RHS1      R757      3.2272616847464070e+02
     RHS1      Fraction_upper_bound_76  1
-    RHS1      R764      761.086234270769
-    RHS1      R765      9.9342137828877219e+02
-    RHS1      R767      2.3232479900140015e+02
+    RHS1      R764      1.6171056939268205e+03
+    RHS1      R765      2048.8986060276
+    RHS1      R767      4.3172795622017395e+02
     RHS1      Fraction_upper_bound_77  1
-    RHS1      R774      2.5274476673286508e+03
-    RHS1      R775      3.1150053487455989e+03
-    RHS1      R777      5.8754734010602328e+02
+    RHS1      R774      1.6750247574957211e+03
+    RHS1      R775      2.0349113778974215e+03
+    RHS1      R777      3.5983323015299970e+02
     RHS1      Fraction_upper_bound_78  1
-    RHS1      R784      1.4941014809547828e+03
-    RHS1      R785      1.9138432047928909e+03
-    RHS1      R787      4.1973138723700509e+02
+    RHS1      R784      4.5419894921847435e+02
+    RHS1      R785      5.4722278495951218e+02
+    RHS1      R787      9.2967676873911827e+01
     RHS1      Fraction_upper_bound_79  1
-    RHS1      R794      1.6700300163838174e+03
-    RHS1      R795      2.0303792498309970e+03
-    RHS1      R797      3.6033889574127676e+02
+    RHS1      R794      1.2375728796283934e+03
+    RHS1      R795      1.4752357340048591e+03
+    RHS1      R797      2.3761619651357546e+02
     RHS1      Fraction_upper_bound_80  1
-    RHS1      R804      1.1784872264229255e+03
-    RHS1      R805      1.4774568779642968e+03
-    RHS1      R807      2.9895930741746889e+02
+    RHS1      R804      1.1081940041896589e+03
+    RHS1      R805      1.3727897442280425e+03
+    RHS1      R807      2.6453786972987882e+02
     RHS1      Fraction_upper_bound_81  1
-    RHS1      R814      1.6843461767313283e+03
-    RHS1      R815      2.1716069812031474e+03
-    RHS1      R817      487.250477442101
+    RHS1      R814      5.2848942213380712e+02
+    RHS1      R815      711.366980843838
+    RHS1      R817      1.8282207148293929e+02
     RHS1      Fraction_upper_bound_82  1
-    RHS1      R824      8.2664887603031048e+02
-    RHS1      R825      9.9713797141229111e+02
-    RHS1      R827      1.7047873826167830e+02
+    RHS1      R824      5.4682728543629764e+02
+    RHS1      R825      632.750197387192
+    RHS1      R827      8.5882133862360831e+01
     RHS1      Fraction_upper_bound_83  1
-    RHS1      R834      2.2754377430778854e+03
-    RHS1      R835      2.8591169708487332e+03
-    RHS1      R837      583.668901018491
+    RHS1      R834      1.7036874340023696e+03
+    RHS1      R835      2.1298725515008368e+03
+    RHS1      R837      4.2612299073580419e+02
     RHS1      Fraction_upper_bound_84  1
-    RHS1      R844      2.0417242042826952e+03
-    RHS1      R845      2572.29604905375
-    RHS1      R847      5.3056150403289337e+02
+    RHS1      R844      5.0878218216602824e+02
+    RHS1      R845      6.3107191187755643e+02
+    RHS1      R847      1.2223019800499011e+02
     RHS1      Fraction_upper_bound_85  1
-    RHS1      R854      1.7345678404824312e+03
-    RHS1      R855      2.1434066738475867e+03
-    RHS1      R857      4.0882849128462163e+02
+    RHS1      R854      1.6966986613405031e+03
+    RHS1      R855      2.0829674865590341e+03
+    RHS1      R857      3.8621023260346180e+02
     RHS1      Fraction_upper_bound_86  1
-    RHS1      R864      5.4745592074868523e+02
-    RHS1      R865      6.6891936485901908e+02
-    RHS1      R867      1.2145309520128745e+02
+    RHS1      R864      1.7335072419124563e+03
+    RHS1      R865      2.1520965668067570e+03
+    RHS1      R867      4.1852203799256353e+02
     RHS1      Fraction_upper_bound_87  1
-    RHS1      R874      1.8447779968267685e+03
-    RHS1      R875      2.2952161556425658e+03
-    RHS1      R877      4.5042782472386887e+02
+    RHS1      R874      1.2614963701504730e+03
+    RHS1      R875      1.5515538495799810e+03
+    RHS1      R877      2.8999504825744259e+02
     RHS1      Fraction_upper_bound_88  1
-    RHS1      R884      2.2932827874643071e+03
-    RHS1      R885      2.8499352958855070e+03
-    RHS1      R887      5.5664217044274039e+02
+    RHS1      R884      2.3355361634892943e+03
+    RHS1      R885      2.8882150963609615e+03
+    RHS1      R887      5.5259718112802341e+02
     RHS1      Fraction_upper_bound_89  1
-    RHS1      R894      1.2672887803164604e+03
-    RHS1      R895      1.6295876513382950e+03
-    RHS1      R897      362.288533739313
+    RHS1      R894      316.334619516777
+    RHS1      R895      405.251665215239
+    RHS1      R897      8.8857814462854350e+01
     RHS1      Fraction_upper_bound_90  1
-    RHS1      R904      1.0843819721007535e+03
-    RHS1      R905      1.3615047229788640e+03
-    RHS1      R907      2.7711241091363109e+02
+    RHS1      R904      1.7801191709072755e+03
+    RHS1      R905      2.2166240863185844e+03
+    RHS1      R907      4.3643884211717170e+02
     RHS1      Fraction_upper_bound_91  1
-    RHS1      R914      6.0452821245410632e+02
-    RHS1      R915      7.6467721474753546e+02
-    RHS1      R917      1.6013867252104754e+02
+    RHS1      R914      3.7761549614744393e+02
+    RHS1      R915      4.3998586273666905e+02
+    RHS1      R917      6.2336017849428238e+01
     RHS1      Fraction_upper_bound_92  1
-    RHS1      R924      1.5864310366769578e+03
-    RHS1      R925      2.0638919215257056e+03
-    RHS1      R927      4.7745055206878413e+02
+    RHS1      R924      913.675091987402
+    RHS1      R925      1.1913945061182083e+03
+    RHS1      R927      2.7766352870021672e+02
     RHS1      Fraction_upper_bound_93  1
-    RHS1      R934      2.1003916898720836e+03
-    RHS1      R935      2.6429129570452628e+03
-    RHS1      R937      5.4251092560590314e+02
+    RHS1      R934      1.1782116836578321e+03
+    RHS1      R935      1.4737403352799824e+03
+    RHS1      R937      2.9545877230774920e+02
     RHS1      Fraction_upper_bound_94  1
-    RHS1      R944      6.7248424041588623e+02
-    RHS1      R945      8.2262045421082439e+02
-    RHS1      R947      1.5012587203791742e+02
+    RHS1      R944      1.0182968174602224e+03
+    RHS1      R945      1.2496117371584671e+03
+    RHS1      R947      2.3126439913458742e+02
     RHS1      Fraction_upper_bound_95  1
-    RHS1      R954      1.6062126254622062e+03
-    RHS1      R955      2.0857152303217067e+03
-    RHS1      R957      479.492277376171
+    RHS1      R954      8.8316688385139264e+02
+    RHS1      R955      1.1673512979292152e+03
+    RHS1      R957      2.8412226143744715e+02
     RHS1      Fraction_upper_bound_96  1
-    RHS1      R964      4.4140211670942108e+02
-    RHS1      R965      5.4994270541474236e+02
-    RHS1      R967      1.0853024312918899e+02
+    RHS1      R964      5.5663042018642182e+02
+    RHS1      R965      680.542542576186
+    RHS1      R967      1.2386514510304559e+02
     RHS1      Fraction_upper_bound_97  1
-    RHS1      R974      2.2428171795057146e+03
-    RHS1      R975      2.8263549594395477e+03
-    RHS1      R977      5.8352745903860978e+02
+    RHS1      R974      1.9875013996625728e+02
+    RHS1      R975      2.0009316175358543e+02
+    RHS1      R977      1.9230332955708960e+00
     RHS1      Fraction_upper_bound_98  1
-    RHS1      R984      1.7717191637304220e+03
-    RHS1      R985      2.1792585134628866e+03
-    RHS1      R987      4.0752901031754811e+02
+    RHS1      R984      1.2725129110224821e+03
+    RHS1      R985      1.5406899923081944e+03
+    RHS1      R987      2.6811986284845693e+02
     RHS1      Fraction_upper_bound_99  1
-    RHS1      R994      1.6516800666381498e+03
-    RHS1      R995      2.0279099347289789e+03
-    RHS1      R997      3.7621952949581657e+02
+    RHS1      R994      1.8044044638054552e+03
+    RHS1      R995      2.2042541642407964e+03
+    RHS1      R997      3.9979228015545635e+02
     RHS1      Fraction_upper_bound_100  1
-    RHS1      R1004     1.0279650558770679e+03
-    RHS1      R1005     1.2759503155373252e+03
-    RHS1      R1007     2.4797491679446389e+02
+    RHS1      R1004     9.7942064765610849e+02
+    RHS1      R1005     1.2007010283506922e+03
+    RHS1      R1007     2.2123036511088117e+02
     RHS1      Fraction_upper_bound_101  1
-    RHS1      R1014     2.2038819473641352e+03
-    RHS1      R1015     2.7685381142158376e+03
-    RHS1      R1017     5.6464583578489169e+02
+    RHS1      R1014     9.9205907126963166e+02
+    RHS1      R1015     1.2085204245700290e+03
+    RHS1      R1017     2.1641844668695126e+02
     RHS1      Fraction_upper_bound_102  1
-    RHS1      R1024     9.5882981893981173e+02
-    RHS1      R1025     1.1917929741663825e+03
-    RHS1      R1027     2.3295281366839583e+02
+    RHS1      R1024     3.5352730351538537e+02
+    RHS1      R1025     3.9924079988126289e+02
+    RHS1      R1027     4.5668302914537477e+01
     RHS1      Fraction_upper_bound_103  1
-    RHS1      R1034     2.0339653696185794e+03
-    RHS1      R1035     2.5480490084710282e+03
-    RHS1      R1037     5.1407330660834748e+02
+    RHS1      R1034     6.4029245291999689e+02
+    RHS1      R1035     7.8964851178000629e+02
+    RHS1      R1037     1.4930216828569615e+02
     RHS1      Fraction_upper_bound_104  1
-    RHS1      R1044     2.2768302715266736e+03
-    RHS1      R1045     2.8693949629778563e+03
-    RHS1      R1047     592.554339668566
+    RHS1      R1044     8.7793047659798867e+02
+    RHS1      R1045     1.0842955039535468e+03
+    RHS1      R1047     2.0630175177326265e+02
     RHS1      Fraction_upper_bound_105  1
-    RHS1      R1054     2.0074722910039327e+03
-    RHS1      R1055     2.4991809528744084e+03
-    RHS1      R1057     4.9169832275740293e+02
+    RHS1      R1054     5.2636052946042082e+02
+    RHS1      R1055     6.0184177662628326e+02
+    RHS1      R1057     7.5445748645922976e+01
     RHS1      Fraction_upper_bound_106  1
-    RHS1      R1064     1.4612920586453154e+03
-    RHS1      R1065     1.8207973584036322e+03
-    RHS1      R1067     3.5949496019321589e+02
+    RHS1      R1064     7.1244910368701085e+02
+    RHS1      R1065     8.7018399637602545e+02
+    RHS1      R1067     1.5767617208132702e+02
     RHS1      Fraction_upper_bound_107  1
-    RHS1      R1074     6.5640038819901031e+02
-    RHS1      R1075     7.8944784930736148e+02
-    RHS1      R1077     1.3303713192583785e+02
+    RHS1      R1074     487.614092931941
+    RHS1      R1075     5.5339753018279191e+02
+    RHS1      R1077     6.5741457372016370e+01
     RHS1      Fraction_upper_bound_108  1
-    RHS1      R1084     1.2162525063427343e+03
-    RHS1      R1085     1.5524697394007114e+03
-    RHS1      R1087     3.3620689458553653e+02
+    RHS1      R1084     3.2061345202347633e+02
+    RHS1      R1085     4.1020954450513477e+02
+    RHS1      R1087     8.9558715713894657e+01
     RHS1      Fraction_upper_bound_109  1
-    RHS1      R1094     1.5041894872134440e+03
-    RHS1      R1095     1.8233278017242656e+03
-    RHS1      R1097     3.1912797348585178e+02
+    RHS1      R1094     1.9466858453628629e+03
+    RHS1      R1095     2.3618747275206315e+03
+    RHS1      R1097     4.1514376989348671e+02
     RHS1      Fraction_upper_bound_110  1
-    RHS1      R1104     5.5710072227022954e+02
-    RHS1      R1105     7.5850908874162428e+02
-    RHS1      R1107     2.0139802059350421e+02
+    RHS1      R1104     2.2217629212835215e+02
+    RHS1      R1105     2.8282843610965409e+02
+    RHS1      R1107     6.0598880412107029e+01
     RHS1      Fraction_upper_bound_111  1
-    RHS1      R1114     9.3539902962948236e+02
-    RHS1      R1115     1.2472031892153373e+03
-    RHS1      R1117     3.1179381835715225e+02
+    RHS1      R1114     1.1215701585857450e+03
+    RHS1      R1115     1.4655543253215569e+03
+    RHS1      R1117     3.4392793030105361e+02
     RHS1      Fraction_upper_bound_112  1
-    RHS1      R1124     1.2086912587741824e+03
-    RHS1      R1125     1.4875805420857521e+03
-    RHS1      R1127     2.7887894204016879e+02
+    RHS1      R1124     1.7294064528136203e+03
+    RHS1      R1125     2.1239073480832976e+03
+    RHS1      R1127     3.9444784852440750e+02
     RHS1      Fraction_upper_bound_113  1
-    RHS1      R1134     611.217415759106
-    RHS1      R1135     7.9306988652905522e+02
-    RHS1      R1137     1.8184213057582423e+02
+    RHS1      R1134     8.5310710136741943e+02
+    RHS1      R1135     1.0883039915906572e+03
+    RHS1      R1137     2.3514083076029857e+02
     RHS1      Fraction_upper_bound_114  1
-    RHS1      R1144     1.0778407435615140e+03
-    RHS1      R1145     1.3985381541438792e+03
-    RHS1      R1147     3.2068707166624307e+02
+    RHS1      R1144     5.0314131726558605e+02
+    RHS1      R1145     6.2120467901897155e+02
+    RHS1      R1147     118.011455290041
     RHS1      Fraction_upper_bound_115  1
-    RHS1      R1154     9.8579131229534210e+02
-    RHS1      R1155     1.2172016355644223e+03
-    RHS1      R1157     2.3139997816224437e+02
+    RHS1      R1154     6.1463296236802421e+02
+    RHS1      R1155     7.2733804374349506e+02
+    RHS1      R1157     1.1265041989757651e+02
     RHS1      Fraction_upper_bound_116  1
-    RHS1      R1164     1.1971209955740960e+03
-    RHS1      R1165     1.5581625446911592e+03
-    RHS1      R1167     3.6103121034113218e+02
+    RHS1      R1164     799.040100767827
+    RHS1      R1165     1.0300493868062235e+03
+    RHS1      R1167     2.3095830985492796e+02
     RHS1      Fraction_upper_bound_117  1
-    RHS1      R1174     4.1234713745203055e+02
-    RHS1      R1175     5.2993750922962852e+02
-    RHS1      R1177     1.1758002986416432e+02
+    RHS1      R1174     9.8555752729885512e+02
+    RHS1      R1175     1.2477590380991714e+03
+    RHS1      R1177     2.6213898773261963e+02
     RHS1      Fraction_upper_bound_118  1
-    RHS1      R1184     2.3205793495301750e+03
-    RHS1      R1185     2.8737053788652656e+03
-    RHS1      R1187     5.5311570989364213e+02
+    RHS1      R1184     9.6557601135429729e+02
+    RHS1      R1185     1.1490092539851671e+03
+    RHS1      R1187     1.8337591264487997e+02
     RHS1      Fraction_upper_bound_119  1
-    RHS1      R1194     1.9499450722160709e+03
-    RHS1      R1195     2.4581375501706716e+03
-    RHS1      R1197     5.0818215275992804e+02
+    RHS1      R1194     1.7580613422858398e+03
+    RHS1      R1195     2.2037201146252328e+03
+    RHS1      R1197     4.4560288657973217e+02
     RHS1      Fraction_upper_bound_120  1
-    RHS1      R1204     1.3992771888670463e+03
-    RHS1      R1205     1.7755781915988089e+03
-    RHS1      R1207     3.7629066625525229e+02
+    RHS1      R1204     1.8912382439614407e+03
+    RHS1      R1205     2.3863947463904215e+03
+    RHS1      R1207     4.9507216869637358e+02
     RHS1      Fraction_upper_bound_121  1
-    RHS1      R1214     2.0980967015923088e+03
-    RHS1      R1215     2.6240113183691633e+03
-    RHS1      R1217     5.2590429137862156e+02
+    RHS1      R1214     2.2959291889574597e+03
+    RHS1      R1215     2.8567556356562550e+03
+    RHS1      R1217     5.6075407964118290e+02
     RHS1      Fraction_upper_bound_122  1
-    RHS1      R1224     2.0109459006046732e+03
-    RHS1      R1225     2.5921537570611804e+03
-    RHS1      R1227     5.8119753690540028e+02
+    RHS1      R1224     1.2567354469195406e+02
+    RHS1      R1225     1.8503859042836896e+02
+    RHS1      R1227     5.9295018132124440e+01
     RHS1      Fraction_upper_bound_123  1
-    RHS1      R1234     8.5228218088204039e+02
-    RHS1      R1235     1.0075536918333050e+03
-    RHS1      R1237     1.5526114702105360e+02
+    RHS1      R1234     2.0427608177965731e+03
+    RHS1      R1235     2.4811156569051532e+03
+    RHS1      R1237     4.3829196915617433e+02
     RHS1      Fraction_upper_bound_124  1
-    RHS1      R1244     1603.56313727314
-    RHS1      R1245     2.0189893809832126e+03
-    RHS1      R1247     4.1541590420490189e+02
+    RHS1      R1244     1.0868991025529886e+03
+    RHS1      R1245     1.3287956582876745e+03
+    RHS1      R1247     2.4183275686697661e+02
     RHS1      Fraction_upper_bound_125  1
-    RHS1      R1254     2.2094002603282161e+03
-    RHS1      R1255     2.8084076007113445e+03
-    RHS1      R1257     5.9899700046782925e+02
+    RHS1      R1254     1.7575200060668622e+03
+    RHS1      R1255     2.2290082615391721e+03
+    RHS1      R1257     4.7141860355081036e+02
     RHS1      Fraction_upper_bound_126  1
-    RHS1      R1264     2.5872432223831356e+03
-    RHS1      R1265     3.1811981440909876e+03
-    RHS1      R1267     593.944584666763
+    RHS1      R1264     1.9832833731637770e+03
+    RHS1      R1265     2.4116927965568084e+03
+    RHS1      R1267     4.2834628944876704e+02
     RHS1      Fraction_upper_bound_127  1
-    RHS1      R1274     1.2445772488476373e+03
-    RHS1      R1275     1.6462490804464774e+03
-    RHS1      R1277     4.0166149614537233e+02
+    RHS1      R1274     1.5739325626043949e+03
+    RHS1      R1275     2.0632315339989864e+03
+    RHS1      R1277     4.8923372908445253e+02
     RHS1      Fraction_upper_bound_128  1
-    RHS1      R1284     543.695792344816
-    RHS1      R1285     7.0771658728677278e+02
-    RHS1      R1287     1.6401043522543907e+02
+    RHS1      R1284     1.7191412999436966e+03
+    RHS1      R1285     2.1624936415037591e+03
+    RHS1      R1287     4.4327748473876176e+02
     RHS1      Fraction_upper_bound_129  1
-    RHS1      R1294     1.5176437592214024e+03
-    RHS1      R1295     1.9092505146904002e+03
-    RHS1      R1297     3.9159641549526413e+02
+    RHS1      R1294     8.3521104987537456e+02
+    RHS1      R1295     1.0416514916811248e+03
+    RHS1      R1297     2.0638280302649054e+02
     RHS1      Fraction_upper_bound_130  1
-    RHS1      R1304     4.8016840522525530e+02
-    RHS1      R1305     5.8121105833390243e+02
-    RHS1      R1307     1.0103231778721516e+02
+    RHS1      R1304     1.0939758684681956e+03
+    RHS1      R1305     1.3624717560918191e+03
+    RHS1      R1307     2.6843794171379614e+02
     RHS1      Fraction_upper_bound_131  1
-    RHS1      R1314     888.28691363584
-    RHS1      R1315     1.0877529360236313e+03
-    RHS1      R1317     1.9945566733342952e+02
+    RHS1      R1314     1.2096845169789556e+03
+    RHS1      R1315     1.4749427383499769e+03
+    RHS1      R1317     2.6519594675069129e+02
     RHS1      Fraction_upper_bound_132  1
-    RHS1      R1324     2.4329737284088778e+03
-    RHS1      R1325     3.0110456537805167e+03
-    RHS1      R1327     578.06157977998
+    RHS1      R1324     8.3004981758565816e+02
+    RHS1      R1325     9.9282495534829388e+02
+    RHS1      R1327     1.6272222498584813e+02
     RHS1      Fraction_upper_bound_133  1
-    RHS1      R1334     1.1121918547956216e+03
-    RHS1      R1335     1.3774224890577034e+03
-    RHS1      R1337     2.6522028630142194e+02
+    RHS1      R1334     776.809655078848
+    RHS1      R1335     9.4363336359687457e+02
+    RHS1      R1337     1.6676343570337031e+02
     RHS1      Fraction_upper_bound_134  1
-    RHS1      R1344     1.5653088779278937e+03
-    RHS1      R1345     1.9845142696518749e+03
-    RHS1      R1347     4.1919505288847427e+02
+    RHS1      R1344     1.0955980530548350e+03
+    RHS1      R1345     1.3828201085998951e+03
+    RHS1      R1347     2.8715900020034928e+02
     RHS1      Fraction_upper_bound_135  1
-    RHS1      R1354     953.817196481865
-    RHS1      R1355     1.1942572837317437e+03
-    RHS1      R1357     2.4042974731609564e+02
+    RHS1      R1354     1.5194587797688655e+03
+    RHS1      R1355     1.9039723481496960e+03
+    RHS1      R1357     3.8446964435315084e+02
     RHS1      Fraction_upper_bound_136  1
-    RHS1      R1364     2.4206841923651682e+03
-    RHS1      R1365     2.9946054632136684e+03
-    RHS1      R1367     5.7391094355579480e+02
+    RHS1      R1364     1.0117251884048911e+03
+    RHS1      R1365     1.2128749352646057e+03
+    RHS1      R1367     2.0110418310271837e+02
     RHS1      Fraction_upper_bound_137  1
-    RHS1      R1374     1.8559818247104813e+03
-    RHS1      R1375     2.3202715170438019e+03
-    RHS1      R1377     4.6427936497474337e+02
+    RHS1      R1374     1.2382014460985397e+03
+    RHS1      R1375     1.5334892416400303e+03
+    RHS1      R1377     2.9522578424321716e+02
     RHS1      Fraction_upper_bound_138  1
-    RHS1      R1384     9.5073705346518443e+02
-    RHS1      R1385     1.2155729701734922e+03
-    RHS1      R1387     2.6482557879070629e+02
+    RHS1      R1384     5.6541641147342625e+02
+    RHS1      R1385     7.1304488315372168e+02
+    RHS1      R1387     1.4754527812264860e+02
     RHS1      Fraction_upper_bound_139  1
-    RHS1      R1394     2.0299697982158482e+03
-    RHS1      R1395     2.5258608316764116e+03
-    RHS1      R1397     4.9588071059018540e+02
+    RHS1      R1394     5.4090482491199475e+02
+    RHS1      R1395     6.4996077488054061e+02
+    RHS1      R1397     1.0900364354287403e+02
     RHS1      Fraction_upper_bound_140  1
-    RHS1      R1404     9.1831627169276067e+02
-    RHS1      R1405     1.0724093872615874e+03
-    RHS1      R1407     1.5408276222442626e+02
+    RHS1      R1404     7.2025391377979292e+02
+    RHS1      R1405     8.0021253175726633e+02
+    RHS1      R1407     7.9931613921678775e+01
     RHS1      Fraction_upper_bound_141  1
-    RHS1      R1414     1.3055703017517633e+03
-    RHS1      R1415     1.6017401108062368e+03
-    RHS1      R1417     2.9615947003273061e+02
+    RHS1      R1414     2.4590081218956375e+03
+    RHS1      R1415     3.0289956560539190e+03
+    RHS1      R1417     5.6991159577323060e+02
     RHS1      Fraction_upper_bound_142  1
-    RHS1      R1424     7.3353476929090345e+02
-    RHS1      R1425     9.4415417233389553e+02
-    RHS1      R1427     2.1060906386441530e+02
+    RHS1      R1424     3.5663181136866763e+02
+    RHS1      R1425     4.4503964352370156e+02
+    RHS1      R1427     88.3663385028313
     RHS1      Fraction_upper_bound_143  1
-    RHS1      R1434     2.1972412854358363e+03
-    RHS1      R1435     2.6391148488682570e+03
-    RHS1      R1437     4.4186322363802310e+02
+    RHS1      R1434     826.053118695464
+    RHS1      R1435     9.1056438173600452e+02
+    RHS1      R1437     84.4598476537488
     RHS1      Fraction_upper_bound_144  1
-    RHS1      R1444     5.4762553743784747e+02
-    RHS1      R1445     6.9885902600465465e+02
-    RHS1      R1447     1.5122314088589707e+02
+    RHS1      R1444     1.3593702004360498e+03
+    RHS1      R1445     1.7081381153198904e+03
+    RHS1      R1447     3.4869926357647716e+02
     RHS1      Fraction_upper_bound_145  1
-    RHS1      R1454     1.1222536841890412e+03
-    RHS1      R1455     1.4207769435836967e+03
-    RHS1      R1457     2.9851291614133703e+02
+    RHS1      R1454     3.3854903965140932e+02
+    RHS1      R1455     4.1512773355930403e+02
+    RHS1      R1457     7.6531824233829454e+01
     RHS1      Fraction_upper_bound_146  1
-    RHS1      R1464     1.0835580183234517e+03
-    RHS1      R1465     1.3218932226973377e+03
-    RHS1      R1467     2.3832486510460888e+02
+    RHS1      R1464     2.1371159189351988e+03
+    RHS1      R1465     2.6369258837757061e+03
+    RHS1      R1467     4.9974211727310040e+02
     RHS1      Fraction_upper_bound_147  1
-    RHS1      R1474     1.3749595763647258e+03
-    RHS1      R1475     1.7281413755318338e+03
-    RHS1      R1477     3.5317145966190208e+02
+    RHS1      R1474     1.8758763776277601e+03
+    RHS1      R1475     2.3397418271917709e+03
+    RHS1      R1477     4.6379231224323439e+02
     RHS1      Fraction_upper_bound_148  1
-    RHS1      R1484     1.3699107996255052e+03
-    RHS1      R1485     1.6448699847642822e+03
-    RHS1      R1487     274.948840251938
+    RHS1      R1484     2.6969579387330077e+03
+    RHS1      R1485     3.2891257482059514e+03
+    RHS1      R1487     5.9210204747431817e+02
     RHS1      Fraction_upper_bound_149  1
-    RHS1      R1494     2.0094787501630883e+03
-    RHS1      R1495     2.4626943757506378e+03
-    RHS1      R1497     4.5320528883350551e+02
-    RHS1      Fraction_upper_bound_150  1
-    RHS1      R1504     3.8936896357614131e+02
-    RHS1      R1505     5.0166781803975732e+02
-    RHS1      R1507     1.1228851215126542e+02
-    RHS1      Fraction_upper_bound_151  1
-    RHS1      R1514     1.7925937686647960e+03
-    RHS1      R1515     2.2095975696729338e+03
-    RHS1      R1517     4.1699346065295373e+02
-    RHS1      Fraction_upper_bound_152  1
-    RHS1      R1524     1.0003084240237126e+03
-    RHS1      R1525     1.2156044039158235e+03
-    RHS1      R1527     2.1528564484690997e+02
-    RHS1      Fraction_upper_bound_153  1
-    RHS1      R1534     1.1117948589406169e+03
-    RHS1      R1535     1.3461597140388494e+03
-    RHS1      R1537     2.3435451437842465e+02
-    RHS1      Fraction_upper_bound_154  1
-    RHS1      R1544     1.7904672843260623e+03
-    RHS1      R1545     2.2906054320949670e+03
-    RHS1      R1547     5.0012780179176178e+02
-    RHS1      Fraction_upper_bound_155  1
-    RHS1      R1554     2.2127708029148162e+03
-    RHS1      R1555     2.7905653381161383e+03
-    RHS1      R1557     5.7778419699021038e+02
-    RHS1      Fraction_upper_bound_156  1
-    RHS1      R1564     1.3404901447295979e+03
-    RHS1      R1565     1.5987755871877553e+03
-    RHS1      R1567     2.5827510501354323e+02
-    RHS1      Fraction_upper_bound_157  1
-    RHS1      R1574     2.2372649126983824e+03
-    RHS1      R1575     2.7506778677199427e+03
-    RHS1      R1577     5.1340263518453787e+02
-    RHS1      Fraction_upper_bound_158  1
-    RHS1      R1584     5.0934088098376583e+02
-    RHS1      R1585     6.6134663793392951e+02
-    RHS1      R1587     1.5199541898547173e+02
-    RHS1      Fraction_upper_bound_159  1
-    RHS1      R1594     1.6362708734285125e+03
-    RHS1      R1595     2.0532720367319153e+03
-    RHS1      R1597     4.1699082650369161e+02
-    RHS1      Fraction_upper_bound_160  1
-    RHS1      R1604     2.1023046429027936e+03
-    RHS1      R1605     2.5778311216510519e+03
-    RHS1      R1607     4.7551614976745941e+02
-    RHS1      Fraction_upper_bound_161  1
-    RHS1      R1614     9.2684694013068315e+02
-    RHS1      R1615     1.1048462657177618e+03
-    RHS1      R1617     1.7798896401211405e+02
-    RHS1      Fraction_upper_bound_162  1
-    RHS1      R1624     1.5125921738822763e+03
-    RHS1      R1625     1.8256037074055871e+03
-    RHS1      R1627     3.1300119383478028e+02
-    RHS1      Fraction_upper_bound_163  1
-    RHS1      R1634     2.1336095803132739e+03
-    RHS1      R1635     2.6799734941931420e+03
-    RHS1      R1637     5.4635358212449080e+02
-    RHS1      Fraction_upper_bound_164  1
-    RHS1      R1644     5.1842072166944251e+02
-    RHS1      R1645     6.7022030686371249e+02
-    RHS1      R1647     1.5178923172415489e+02
-    RHS1      Fraction_upper_bound_165  1
-    RHS1      R1654     8.2008913499386324e+02
-    RHS1      R1655     9.2914766539943537e+02
-    RHS1      R1657     1.0904817909847499e+02
-    RHS1      Fraction_upper_bound_166  1
-    RHS1      R1664     1.7959161860594995e+03
-    RHS1      R1665     2.1912192124472681e+03
-    RHS1      R1667     3.9529268952396689e+02
-    RHS1      Fraction_upper_bound_167  1
-    RHS1      R1674     1.5375736698058136e+03
-    RHS1      R1675     1.8553497817866521e+03
-    RHS1      R1677     3.1776577026546676e+02
-    RHS1      Fraction_upper_bound_168  1
-    RHS1      R1684     2.0190178266826351e+03
-    RHS1      R1685     2518.37278880963
-    RHS1      R1687     4.9934462444195134e+02
-    RHS1      Fraction_upper_bound_169  1
-    RHS1      R1694     1765.86952158732
-    RHS1      R1695     2.3276076256201418e+03
-    RHS1      R1697     5.6172776910205334e+02
-    RHS1      Fraction_upper_bound_170  1
-    RHS1      R1704     882.531955888606
-    RHS1      R1705     1.1321191216715451e+03
-    RHS1      R1707     249.576822271908
-    RHS1      Fraction_upper_bound_171  1
-    RHS1      R1714     1.4225128939275876e+03
-    RHS1      R1715     1.7167252928821838e+03
-    RHS1      R1717     2.9420205858455262e+02
-    RHS1      Fraction_upper_bound_172  1
-    RHS1      R1724     1.1247834587740663e+03
-    RHS1      R1725     1.4679298413703548e+03
-    RHS1      R1727     3.4313604316465739e+02
-    RHS1      Fraction_upper_bound_173  1
-    RHS1      R1734     1.1876413302835035e+03
-    RHS1      R1735     1.5817273976728516e+03
-    RHS1      R1737     3.9407573021764966e+02
-    RHS1      Fraction_upper_bound_174  1
-    RHS1      R1744     2.1694467114163481e+03
-    RHS1      R1745     2.7613839595187287e+03
-    RHS1      R1747     5.9192691484080831e+02
-    RHS1      Fraction_upper_bound_175  1
-    RHS1      R1754     1.4728746501909372e+03
-    RHS1      R1755     1.9215501114291312e+03
-    RHS1      R1757     4.4866512541502578e+02
-    RHS1      Fraction_upper_bound_176  1
-    RHS1      R1764     1.4803634323133338e+03
-    RHS1      R1765     1.7751480258711993e+03
-    RHS1      R1767     2.9477425367278420e+02
-    RHS1      Fraction_upper_bound_177  1
-    RHS1      R1774     1.0538680663532696e+03
-    RHS1      R1775     1.2857622500203313e+03
-    RHS1      R1777     2.3188384322523092e+02
-    RHS1      Fraction_upper_bound_178  1
-    RHS1      R1784     2.4963045066102495e+03
-    RHS1      R1785     3.0686276931382718e+03
-    RHS1      R1787     572.312859211062
-    RHS1      Fraction_upper_bound_179  1
-    RHS1      R1794     9.4983925098253917e+02
-    RHS1      R1795     1.1176238111071227e+03
-    RHS1      R1797     1.6777421655423154e+02
-    RHS1      Fraction_upper_bound_180  1
-    RHS1      R1804     1.6695363862856061e+03
-    RHS1      R1805     2.1296796458660606e+03
-    RHS1      R1807     4.6013292625237904e+02
-    RHS1      Fraction_upper_bound_181  1
-    RHS1      R1814     2.0549025544775727e+03
-    RHS1      R1815     2.6176104089925443e+03
-    RHS1      R1817     5.6269751264622039e+02
-    RHS1      Fraction_upper_bound_182  1
-    RHS1      R1824     1.5896790718797574e+03
-    RHS1      R1825     2.0220222040123224e+03
-    RHS1      R1827     4.3233279326721930e+02
-    RHS1      Fraction_upper_bound_183  1
-    RHS1      R1834     1.3487758738303392e+03
-    RHS1      R1835     1.6603134382125859e+03
-    RHS1      R1837     3.1152722008306057e+02
-    RHS1      Fraction_upper_bound_184  1
-    RHS1      R1844     1.0014641655650814e+03
-    RHS1      R1845     1.2009699734566120e+03
-    RHS1      R1847     199.495469962742
-    RHS1      Fraction_upper_bound_185  1
-    RHS1      R1854     1.0820743371702210e+03
-    RHS1      R1855     1.3658223356971839e+03
-    RHS1      R1857     2.8373766112596360e+02
-    RHS1      Fraction_upper_bound_186  1
-    RHS1      R1864     1.8934218300741904e+03
-    RHS1      R1865     2.3468680778406460e+03
-    RHS1      R1867     4.5343590471006104e+02
-    RHS1      Fraction_upper_bound_187  1
-    RHS1      R1874     1.7858690569083694e+03
-    RHS1      R1875     2.2106465005141604e+03
-    RHS1      R1877     4.2476711208764840e+02
-    RHS1      Fraction_upper_bound_188  1
-    RHS1      R1884     2.2950322242113680e+03
-    RHS1      R1885     2.8590306473423029e+03
-    RHS1      R1887     5.6398808329917892e+02
-    RHS1      Fraction_upper_bound_189  1
-    RHS1      R1894     2.0978161516946720e+03
-    RHS1      R1895     2.6312569380867158e+03
-    RHS1      R1897     5.3343045682968750e+02
-    RHS1      Fraction_upper_bound_190  1
-    RHS1      R1904     2.0152386280349178e+03
-    RHS1      R1905     2.5233243428015858e+03
-    RHS1      R1907     5.0807537613318419e+02
-    RHS1      Fraction_upper_bound_191  1
-    RHS1      R1914     2300.65850696234
-    RHS1      R1915     2.8563942819204012e+03
-    RHS1      R1917     5.5572543767538116e+02
-    RHS1      Fraction_upper_bound_192  1
-    RHS1      R1924     1.1318826438233525e+03
-    RHS1      R1925     1.3700615629642286e+03
-    RHS1      R1927     2.3816857636852586e+02
-    RHS1      Fraction_upper_bound_193  1
-    RHS1      R1934     1.2915182736606146e+03
-    RHS1      R1935     1.5762903859580420e+03
-    RHS1      R1937     2.8476177006982476e+02
-    RHS1      Fraction_upper_bound_194  1
-    RHS1      R1944     1.0071650993257558e+03
-    RHS1      R1945     1.2971223954868458e+03
-    RHS1      R1947     2.8994695189300870e+02
-    RHS1      Fraction_upper_bound_195  1
-    RHS1      R1954     1.9309492326410955e+03
-    RHS1      R1955     2.3111848646807321e+03
-    RHS1      R1957     3.8022529435489014e+02
-    RHS1      Fraction_upper_bound_196  1
-    RHS1      R1964     1.6662634524992941e+03
-    RHS1      R1965     2.1003829082037564e+03
-    RHS1      R1967     4.3410911477138552e+02
-    RHS1      Fraction_upper_bound_197  1
-    RHS1      R1974     1.0453295681784184e+03
-    RHS1      R1975     1.2886982504784337e+03
-    RHS1      R1977     2.4335834152019717e+02
-    RHS1      Fraction_upper_bound_198  1
-    RHS1      R1984     4.8967274543035245e+02
-    RHS1      R1985     5.9941432311601136e+02
-    RHS1      R1987     1.0973123367591299e+02
-    RHS1      Fraction_upper_bound_199  1
-    RHS1      R1994     1.0387321106614281e+03
-    RHS1      R1995     1.3383536480289865e+03
-    RHS1      R1997     2.9961119182895504e+02
-    RHS1      Fraction_upper_bound_200  1
-    RHS1      R2004     1.0925528412874928e+03
-    RHS1      R2005     1.3468271681862234e+03
-    RHS1      R2007     2.5426397977720023e+02
-    RHS1      Fraction_upper_bound_201  1
-    RHS1      R2014     2.2454990827517063e+03
-    RHS1      R2015     2.8166017602652682e+03
-    RHS1      R2017     5.7109235950902394e+02
-    RHS1      Fraction_upper_bound_202  1
-    RHS1      R2024     2.1931448044988897e+03
-    RHS1      R2025     2.7372876602220144e+03
-    RHS1      R2027     5.4413252027202179e+02
-    RHS1      Fraction_upper_bound_203  1
-    RHS1      R2034     2.1405401132964316e+03
-    RHS1      R2035     2.6707057670902550e+03
-    RHS1      R2037     5.3015533917170978e+02
-    RHS1      Fraction_upper_bound_204  1
-    RHS1      R2044     1.8080249742732026e+03
-    RHS1      R2045     2.2345351884208740e+03
-    RHS1      R2047     4.2649988047262150e+02
-    RHS1      Fraction_upper_bound_205  1
-    RHS1      R2054     1.2398314870367462e+03
-    RHS1      R2055     1.5119864054445452e+03
-    RHS1      R2057     2.7214458234946943e+02
-    RHS1      Fraction_upper_bound_206  1
-    RHS1      R2064     1.5020567023874760e+03
-    RHS1      R2065     1.8764916744454358e+03
-    RHS1      R2067     3.7442463369965236e+02
-    RHS1      Fraction_upper_bound_207  1
-    RHS1      R2074     1.9413251377421652e+03
-    RHS1      R2075     2.4489479965341284e+03
-    RHS1      R2077     5.0761252035818637e+02
-    RHS1      Fraction_upper_bound_208  1
-    RHS1      R2084     7.3431442646447920e+02
-    RHS1      R2085     8.8362997668630715e+02
-    RHS1      R2087     1.4930518436140522e+02
-    RHS1      Fraction_upper_bound_209  1
-    RHS1      R2094     2.0099477275961410e+03
-    RHS1      R2095     2.5104955037711447e+03
-    RHS1      R2097     5.0053744012765236e+02
-    RHS1      Fraction_upper_bound_210  1
-    RHS1      R2104     3.5176212253930453e+02
-    RHS1      R2105     4.7236237062558490e+02
-    RHS1      R2107     1.2058989566405958e+02
-    RHS1      Fraction_upper_bound_211  1
-    RHS1      R2114     1.9891851844510761e+03
-    RHS1      R2115     2.4974060299123871e+03
-    RHS1      R2117     5.0821051560717785e+02
-    RHS1      Fraction_upper_bound_212  1
-    RHS1      R2124     2.0257959490639184e+03
-    RHS1      R2125     2.5295881956637791e+03
-    RHS1      R2127     5.0378190207993674e+02
-    RHS1      Fraction_upper_bound_213  1
-    RHS1      R2134     2.9722569346064847e+02
-    RHS1      R2135     4.2273969203712255e+02
-    RHS1      R2137     1.2550365442273537e+02
-    RHS1      Fraction_upper_bound_214  1
-    RHS1      R2144     1.7946841551922537e+03
-    RHS1      R2145     2.2082748485467855e+03
-    RHS1      R2147     4.1358035573092911e+02
-    RHS1      Fraction_upper_bound_215  1
-    RHS1      R2154     1.7225513480299569e+03
-    RHS1      R2155     2.0737882245374453e+03
-    RHS1      R2157     3.5122653715644861e+02
-    RHS1      Fraction_upper_bound_216  1
-    RHS1      R2164     9.3873121389196388e+02
-    RHS1      R2165     1.1236513208753995e+03
-    RHS1      R2167     1.8490975158585678e+02
-    RHS1      Fraction_upper_bound_217  1
-    RHS1      R2174     5.8491636671145739e+02
-    RHS1      R2175     7.5911617667337634e+02
-    RHS1      R2177     1.7418946883905869e+02
-    RHS1      Fraction_upper_bound_218  1
-    RHS1      R2184     2.1994876569061475e+03
-    RHS1      R2185     2.6861275509717038e+03
-    RHS1      R2187     4.8662956303351160e+02
-    RHS1      Fraction_upper_bound_219  1
-    RHS1      R2194     1.3272065640373544e+03
-    RHS1      R2195     1.7110632773856219e+03
-    RHS1      R2197     3.8384637441842204e+02
-    RHS1      Fraction_upper_bound_220  1
-    RHS1      R2204     2.1570997511572978e+03
-    RHS1      R2205     2.7486096470194652e+03
-    RHS1      R2207     5.9149956745826626e+02
-    RHS1      Fraction_upper_bound_221  1
-    RHS1      R2214     2.4182588434985028e+03
-    RHS1      R2215     3.0093930474325525e+03
-    RHS1      R2217     5.9112388864417210e+02
-    RHS1      Fraction_upper_bound_222  1
-    RHS1      R2224     2.3271140602946480e+03
-    RHS1      R2225     2.9234578847440926e+03
-    RHS1      R2227     5.9633349673213320e+02
-    RHS1      Fraction_upper_bound_223  1
-    RHS1      R2234     1.1085276048359133e+03
-    RHS1      R2235     1.2678457059374095e+03
-    RHS1      R2237     1.5930775916029893e+02
-    RHS1      Fraction_upper_bound_224  1
-    RHS1      R2244     2.0142168391748385e+03
-    RHS1      R2245     2.5833552313687733e+03
-    RHS1      R2247     5.6912806848198113e+02
-    RHS1      Fraction_upper_bound_225  1
-    RHS1      R2254     9.6286866241261339e+02
-    RHS1      R2255     1.1851638056480456e+03
-    RHS1      R2257     2.2228480451028281e+02
-    RHS1      Fraction_upper_bound_226  1
-    RHS1      R2264     1.6993091893569888e+03
-    RHS1      R2265     2.0284256580913086e+03
-    RHS1      R2267     329.106129879306
-    RHS1      Fraction_upper_bound_227  1
-    RHS1      R2274     1.8673733157320680e+03
-    RHS1      R2275     2.3460869238185287e+03
-    RHS1      R2277     4.7870327791086294e+02
-    RHS1      Fraction_upper_bound_228  1
-    RHS1      R2284     1.0013712011462428e+03
-    RHS1      R2285     1.2031920162786425e+03
-    RHS1      R2287     2.0181046603859897e+02
-    RHS1      Fraction_upper_bound_229  1
-    RHS1      R2294     1.3561549485793894e+03
-    RHS1      R2295     1.7393210894778247e+03
-    RHS1      R2297     383.155802777165
-    RHS1      Fraction_upper_bound_230  1
-    RHS1      R2304     5.5453151571732519e+02
-    RHS1      R2305     7.4745021783401694e+02
-    RHS1      R2307     1.9290837411300009e+02
-    RHS1      Fraction_upper_bound_231  1
-    RHS1      R2314     7.5278640436605053e+02
-    RHS1      R2315     9.0516479552636633e+02
-    RHS1      R2317     1.5236805334063257e+02
-    RHS1      Fraction_upper_bound_232  1
-    RHS1      R2324     1.0083224262448689e+03
-    RHS1      R2325     1.1666120852983790e+03
-    RHS1      R2327     1.5827930621478171e+02
-    RHS1      Fraction_upper_bound_233  1
-    RHS1      R2334     9.4299667111062956e+02
-    RHS1      R2335     1.2218265281992681e+03
-    RHS1      R2337     2.7881951742410939e+02
-    RHS1      Fraction_upper_bound_234  1
-    RHS1      R2344     7.3685267937622166e+02
-    RHS1      R2345     839.190453983985
-    RHS1      R2347     1.0232741837214130e+02
-    RHS1      Fraction_upper_bound_235  1
-    RHS1      R2354     1.1290817909036266e+03
-    RHS1      R2355     1.4415190912063258e+03
-    RHS1      R2357     3.1242696060084478e+02
-    RHS1      Fraction_upper_bound_236  1
-    RHS1      R2364     1.7513622689509948e+03
-    RHS1      R2365     2.1834711561700046e+03
-    RHS1      R2367     4.3209855254057453e+02
-    RHS1      Fraction_upper_bound_237  1
-    RHS1      R2374     1.4718394959379648e+03
-    RHS1      R2375     1.7726939334258652e+03
-    RHS1      R2377     3.0084409250199434e+02
-    RHS1      Fraction_upper_bound_238  1
-    RHS1      R2384     7.2334352728214787e+02
-    RHS1      R2385     8.6625118695105107e+02
-    RHS1      R2387     1.4289730025991702e+02
-    RHS1      Fraction_upper_bound_239  1
-    RHS1      R2394     3.6930565355829572e+02
-    RHS1      R2395     5.0066043212621355e+02
-    RHS1      R2397     1.3134443101182222e+02
-    RHS1      Fraction_upper_bound_240  1
-    RHS1      R2404     1.0043593887651959e+03
-    RHS1      R2405     1.2434279937833176e+03
-    RHS1      R2407     2.3905825638243087e+02
-    RHS1      Fraction_upper_bound_241  1
-    RHS1      R2414     6.0827188111024157e+02
-    RHS1      R2415     7.9293855926626429e+02
-    RHS1      R2417     1.8465634529968978e+02
-    RHS1      Fraction_upper_bound_242  1
-    RHS1      R2424     2.5289405078450418e+03
-    RHS1      R2425     3.1114983276767766e+03
-    RHS1      R2427     5.8254748660898474e+02
-    RHS1      Fraction_upper_bound_243  1
-    RHS1      R2434     1.0165021902536510e+03
-    RHS1      R2435     1.1921276488416042e+03
-    RHS1      R2437     1.7561511248704312e+02
-    RHS1      Fraction_upper_bound_244  1
-    RHS1      R2444     1.9400910250343020e+03
-    RHS1      R2445     2.4428325688571972e+03
-    RHS1      R2447     5.0273121870249827e+02
-    RHS1      Fraction_upper_bound_245  1
-    RHS1      R2454     1332.03045372219
-    RHS1      R2455     1.7250947651967078e+03
-    RHS1      R2457     3.9305397087057241e+02
-    RHS1      Fraction_upper_bound_246  1
-    RHS1      R2464     1.3560602221693052e+03
-    RHS1      R2465     1.7407140193260259e+03
-    RHS1      R2467     3.8464345999214720e+02
-    RHS1      Fraction_upper_bound_247  1
-    RHS1      R2474     1.8387731117283824e+03
-    RHS1      R2475     2.1948238076767211e+03
-    RHS1      R2477     3.5604035796189231e+02
-    RHS1      Fraction_upper_bound_248  1
-    RHS1      R2484     2.2310617104616967e+03
-    RHS1      R2485     2.8169535893807015e+03
-    RHS1      R2487     5.8588153805697550e+02
-    RHS1      Fraction_upper_bound_249  1
-    RHS1      R2494     8.3467819230751650e+02
-    RHS1      R2495     1.1166109213791663e+03
-    RHS1      R2497     2.8192238754581894e+02
+    RHS1      R1494     1.6417753079310282e+03
+    RHS1      R1495     1.9885067278938195e+03
+    RHS1      R1497     3.4667101698182904e+02
 BOUNDS
  FR BND1      alphas[0]
  FR BND1      alphas[1]
@@ -11160,106 +6760,6 @@ BOUNDS
  FR BND1      f_var[147]
  FR BND1      f_var[148]
  FR BND1      f_var[149]
- FR BND1      f_var[150]
- FR BND1      f_var[151]
- FR BND1      f_var[152]
- FR BND1      f_var[153]
- FR BND1      f_var[154]
- FR BND1      f_var[155]
- FR BND1      f_var[156]
- FR BND1      f_var[157]
- FR BND1      f_var[158]
- FR BND1      f_var[159]
- FR BND1      f_var[160]
- FR BND1      f_var[161]
- FR BND1      f_var[162]
- FR BND1      f_var[163]
- FR BND1      f_var[164]
- FR BND1      f_var[165]
- FR BND1      f_var[166]
- FR BND1      f_var[167]
- FR BND1      f_var[168]
- FR BND1      f_var[169]
- FR BND1      f_var[170]
- FR BND1      f_var[171]
- FR BND1      f_var[172]
- FR BND1      f_var[173]
- FR BND1      f_var[174]
- FR BND1      f_var[175]
- FR BND1      f_var[176]
- FR BND1      f_var[177]
- FR BND1      f_var[178]
- FR BND1      f_var[179]
- FR BND1      f_var[180]
- FR BND1      f_var[181]
- FR BND1      f_var[182]
- FR BND1      f_var[183]
- FR BND1      f_var[184]
- FR BND1      f_var[185]
- FR BND1      f_var[186]
- FR BND1      f_var[187]
- FR BND1      f_var[188]
- FR BND1      f_var[189]
- FR BND1      f_var[190]
- FR BND1      f_var[191]
- FR BND1      f_var[192]
- FR BND1      f_var[193]
- FR BND1      f_var[194]
- FR BND1      f_var[195]
- FR BND1      f_var[196]
- FR BND1      f_var[197]
- FR BND1      f_var[198]
- FR BND1      f_var[199]
- FR BND1      f_var[200]
- FR BND1      f_var[201]
- FR BND1      f_var[202]
- FR BND1      f_var[203]
- FR BND1      f_var[204]
- FR BND1      f_var[205]
- FR BND1      f_var[206]
- FR BND1      f_var[207]
- FR BND1      f_var[208]
- FR BND1      f_var[209]
- FR BND1      f_var[210]
- FR BND1      f_var[211]
- FR BND1      f_var[212]
- FR BND1      f_var[213]
- FR BND1      f_var[214]
- FR BND1      f_var[215]
- FR BND1      f_var[216]
- FR BND1      f_var[217]
- FR BND1      f_var[218]
- FR BND1      f_var[219]
- FR BND1      f_var[220]
- FR BND1      f_var[221]
- FR BND1      f_var[222]
- FR BND1      f_var[223]
- FR BND1      f_var[224]
- FR BND1      f_var[225]
- FR BND1      f_var[226]
- FR BND1      f_var[227]
- FR BND1      f_var[228]
- FR BND1      f_var[229]
- FR BND1      f_var[230]
- FR BND1      f_var[231]
- FR BND1      f_var[232]
- FR BND1      f_var[233]
- FR BND1      f_var[234]
- FR BND1      f_var[235]
- FR BND1      f_var[236]
- FR BND1      f_var[237]
- FR BND1      f_var[238]
- FR BND1      f_var[239]
- FR BND1      f_var[240]
- FR BND1      f_var[241]
- FR BND1      f_var[242]
- FR BND1      f_var[243]
- FR BND1      f_var[244]
- FR BND1      f_var[245]
- FR BND1      f_var[246]
- FR BND1      f_var[247]
- FR BND1      f_var[248]
- FR BND1      f_var[249]
  UP BND1      Fraction[0]  1
  UP BND1      Fraction[1]  1
  UP BND1      Fraction[2]  1
@@ -11410,356 +6910,156 @@ BOUNDS
  UP BND1      Fraction[147]  1
  UP BND1      Fraction[148]  1
  UP BND1      Fraction[149]  1
- UP BND1      Fraction[150]  1
- UP BND1      Fraction[151]  1
- UP BND1      Fraction[152]  1
- UP BND1      Fraction[153]  1
- UP BND1      Fraction[154]  1
- UP BND1      Fraction[155]  1
- UP BND1      Fraction[156]  1
- UP BND1      Fraction[157]  1
- UP BND1      Fraction[158]  1
- UP BND1      Fraction[159]  1
- UP BND1      Fraction[160]  1
- UP BND1      Fraction[161]  1
- UP BND1      Fraction[162]  1
- UP BND1      Fraction[163]  1
- UP BND1      Fraction[164]  1
- UP BND1      Fraction[165]  1
- UP BND1      Fraction[166]  1
- UP BND1      Fraction[167]  1
- UP BND1      Fraction[168]  1
- UP BND1      Fraction[169]  1
- UP BND1      Fraction[170]  1
- UP BND1      Fraction[171]  1
- UP BND1      Fraction[172]  1
- UP BND1      Fraction[173]  1
- UP BND1      Fraction[174]  1
- UP BND1      Fraction[175]  1
- UP BND1      Fraction[176]  1
- UP BND1      Fraction[177]  1
- UP BND1      Fraction[178]  1
- UP BND1      Fraction[179]  1
- UP BND1      Fraction[180]  1
- UP BND1      Fraction[181]  1
- UP BND1      Fraction[182]  1
- UP BND1      Fraction[183]  1
- UP BND1      Fraction[184]  1
- UP BND1      Fraction[185]  1
- UP BND1      Fraction[186]  1
- UP BND1      Fraction[187]  1
- UP BND1      Fraction[188]  1
- UP BND1      Fraction[189]  1
- UP BND1      Fraction[190]  1
- UP BND1      Fraction[191]  1
- UP BND1      Fraction[192]  1
- UP BND1      Fraction[193]  1
- UP BND1      Fraction[194]  1
- UP BND1      Fraction[195]  1
- UP BND1      Fraction[196]  1
- UP BND1      Fraction[197]  1
- UP BND1      Fraction[198]  1
- UP BND1      Fraction[199]  1
- UP BND1      Fraction[200]  1
- UP BND1      Fraction[201]  1
- UP BND1      Fraction[202]  1
- UP BND1      Fraction[203]  1
- UP BND1      Fraction[204]  1
- UP BND1      Fraction[205]  1
- UP BND1      Fraction[206]  1
- UP BND1      Fraction[207]  1
- UP BND1      Fraction[208]  1
- UP BND1      Fraction[209]  1
- UP BND1      Fraction[210]  1
- UP BND1      Fraction[211]  1
- UP BND1      Fraction[212]  1
- UP BND1      Fraction[213]  1
- UP BND1      Fraction[214]  1
- UP BND1      Fraction[215]  1
- UP BND1      Fraction[216]  1
- UP BND1      Fraction[217]  1
- UP BND1      Fraction[218]  1
- UP BND1      Fraction[219]  1
- UP BND1      Fraction[220]  1
- UP BND1      Fraction[221]  1
- UP BND1      Fraction[222]  1
- UP BND1      Fraction[223]  1
- UP BND1      Fraction[224]  1
- UP BND1      Fraction[225]  1
- UP BND1      Fraction[226]  1
- UP BND1      Fraction[227]  1
- UP BND1      Fraction[228]  1
- UP BND1      Fraction[229]  1
- UP BND1      Fraction[230]  1
- UP BND1      Fraction[231]  1
- UP BND1      Fraction[232]  1
- UP BND1      Fraction[233]  1
- UP BND1      Fraction[234]  1
- UP BND1      Fraction[235]  1
- UP BND1      Fraction[236]  1
- UP BND1      Fraction[237]  1
- UP BND1      Fraction[238]  1
- UP BND1      Fraction[239]  1
- UP BND1      Fraction[240]  1
- UP BND1      Fraction[241]  1
- UP BND1      Fraction[242]  1
- UP BND1      Fraction[243]  1
- UP BND1      Fraction[244]  1
- UP BND1      Fraction[245]  1
- UP BND1      Fraction[246]  1
- UP BND1      Fraction[247]  1
- UP BND1      Fraction[248]  1
- UP BND1      Fraction[249]  1
- UP BND1      Q0_var[0]  2.1571794361257403e+03
- UP BND1      Q0_var[1]  2.1571794361257403e+03
- UP BND1      Q0_var[2]  2.1571794361257403e+03
- UP BND1      Q0_var[3]  2.1571794361257403e+03
- UP BND1      Q0_var[4]  2.1571794361257403e+03
- UP BND1      Q0_var[5]  2.1571794361257403e+03
- UP BND1      Q0_var[6]  2.1571794361257403e+03
- UP BND1      Q0_var[7]  2.1571794361257403e+03
- UP BND1      Q0_var[8]  2.1571794361257403e+03
- UP BND1      Q0_var[9]  2.1571794361257403e+03
- UP BND1      Q0_var[10]  2.1571794361257403e+03
- UP BND1      Q0_var[11]  2.1571794361257403e+03
- UP BND1      Q0_var[12]  2.1571794361257403e+03
- UP BND1      Q0_var[13]  2.1571794361257403e+03
- UP BND1      Q0_var[14]  2.1571794361257403e+03
- UP BND1      Q0_var[15]  2.1571794361257403e+03
- UP BND1      Q0_var[16]  2.1571794361257403e+03
- UP BND1      Q0_var[17]  2.1571794361257403e+03
- UP BND1      Q0_var[18]  2.1571794361257403e+03
- UP BND1      Q0_var[19]  2.1571794361257403e+03
- UP BND1      Q0_var[20]  2.1571794361257403e+03
- UP BND1      Q0_var[21]  2.1571794361257403e+03
- UP BND1      Q0_var[22]  2.1571794361257403e+03
- UP BND1      Q0_var[23]  2.1571794361257403e+03
- UP BND1      Q0_var[24]  2.1571794361257403e+03
- UP BND1      Q0_var[25]  2.1571794361257403e+03
- UP BND1      Q0_var[26]  2.1571794361257403e+03
- UP BND1      Q0_var[27]  2.1571794361257403e+03
- UP BND1      Q0_var[28]  2.1571794361257403e+03
- UP BND1      Q0_var[29]  2.1571794361257403e+03
- UP BND1      Q0_var[30]  2.1571794361257403e+03
- UP BND1      Q0_var[31]  2.1571794361257403e+03
- UP BND1      Q0_var[32]  2.1571794361257403e+03
- UP BND1      Q0_var[33]  2.1571794361257403e+03
- UP BND1      Q0_var[34]  2.1571794361257403e+03
- UP BND1      Q0_var[35]  2.1571794361257403e+03
- UP BND1      Q0_var[36]  2.1571794361257403e+03
- UP BND1      Q0_var[37]  2.1571794361257403e+03
- UP BND1      Q0_var[38]  2.1571794361257403e+03
- UP BND1      Q0_var[39]  2.1571794361257403e+03
- UP BND1      Q0_var[40]  2.1571794361257403e+03
- UP BND1      Q0_var[41]  2.1571794361257403e+03
- UP BND1      Q0_var[42]  2.1571794361257403e+03
- UP BND1      Q0_var[43]  2.1571794361257403e+03
- UP BND1      Q0_var[44]  2.1571794361257403e+03
- UP BND1      Q0_var[45]  2.1571794361257403e+03
- UP BND1      Q0_var[46]  2.1571794361257403e+03
- UP BND1      Q0_var[47]  2.1571794361257403e+03
- UP BND1      Q0_var[48]  2.1571794361257403e+03
- UP BND1      Q0_var[49]  2.1571794361257403e+03
- UP BND1      Q0_var[50]  2.1571794361257403e+03
- UP BND1      Q0_var[51]  2.1571794361257403e+03
- UP BND1      Q0_var[52]  2.1571794361257403e+03
- UP BND1      Q0_var[53]  2.1571794361257403e+03
- UP BND1      Q0_var[54]  2.1571794361257403e+03
- UP BND1      Q0_var[55]  2.1571794361257403e+03
- UP BND1      Q0_var[56]  2.1571794361257403e+03
- UP BND1      Q0_var[57]  2.1571794361257403e+03
- UP BND1      Q0_var[58]  2.1571794361257403e+03
- UP BND1      Q0_var[59]  2.1571794361257403e+03
- UP BND1      Q0_var[60]  2.1571794361257403e+03
- UP BND1      Q0_var[61]  2.1571794361257403e+03
- UP BND1      Q0_var[62]  2.1571794361257403e+03
- UP BND1      Q0_var[63]  2.1571794361257403e+03
- UP BND1      Q0_var[64]  2.1571794361257403e+03
- UP BND1      Q0_var[65]  2.1571794361257403e+03
- UP BND1      Q0_var[66]  2.1571794361257403e+03
- UP BND1      Q0_var[67]  2.1571794361257403e+03
- UP BND1      Q0_var[68]  2.1571794361257403e+03
- UP BND1      Q0_var[69]  2.1571794361257403e+03
- UP BND1      Q0_var[70]  2.1571794361257403e+03
- UP BND1      Q0_var[71]  2.1571794361257403e+03
- UP BND1      Q0_var[72]  2.1571794361257403e+03
- UP BND1      Q0_var[73]  2.1571794361257403e+03
- UP BND1      Q0_var[74]  2.1571794361257403e+03
- UP BND1      Q0_var[75]  2.1571794361257403e+03
- UP BND1      Q0_var[76]  2.1571794361257403e+03
- UP BND1      Q0_var[77]  2.1571794361257403e+03
- UP BND1      Q0_var[78]  2.1571794361257403e+03
- UP BND1      Q0_var[79]  2.1571794361257403e+03
- UP BND1      Q0_var[80]  2.1571794361257403e+03
- UP BND1      Q0_var[81]  2.1571794361257403e+03
- UP BND1      Q0_var[82]  2.1571794361257403e+03
- UP BND1      Q0_var[83]  2.1571794361257403e+03
- UP BND1      Q0_var[84]  2.1571794361257403e+03
- UP BND1      Q0_var[85]  2.1571794361257403e+03
- UP BND1      Q0_var[86]  2.1571794361257403e+03
- UP BND1      Q0_var[87]  2.1571794361257403e+03
- UP BND1      Q0_var[88]  2.1571794361257403e+03
- UP BND1      Q0_var[89]  2.1571794361257403e+03
- UP BND1      Q0_var[90]  2.1571794361257403e+03
- UP BND1      Q0_var[91]  2.1571794361257403e+03
- UP BND1      Q0_var[92]  2.1571794361257403e+03
- UP BND1      Q0_var[93]  2.1571794361257403e+03
- UP BND1      Q0_var[94]  2.1571794361257403e+03
- UP BND1      Q0_var[95]  2.1571794361257403e+03
- UP BND1      Q0_var[96]  2.1571794361257403e+03
- UP BND1      Q0_var[97]  2.1571794361257403e+03
- UP BND1      Q0_var[98]  2.1571794361257403e+03
- UP BND1      Q0_var[99]  2.1571794361257403e+03
- UP BND1      Q0_var[100]  2.1571794361257403e+03
- UP BND1      Q0_var[101]  2.1571794361257403e+03
- UP BND1      Q0_var[102]  2.1571794361257403e+03
- UP BND1      Q0_var[103]  2.1571794361257403e+03
- UP BND1      Q0_var[104]  2.1571794361257403e+03
- UP BND1      Q0_var[105]  2.1571794361257403e+03
- UP BND1      Q0_var[106]  2.1571794361257403e+03
- UP BND1      Q0_var[107]  2.1571794361257403e+03
- UP BND1      Q0_var[108]  2.1571794361257403e+03
- UP BND1      Q0_var[109]  2.1571794361257403e+03
- UP BND1      Q0_var[110]  2.1571794361257403e+03
- UP BND1      Q0_var[111]  2.1571794361257403e+03
- UP BND1      Q0_var[112]  2.1571794361257403e+03
- UP BND1      Q0_var[113]  2.1571794361257403e+03
- UP BND1      Q0_var[114]  2.1571794361257403e+03
- UP BND1      Q0_var[115]  2.1571794361257403e+03
- UP BND1      Q0_var[116]  2.1571794361257403e+03
- UP BND1      Q0_var[117]  2.1571794361257403e+03
- UP BND1      Q0_var[118]  2.1571794361257403e+03
- UP BND1      Q0_var[119]  2.1571794361257403e+03
- UP BND1      Q0_var[120]  2.1571794361257403e+03
- UP BND1      Q0_var[121]  2.1571794361257403e+03
- UP BND1      Q0_var[122]  2.1571794361257403e+03
- UP BND1      Q0_var[123]  2.1571794361257403e+03
- UP BND1      Q0_var[124]  2.1571794361257403e+03
- UP BND1      Q0_var[125]  2.1571794361257403e+03
- UP BND1      Q0_var[126]  2.1571794361257403e+03
- UP BND1      Q0_var[127]  2.1571794361257403e+03
- UP BND1      Q0_var[128]  2.1571794361257403e+03
- UP BND1      Q0_var[129]  2.1571794361257403e+03
- UP BND1      Q0_var[130]  2.1571794361257403e+03
- UP BND1      Q0_var[131]  2.1571794361257403e+03
- UP BND1      Q0_var[132]  2.1571794361257403e+03
- UP BND1      Q0_var[133]  2.1571794361257403e+03
- UP BND1      Q0_var[134]  2.1571794361257403e+03
- UP BND1      Q0_var[135]  2.1571794361257403e+03
- UP BND1      Q0_var[136]  2.1571794361257403e+03
- UP BND1      Q0_var[137]  2.1571794361257403e+03
- UP BND1      Q0_var[138]  2.1571794361257403e+03
- UP BND1      Q0_var[139]  2.1571794361257403e+03
- UP BND1      Q0_var[140]  2.1571794361257403e+03
- UP BND1      Q0_var[141]  2.1571794361257403e+03
- UP BND1      Q0_var[142]  2.1571794361257403e+03
- UP BND1      Q0_var[143]  2.1571794361257403e+03
- UP BND1      Q0_var[144]  2.1571794361257403e+03
- UP BND1      Q0_var[145]  2.1571794361257403e+03
- UP BND1      Q0_var[146]  2.1571794361257403e+03
- UP BND1      Q0_var[147]  2.1571794361257403e+03
- UP BND1      Q0_var[148]  2.1571794361257403e+03
- UP BND1      Q0_var[149]  2.1571794361257403e+03
- UP BND1      Q0_var[150]  2.1571794361257403e+03
- UP BND1      Q0_var[151]  2.1571794361257403e+03
- UP BND1      Q0_var[152]  2.1571794361257403e+03
- UP BND1      Q0_var[153]  2.1571794361257403e+03
- UP BND1      Q0_var[154]  2.1571794361257403e+03
- UP BND1      Q0_var[155]  2.1571794361257403e+03
- UP BND1      Q0_var[156]  2.1571794361257403e+03
- UP BND1      Q0_var[157]  2.1571794361257403e+03
- UP BND1      Q0_var[158]  2.1571794361257403e+03
- UP BND1      Q0_var[159]  2.1571794361257403e+03
- UP BND1      Q0_var[160]  2.1571794361257403e+03
- UP BND1      Q0_var[161]  2.1571794361257403e+03
- UP BND1      Q0_var[162]  2.1571794361257403e+03
- UP BND1      Q0_var[163]  2.1571794361257403e+03
- UP BND1      Q0_var[164]  2.1571794361257403e+03
- UP BND1      Q0_var[165]  2.1571794361257403e+03
- UP BND1      Q0_var[166]  2.1571794361257403e+03
- UP BND1      Q0_var[167]  2.1571794361257403e+03
- UP BND1      Q0_var[168]  2.1571794361257403e+03
- UP BND1      Q0_var[169]  2.1571794361257403e+03
- UP BND1      Q0_var[170]  2.1571794361257403e+03
- UP BND1      Q0_var[171]  2.1571794361257403e+03
- UP BND1      Q0_var[172]  2.1571794361257403e+03
- UP BND1      Q0_var[173]  2.1571794361257403e+03
- UP BND1      Q0_var[174]  2.1571794361257403e+03
- UP BND1      Q0_var[175]  2.1571794361257403e+03
- UP BND1      Q0_var[176]  2.1571794361257403e+03
- UP BND1      Q0_var[177]  2.1571794361257403e+03
- UP BND1      Q0_var[178]  2.1571794361257403e+03
- UP BND1      Q0_var[179]  2.1571794361257403e+03
- UP BND1      Q0_var[180]  2.1571794361257403e+03
- UP BND1      Q0_var[181]  2.1571794361257403e+03
- UP BND1      Q0_var[182]  2.1571794361257403e+03
- UP BND1      Q0_var[183]  2.1571794361257403e+03
- UP BND1      Q0_var[184]  2.1571794361257403e+03
- UP BND1      Q0_var[185]  2.1571794361257403e+03
- UP BND1      Q0_var[186]  2.1571794361257403e+03
- UP BND1      Q0_var[187]  2.1571794361257403e+03
- UP BND1      Q0_var[188]  2.1571794361257403e+03
- UP BND1      Q0_var[189]  2.1571794361257403e+03
- UP BND1      Q0_var[190]  2.1571794361257403e+03
- UP BND1      Q0_var[191]  2.1571794361257403e+03
- UP BND1      Q0_var[192]  2.1571794361257403e+03
- UP BND1      Q0_var[193]  2.1571794361257403e+03
- UP BND1      Q0_var[194]  2.1571794361257403e+03
- UP BND1      Q0_var[195]  2.1571794361257403e+03
- UP BND1      Q0_var[196]  2.1571794361257403e+03
- UP BND1      Q0_var[197]  2.1571794361257403e+03
- UP BND1      Q0_var[198]  2.1571794361257403e+03
- UP BND1      Q0_var[199]  2.1571794361257403e+03
- UP BND1      Q0_var[200]  2.1571794361257403e+03
- UP BND1      Q0_var[201]  2.1571794361257403e+03
- UP BND1      Q0_var[202]  2.1571794361257403e+03
- UP BND1      Q0_var[203]  2.1571794361257403e+03
- UP BND1      Q0_var[204]  2.1571794361257403e+03
- UP BND1      Q0_var[205]  2.1571794361257403e+03
- UP BND1      Q0_var[206]  2.1571794361257403e+03
- UP BND1      Q0_var[207]  2.1571794361257403e+03
- UP BND1      Q0_var[208]  2.1571794361257403e+03
- UP BND1      Q0_var[209]  2.1571794361257403e+03
- UP BND1      Q0_var[210]  2.1571794361257403e+03
- UP BND1      Q0_var[211]  2.1571794361257403e+03
- UP BND1      Q0_var[212]  2.1571794361257403e+03
- UP BND1      Q0_var[213]  2.1571794361257403e+03
- UP BND1      Q0_var[214]  2.1571794361257403e+03
- UP BND1      Q0_var[215]  2.1571794361257403e+03
- UP BND1      Q0_var[216]  2.1571794361257403e+03
- UP BND1      Q0_var[217]  2.1571794361257403e+03
- UP BND1      Q0_var[218]  2.1571794361257403e+03
- UP BND1      Q0_var[219]  2.1571794361257403e+03
- UP BND1      Q0_var[220]  2.1571794361257403e+03
- UP BND1      Q0_var[221]  2.1571794361257403e+03
- UP BND1      Q0_var[222]  2.1571794361257403e+03
- UP BND1      Q0_var[223]  2.1571794361257403e+03
- UP BND1      Q0_var[224]  2.1571794361257403e+03
- UP BND1      Q0_var[225]  2.1571794361257403e+03
- UP BND1      Q0_var[226]  2.1571794361257403e+03
- UP BND1      Q0_var[227]  2.1571794361257403e+03
- UP BND1      Q0_var[228]  2.1571794361257403e+03
- UP BND1      Q0_var[229]  2.1571794361257403e+03
- UP BND1      Q0_var[230]  2.1571794361257403e+03
- UP BND1      Q0_var[231]  2.1571794361257403e+03
- UP BND1      Q0_var[232]  2.1571794361257403e+03
- UP BND1      Q0_var[233]  2.1571794361257403e+03
- UP BND1      Q0_var[234]  2.1571794361257403e+03
- UP BND1      Q0_var[235]  2.1571794361257403e+03
- UP BND1      Q0_var[236]  2.1571794361257403e+03
- UP BND1      Q0_var[237]  2.1571794361257403e+03
- UP BND1      Q0_var[238]  2.1571794361257403e+03
- UP BND1      Q0_var[239]  2.1571794361257403e+03
- UP BND1      Q0_var[240]  2.1571794361257403e+03
- UP BND1      Q0_var[241]  2.1571794361257403e+03
- UP BND1      Q0_var[242]  2.1571794361257403e+03
- UP BND1      Q0_var[243]  2.1571794361257403e+03
- UP BND1      Q0_var[244]  2.1571794361257403e+03
- UP BND1      Q0_var[245]  2.1571794361257403e+03
- UP BND1      Q0_var[246]  2.1571794361257403e+03
- UP BND1      Q0_var[247]  2.1571794361257403e+03
- UP BND1      Q0_var[248]  2.1571794361257403e+03
- UP BND1      Q0_var[249]  2.1571794361257403e+03
+ UP BND1      Q0_var[0]  1.8587703970561556e+03
+ UP BND1      Q0_var[1]  1.8587703970561556e+03
+ UP BND1      Q0_var[2]  1.8587703970561556e+03
+ UP BND1      Q0_var[3]  1.8587703970561556e+03
+ UP BND1      Q0_var[4]  1.8587703970561556e+03
+ UP BND1      Q0_var[5]  1.8587703970561556e+03
+ UP BND1      Q0_var[6]  1.8587703970561556e+03
+ UP BND1      Q0_var[7]  1.8587703970561556e+03
+ UP BND1      Q0_var[8]  1.8587703970561556e+03
+ UP BND1      Q0_var[9]  1.8587703970561556e+03
+ UP BND1      Q0_var[10]  1.8587703970561556e+03
+ UP BND1      Q0_var[11]  1.8587703970561556e+03
+ UP BND1      Q0_var[12]  1.8587703970561556e+03
+ UP BND1      Q0_var[13]  1.8587703970561556e+03
+ UP BND1      Q0_var[14]  1.8587703970561556e+03
+ UP BND1      Q0_var[15]  1.8587703970561556e+03
+ UP BND1      Q0_var[16]  1.8587703970561556e+03
+ UP BND1      Q0_var[17]  1.8587703970561556e+03
+ UP BND1      Q0_var[18]  1.8587703970561556e+03
+ UP BND1      Q0_var[19]  1.8587703970561556e+03
+ UP BND1      Q0_var[20]  1.8587703970561556e+03
+ UP BND1      Q0_var[21]  1.8587703970561556e+03
+ UP BND1      Q0_var[22]  1.8587703970561556e+03
+ UP BND1      Q0_var[23]  1.8587703970561556e+03
+ UP BND1      Q0_var[24]  1.8587703970561556e+03
+ UP BND1      Q0_var[25]  1.8587703970561556e+03
+ UP BND1      Q0_var[26]  1.8587703970561556e+03
+ UP BND1      Q0_var[27]  1.8587703970561556e+03
+ UP BND1      Q0_var[28]  1.8587703970561556e+03
+ UP BND1      Q0_var[29]  1.8587703970561556e+03
+ UP BND1      Q0_var[30]  1.8587703970561556e+03
+ UP BND1      Q0_var[31]  1.8587703970561556e+03
+ UP BND1      Q0_var[32]  1.8587703970561556e+03
+ UP BND1      Q0_var[33]  1.8587703970561556e+03
+ UP BND1      Q0_var[34]  1.8587703970561556e+03
+ UP BND1      Q0_var[35]  1.8587703970561556e+03
+ UP BND1      Q0_var[36]  1.8587703970561556e+03
+ UP BND1      Q0_var[37]  1.8587703970561556e+03
+ UP BND1      Q0_var[38]  1.8587703970561556e+03
+ UP BND1      Q0_var[39]  1.8587703970561556e+03
+ UP BND1      Q0_var[40]  1.8587703970561556e+03
+ UP BND1      Q0_var[41]  1.8587703970561556e+03
+ UP BND1      Q0_var[42]  1.8587703970561556e+03
+ UP BND1      Q0_var[43]  1.8587703970561556e+03
+ UP BND1      Q0_var[44]  1.8587703970561556e+03
+ UP BND1      Q0_var[45]  1.8587703970561556e+03
+ UP BND1      Q0_var[46]  1.8587703970561556e+03
+ UP BND1      Q0_var[47]  1.8587703970561556e+03
+ UP BND1      Q0_var[48]  1.8587703970561556e+03
+ UP BND1      Q0_var[49]  1.8587703970561556e+03
+ UP BND1      Q0_var[50]  1.8587703970561556e+03
+ UP BND1      Q0_var[51]  1.8587703970561556e+03
+ UP BND1      Q0_var[52]  1.8587703970561556e+03
+ UP BND1      Q0_var[53]  1.8587703970561556e+03
+ UP BND1      Q0_var[54]  1.8587703970561556e+03
+ UP BND1      Q0_var[55]  1.8587703970561556e+03
+ UP BND1      Q0_var[56]  1.8587703970561556e+03
+ UP BND1      Q0_var[57]  1.8587703970561556e+03
+ UP BND1      Q0_var[58]  1.8587703970561556e+03
+ UP BND1      Q0_var[59]  1.8587703970561556e+03
+ UP BND1      Q0_var[60]  1.8587703970561556e+03
+ UP BND1      Q0_var[61]  1.8587703970561556e+03
+ UP BND1      Q0_var[62]  1.8587703970561556e+03
+ UP BND1      Q0_var[63]  1.8587703970561556e+03
+ UP BND1      Q0_var[64]  1.8587703970561556e+03
+ UP BND1      Q0_var[65]  1.8587703970561556e+03
+ UP BND1      Q0_var[66]  1.8587703970561556e+03
+ UP BND1      Q0_var[67]  1.8587703970561556e+03
+ UP BND1      Q0_var[68]  1.8587703970561556e+03
+ UP BND1      Q0_var[69]  1.8587703970561556e+03
+ UP BND1      Q0_var[70]  1.8587703970561556e+03
+ UP BND1      Q0_var[71]  1.8587703970561556e+03
+ UP BND1      Q0_var[72]  1.8587703970561556e+03
+ UP BND1      Q0_var[73]  1.8587703970561556e+03
+ UP BND1      Q0_var[74]  1.8587703970561556e+03
+ UP BND1      Q0_var[75]  1.8587703970561556e+03
+ UP BND1      Q0_var[76]  1.8587703970561556e+03
+ UP BND1      Q0_var[77]  1.8587703970561556e+03
+ UP BND1      Q0_var[78]  1.8587703970561556e+03
+ UP BND1      Q0_var[79]  1.8587703970561556e+03
+ UP BND1      Q0_var[80]  1.8587703970561556e+03
+ UP BND1      Q0_var[81]  1.8587703970561556e+03
+ UP BND1      Q0_var[82]  1.8587703970561556e+03
+ UP BND1      Q0_var[83]  1.8587703970561556e+03
+ UP BND1      Q0_var[84]  1.8587703970561556e+03
+ UP BND1      Q0_var[85]  1.8587703970561556e+03
+ UP BND1      Q0_var[86]  1.8587703970561556e+03
+ UP BND1      Q0_var[87]  1.8587703970561556e+03
+ UP BND1      Q0_var[88]  1.8587703970561556e+03
+ UP BND1      Q0_var[89]  1.8587703970561556e+03
+ UP BND1      Q0_var[90]  1.8587703970561556e+03
+ UP BND1      Q0_var[91]  1.8587703970561556e+03
+ UP BND1      Q0_var[92]  1.8587703970561556e+03
+ UP BND1      Q0_var[93]  1.8587703970561556e+03
+ UP BND1      Q0_var[94]  1.8587703970561556e+03
+ UP BND1      Q0_var[95]  1.8587703970561556e+03
+ UP BND1      Q0_var[96]  1.8587703970561556e+03
+ UP BND1      Q0_var[97]  1.8587703970561556e+03
+ UP BND1      Q0_var[98]  1.8587703970561556e+03
+ UP BND1      Q0_var[99]  1.8587703970561556e+03
+ UP BND1      Q0_var[100]  1.8587703970561556e+03
+ UP BND1      Q0_var[101]  1.8587703970561556e+03
+ UP BND1      Q0_var[102]  1.8587703970561556e+03
+ UP BND1      Q0_var[103]  1.8587703970561556e+03
+ UP BND1      Q0_var[104]  1.8587703970561556e+03
+ UP BND1      Q0_var[105]  1.8587703970561556e+03
+ UP BND1      Q0_var[106]  1.8587703970561556e+03
+ UP BND1      Q0_var[107]  1.8587703970561556e+03
+ UP BND1      Q0_var[108]  1.8587703970561556e+03
+ UP BND1      Q0_var[109]  1.8587703970561556e+03
+ UP BND1      Q0_var[110]  1.8587703970561556e+03
+ UP BND1      Q0_var[111]  1.8587703970561556e+03
+ UP BND1      Q0_var[112]  1.8587703970561556e+03
+ UP BND1      Q0_var[113]  1.8587703970561556e+03
+ UP BND1      Q0_var[114]  1.8587703970561556e+03
+ UP BND1      Q0_var[115]  1.8587703970561556e+03
+ UP BND1      Q0_var[116]  1.8587703970561556e+03
+ UP BND1      Q0_var[117]  1.8587703970561556e+03
+ UP BND1      Q0_var[118]  1.8587703970561556e+03
+ UP BND1      Q0_var[119]  1.8587703970561556e+03
+ UP BND1      Q0_var[120]  1.8587703970561556e+03
+ UP BND1      Q0_var[121]  1.8587703970561556e+03
+ UP BND1      Q0_var[122]  1.8587703970561556e+03
+ UP BND1      Q0_var[123]  1.8587703970561556e+03
+ UP BND1      Q0_var[124]  1.8587703970561556e+03
+ UP BND1      Q0_var[125]  1.8587703970561556e+03
+ UP BND1      Q0_var[126]  1.8587703970561556e+03
+ UP BND1      Q0_var[127]  1.8587703970561556e+03
+ UP BND1      Q0_var[128]  1.8587703970561556e+03
+ UP BND1      Q0_var[129]  1.8587703970561556e+03
+ UP BND1      Q0_var[130]  1.8587703970561556e+03
+ UP BND1      Q0_var[131]  1.8587703970561556e+03
+ UP BND1      Q0_var[132]  1.8587703970561556e+03
+ UP BND1      Q0_var[133]  1.8587703970561556e+03
+ UP BND1      Q0_var[134]  1.8587703970561556e+03
+ UP BND1      Q0_var[135]  1.8587703970561556e+03
+ UP BND1      Q0_var[136]  1.8587703970561556e+03
+ UP BND1      Q0_var[137]  1.8587703970561556e+03
+ UP BND1      Q0_var[138]  1.8587703970561556e+03
+ UP BND1      Q0_var[139]  1.8587703970561556e+03
+ UP BND1      Q0_var[140]  1.8587703970561556e+03
+ UP BND1      Q0_var[141]  1.8587703970561556e+03
+ UP BND1      Q0_var[142]  1.8587703970561556e+03
+ UP BND1      Q0_var[143]  1.8587703970561556e+03
+ UP BND1      Q0_var[144]  1.8587703970561556e+03
+ UP BND1      Q0_var[145]  1.8587703970561556e+03
+ UP BND1      Q0_var[146]  1.8587703970561556e+03
+ UP BND1      Q0_var[147]  1.8587703970561556e+03
+ UP BND1      Q0_var[148]  1.8587703970561556e+03
+ UP BND1      Q0_var[149]  1.8587703970561556e+03
  FR BND1      profits_vars[0]
  FR BND1      profits_vars[1]
  FR BND1      profits_vars[2]
@@ -11910,106 +7210,6 @@ BOUNDS
  FR BND1      profits_vars[147]
  FR BND1      profits_vars[148]
  FR BND1      profits_vars[149]
- FR BND1      profits_vars[150]
- FR BND1      profits_vars[151]
- FR BND1      profits_vars[152]
- FR BND1      profits_vars[153]
- FR BND1      profits_vars[154]
- FR BND1      profits_vars[155]
- FR BND1      profits_vars[156]
- FR BND1      profits_vars[157]
- FR BND1      profits_vars[158]
- FR BND1      profits_vars[159]
- FR BND1      profits_vars[160]
- FR BND1      profits_vars[161]
- FR BND1      profits_vars[162]
- FR BND1      profits_vars[163]
- FR BND1      profits_vars[164]
- FR BND1      profits_vars[165]
- FR BND1      profits_vars[166]
- FR BND1      profits_vars[167]
- FR BND1      profits_vars[168]
- FR BND1      profits_vars[169]
- FR BND1      profits_vars[170]
- FR BND1      profits_vars[171]
- FR BND1      profits_vars[172]
- FR BND1      profits_vars[173]
- FR BND1      profits_vars[174]
- FR BND1      profits_vars[175]
- FR BND1      profits_vars[176]
- FR BND1      profits_vars[177]
- FR BND1      profits_vars[178]
- FR BND1      profits_vars[179]
- FR BND1      profits_vars[180]
- FR BND1      profits_vars[181]
- FR BND1      profits_vars[182]
- FR BND1      profits_vars[183]
- FR BND1      profits_vars[184]
- FR BND1      profits_vars[185]
- FR BND1      profits_vars[186]
- FR BND1      profits_vars[187]
- FR BND1      profits_vars[188]
- FR BND1      profits_vars[189]
- FR BND1      profits_vars[190]
- FR BND1      profits_vars[191]
- FR BND1      profits_vars[192]
- FR BND1      profits_vars[193]
- FR BND1      profits_vars[194]
- FR BND1      profits_vars[195]
- FR BND1      profits_vars[196]
- FR BND1      profits_vars[197]
- FR BND1      profits_vars[198]
- FR BND1      profits_vars[199]
- FR BND1      profits_vars[200]
- FR BND1      profits_vars[201]
- FR BND1      profits_vars[202]
- FR BND1      profits_vars[203]
- FR BND1      profits_vars[204]
- FR BND1      profits_vars[205]
- FR BND1      profits_vars[206]
- FR BND1      profits_vars[207]
- FR BND1      profits_vars[208]
- FR BND1      profits_vars[209]
- FR BND1      profits_vars[210]
- FR BND1      profits_vars[211]
- FR BND1      profits_vars[212]
- FR BND1      profits_vars[213]
- FR BND1      profits_vars[214]
- FR BND1      profits_vars[215]
- FR BND1      profits_vars[216]
- FR BND1      profits_vars[217]
- FR BND1      profits_vars[218]
- FR BND1      profits_vars[219]
- FR BND1      profits_vars[220]
- FR BND1      profits_vars[221]
- FR BND1      profits_vars[222]
- FR BND1      profits_vars[223]
- FR BND1      profits_vars[224]
- FR BND1      profits_vars[225]
- FR BND1      profits_vars[226]
- FR BND1      profits_vars[227]
- FR BND1      profits_vars[228]
- FR BND1      profits_vars[229]
- FR BND1      profits_vars[230]
- FR BND1      profits_vars[231]
- FR BND1      profits_vars[232]
- FR BND1      profits_vars[233]
- FR BND1      profits_vars[234]
- FR BND1      profits_vars[235]
- FR BND1      profits_vars[236]
- FR BND1      profits_vars[237]
- FR BND1      profits_vars[238]
- FR BND1      profits_vars[239]
- FR BND1      profits_vars[240]
- FR BND1      profits_vars[241]
- FR BND1      profits_vars[242]
- FR BND1      profits_vars[243]
- FR BND1      profits_vars[244]
- FR BND1      profits_vars[245]
- FR BND1      profits_vars[246]
- FR BND1      profits_vars[247]
- FR BND1      profits_vars[248]
- FR BND1      profits_vars[249]
  FR BND1      Lost_0_expr_0
  FR BND1      Q_hat_adjusted_0
  FR BND1      Lost_1_expr_0
@@ -12460,306 +7660,6 @@ BOUNDS
  FR BND1      Lost_0_expr_149
  FR BND1      Q_hat_adjusted_149
  FR BND1      Lost_1_expr_149
- FR BND1      Lost_0_expr_150
- FR BND1      Q_hat_adjusted_150
- FR BND1      Lost_1_expr_150
- FR BND1      Lost_0_expr_151
- FR BND1      Q_hat_adjusted_151
- FR BND1      Lost_1_expr_151
- FR BND1      Lost_0_expr_152
- FR BND1      Q_hat_adjusted_152
- FR BND1      Lost_1_expr_152
- FR BND1      Lost_0_expr_153
- FR BND1      Q_hat_adjusted_153
- FR BND1      Lost_1_expr_153
- FR BND1      Lost_0_expr_154
- FR BND1      Q_hat_adjusted_154
- FR BND1      Lost_1_expr_154
- FR BND1      Lost_0_expr_155
- FR BND1      Q_hat_adjusted_155
- FR BND1      Lost_1_expr_155
- FR BND1      Lost_0_expr_156
- FR BND1      Q_hat_adjusted_156
- FR BND1      Lost_1_expr_156
- FR BND1      Lost_0_expr_157
- FR BND1      Q_hat_adjusted_157
- FR BND1      Lost_1_expr_157
- FR BND1      Lost_0_expr_158
- FR BND1      Q_hat_adjusted_158
- FR BND1      Lost_1_expr_158
- FR BND1      Lost_0_expr_159
- FR BND1      Q_hat_adjusted_159
- FR BND1      Lost_1_expr_159
- FR BND1      Lost_0_expr_160
- FR BND1      Q_hat_adjusted_160
- FR BND1      Lost_1_expr_160
- FR BND1      Lost_0_expr_161
- FR BND1      Q_hat_adjusted_161
- FR BND1      Lost_1_expr_161
- FR BND1      Lost_0_expr_162
- FR BND1      Q_hat_adjusted_162
- FR BND1      Lost_1_expr_162
- FR BND1      Lost_0_expr_163
- FR BND1      Q_hat_adjusted_163
- FR BND1      Lost_1_expr_163
- FR BND1      Lost_0_expr_164
- FR BND1      Q_hat_adjusted_164
- FR BND1      Lost_1_expr_164
- FR BND1      Lost_0_expr_165
- FR BND1      Q_hat_adjusted_165
- FR BND1      Lost_1_expr_165
- FR BND1      Lost_0_expr_166
- FR BND1      Q_hat_adjusted_166
- FR BND1      Lost_1_expr_166
- FR BND1      Lost_0_expr_167
- FR BND1      Q_hat_adjusted_167
- FR BND1      Lost_1_expr_167
- FR BND1      Lost_0_expr_168
- FR BND1      Q_hat_adjusted_168
- FR BND1      Lost_1_expr_168
- FR BND1      Lost_0_expr_169
- FR BND1      Q_hat_adjusted_169
- FR BND1      Lost_1_expr_169
- FR BND1      Lost_0_expr_170
- FR BND1      Q_hat_adjusted_170
- FR BND1      Lost_1_expr_170
- FR BND1      Lost_0_expr_171
- FR BND1      Q_hat_adjusted_171
- FR BND1      Lost_1_expr_171
- FR BND1      Lost_0_expr_172
- FR BND1      Q_hat_adjusted_172
- FR BND1      Lost_1_expr_172
- FR BND1      Lost_0_expr_173
- FR BND1      Q_hat_adjusted_173
- FR BND1      Lost_1_expr_173
- FR BND1      Lost_0_expr_174
- FR BND1      Q_hat_adjusted_174
- FR BND1      Lost_1_expr_174
- FR BND1      Lost_0_expr_175
- FR BND1      Q_hat_adjusted_175
- FR BND1      Lost_1_expr_175
- FR BND1      Lost_0_expr_176
- FR BND1      Q_hat_adjusted_176
- FR BND1      Lost_1_expr_176
- FR BND1      Lost_0_expr_177
- FR BND1      Q_hat_adjusted_177
- FR BND1      Lost_1_expr_177
- FR BND1      Lost_0_expr_178
- FR BND1      Q_hat_adjusted_178
- FR BND1      Lost_1_expr_178
- FR BND1      Lost_0_expr_179
- FR BND1      Q_hat_adjusted_179
- FR BND1      Lost_1_expr_179
- FR BND1      Lost_0_expr_180
- FR BND1      Q_hat_adjusted_180
- FR BND1      Lost_1_expr_180
- FR BND1      Lost_0_expr_181
- FR BND1      Q_hat_adjusted_181
- FR BND1      Lost_1_expr_181
- FR BND1      Lost_0_expr_182
- FR BND1      Q_hat_adjusted_182
- FR BND1      Lost_1_expr_182
- FR BND1      Lost_0_expr_183
- FR BND1      Q_hat_adjusted_183
- FR BND1      Lost_1_expr_183
- FR BND1      Lost_0_expr_184
- FR BND1      Q_hat_adjusted_184
- FR BND1      Lost_1_expr_184
- FR BND1      Lost_0_expr_185
- FR BND1      Q_hat_adjusted_185
- FR BND1      Lost_1_expr_185
- FR BND1      Lost_0_expr_186
- FR BND1      Q_hat_adjusted_186
- FR BND1      Lost_1_expr_186
- FR BND1      Lost_0_expr_187
- FR BND1      Q_hat_adjusted_187
- FR BND1      Lost_1_expr_187
- FR BND1      Lost_0_expr_188
- FR BND1      Q_hat_adjusted_188
- FR BND1      Lost_1_expr_188
- FR BND1      Lost_0_expr_189
- FR BND1      Q_hat_adjusted_189
- FR BND1      Lost_1_expr_189
- FR BND1      Lost_0_expr_190
- FR BND1      Q_hat_adjusted_190
- FR BND1      Lost_1_expr_190
- FR BND1      Lost_0_expr_191
- FR BND1      Q_hat_adjusted_191
- FR BND1      Lost_1_expr_191
- FR BND1      Lost_0_expr_192
- FR BND1      Q_hat_adjusted_192
- FR BND1      Lost_1_expr_192
- FR BND1      Lost_0_expr_193
- FR BND1      Q_hat_adjusted_193
- FR BND1      Lost_1_expr_193
- FR BND1      Lost_0_expr_194
- FR BND1      Q_hat_adjusted_194
- FR BND1      Lost_1_expr_194
- FR BND1      Lost_0_expr_195
- FR BND1      Q_hat_adjusted_195
- FR BND1      Lost_1_expr_195
- FR BND1      Lost_0_expr_196
- FR BND1      Q_hat_adjusted_196
- FR BND1      Lost_1_expr_196
- FR BND1      Lost_0_expr_197
- FR BND1      Q_hat_adjusted_197
- FR BND1      Lost_1_expr_197
- FR BND1      Lost_0_expr_198
- FR BND1      Q_hat_adjusted_198
- FR BND1      Lost_1_expr_198
- FR BND1      Lost_0_expr_199
- FR BND1      Q_hat_adjusted_199
- FR BND1      Lost_1_expr_199
- FR BND1      Lost_0_expr_200
- FR BND1      Q_hat_adjusted_200
- FR BND1      Lost_1_expr_200
- FR BND1      Lost_0_expr_201
- FR BND1      Q_hat_adjusted_201
- FR BND1      Lost_1_expr_201
- FR BND1      Lost_0_expr_202
- FR BND1      Q_hat_adjusted_202
- FR BND1      Lost_1_expr_202
- FR BND1      Lost_0_expr_203
- FR BND1      Q_hat_adjusted_203
- FR BND1      Lost_1_expr_203
- FR BND1      Lost_0_expr_204
- FR BND1      Q_hat_adjusted_204
- FR BND1      Lost_1_expr_204
- FR BND1      Lost_0_expr_205
- FR BND1      Q_hat_adjusted_205
- FR BND1      Lost_1_expr_205
- FR BND1      Lost_0_expr_206
- FR BND1      Q_hat_adjusted_206
- FR BND1      Lost_1_expr_206
- FR BND1      Lost_0_expr_207
- FR BND1      Q_hat_adjusted_207
- FR BND1      Lost_1_expr_207
- FR BND1      Lost_0_expr_208
- FR BND1      Q_hat_adjusted_208
- FR BND1      Lost_1_expr_208
- FR BND1      Lost_0_expr_209
- FR BND1      Q_hat_adjusted_209
- FR BND1      Lost_1_expr_209
- FR BND1      Lost_0_expr_210
- FR BND1      Q_hat_adjusted_210
- FR BND1      Lost_1_expr_210
- FR BND1      Lost_0_expr_211
- FR BND1      Q_hat_adjusted_211
- FR BND1      Lost_1_expr_211
- FR BND1      Lost_0_expr_212
- FR BND1      Q_hat_adjusted_212
- FR BND1      Lost_1_expr_212
- FR BND1      Lost_0_expr_213
- FR BND1      Q_hat_adjusted_213
- FR BND1      Lost_1_expr_213
- FR BND1      Lost_0_expr_214
- FR BND1      Q_hat_adjusted_214
- FR BND1      Lost_1_expr_214
- FR BND1      Lost_0_expr_215
- FR BND1      Q_hat_adjusted_215
- FR BND1      Lost_1_expr_215
- FR BND1      Lost_0_expr_216
- FR BND1      Q_hat_adjusted_216
- FR BND1      Lost_1_expr_216
- FR BND1      Lost_0_expr_217
- FR BND1      Q_hat_adjusted_217
- FR BND1      Lost_1_expr_217
- FR BND1      Lost_0_expr_218
- FR BND1      Q_hat_adjusted_218
- FR BND1      Lost_1_expr_218
- FR BND1      Lost_0_expr_219
- FR BND1      Q_hat_adjusted_219
- FR BND1      Lost_1_expr_219
- FR BND1      Lost_0_expr_220
- FR BND1      Q_hat_adjusted_220
- FR BND1      Lost_1_expr_220
- FR BND1      Lost_0_expr_221
- FR BND1      Q_hat_adjusted_221
- FR BND1      Lost_1_expr_221
- FR BND1      Lost_0_expr_222
- FR BND1      Q_hat_adjusted_222
- FR BND1      Lost_1_expr_222
- FR BND1      Lost_0_expr_223
- FR BND1      Q_hat_adjusted_223
- FR BND1      Lost_1_expr_223
- FR BND1      Lost_0_expr_224
- FR BND1      Q_hat_adjusted_224
- FR BND1      Lost_1_expr_224
- FR BND1      Lost_0_expr_225
- FR BND1      Q_hat_adjusted_225
- FR BND1      Lost_1_expr_225
- FR BND1      Lost_0_expr_226
- FR BND1      Q_hat_adjusted_226
- FR BND1      Lost_1_expr_226
- FR BND1      Lost_0_expr_227
- FR BND1      Q_hat_adjusted_227
- FR BND1      Lost_1_expr_227
- FR BND1      Lost_0_expr_228
- FR BND1      Q_hat_adjusted_228
- FR BND1      Lost_1_expr_228
- FR BND1      Lost_0_expr_229
- FR BND1      Q_hat_adjusted_229
- FR BND1      Lost_1_expr_229
- FR BND1      Lost_0_expr_230
- FR BND1      Q_hat_adjusted_230
- FR BND1      Lost_1_expr_230
- FR BND1      Lost_0_expr_231
- FR BND1      Q_hat_adjusted_231
- FR BND1      Lost_1_expr_231
- FR BND1      Lost_0_expr_232
- FR BND1      Q_hat_adjusted_232
- FR BND1      Lost_1_expr_232
- FR BND1      Lost_0_expr_233
- FR BND1      Q_hat_adjusted_233
- FR BND1      Lost_1_expr_233
- FR BND1      Lost_0_expr_234
- FR BND1      Q_hat_adjusted_234
- FR BND1      Lost_1_expr_234
- FR BND1      Lost_0_expr_235
- FR BND1      Q_hat_adjusted_235
- FR BND1      Lost_1_expr_235
- FR BND1      Lost_0_expr_236
- FR BND1      Q_hat_adjusted_236
- FR BND1      Lost_1_expr_236
- FR BND1      Lost_0_expr_237
- FR BND1      Q_hat_adjusted_237
- FR BND1      Lost_1_expr_237
- FR BND1      Lost_0_expr_238
- FR BND1      Q_hat_adjusted_238
- FR BND1      Lost_1_expr_238
- FR BND1      Lost_0_expr_239
- FR BND1      Q_hat_adjusted_239
- FR BND1      Lost_1_expr_239
- FR BND1      Lost_0_expr_240
- FR BND1      Q_hat_adjusted_240
- FR BND1      Lost_1_expr_240
- FR BND1      Lost_0_expr_241
- FR BND1      Q_hat_adjusted_241
- FR BND1      Lost_1_expr_241
- FR BND1      Lost_0_expr_242
- FR BND1      Q_hat_adjusted_242
- FR BND1      Lost_1_expr_242
- FR BND1      Lost_0_expr_243
- FR BND1      Q_hat_adjusted_243
- FR BND1      Lost_1_expr_243
- FR BND1      Lost_0_expr_244
- FR BND1      Q_hat_adjusted_244
- FR BND1      Lost_1_expr_244
- FR BND1      Lost_0_expr_245
- FR BND1      Q_hat_adjusted_245
- FR BND1      Lost_1_expr_245
- FR BND1      Lost_0_expr_246
- FR BND1      Q_hat_adjusted_246
- FR BND1      Lost_1_expr_246
- FR BND1      Lost_0_expr_247
- FR BND1      Q_hat_adjusted_247
- FR BND1      Lost_1_expr_247
- FR BND1      Lost_0_expr_248
- FR BND1      Q_hat_adjusted_248
- FR BND1      Lost_1_expr_248
- FR BND1      Lost_0_expr_249
- FR BND1      Q_hat_adjusted_249
- FR BND1      Lost_1_expr_249
 GENCONS
  LOGISTIC GC0
     Options  0  0.01  0.001  -1  -1
@@ -12767,7 +7667,7 @@ GENCONS
  MIN min_sales_constr_0
     Sold_0[0]
     Q0_var[0]
-    1.4774048188485415e+03
+    7.3037079272798076e+02
  MAX max_lost_constr_0
     Lost_0[0]
     Lost_0_expr_0
@@ -12779,7 +7679,7 @@ GENCONS
  MIN min_sales2_constr_0
     Sold_1[0]
     total_stock_second_period_0
-    3.9644013539057880e+02
+    1.6870864467097249e+02
  MAX max_lost2_constr_0
     Lost_1[0]
     Lost_1_expr_0
@@ -12790,7 +7690,7 @@ GENCONS
  MIN min_sales_constr_1
     Sold_0[1]
     Q0_var[1]
-    3.2545218298796863e+02
+    8.6968450499364633e+02
  MAX max_lost_constr_1
     Lost_0[1]
     Lost_0_expr_1
@@ -12802,7 +7702,7 @@ GENCONS
  MIN min_sales2_constr_1
     Sold_1[1]
     total_stock_second_period_1
-    1.0503184782751026e+02
+    254.633373824361
  MAX max_lost2_constr_1
     Lost_1[1]
     Lost_1_expr_1
@@ -12813,7 +7713,7 @@ GENCONS
  MIN min_sales_constr_2
     Sold_0[2]
     Q0_var[2]
-    1.1711271772388325e+03
+    1.3292981184066616e+03
  MAX max_lost_constr_2
     Lost_0[2]
     Lost_0_expr_2
@@ -12825,7 +7725,7 @@ GENCONS
  MIN min_sales2_constr_2
     Sold_1[2]
     total_stock_second_period_2
-    3.3791309792861136e+02
+    3.7887789096395517e+02
  MAX max_lost2_constr_2
     Lost_1[2]
     Lost_1_expr_2
@@ -12836,7 +7736,7 @@ GENCONS
  MIN min_sales_constr_3
     Sold_0[3]
     Q0_var[3]
-    1.8919660294142786e+03
+    3.7776117038311912e+02
  MAX max_lost_constr_3
     Lost_0[3]
     Lost_0_expr_3
@@ -12848,7 +7748,7 @@ GENCONS
  MIN min_sales2_constr_3
     Sold_1[3]
     total_stock_second_period_3
-    4.5438519547052431e+02
+    4.3829772268967830e+01
  MAX max_lost2_constr_3
     Lost_1[3]
     Lost_1_expr_3
@@ -12859,7 +7759,7 @@ GENCONS
  MIN min_sales_constr_4
     Sold_0[4]
     Q0_var[4]
-    9.7830558558232292e+02
+    1.7942102375851960e+03
  MAX max_lost_constr_4
     Lost_0[4]
     Lost_0_expr_4
@@ -12871,7 +7771,7 @@ GENCONS
  MIN min_sales2_constr_4
     Sold_1[4]
     total_stock_second_period_4
-    1.2198771601072733e+02
+    3.1747254213360878e+02
  MAX max_lost2_constr_4
     Lost_1[4]
     Lost_1_expr_4
@@ -12882,7 +7782,7 @@ GENCONS
  MIN min_sales_constr_5
     Sold_0[5]
     Q0_var[5]
-    2.1744010445020695e+03
+    1.0308240171354664e+03
  MAX max_lost_constr_5
     Lost_0[5]
     Lost_0_expr_5
@@ -12894,7 +7794,7 @@ GENCONS
  MIN min_sales2_constr_5
     Sold_1[5]
     total_stock_second_period_5
-    539.760741511865
+    2.3885905147522158e+02
  MAX max_lost2_constr_5
     Lost_1[5]
     Lost_1_expr_5
@@ -12905,7 +7805,7 @@ GENCONS
  MIN min_sales_constr_6
     Sold_0[6]
     Q0_var[6]
-    1.5286070934759932e+03
+    8.0388090124464861e+02
  MAX max_lost_constr_6
     Lost_0[6]
     Lost_0_expr_6
@@ -12917,7 +7817,7 @@ GENCONS
  MIN min_sales2_constr_6
     Sold_1[6]
     total_stock_second_period_6
-    3.6004070831783656e+02
+    1.5367098221742529e+02
  MAX max_lost2_constr_6
     Lost_1[6]
     Lost_1_expr_6
@@ -12928,7 +7828,7 @@ GENCONS
  MIN min_sales_constr_7
     Sold_0[7]
     Q0_var[7]
-    3.2216061866155087e+02
+    4.0316309610496489e+02
  MAX max_lost_constr_7
     Lost_0[7]
     Lost_0_expr_7
@@ -12940,7 +7840,7 @@ GENCONS
  MIN min_sales2_constr_7
     Sold_1[7]
     total_stock_second_period_7
-    1.1533052416287217e+02
+    1.3098366914933479e+02
  MAX max_lost2_constr_7
     Lost_1[7]
     Lost_1_expr_7
@@ -12951,7 +7851,7 @@ GENCONS
  MIN min_sales_constr_8
     Sold_0[8]
     Q0_var[8]
-    711.607186804144
+    1.2664503193966511e+03
  MAX max_lost_constr_8
     Lost_0[8]
     Lost_0_expr_8
@@ -12963,7 +7863,7 @@ GENCONS
  MIN min_sales2_constr_8
     Sold_1[8]
     total_stock_second_period_8
-    2.1220680596042010e+02
+    3.5893311949552736e+02
  MAX max_lost2_constr_8
     Lost_1[8]
     Lost_1_expr_8
@@ -12974,7 +7874,7 @@ GENCONS
  MIN min_sales_constr_9
     Sold_0[9]
     Q0_var[9]
-    2.2283659500330295e+03
+    7.5292327123742734e+02
  MAX max_lost_constr_9
     Lost_0[9]
     Lost_0_expr_9
@@ -12986,7 +7886,7 @@ GENCONS
  MIN min_sales2_constr_9
     Sold_1[9]
     total_stock_second_period_9
-    5.7683784821365646e+02
+    1.7911060380496843e+02
  MAX max_lost2_constr_9
     Lost_1[9]
     Lost_1_expr_9
@@ -12997,7 +7897,7 @@ GENCONS
  MIN min_sales_constr_10
     Sold_0[10]
     Q0_var[10]
-    1.9603533647540758e+03
+    1.6520663249401189e+03
  MAX max_lost_constr_10
     Lost_0[10]
     Lost_0_expr_10
@@ -13009,7 +7909,7 @@ GENCONS
  MIN min_sales2_constr_10
     Sold_1[10]
     total_stock_second_period_10
-    3.9115986652602766e+02
+    2.9947776375641433e+02
  MAX max_lost2_constr_10
     Lost_1[10]
     Lost_1_expr_10
@@ -13020,7 +7920,7 @@ GENCONS
  MIN min_sales_constr_11
     Sold_0[11]
     Q0_var[11]
-    8.9410380500981944e+02
+    1.0656550928678248e+03
  MAX max_lost_constr_11
     Lost_0[11]
     Lost_0_expr_11
@@ -13032,7 +7932,7 @@ GENCONS
  MIN min_sales2_constr_11
     Sold_1[11]
     total_stock_second_period_11
-    1.5373628388439550e+02
+    1.8832679125591508e+02
  MAX max_lost2_constr_11
     Lost_1[11]
     Lost_1_expr_11
@@ -13043,7 +7943,7 @@ GENCONS
  MIN min_sales_constr_12
     Sold_0[12]
     Q0_var[12]
-    1.0520591625675850e+03
+    1.9808674311163809e+03
  MAX max_lost_constr_12
     Lost_0[12]
     Lost_0_expr_12
@@ -13055,7 +7955,7 @@ GENCONS
  MIN min_sales2_constr_12
     Sold_1[12]
     total_stock_second_period_12
-    2.4377225114028292e+02
+    4.6136564911484464e+02
  MAX max_lost2_constr_12
     Lost_1[12]
     Lost_1_expr_12
@@ -13066,7 +7966,7 @@ GENCONS
  MIN min_sales_constr_13
     Sold_0[13]
     Q0_var[13]
-    1.4134023746217451e+03
+    5.3984688294014791e+02
  MAX max_lost_constr_13
     Lost_0[13]
     Lost_0_expr_13
@@ -13078,7 +7978,7 @@ GENCONS
  MIN min_sales2_constr_13
     Sold_1[13]
     total_stock_second_period_13
-    3.2835181293024209e+02
+    93.7117075866938
  MAX max_lost2_constr_13
     Lost_1[13]
     Lost_1_expr_13
@@ -13089,7 +7989,7 @@ GENCONS
  MIN min_sales_constr_14
     Sold_0[14]
     Q0_var[14]
-    4.8795852690490625e+02
+    4.4937676298616719e+02
  MAX max_lost_constr_14
     Lost_0[14]
     Lost_0_expr_14
@@ -13101,7 +8001,7 @@ GENCONS
  MIN min_sales2_constr_14
     Sold_1[14]
     total_stock_second_period_14
-    1.1047503463660979e+02
+    8.0424126289602015e+01
  MAX max_lost2_constr_14
     Lost_1[14]
     Lost_1_expr_14
@@ -13112,7 +8012,7 @@ GENCONS
  MIN min_sales_constr_15
     Sold_0[15]
     Q0_var[15]
-    1.2363033074985960e+03
+    7.3733313661446994e+02
  MAX max_lost_constr_15
     Lost_0[15]
     Lost_0_expr_15
@@ -13124,7 +8024,7 @@ GENCONS
  MIN min_sales2_constr_15
     Sold_1[15]
     total_stock_second_period_15
-    3.0580775680687941e+02
+    1.6503865378774267e+02
  MAX max_lost2_constr_15
     Lost_1[15]
     Lost_1_expr_15
@@ -13135,7 +8035,7 @@ GENCONS
  MIN min_sales_constr_16
     Sold_0[16]
     Q0_var[16]
-    1.1741943757929018e+03
+    1.1321295056734314e+03
  MAX max_lost_constr_16
     Lost_0[16]
     Lost_0_expr_16
@@ -13147,7 +8047,7 @@ GENCONS
  MIN min_sales2_constr_16
     Sold_1[16]
     total_stock_second_period_16
-    3.4472931771734909e+02
+    3.1514401932320368e+02
  MAX max_lost2_constr_16
     Lost_1[16]
     Lost_1_expr_16
@@ -13158,7 +8058,7 @@ GENCONS
  MIN min_sales_constr_17
     Sold_0[17]
     Q0_var[17]
-    7.5145238408974842e+02
+    1.4885260644061686e+03
  MAX max_lost_constr_17
     Lost_0[17]
     Lost_0_expr_17
@@ -13170,7 +8070,7 @@ GENCONS
  MIN min_sales2_constr_17
     Sold_1[17]
     total_stock_second_period_17
-    2.2183893764061617e+02
+    3.9915738614224358e+02
  MAX max_lost2_constr_17
     Lost_1[17]
     Lost_1_expr_17
@@ -13181,7 +8081,7 @@ GENCONS
  MIN min_sales_constr_18
     Sold_0[18]
     Q0_var[18]
-    1.6643110795074208e+03
+    1.2886702061875751e+03
  MAX max_lost_constr_18
     Lost_0[18]
     Lost_0_expr_18
@@ -13193,7 +8093,7 @@ GENCONS
  MIN min_sales2_constr_18
     Sold_1[18]
     total_stock_second_period_18
-    3.9431950014599329e+02
+    2.8580001525341032e+02
  MAX max_lost2_constr_18
     Lost_1[18]
     Lost_1_expr_18
@@ -13204,7 +8104,7 @@ GENCONS
  MIN min_sales_constr_19
     Sold_0[19]
     Q0_var[19]
-    1.8247394086602237e+03
+    2.3453951392252238e+03
  MAX max_lost_constr_19
     Lost_0[19]
     Lost_0_expr_19
@@ -13216,7 +8116,7 @@ GENCONS
  MIN min_sales2_constr_19
     Sold_1[19]
     total_stock_second_period_19
-    4.7662005979608841e+02
+    5.9217565911759436e+02
  MAX max_lost2_constr_19
     Lost_1[19]
     Lost_1_expr_19
@@ -13227,7 +8127,7 @@ GENCONS
  MIN min_sales_constr_20
     Sold_0[20]
     Q0_var[20]
-    698.899117548079
+    7.0172710291966655e+02
  MAX max_lost_constr_20
     Lost_0[20]
     Lost_0_expr_20
@@ -13239,7 +8139,7 @@ GENCONS
  MIN min_sales2_constr_20
     Sold_1[20]
     total_stock_second_period_20
-    217.917112052819
+    2.0431162025124007e+02
  MAX max_lost2_constr_20
     Lost_1[20]
     Lost_1_expr_20
@@ -13250,7 +8150,7 @@ GENCONS
  MIN min_sales_constr_21
     Sold_0[21]
     Q0_var[21]
-    1.4927656526532005e+03
+    1.3935126507102011e+03
  MAX max_lost_constr_21
     Lost_0[21]
     Lost_0_expr_21
@@ -13262,7 +8162,7 @@ GENCONS
  MIN min_sales2_constr_21
     Sold_1[21]
     total_stock_second_period_21
-    4.1024995013999387e+02
+    3.7082836562438541e+02
  MAX max_lost2_constr_21
     Lost_1[21]
     Lost_1_expr_21
@@ -13273,7 +8173,7 @@ GENCONS
  MIN min_sales_constr_22
     Sold_0[22]
     Q0_var[22]
-    1.8232113519367228e+03
+    1.4326826045517464e+03
  MAX max_lost_constr_22
     Lost_0[22]
     Lost_0_expr_22
@@ -13285,7 +8185,7 @@ GENCONS
  MIN min_sales2_constr_22
     Sold_1[22]
     total_stock_second_period_22
-    4.1981112148187077e+02
+    3.0757061090118282e+02
  MAX max_lost2_constr_22
     Lost_1[22]
     Lost_1_expr_22
@@ -13296,7 +8196,7 @@ GENCONS
  MIN min_sales_constr_23
     Sold_0[23]
     Q0_var[23]
-    2.4465847647391984e+03
+    1.8918064754010245e+03
  MAX max_lost_constr_23
     Lost_0[23]
     Lost_0_expr_23
@@ -13308,7 +8208,7 @@ GENCONS
  MIN min_sales2_constr_23
     Sold_1[23]
     total_stock_second_period_23
-    5.7427015056442053e+02
+    4.2096724448838336e+02
  MAX max_lost2_constr_23
     Lost_1[23]
     Lost_1_expr_23
@@ -13319,7 +8219,7 @@ GENCONS
  MIN min_sales_constr_24
     Sold_0[24]
     Q0_var[24]
-    1.9890771370656330e+03
+    2.0317020617341771e+03
  MAX max_lost_constr_24
     Lost_0[24]
     Lost_0_expr_24
@@ -13331,7 +8231,7 @@ GENCONS
  MIN min_sales2_constr_24
     Sold_1[24]
     total_stock_second_period_24
-    4.8913808364822188e+02
+    4.8518598082706649e+02
  MAX max_lost2_constr_24
     Lost_1[24]
     Lost_1_expr_24
@@ -13342,7 +8242,7 @@ GENCONS
  MIN min_sales_constr_25
     Sold_0[25]
     Q0_var[25]
-    2.0809883785155912e+03
+    1.9436506516608101e+03
  MAX max_lost_constr_25
     Lost_0[25]
     Lost_0_expr_25
@@ -13354,7 +8254,7 @@ GENCONS
  MIN min_sales2_constr_25
     Sold_1[25]
     total_stock_second_period_25
-    5.2417263489500306e+02
+    4.7522986947142891e+02
  MAX max_lost2_constr_25
     Lost_1[25]
     Lost_1_expr_25
@@ -13365,7 +8265,7 @@ GENCONS
  MIN min_sales_constr_26
     Sold_0[26]
     Q0_var[26]
-    1.5423440804841562e+03
+    1.9161765246250125e+03
  MAX max_lost_constr_26
     Lost_0[26]
     Lost_0_expr_26
@@ -13377,7 +8277,7 @@ GENCONS
  MIN min_sales2_constr_26
     Sold_1[26]
     total_stock_second_period_26
-    3.4520995421813757e+02
+    4.2405973407832636e+02
  MAX max_lost2_constr_26
     Lost_1[26]
     Lost_1_expr_26
@@ -13388,7 +8288,7 @@ GENCONS
  MIN min_sales_constr_27
     Sold_0[27]
     Q0_var[27]
-    8.4349134520794655e+02
+    1.6903940392353982e+03
  MAX max_lost_constr_27
     Lost_0[27]
     Lost_0_expr_27
@@ -13400,7 +8300,7 @@ GENCONS
  MIN min_sales2_constr_27
     Sold_1[27]
     total_stock_second_period_27
-    1.9267429349237980e+02
+    4.5191755572687970e+02
  MAX max_lost2_constr_27
     Lost_1[27]
     Lost_1_expr_27
@@ -13411,7 +8311,7 @@ GENCONS
  MIN min_sales_constr_28
     Sold_0[28]
     Q0_var[28]
-    2.5171108631587608e+03
+    8.9741193547930391e+02
  MAX max_lost_constr_28
     Lost_0[28]
     Lost_0_expr_28
@@ -13423,7 +8323,7 @@ GENCONS
  MIN min_sales2_constr_28
     Sold_1[28]
     total_stock_second_period_28
-    5.9790764647981746e+02
+    1.7479467369904404e+02
  MAX max_lost2_constr_28
     Lost_1[28]
     Lost_1_expr_28
@@ -13434,7 +8334,7 @@ GENCONS
  MIN min_sales_constr_29
     Sold_0[29]
     Q0_var[29]
-    3.8061884344641288e+02
+    2.6217808046307670e+02
  MAX max_lost_constr_29
     Lost_0[29]
     Lost_0_expr_29
@@ -13446,7 +8346,7 @@ GENCONS
  MIN min_sales2_constr_29
     Sold_1[29]
     total_stock_second_period_29
-    1.6467788051943666e+02
+    1.1041948790879769e+02
  MAX max_lost2_constr_29
     Lost_1[29]
     Lost_1_expr_29
@@ -13457,7 +8357,7 @@ GENCONS
  MIN min_sales_constr_30
     Sold_0[30]
     Q0_var[30]
-    1.2206036212600447e+03
+    2.7103278220466785e+02
  MAX max_lost_constr_30
     Lost_0[30]
     Lost_0_expr_30
@@ -13469,7 +8369,7 @@ GENCONS
  MIN min_sales2_constr_30
     Sold_1[30]
     total_stock_second_period_30
-    3.3572865967713267e+02
+    1.0586152049862676e+01
  MAX max_lost2_constr_30
     Lost_1[30]
     Lost_1_expr_30
@@ -13480,7 +8380,7 @@ GENCONS
  MIN min_sales_constr_31
     Sold_0[31]
     Q0_var[31]
-    6.6326511719696532e+02
+    1.0971067981816482e+03
  MAX max_lost_constr_31
     Lost_0[31]
     Lost_0_expr_31
@@ -13492,7 +8392,7 @@ GENCONS
  MIN min_sales2_constr_31
     Sold_1[31]
     total_stock_second_period_31
-    1.3404654962092602e+02
+    2.2790249003198664e+02
  MAX max_lost2_constr_31
     Lost_1[31]
     Lost_1_expr_31
@@ -13503,7 +8403,7 @@ GENCONS
  MIN min_sales_constr_32
     Sold_0[32]
     Q0_var[32]
-    2.2614087705439233e+03
+    8.7597439332062527e+02
  MAX max_lost_constr_32
     Lost_0[32]
     Lost_0_expr_32
@@ -13515,7 +8415,7 @@ GENCONS
  MIN min_sales2_constr_32
     Sold_1[32]
     total_stock_second_period_32
-    5.7192542867540976e+02
+    2.1095943817377548e+02
  MAX max_lost2_constr_32
     Lost_1[32]
     Lost_1_expr_32
@@ -13526,7 +8426,7 @@ GENCONS
  MIN min_sales_constr_33
     Sold_0[33]
     Q0_var[33]
-    2.2721190034225465e+03
+    1.4131477468845715e+03
  MAX max_lost_constr_33
     Lost_0[33]
     Lost_0_expr_33
@@ -13538,7 +8438,7 @@ GENCONS
  MIN min_sales2_constr_33
     Sold_1[33]
     total_stock_second_period_33
-    5.8246247042421976e+02
+    3.4645964238879367e+02
  MAX max_lost2_constr_33
     Lost_1[33]
     Lost_1_expr_33
@@ -13549,7 +8449,7 @@ GENCONS
  MIN min_sales_constr_34
     Sold_0[34]
     Q0_var[34]
-    1.9657295664301073e+03
+    1.9645329439503680e+03
  MAX max_lost_constr_34
     Lost_0[34]
     Lost_0_expr_34
@@ -13561,7 +8461,7 @@ GENCONS
  MIN min_sales2_constr_34
     Sold_1[34]
     total_stock_second_period_34
-    4.5969453100198677e+02
+    4.4478704837587679e+02
  MAX max_lost2_constr_34
     Lost_1[34]
     Lost_1_expr_34
@@ -13572,7 +8472,7 @@ GENCONS
  MIN min_sales_constr_35
     Sold_0[35]
     Q0_var[35]
-    9.2845405713254559e+02
+    2.0520163583716817e+03
  MAX max_lost_constr_35
     Lost_0[35]
     Lost_0_expr_35
@@ -13584,7 +8484,7 @@ GENCONS
  MIN min_sales2_constr_35
     Sold_1[35]
     total_stock_second_period_35
-    2.7499642181508443e+02
+    547.63768789984
  MAX max_lost2_constr_35
     Lost_1[35]
     Lost_1_expr_35
@@ -13595,7 +8495,7 @@ GENCONS
  MIN min_sales_constr_36
     Sold_0[36]
     Q0_var[36]
-    7.5971021185192194e+02
+    3.1132606268848758e+02
  MAX max_lost_constr_36
     Lost_0[36]
     Lost_0_expr_36
@@ -13607,7 +8507,7 @@ GENCONS
  MIN min_sales2_constr_36
     Sold_1[36]
     total_stock_second_period_36
-    2.2719120055881322e+02
+    85.4210789376722
  MAX max_lost2_constr_36
     Lost_1[36]
     Lost_1_expr_36
@@ -13618,7 +8518,7 @@ GENCONS
  MIN min_sales_constr_37
     Sold_0[37]
     Q0_var[37]
-    8.2195896436203839e+02
+    3.9750144335023344e+02
  MAX max_lost_constr_37
     Lost_0[37]
     Lost_0_expr_37
@@ -13630,7 +8530,7 @@ GENCONS
  MIN min_sales2_constr_37
     Sold_1[37]
     total_stock_second_period_37
-    2.3265166226851005e+02
+    1.0007340713281172e+02
  MAX max_lost2_constr_37
     Lost_1[37]
     Lost_1_expr_37
@@ -13641,7 +8541,7 @@ GENCONS
  MIN min_sales_constr_38
     Sold_0[38]
     Q0_var[38]
-    1.0618557173067188e+03
+    1.8816176605578548e+03
  MAX max_lost_constr_38
     Lost_0[38]
     Lost_0_expr_38
@@ -13653,7 +8553,7 @@ GENCONS
  MIN min_sales2_constr_38
     Sold_1[38]
     total_stock_second_period_38
-    163.647012710459
+    3.7297235594449921e+02
  MAX max_lost2_constr_38
     Lost_1[38]
     Lost_1_expr_38
@@ -13664,7 +8564,7 @@ GENCONS
  MIN min_sales_constr_39
     Sold_0[39]
     Q0_var[39]
-    1.4786814486334424e+03
+    1.6184129731863886e+03
  MAX max_lost_constr_39
     Lost_0[39]
     Lost_0_expr_39
@@ -13676,7 +8576,7 @@ GENCONS
  MIN min_sales2_constr_39
     Sold_1[39]
     total_stock_second_period_39
-    3.6290447653836145e+02
+    3.8322906805334458e+02
  MAX max_lost2_constr_39
     Lost_1[39]
     Lost_1_expr_39
@@ -13687,7 +8587,7 @@ GENCONS
  MIN min_sales_constr_40
     Sold_0[40]
     Q0_var[40]
-    6.6747563154425393e+02
+    1.8635903383522129e+03
  MAX max_lost_constr_40
     Lost_0[40]
     Lost_0_expr_40
@@ -13699,7 +8599,7 @@ GENCONS
  MIN min_sales2_constr_40
     Sold_1[40]
     total_stock_second_period_40
-    1.7090863785073876e+02
+    4.6041628029206470e+02
  MAX max_lost2_constr_40
     Lost_1[40]
     Lost_1_expr_40
@@ -13710,7 +8610,7 @@ GENCONS
  MIN min_sales_constr_41
     Sold_0[41]
     Q0_var[41]
-    9.8881898134509538e+02
+    1.9384748548878965e+03
  MAX max_lost_constr_41
     Lost_0[41]
     Lost_0_expr_41
@@ -13722,7 +8622,7 @@ GENCONS
  MIN min_sales2_constr_41
     Sold_1[41]
     total_stock_second_period_41
-    2.5836533327672771e+02
+    4.8302313042099280e+02
  MAX max_lost2_constr_41
     Lost_1[41]
     Lost_1_expr_41
@@ -13733,7 +8633,7 @@ GENCONS
  MIN min_sales_constr_42
     Sold_0[42]
     Q0_var[42]
-    2.0280350167308466e+03
+    2.6535385749139864e+03
  MAX max_lost_constr_42
     Lost_0[42]
     Lost_0_expr_42
@@ -13745,7 +8645,7 @@ GENCONS
  MIN min_sales2_constr_42
     Sold_1[42]
     total_stock_second_period_42
-    4.1335323797955243e+02
+    5.5512079293984573e+02
  MAX max_lost2_constr_42
     Lost_1[42]
     Lost_1_expr_42
@@ -13756,7 +8656,7 @@ GENCONS
  MIN min_sales_constr_43
     Sold_0[43]
     Q0_var[43]
-    1.7973849029988310e+03
+    6.9508646254062353e+02
  MAX max_lost_constr_43
     Lost_0[43]
     Lost_0_expr_43
@@ -13768,7 +8668,7 @@ GENCONS
  MIN min_sales2_constr_43
     Sold_1[43]
     total_stock_second_period_43
-    4.6377180479537492e+02
+    1.6250873586979128e+02
  MAX max_lost2_constr_43
     Lost_1[43]
     Lost_1_expr_43
@@ -13779,7 +8679,7 @@ GENCONS
  MIN min_sales_constr_44
     Sold_0[44]
     Q0_var[44]
-    559.083140507922
+    1.2409465052986870e+03
  MAX max_lost_constr_44
     Lost_0[44]
     Lost_0_expr_44
@@ -13791,7 +8691,7 @@ GENCONS
  MIN min_sales2_constr_44
     Sold_1[44]
     total_stock_second_period_44
-    1.1213634835721399e+02
+    2.8007823329008215e+02
  MAX max_lost2_constr_44
     Lost_1[44]
     Lost_1_expr_44
@@ -13802,7 +8702,7 @@ GENCONS
  MIN min_sales_constr_45
     Sold_0[45]
     Q0_var[45]
-    1.1202597120441385e+03
+    3.6547525568346708e+02
  MAX max_lost_constr_45
     Lost_0[45]
     Lost_0_expr_45
@@ -13814,7 +8714,7 @@ GENCONS
  MIN min_sales2_constr_45
     Sold_1[45]
     total_stock_second_period_45
-    3.1505799218836995e+02
+    8.0604824187474037e+01
  MAX max_lost2_constr_45
     Lost_1[45]
     Lost_1_expr_45
@@ -13825,7 +8725,7 @@ GENCONS
  MIN min_sales_constr_46
     Sold_0[46]
     Q0_var[46]
-    1.8494652630682390e+03
+    1.6735353305175045e+03
  MAX max_lost_constr_46
     Lost_0[46]
     Lost_0_expr_46
@@ -13837,7 +8737,7 @@ GENCONS
  MIN min_sales2_constr_46
     Sold_1[46]
     total_stock_second_period_46
-    4.2606229742106950e+02
+    3.6747148053231854e+02
  MAX max_lost2_constr_46
     Lost_1[46]
     Lost_1_expr_46
@@ -13848,7 +8748,7 @@ GENCONS
  MIN min_sales_constr_47
     Sold_0[47]
     Q0_var[47]
-    2.0943627709424945e+03
+    1.4062640804000387e+03
  MAX max_lost_constr_47
     Lost_0[47]
     Lost_0_expr_47
@@ -13860,7 +8760,7 @@ GENCONS
  MIN min_sales2_constr_47
     Sold_1[47]
     total_stock_second_period_47
-    5.2662298807925640e+02
+    3.3998993787987411e+02
  MAX max_lost2_constr_47
     Lost_1[47]
     Lost_1_expr_47
@@ -13871,7 +8771,7 @@ GENCONS
  MIN min_sales_constr_48
     Sold_0[48]
     Q0_var[48]
-    1.4371960034139420e+03
+    2.0126456142156951e+03
  MAX max_lost_constr_48
     Lost_0[48]
     Lost_0_expr_48
@@ -13883,7 +8783,7 @@ GENCONS
  MIN min_sales2_constr_48
     Sold_1[48]
     total_stock_second_period_48
-    3.3766239110604118e+02
+    4.6691653139520747e+02
  MAX max_lost2_constr_48
     Lost_1[48]
     Lost_1_expr_48
@@ -13894,7 +8794,7 @@ GENCONS
  MIN min_sales_constr_49
     Sold_0[49]
     Q0_var[49]
-    2.1340240428687021e+03
+    5.1805766273118752e+02
  MAX max_lost_constr_49
     Lost_0[49]
     Lost_0_expr_49
@@ -13906,7 +8806,7 @@ GENCONS
  MIN min_sales2_constr_49
     Sold_1[49]
     total_stock_second_period_49
-    5.8460293585884267e+02
+    1.2877524939996746e+02
  MAX max_lost2_constr_49
     Lost_1[49]
     Lost_1_expr_49
@@ -13917,7 +8817,7 @@ GENCONS
  MIN min_sales_constr_50
     Sold_0[50]
     Q0_var[50]
-    7.3424989754964611e+02
+    1.1555438908607766e+03
  MAX max_lost_constr_50
     Lost_0[50]
     Lost_0_expr_50
@@ -13929,7 +8829,7 @@ GENCONS
  MIN min_sales2_constr_50
     Sold_1[50]
     total_stock_second_period_50
-    2.3281627377084720e+02
+    3.2353203682724518e+02
  MAX max_lost2_constr_50
     Lost_1[50]
     Lost_1_expr_50
@@ -13940,7 +8840,7 @@ GENCONS
  MIN min_sales_constr_51
     Sold_0[51]
     Q0_var[51]
-    5.9507667000492756e+02
+    1.2035860686172330e+03
  MAX max_lost_constr_51
     Lost_0[51]
     Lost_0_expr_51
@@ -13952,7 +8852,7 @@ GENCONS
  MIN min_sales2_constr_51
     Sold_1[51]
     total_stock_second_period_51
-    1.0675435331332176e+02
+    2.5644956629279210e+02
  MAX max_lost2_constr_51
     Lost_1[51]
     Lost_1_expr_51
@@ -13963,7 +8863,7 @@ GENCONS
  MIN min_sales_constr_52
     Sold_0[52]
     Q0_var[52]
-    1.6836297009604907e+03
+    1.1287524839238190e+03
  MAX max_lost_constr_52
     Lost_0[52]
     Lost_0_expr_52
@@ -13975,7 +8875,7 @@ GENCONS
  MIN min_sales2_constr_52
     Sold_1[52]
     total_stock_second_period_52
-    3.4187643235086807e+02
+    1.8854124486823707e+02
  MAX max_lost2_constr_52
     Lost_1[52]
     Lost_1_expr_52
@@ -13986,7 +8886,7 @@ GENCONS
  MIN min_sales_constr_53
     Sold_0[53]
     Q0_var[53]
-    8.3671887014109893e+02
+    606.111457300907
  MAX max_lost_constr_53
     Lost_0[53]
     Lost_0_expr_53
@@ -13998,7 +8898,7 @@ GENCONS
  MIN min_sales2_constr_53
     Sold_1[53]
     total_stock_second_period_53
-    2.2805689751000941e+02
+    1.2123667800787986e+02
  MAX max_lost2_constr_53
     Lost_1[53]
     Lost_1_expr_53
@@ -14009,7 +8909,7 @@ GENCONS
  MIN min_sales_constr_54
     Sold_0[54]
     Q0_var[54]
-    2.2286850311449707e+03
+    2.1531581030408670e+03
  MAX max_lost_constr_54
     Lost_0[54]
     Lost_0_expr_54
@@ -14021,7 +8921,7 @@ GENCONS
  MIN min_sales2_constr_54
     Sold_1[54]
     total_stock_second_period_54
-    5.1185883601158469e+02
+    4.7836877268612477e+02
  MAX max_lost2_constr_54
     Lost_1[54]
     Lost_1_expr_54
@@ -14032,7 +8932,7 @@ GENCONS
  MIN min_sales_constr_55
     Sold_0[55]
     Q0_var[55]
-    6.9276849810121962e+02
+    2.5519218418310049e+02
  MAX max_lost_constr_55
     Lost_0[55]
     Lost_0_expr_55
@@ -14044,7 +8944,7 @@ GENCONS
  MIN min_sales2_constr_55
     Sold_1[55]
     total_stock_second_period_55
-    2.1638633609055603e+02
+    8.6740513356272544e+01
  MAX max_lost2_constr_55
     Lost_1[55]
     Lost_1_expr_55
@@ -14055,7 +8955,7 @@ GENCONS
  MIN min_sales_constr_56
     Sold_0[56]
     Q0_var[56]
-    1.0767098606935031e+03
+    1.1206950964177270e+03
  MAX max_lost_constr_56
     Lost_0[56]
     Lost_0_expr_56
@@ -14067,7 +8967,7 @@ GENCONS
  MIN min_sales2_constr_56
     Sold_1[56]
     total_stock_second_period_56
-    2.5531460914565315e+02
+    2.5861767769408220e+02
  MAX max_lost2_constr_56
     Lost_1[56]
     Lost_1_expr_56
@@ -14078,7 +8978,7 @@ GENCONS
  MIN min_sales_constr_57
     Sold_0[57]
     Q0_var[57]
-    2.0983288245826479e+03
+    4.4556002319542938e+02
  MAX max_lost_constr_57
     Lost_0[57]
     Lost_0_expr_57
@@ -14090,7 +8990,7 @@ GENCONS
  MIN min_sales2_constr_57
     Sold_1[57]
     total_stock_second_period_57
-    4.9561371550955613e+02
+    4.5698694349355947e+01
  MAX max_lost2_constr_57
     Lost_1[57]
     Lost_1_expr_57
@@ -14101,7 +9001,7 @@ GENCONS
  MIN min_sales_constr_58
     Sold_0[58]
     Q0_var[58]
-    2.0935228458409438e+03
+    1.2945996404397633e+03
  MAX max_lost_constr_58
     Lost_0[58]
     Lost_0_expr_58
@@ -14113,7 +9013,7 @@ GENCONS
  MIN min_sales2_constr_58
     Sold_1[58]
     total_stock_second_period_58
-    457.57162601268
+    2.4323244757518452e+02
  MAX max_lost2_constr_58
     Lost_1[58]
     Lost_1_expr_58
@@ -14124,7 +9024,7 @@ GENCONS
  MIN min_sales_constr_59
     Sold_0[59]
     Q0_var[59]
-    1.4894799634449591e+03
+    2.2799018585147091e+03
  MAX max_lost_constr_59
     Lost_0[59]
     Lost_0_expr_59
@@ -14136,7 +9036,7 @@ GENCONS
  MIN min_sales2_constr_59
     Sold_1[59]
     total_stock_second_period_59
-    3.7902561832863125e+02
+    5.6202275373554608e+02
  MAX max_lost2_constr_59
     Lost_1[59]
     Lost_1_expr_59
@@ -14147,7 +9047,7 @@ GENCONS
  MIN min_sales_constr_60
     Sold_0[60]
     Q0_var[60]
-    1.9808086715205086e+03
+    1.0891281296592492e+03
  MAX max_lost_constr_60
     Lost_0[60]
     Lost_0_expr_60
@@ -14159,7 +9059,7 @@ GENCONS
  MIN min_sales2_constr_60
     Sold_1[60]
     total_stock_second_period_60
-    4.5247403096137975e+02
+    2.1493730915387044e+02
  MAX max_lost2_constr_60
     Lost_1[60]
     Lost_1_expr_60
@@ -14170,7 +9070,7 @@ GENCONS
  MIN min_sales_constr_61
     Sold_0[61]
     Q0_var[61]
-    1.2800758075798290e+03
+    2.0312324225043644e+03
  MAX max_lost_constr_61
     Lost_0[61]
     Lost_0_expr_61
@@ -14182,7 +9082,7 @@ GENCONS
  MIN min_sales2_constr_61
     Sold_1[61]
     total_stock_second_period_61
-    3.0931843178501327e+02
+    4.9961357420426236e+02
  MAX max_lost2_constr_61
     Lost_1[61]
     Lost_1_expr_61
@@ -14193,7 +9093,7 @@ GENCONS
  MIN min_sales_constr_62
     Sold_0[62]
     Q0_var[62]
-    4.9264081735150262e+02
+    6.4082018502286917e+02
  MAX max_lost_constr_62
     Lost_0[62]
     Lost_0_expr_62
@@ -14205,7 +9105,7 @@ GENCONS
  MIN min_sales2_constr_62
     Sold_1[62]
     total_stock_second_period_62
-    1.0265502557654349e+02
+    1.2878163388895922e+02
  MAX max_lost2_constr_62
     Lost_1[62]
     Lost_1_expr_62
@@ -14216,7 +9116,7 @@ GENCONS
  MIN min_sales_constr_63
     Sold_0[63]
     Q0_var[63]
-    3.5655040833416535e+02
+    6.0774691947746908e+02
  MAX max_lost_constr_63
     Lost_0[63]
     Lost_0_expr_63
@@ -14228,7 +9128,7 @@ GENCONS
  MIN min_sales2_constr_63
     Sold_1[63]
     total_stock_second_period_63
-    1.0567756774936367e+02
+    1.6069772912653394e+02
  MAX max_lost2_constr_63
     Lost_1[63]
     Lost_1_expr_63
@@ -14239,7 +9139,7 @@ GENCONS
  MIN min_sales_constr_64
     Sold_0[64]
     Q0_var[64]
-    1.1433645919648143e+03
+    9.2249501291989975e+02
  MAX max_lost_constr_64
     Lost_0[64]
     Lost_0_expr_64
@@ -14251,7 +9151,7 @@ GENCONS
  MIN min_sales2_constr_64
     Sold_1[64]
     total_stock_second_period_64
-    3.5561089378684329e+02
+    2.8578508900803979e+02
  MAX max_lost2_constr_64
     Lost_1[64]
     Lost_1_expr_64
@@ -14262,7 +9162,7 @@ GENCONS
  MIN min_sales_constr_65
     Sold_0[65]
     Q0_var[65]
-    7.3777552591080371e+02
+    1.1142271599639835e+03
  MAX max_lost_constr_65
     Lost_0[65]
     Lost_0_expr_65
@@ -14274,7 +9174,7 @@ GENCONS
  MIN min_sales2_constr_65
     Sold_1[65]
     total_stock_second_period_65
-    1.4164548972898456e+02
+    2.4010131892663810e+02
  MAX max_lost2_constr_65
     Lost_1[65]
     Lost_1_expr_65
@@ -14285,7 +9185,7 @@ GENCONS
  MIN min_sales_constr_66
     Sold_0[66]
     Q0_var[66]
-    5.6654594246186366e+02
+    1.7214919555567685e+03
  MAX max_lost_constr_66
     Lost_0[66]
     Lost_0_expr_66
@@ -14297,7 +9197,7 @@ GENCONS
  MIN min_sales2_constr_66
     Sold_1[66]
     total_stock_second_period_66
-    1.2553774008429998e+02
+    4.1920201175534328e+02
  MAX max_lost2_constr_66
     Lost_1[66]
     Lost_1_expr_66
@@ -14308,7 +9208,7 @@ GENCONS
  MIN min_sales_constr_67
     Sold_0[67]
     Q0_var[67]
-    2.7438338989151825e+03
+    1.1832618827040967e+03
  MAX max_lost_constr_67
     Lost_0[67]
     Lost_0_expr_67
@@ -14320,7 +9220,7 @@ GENCONS
  MIN min_sales2_constr_67
     Sold_1[67]
     total_stock_second_period_67
-    5.8275831956873662e+02
+    178.006844404126
  MAX max_lost2_constr_67
     Lost_1[67]
     Lost_1_expr_67
@@ -14331,7 +9231,7 @@ GENCONS
  MIN min_sales_constr_68
     Sold_0[68]
     Q0_var[68]
-    1.9585296871941516e+03
+    1.8157299486446134e+03
  MAX max_lost_constr_68
     Lost_0[68]
     Lost_0_expr_68
@@ -14343,7 +9243,7 @@ GENCONS
  MIN min_sales2_constr_68
     Sold_1[68]
     total_stock_second_period_68
-    5.2950131982902928e+02
+    4.7919304780282783e+02
  MAX max_lost2_constr_68
     Lost_1[68]
     Lost_1_expr_68
@@ -14354,7 +9254,7 @@ GENCONS
  MIN min_sales_constr_69
     Sold_0[69]
     Q0_var[69]
-    8.7512327063656312e+02
+    1.6461823807353844e+03
  MAX max_lost_constr_69
     Lost_0[69]
     Lost_0_expr_69
@@ -14366,7 +9266,7 @@ GENCONS
  MIN min_sales2_constr_69
     Sold_1[69]
     total_stock_second_period_69
-    1.7601361359771062e+02
+    354.147251345354
  MAX max_lost2_constr_69
     Lost_1[69]
     Lost_1_expr_69
@@ -14377,7 +9277,7 @@ GENCONS
  MIN min_sales_constr_70
     Sold_0[70]
     Q0_var[70]
-    7.1984582974497062e+02
+    1.3937184206673414e+03
  MAX max_lost_constr_70
     Lost_0[70]
     Lost_0_expr_70
@@ -14389,7 +9289,7 @@ GENCONS
  MIN min_sales2_constr_70
     Sold_1[70]
     total_stock_second_period_70
-    1.0033208170152542e+02
+    276.27484325421
  MAX max_lost2_constr_70
     Lost_1[70]
     Lost_1_expr_70
@@ -14400,7 +9300,7 @@ GENCONS
  MIN min_sales_constr_71
     Sold_0[71]
     Q0_var[71]
-    2.3254546307695441e+03
+    1.1004213042257938e+03
  MAX max_lost_constr_71
     Lost_0[71]
     Lost_0_expr_71
@@ -14412,7 +9312,7 @@ GENCONS
  MIN min_sales2_constr_71
     Sold_1[71]
     total_stock_second_period_71
-    5.7083389769487826e+02
+    2.4996638102580772e+02
  MAX max_lost2_constr_71
     Lost_1[71]
     Lost_1_expr_71
@@ -14423,7 +9323,7 @@ GENCONS
  MIN min_sales_constr_72
     Sold_0[72]
     Q0_var[72]
-    9.6464532448217051e+02
+    1.5970429071108133e+03
  MAX max_lost_constr_72
     Lost_0[72]
     Lost_0_expr_72
@@ -14435,7 +9335,7 @@ GENCONS
  MIN min_sales2_constr_72
     Sold_1[72]
     total_stock_second_period_72
-    2.3916264916005716e+02
+    3.8265509069915390e+02
  MAX max_lost2_constr_72
     Lost_1[72]
     Lost_1_expr_72
@@ -14446,7 +9346,7 @@ GENCONS
  MIN min_sales_constr_73
     Sold_0[73]
     Q0_var[73]
-    8.0742374259336134e+02
+    5.2532427455576169e+02
  MAX max_lost_constr_73
     Lost_0[73]
     Lost_0_expr_73
@@ -14458,7 +9358,7 @@ GENCONS
  MIN min_sales2_constr_73
     Sold_1[73]
     total_stock_second_period_73
-    1.9294880142775003e+02
+    9.8363550056377775e+01
  MAX max_lost2_constr_73
     Lost_1[73]
     Lost_1_expr_73
@@ -14469,7 +9369,7 @@ GENCONS
  MIN min_sales_constr_74
     Sold_0[74]
     Q0_var[74]
-    1.5169539636523664e+03
+    1.4430022680306129e+03
  MAX max_lost_constr_74
     Lost_0[74]
     Lost_0_expr_74
@@ -14481,7 +9381,7 @@ GENCONS
  MIN min_sales2_constr_74
     Sold_1[74]
     total_stock_second_period_74
-    4.4575405391576766e+02
+    4.1265779853611195e+02
  MAX max_lost2_constr_74
     Lost_1[74]
     Lost_1_expr_74
@@ -14492,7 +9392,7 @@ GENCONS
  MIN min_sales_constr_75
     Sold_0[75]
     Q0_var[75]
-    7.4063691392278224e+02
+    1.4342386486585981e+03
  MAX max_lost_constr_75
     Lost_0[75]
     Lost_0_expr_75
@@ -14504,7 +9404,7 @@ GENCONS
  MIN min_sales2_constr_75
     Sold_1[75]
     total_stock_second_period_75
-    1.5445186942066204e+02
+    3.2272616847464070e+02
  MAX max_lost2_constr_75
     Lost_1[75]
     Lost_1_expr_75
@@ -14515,7 +9415,7 @@ GENCONS
  MIN min_sales_constr_76
     Sold_0[76]
     Q0_var[76]
-    761.086234270769
+    1.6171056939268205e+03
  MAX max_lost_constr_76
     Lost_0[76]
     Lost_0_expr_76
@@ -14527,7 +9427,7 @@ GENCONS
  MIN min_sales2_constr_76
     Sold_1[76]
     total_stock_second_period_76
-    2.3232479900140015e+02
+    4.3172795622017395e+02
  MAX max_lost2_constr_76
     Lost_1[76]
     Lost_1_expr_76
@@ -14538,7 +9438,7 @@ GENCONS
  MIN min_sales_constr_77
     Sold_0[77]
     Q0_var[77]
-    2.5274476673286508e+03
+    1.6750247574957211e+03
  MAX max_lost_constr_77
     Lost_0[77]
     Lost_0_expr_77
@@ -14550,7 +9450,7 @@ GENCONS
  MIN min_sales2_constr_77
     Sold_1[77]
     total_stock_second_period_77
-    5.8754734010602328e+02
+    3.5983323015299970e+02
  MAX max_lost2_constr_77
     Lost_1[77]
     Lost_1_expr_77
@@ -14561,7 +9461,7 @@ GENCONS
  MIN min_sales_constr_78
     Sold_0[78]
     Q0_var[78]
-    1.4941014809547828e+03
+    4.5419894921847435e+02
  MAX max_lost_constr_78
     Lost_0[78]
     Lost_0_expr_78
@@ -14573,7 +9473,7 @@ GENCONS
  MIN min_sales2_constr_78
     Sold_1[78]
     total_stock_second_period_78
-    4.1973138723700509e+02
+    9.2967676873911827e+01
  MAX max_lost2_constr_78
     Lost_1[78]
     Lost_1_expr_78
@@ -14584,7 +9484,7 @@ GENCONS
  MIN min_sales_constr_79
     Sold_0[79]
     Q0_var[79]
-    1.6700300163838174e+03
+    1.2375728796283934e+03
  MAX max_lost_constr_79
     Lost_0[79]
     Lost_0_expr_79
@@ -14596,7 +9496,7 @@ GENCONS
  MIN min_sales2_constr_79
     Sold_1[79]
     total_stock_second_period_79
-    3.6033889574127676e+02
+    2.3761619651357546e+02
  MAX max_lost2_constr_79
     Lost_1[79]
     Lost_1_expr_79
@@ -14607,7 +9507,7 @@ GENCONS
  MIN min_sales_constr_80
     Sold_0[80]
     Q0_var[80]
-    1.1784872264229255e+03
+    1.1081940041896589e+03
  MAX max_lost_constr_80
     Lost_0[80]
     Lost_0_expr_80
@@ -14619,7 +9519,7 @@ GENCONS
  MIN min_sales2_constr_80
     Sold_1[80]
     total_stock_second_period_80
-    2.9895930741746889e+02
+    2.6453786972987882e+02
  MAX max_lost2_constr_80
     Lost_1[80]
     Lost_1_expr_80
@@ -14630,7 +9530,7 @@ GENCONS
  MIN min_sales_constr_81
     Sold_0[81]
     Q0_var[81]
-    1.6843461767313283e+03
+    5.2848942213380712e+02
  MAX max_lost_constr_81
     Lost_0[81]
     Lost_0_expr_81
@@ -14642,7 +9542,7 @@ GENCONS
  MIN min_sales2_constr_81
     Sold_1[81]
     total_stock_second_period_81
-    487.250477442101
+    1.8282207148293929e+02
  MAX max_lost2_constr_81
     Lost_1[81]
     Lost_1_expr_81
@@ -14653,7 +9553,7 @@ GENCONS
  MIN min_sales_constr_82
     Sold_0[82]
     Q0_var[82]
-    8.2664887603031048e+02
+    5.4682728543629764e+02
  MAX max_lost_constr_82
     Lost_0[82]
     Lost_0_expr_82
@@ -14665,7 +9565,7 @@ GENCONS
  MIN min_sales2_constr_82
     Sold_1[82]
     total_stock_second_period_82
-    1.7047873826167830e+02
+    8.5882133862360831e+01
  MAX max_lost2_constr_82
     Lost_1[82]
     Lost_1_expr_82
@@ -14676,7 +9576,7 @@ GENCONS
  MIN min_sales_constr_83
     Sold_0[83]
     Q0_var[83]
-    2.2754377430778854e+03
+    1.7036874340023696e+03
  MAX max_lost_constr_83
     Lost_0[83]
     Lost_0_expr_83
@@ -14688,7 +9588,7 @@ GENCONS
  MIN min_sales2_constr_83
     Sold_1[83]
     total_stock_second_period_83
-    583.668901018491
+    4.2612299073580419e+02
  MAX max_lost2_constr_83
     Lost_1[83]
     Lost_1_expr_83
@@ -14699,7 +9599,7 @@ GENCONS
  MIN min_sales_constr_84
     Sold_0[84]
     Q0_var[84]
-    2.0417242042826952e+03
+    5.0878218216602824e+02
  MAX max_lost_constr_84
     Lost_0[84]
     Lost_0_expr_84
@@ -14711,7 +9611,7 @@ GENCONS
  MIN min_sales2_constr_84
     Sold_1[84]
     total_stock_second_period_84
-    5.3056150403289337e+02
+    1.2223019800499011e+02
  MAX max_lost2_constr_84
     Lost_1[84]
     Lost_1_expr_84
@@ -14722,7 +9622,7 @@ GENCONS
  MIN min_sales_constr_85
     Sold_0[85]
     Q0_var[85]
-    1.7345678404824312e+03
+    1.6966986613405031e+03
  MAX max_lost_constr_85
     Lost_0[85]
     Lost_0_expr_85
@@ -14734,7 +9634,7 @@ GENCONS
  MIN min_sales2_constr_85
     Sold_1[85]
     total_stock_second_period_85
-    4.0882849128462163e+02
+    3.8621023260346180e+02
  MAX max_lost2_constr_85
     Lost_1[85]
     Lost_1_expr_85
@@ -14745,7 +9645,7 @@ GENCONS
  MIN min_sales_constr_86
     Sold_0[86]
     Q0_var[86]
-    5.4745592074868523e+02
+    1.7335072419124563e+03
  MAX max_lost_constr_86
     Lost_0[86]
     Lost_0_expr_86
@@ -14757,7 +9657,7 @@ GENCONS
  MIN min_sales2_constr_86
     Sold_1[86]
     total_stock_second_period_86
-    1.2145309520128745e+02
+    4.1852203799256353e+02
  MAX max_lost2_constr_86
     Lost_1[86]
     Lost_1_expr_86
@@ -14768,7 +9668,7 @@ GENCONS
  MIN min_sales_constr_87
     Sold_0[87]
     Q0_var[87]
-    1.8447779968267685e+03
+    1.2614963701504730e+03
  MAX max_lost_constr_87
     Lost_0[87]
     Lost_0_expr_87
@@ -14780,7 +9680,7 @@ GENCONS
  MIN min_sales2_constr_87
     Sold_1[87]
     total_stock_second_period_87
-    4.5042782472386887e+02
+    2.8999504825744259e+02
  MAX max_lost2_constr_87
     Lost_1[87]
     Lost_1_expr_87
@@ -14791,7 +9691,7 @@ GENCONS
  MIN min_sales_constr_88
     Sold_0[88]
     Q0_var[88]
-    2.2932827874643071e+03
+    2.3355361634892943e+03
  MAX max_lost_constr_88
     Lost_0[88]
     Lost_0_expr_88
@@ -14803,7 +9703,7 @@ GENCONS
  MIN min_sales2_constr_88
     Sold_1[88]
     total_stock_second_period_88
-    5.5664217044274039e+02
+    5.5259718112802341e+02
  MAX max_lost2_constr_88
     Lost_1[88]
     Lost_1_expr_88
@@ -14814,7 +9714,7 @@ GENCONS
  MIN min_sales_constr_89
     Sold_0[89]
     Q0_var[89]
-    1.2672887803164604e+03
+    316.334619516777
  MAX max_lost_constr_89
     Lost_0[89]
     Lost_0_expr_89
@@ -14826,7 +9726,7 @@ GENCONS
  MIN min_sales2_constr_89
     Sold_1[89]
     total_stock_second_period_89
-    362.288533739313
+    8.8857814462854350e+01
  MAX max_lost2_constr_89
     Lost_1[89]
     Lost_1_expr_89
@@ -14837,7 +9737,7 @@ GENCONS
  MIN min_sales_constr_90
     Sold_0[90]
     Q0_var[90]
-    1.0843819721007535e+03
+    1.7801191709072755e+03
  MAX max_lost_constr_90
     Lost_0[90]
     Lost_0_expr_90
@@ -14849,7 +9749,7 @@ GENCONS
  MIN min_sales2_constr_90
     Sold_1[90]
     total_stock_second_period_90
-    2.7711241091363109e+02
+    4.3643884211717170e+02
  MAX max_lost2_constr_90
     Lost_1[90]
     Lost_1_expr_90
@@ -14860,7 +9760,7 @@ GENCONS
  MIN min_sales_constr_91
     Sold_0[91]
     Q0_var[91]
-    6.0452821245410632e+02
+    3.7761549614744393e+02
  MAX max_lost_constr_91
     Lost_0[91]
     Lost_0_expr_91
@@ -14872,7 +9772,7 @@ GENCONS
  MIN min_sales2_constr_91
     Sold_1[91]
     total_stock_second_period_91
-    1.6013867252104754e+02
+    6.2336017849428238e+01
  MAX max_lost2_constr_91
     Lost_1[91]
     Lost_1_expr_91
@@ -14883,7 +9783,7 @@ GENCONS
  MIN min_sales_constr_92
     Sold_0[92]
     Q0_var[92]
-    1.5864310366769578e+03
+    913.675091987402
  MAX max_lost_constr_92
     Lost_0[92]
     Lost_0_expr_92
@@ -14895,7 +9795,7 @@ GENCONS
  MIN min_sales2_constr_92
     Sold_1[92]
     total_stock_second_period_92
-    4.7745055206878413e+02
+    2.7766352870021672e+02
  MAX max_lost2_constr_92
     Lost_1[92]
     Lost_1_expr_92
@@ -14906,7 +9806,7 @@ GENCONS
  MIN min_sales_constr_93
     Sold_0[93]
     Q0_var[93]
-    2.1003916898720836e+03
+    1.1782116836578321e+03
  MAX max_lost_constr_93
     Lost_0[93]
     Lost_0_expr_93
@@ -14918,7 +9818,7 @@ GENCONS
  MIN min_sales2_constr_93
     Sold_1[93]
     total_stock_second_period_93
-    5.4251092560590314e+02
+    2.9545877230774920e+02
  MAX max_lost2_constr_93
     Lost_1[93]
     Lost_1_expr_93
@@ -14929,7 +9829,7 @@ GENCONS
  MIN min_sales_constr_94
     Sold_0[94]
     Q0_var[94]
-    6.7248424041588623e+02
+    1.0182968174602224e+03
  MAX max_lost_constr_94
     Lost_0[94]
     Lost_0_expr_94
@@ -14941,7 +9841,7 @@ GENCONS
  MIN min_sales2_constr_94
     Sold_1[94]
     total_stock_second_period_94
-    1.5012587203791742e+02
+    2.3126439913458742e+02
  MAX max_lost2_constr_94
     Lost_1[94]
     Lost_1_expr_94
@@ -14952,7 +9852,7 @@ GENCONS
  MIN min_sales_constr_95
     Sold_0[95]
     Q0_var[95]
-    1.6062126254622062e+03
+    8.8316688385139264e+02
  MAX max_lost_constr_95
     Lost_0[95]
     Lost_0_expr_95
@@ -14964,7 +9864,7 @@ GENCONS
  MIN min_sales2_constr_95
     Sold_1[95]
     total_stock_second_period_95
-    479.492277376171
+    2.8412226143744715e+02
  MAX max_lost2_constr_95
     Lost_1[95]
     Lost_1_expr_95
@@ -14975,7 +9875,7 @@ GENCONS
  MIN min_sales_constr_96
     Sold_0[96]
     Q0_var[96]
-    4.4140211670942108e+02
+    5.5663042018642182e+02
  MAX max_lost_constr_96
     Lost_0[96]
     Lost_0_expr_96
@@ -14987,7 +9887,7 @@ GENCONS
  MIN min_sales2_constr_96
     Sold_1[96]
     total_stock_second_period_96
-    1.0853024312918899e+02
+    1.2386514510304559e+02
  MAX max_lost2_constr_96
     Lost_1[96]
     Lost_1_expr_96
@@ -14998,7 +9898,7 @@ GENCONS
  MIN min_sales_constr_97
     Sold_0[97]
     Q0_var[97]
-    2.2428171795057146e+03
+    1.9875013996625728e+02
  MAX max_lost_constr_97
     Lost_0[97]
     Lost_0_expr_97
@@ -15010,7 +9910,7 @@ GENCONS
  MIN min_sales2_constr_97
     Sold_1[97]
     total_stock_second_period_97
-    5.8352745903860978e+02
+    1.9230332955708960e+00
  MAX max_lost2_constr_97
     Lost_1[97]
     Lost_1_expr_97
@@ -15021,7 +9921,7 @@ GENCONS
  MIN min_sales_constr_98
     Sold_0[98]
     Q0_var[98]
-    1.7717191637304220e+03
+    1.2725129110224821e+03
  MAX max_lost_constr_98
     Lost_0[98]
     Lost_0_expr_98
@@ -15033,7 +9933,7 @@ GENCONS
  MIN min_sales2_constr_98
     Sold_1[98]
     total_stock_second_period_98
-    4.0752901031754811e+02
+    2.6811986284845693e+02
  MAX max_lost2_constr_98
     Lost_1[98]
     Lost_1_expr_98
@@ -15044,7 +9944,7 @@ GENCONS
  MIN min_sales_constr_99
     Sold_0[99]
     Q0_var[99]
-    1.6516800666381498e+03
+    1.8044044638054552e+03
  MAX max_lost_constr_99
     Lost_0[99]
     Lost_0_expr_99
@@ -15056,7 +9956,7 @@ GENCONS
  MIN min_sales2_constr_99
     Sold_1[99]
     total_stock_second_period_99
-    3.7621952949581657e+02
+    3.9979228015545635e+02
  MAX max_lost2_constr_99
     Lost_1[99]
     Lost_1_expr_99
@@ -15067,7 +9967,7 @@ GENCONS
  MIN min_sales_constr_100
     Sold_0[100]
     Q0_var[100]
-    1.0279650558770679e+03
+    9.7942064765610849e+02
  MAX max_lost_constr_100
     Lost_0[100]
     Lost_0_expr_100
@@ -15079,7 +9979,7 @@ GENCONS
  MIN min_sales2_constr_100
     Sold_1[100]
     total_stock_second_period_100
-    2.4797491679446389e+02
+    2.2123036511088117e+02
  MAX max_lost2_constr_100
     Lost_1[100]
     Lost_1_expr_100
@@ -15090,7 +9990,7 @@ GENCONS
  MIN min_sales_constr_101
     Sold_0[101]
     Q0_var[101]
-    2.2038819473641352e+03
+    9.9205907126963166e+02
  MAX max_lost_constr_101
     Lost_0[101]
     Lost_0_expr_101
@@ -15102,7 +10002,7 @@ GENCONS
  MIN min_sales2_constr_101
     Sold_1[101]
     total_stock_second_period_101
-    5.6464583578489169e+02
+    2.1641844668695126e+02
  MAX max_lost2_constr_101
     Lost_1[101]
     Lost_1_expr_101
@@ -15113,7 +10013,7 @@ GENCONS
  MIN min_sales_constr_102
     Sold_0[102]
     Q0_var[102]
-    9.5882981893981173e+02
+    3.5352730351538537e+02
  MAX max_lost_constr_102
     Lost_0[102]
     Lost_0_expr_102
@@ -15125,7 +10025,7 @@ GENCONS
  MIN min_sales2_constr_102
     Sold_1[102]
     total_stock_second_period_102
-    2.3295281366839583e+02
+    4.5668302914537477e+01
  MAX max_lost2_constr_102
     Lost_1[102]
     Lost_1_expr_102
@@ -15136,7 +10036,7 @@ GENCONS
  MIN min_sales_constr_103
     Sold_0[103]
     Q0_var[103]
-    2.0339653696185794e+03
+    6.4029245291999689e+02
  MAX max_lost_constr_103
     Lost_0[103]
     Lost_0_expr_103
@@ -15148,7 +10048,7 @@ GENCONS
  MIN min_sales2_constr_103
     Sold_1[103]
     total_stock_second_period_103
-    5.1407330660834748e+02
+    1.4930216828569615e+02
  MAX max_lost2_constr_103
     Lost_1[103]
     Lost_1_expr_103
@@ -15159,7 +10059,7 @@ GENCONS
  MIN min_sales_constr_104
     Sold_0[104]
     Q0_var[104]
-    2.2768302715266736e+03
+    8.7793047659798867e+02
  MAX max_lost_constr_104
     Lost_0[104]
     Lost_0_expr_104
@@ -15171,7 +10071,7 @@ GENCONS
  MIN min_sales2_constr_104
     Sold_1[104]
     total_stock_second_period_104
-    592.554339668566
+    2.0630175177326265e+02
  MAX max_lost2_constr_104
     Lost_1[104]
     Lost_1_expr_104
@@ -15182,7 +10082,7 @@ GENCONS
  MIN min_sales_constr_105
     Sold_0[105]
     Q0_var[105]
-    2.0074722910039327e+03
+    5.2636052946042082e+02
  MAX max_lost_constr_105
     Lost_0[105]
     Lost_0_expr_105
@@ -15194,7 +10094,7 @@ GENCONS
  MIN min_sales2_constr_105
     Sold_1[105]
     total_stock_second_period_105
-    4.9169832275740293e+02
+    7.5445748645922976e+01
  MAX max_lost2_constr_105
     Lost_1[105]
     Lost_1_expr_105
@@ -15205,7 +10105,7 @@ GENCONS
  MIN min_sales_constr_106
     Sold_0[106]
     Q0_var[106]
-    1.4612920586453154e+03
+    7.1244910368701085e+02
  MAX max_lost_constr_106
     Lost_0[106]
     Lost_0_expr_106
@@ -15217,7 +10117,7 @@ GENCONS
  MIN min_sales2_constr_106
     Sold_1[106]
     total_stock_second_period_106
-    3.5949496019321589e+02
+    1.5767617208132702e+02
  MAX max_lost2_constr_106
     Lost_1[106]
     Lost_1_expr_106
@@ -15228,7 +10128,7 @@ GENCONS
  MIN min_sales_constr_107
     Sold_0[107]
     Q0_var[107]
-    6.5640038819901031e+02
+    487.614092931941
  MAX max_lost_constr_107
     Lost_0[107]
     Lost_0_expr_107
@@ -15240,7 +10140,7 @@ GENCONS
  MIN min_sales2_constr_107
     Sold_1[107]
     total_stock_second_period_107
-    1.3303713192583785e+02
+    6.5741457372016370e+01
  MAX max_lost2_constr_107
     Lost_1[107]
     Lost_1_expr_107
@@ -15251,7 +10151,7 @@ GENCONS
  MIN min_sales_constr_108
     Sold_0[108]
     Q0_var[108]
-    1.2162525063427343e+03
+    3.2061345202347633e+02
  MAX max_lost_constr_108
     Lost_0[108]
     Lost_0_expr_108
@@ -15263,7 +10163,7 @@ GENCONS
  MIN min_sales2_constr_108
     Sold_1[108]
     total_stock_second_period_108
-    3.3620689458553653e+02
+    8.9558715713894657e+01
  MAX max_lost2_constr_108
     Lost_1[108]
     Lost_1_expr_108
@@ -15274,7 +10174,7 @@ GENCONS
  MIN min_sales_constr_109
     Sold_0[109]
     Q0_var[109]
-    1.5041894872134440e+03
+    1.9466858453628629e+03
  MAX max_lost_constr_109
     Lost_0[109]
     Lost_0_expr_109
@@ -15286,7 +10186,7 @@ GENCONS
  MIN min_sales2_constr_109
     Sold_1[109]
     total_stock_second_period_109
-    3.1912797348585178e+02
+    4.1514376989348671e+02
  MAX max_lost2_constr_109
     Lost_1[109]
     Lost_1_expr_109
@@ -15297,7 +10197,7 @@ GENCONS
  MIN min_sales_constr_110
     Sold_0[110]
     Q0_var[110]
-    5.5710072227022954e+02
+    2.2217629212835215e+02
  MAX max_lost_constr_110
     Lost_0[110]
     Lost_0_expr_110
@@ -15309,7 +10209,7 @@ GENCONS
  MIN min_sales2_constr_110
     Sold_1[110]
     total_stock_second_period_110
-    2.0139802059350421e+02
+    6.0598880412107029e+01
  MAX max_lost2_constr_110
     Lost_1[110]
     Lost_1_expr_110
@@ -15320,7 +10220,7 @@ GENCONS
  MIN min_sales_constr_111
     Sold_0[111]
     Q0_var[111]
-    9.3539902962948236e+02
+    1.1215701585857450e+03
  MAX max_lost_constr_111
     Lost_0[111]
     Lost_0_expr_111
@@ -15332,7 +10232,7 @@ GENCONS
  MIN min_sales2_constr_111
     Sold_1[111]
     total_stock_second_period_111
-    3.1179381835715225e+02
+    3.4392793030105361e+02
  MAX max_lost2_constr_111
     Lost_1[111]
     Lost_1_expr_111
@@ -15343,7 +10243,7 @@ GENCONS
  MIN min_sales_constr_112
     Sold_0[112]
     Q0_var[112]
-    1.2086912587741824e+03
+    1.7294064528136203e+03
  MAX max_lost_constr_112
     Lost_0[112]
     Lost_0_expr_112
@@ -15355,7 +10255,7 @@ GENCONS
  MIN min_sales2_constr_112
     Sold_1[112]
     total_stock_second_period_112
-    2.7887894204016879e+02
+    3.9444784852440750e+02
  MAX max_lost2_constr_112
     Lost_1[112]
     Lost_1_expr_112
@@ -15366,7 +10266,7 @@ GENCONS
  MIN min_sales_constr_113
     Sold_0[113]
     Q0_var[113]
-    611.217415759106
+    8.5310710136741943e+02
  MAX max_lost_constr_113
     Lost_0[113]
     Lost_0_expr_113
@@ -15378,7 +10278,7 @@ GENCONS
  MIN min_sales2_constr_113
     Sold_1[113]
     total_stock_second_period_113
-    1.8184213057582423e+02
+    2.3514083076029857e+02
  MAX max_lost2_constr_113
     Lost_1[113]
     Lost_1_expr_113
@@ -15389,7 +10289,7 @@ GENCONS
  MIN min_sales_constr_114
     Sold_0[114]
     Q0_var[114]
-    1.0778407435615140e+03
+    5.0314131726558605e+02
  MAX max_lost_constr_114
     Lost_0[114]
     Lost_0_expr_114
@@ -15401,7 +10301,7 @@ GENCONS
  MIN min_sales2_constr_114
     Sold_1[114]
     total_stock_second_period_114
-    3.2068707166624307e+02
+    118.011455290041
  MAX max_lost2_constr_114
     Lost_1[114]
     Lost_1_expr_114
@@ -15412,7 +10312,7 @@ GENCONS
  MIN min_sales_constr_115
     Sold_0[115]
     Q0_var[115]
-    9.8579131229534210e+02
+    6.1463296236802421e+02
  MAX max_lost_constr_115
     Lost_0[115]
     Lost_0_expr_115
@@ -15424,7 +10324,7 @@ GENCONS
  MIN min_sales2_constr_115
     Sold_1[115]
     total_stock_second_period_115
-    2.3139997816224437e+02
+    1.1265041989757651e+02
  MAX max_lost2_constr_115
     Lost_1[115]
     Lost_1_expr_115
@@ -15435,7 +10335,7 @@ GENCONS
  MIN min_sales_constr_116
     Sold_0[116]
     Q0_var[116]
-    1.1971209955740960e+03
+    799.040100767827
  MAX max_lost_constr_116
     Lost_0[116]
     Lost_0_expr_116
@@ -15447,7 +10347,7 @@ GENCONS
  MIN min_sales2_constr_116
     Sold_1[116]
     total_stock_second_period_116
-    3.6103121034113218e+02
+    2.3095830985492796e+02
  MAX max_lost2_constr_116
     Lost_1[116]
     Lost_1_expr_116
@@ -15458,7 +10358,7 @@ GENCONS
  MIN min_sales_constr_117
     Sold_0[117]
     Q0_var[117]
-    4.1234713745203055e+02
+    9.8555752729885512e+02
  MAX max_lost_constr_117
     Lost_0[117]
     Lost_0_expr_117
@@ -15470,7 +10370,7 @@ GENCONS
  MIN min_sales2_constr_117
     Sold_1[117]
     total_stock_second_period_117
-    1.1758002986416432e+02
+    2.6213898773261963e+02
  MAX max_lost2_constr_117
     Lost_1[117]
     Lost_1_expr_117
@@ -15481,7 +10381,7 @@ GENCONS
  MIN min_sales_constr_118
     Sold_0[118]
     Q0_var[118]
-    2.3205793495301750e+03
+    9.6557601135429729e+02
  MAX max_lost_constr_118
     Lost_0[118]
     Lost_0_expr_118
@@ -15493,7 +10393,7 @@ GENCONS
  MIN min_sales2_constr_118
     Sold_1[118]
     total_stock_second_period_118
-    5.5311570989364213e+02
+    1.8337591264487997e+02
  MAX max_lost2_constr_118
     Lost_1[118]
     Lost_1_expr_118
@@ -15504,7 +10404,7 @@ GENCONS
  MIN min_sales_constr_119
     Sold_0[119]
     Q0_var[119]
-    1.9499450722160709e+03
+    1.7580613422858398e+03
  MAX max_lost_constr_119
     Lost_0[119]
     Lost_0_expr_119
@@ -15516,7 +10416,7 @@ GENCONS
  MIN min_sales2_constr_119
     Sold_1[119]
     total_stock_second_period_119
-    5.0818215275992804e+02
+    4.4560288657973217e+02
  MAX max_lost2_constr_119
     Lost_1[119]
     Lost_1_expr_119
@@ -15527,7 +10427,7 @@ GENCONS
  MIN min_sales_constr_120
     Sold_0[120]
     Q0_var[120]
-    1.3992771888670463e+03
+    1.8912382439614407e+03
  MAX max_lost_constr_120
     Lost_0[120]
     Lost_0_expr_120
@@ -15539,7 +10439,7 @@ GENCONS
  MIN min_sales2_constr_120
     Sold_1[120]
     total_stock_second_period_120
-    3.7629066625525229e+02
+    4.9507216869637358e+02
  MAX max_lost2_constr_120
     Lost_1[120]
     Lost_1_expr_120
@@ -15550,7 +10450,7 @@ GENCONS
  MIN min_sales_constr_121
     Sold_0[121]
     Q0_var[121]
-    2.0980967015923088e+03
+    2.2959291889574597e+03
  MAX max_lost_constr_121
     Lost_0[121]
     Lost_0_expr_121
@@ -15562,7 +10462,7 @@ GENCONS
  MIN min_sales2_constr_121
     Sold_1[121]
     total_stock_second_period_121
-    5.2590429137862156e+02
+    5.6075407964118290e+02
  MAX max_lost2_constr_121
     Lost_1[121]
     Lost_1_expr_121
@@ -15573,7 +10473,7 @@ GENCONS
  MIN min_sales_constr_122
     Sold_0[122]
     Q0_var[122]
-    2.0109459006046732e+03
+    1.2567354469195406e+02
  MAX max_lost_constr_122
     Lost_0[122]
     Lost_0_expr_122
@@ -15585,7 +10485,7 @@ GENCONS
  MIN min_sales2_constr_122
     Sold_1[122]
     total_stock_second_period_122
-    5.8119753690540028e+02
+    5.9295018132124440e+01
  MAX max_lost2_constr_122
     Lost_1[122]
     Lost_1_expr_122
@@ -15596,7 +10496,7 @@ GENCONS
  MIN min_sales_constr_123
     Sold_0[123]
     Q0_var[123]
-    8.5228218088204039e+02
+    2.0427608177965731e+03
  MAX max_lost_constr_123
     Lost_0[123]
     Lost_0_expr_123
@@ -15608,7 +10508,7 @@ GENCONS
  MIN min_sales2_constr_123
     Sold_1[123]
     total_stock_second_period_123
-    1.5526114702105360e+02
+    4.3829196915617433e+02
  MAX max_lost2_constr_123
     Lost_1[123]
     Lost_1_expr_123
@@ -15619,7 +10519,7 @@ GENCONS
  MIN min_sales_constr_124
     Sold_0[124]
     Q0_var[124]
-    1603.56313727314
+    1.0868991025529886e+03
  MAX max_lost_constr_124
     Lost_0[124]
     Lost_0_expr_124
@@ -15631,7 +10531,7 @@ GENCONS
  MIN min_sales2_constr_124
     Sold_1[124]
     total_stock_second_period_124
-    4.1541590420490189e+02
+    2.4183275686697661e+02
  MAX max_lost2_constr_124
     Lost_1[124]
     Lost_1_expr_124
@@ -15642,7 +10542,7 @@ GENCONS
  MIN min_sales_constr_125
     Sold_0[125]
     Q0_var[125]
-    2.2094002603282161e+03
+    1.7575200060668622e+03
  MAX max_lost_constr_125
     Lost_0[125]
     Lost_0_expr_125
@@ -15654,7 +10554,7 @@ GENCONS
  MIN min_sales2_constr_125
     Sold_1[125]
     total_stock_second_period_125
-    5.9899700046782925e+02
+    4.7141860355081036e+02
  MAX max_lost2_constr_125
     Lost_1[125]
     Lost_1_expr_125
@@ -15665,7 +10565,7 @@ GENCONS
  MIN min_sales_constr_126
     Sold_0[126]
     Q0_var[126]
-    2.5872432223831356e+03
+    1.9832833731637770e+03
  MAX max_lost_constr_126
     Lost_0[126]
     Lost_0_expr_126
@@ -15677,7 +10577,7 @@ GENCONS
  MIN min_sales2_constr_126
     Sold_1[126]
     total_stock_second_period_126
-    593.944584666763
+    4.2834628944876704e+02
  MAX max_lost2_constr_126
     Lost_1[126]
     Lost_1_expr_126
@@ -15688,7 +10588,7 @@ GENCONS
  MIN min_sales_constr_127
     Sold_0[127]
     Q0_var[127]
-    1.2445772488476373e+03
+    1.5739325626043949e+03
  MAX max_lost_constr_127
     Lost_0[127]
     Lost_0_expr_127
@@ -15700,7 +10600,7 @@ GENCONS
  MIN min_sales2_constr_127
     Sold_1[127]
     total_stock_second_period_127
-    4.0166149614537233e+02
+    4.8923372908445253e+02
  MAX max_lost2_constr_127
     Lost_1[127]
     Lost_1_expr_127
@@ -15711,7 +10611,7 @@ GENCONS
  MIN min_sales_constr_128
     Sold_0[128]
     Q0_var[128]
-    543.695792344816
+    1.7191412999436966e+03
  MAX max_lost_constr_128
     Lost_0[128]
     Lost_0_expr_128
@@ -15723,7 +10623,7 @@ GENCONS
  MIN min_sales2_constr_128
     Sold_1[128]
     total_stock_second_period_128
-    1.6401043522543907e+02
+    4.4327748473876176e+02
  MAX max_lost2_constr_128
     Lost_1[128]
     Lost_1_expr_128
@@ -15734,7 +10634,7 @@ GENCONS
  MIN min_sales_constr_129
     Sold_0[129]
     Q0_var[129]
-    1.5176437592214024e+03
+    8.3521104987537456e+02
  MAX max_lost_constr_129
     Lost_0[129]
     Lost_0_expr_129
@@ -15746,7 +10646,7 @@ GENCONS
  MIN min_sales2_constr_129
     Sold_1[129]
     total_stock_second_period_129
-    3.9159641549526413e+02
+    2.0638280302649054e+02
  MAX max_lost2_constr_129
     Lost_1[129]
     Lost_1_expr_129
@@ -15757,7 +10657,7 @@ GENCONS
  MIN min_sales_constr_130
     Sold_0[130]
     Q0_var[130]
-    4.8016840522525530e+02
+    1.0939758684681956e+03
  MAX max_lost_constr_130
     Lost_0[130]
     Lost_0_expr_130
@@ -15769,7 +10669,7 @@ GENCONS
  MIN min_sales2_constr_130
     Sold_1[130]
     total_stock_second_period_130
-    1.0103231778721516e+02
+    2.6843794171379614e+02
  MAX max_lost2_constr_130
     Lost_1[130]
     Lost_1_expr_130
@@ -15780,7 +10680,7 @@ GENCONS
  MIN min_sales_constr_131
     Sold_0[131]
     Q0_var[131]
-    888.28691363584
+    1.2096845169789556e+03
  MAX max_lost_constr_131
     Lost_0[131]
     Lost_0_expr_131
@@ -15792,7 +10692,7 @@ GENCONS
  MIN min_sales2_constr_131
     Sold_1[131]
     total_stock_second_period_131
-    1.9945566733342952e+02
+    2.6519594675069129e+02
  MAX max_lost2_constr_131
     Lost_1[131]
     Lost_1_expr_131
@@ -15803,7 +10703,7 @@ GENCONS
  MIN min_sales_constr_132
     Sold_0[132]
     Q0_var[132]
-    2.4329737284088778e+03
+    8.3004981758565816e+02
  MAX max_lost_constr_132
     Lost_0[132]
     Lost_0_expr_132
@@ -15815,7 +10715,7 @@ GENCONS
  MIN min_sales2_constr_132
     Sold_1[132]
     total_stock_second_period_132
-    578.06157977998
+    1.6272222498584813e+02
  MAX max_lost2_constr_132
     Lost_1[132]
     Lost_1_expr_132
@@ -15826,7 +10726,7 @@ GENCONS
  MIN min_sales_constr_133
     Sold_0[133]
     Q0_var[133]
-    1.1121918547956216e+03
+    776.809655078848
  MAX max_lost_constr_133
     Lost_0[133]
     Lost_0_expr_133
@@ -15838,7 +10738,7 @@ GENCONS
  MIN min_sales2_constr_133
     Sold_1[133]
     total_stock_second_period_133
-    2.6522028630142194e+02
+    1.6676343570337031e+02
  MAX max_lost2_constr_133
     Lost_1[133]
     Lost_1_expr_133
@@ -15849,7 +10749,7 @@ GENCONS
  MIN min_sales_constr_134
     Sold_0[134]
     Q0_var[134]
-    1.5653088779278937e+03
+    1.0955980530548350e+03
  MAX max_lost_constr_134
     Lost_0[134]
     Lost_0_expr_134
@@ -15861,7 +10761,7 @@ GENCONS
  MIN min_sales2_constr_134
     Sold_1[134]
     total_stock_second_period_134
-    4.1919505288847427e+02
+    2.8715900020034928e+02
  MAX max_lost2_constr_134
     Lost_1[134]
     Lost_1_expr_134
@@ -15872,7 +10772,7 @@ GENCONS
  MIN min_sales_constr_135
     Sold_0[135]
     Q0_var[135]
-    953.817196481865
+    1.5194587797688655e+03
  MAX max_lost_constr_135
     Lost_0[135]
     Lost_0_expr_135
@@ -15884,7 +10784,7 @@ GENCONS
  MIN min_sales2_constr_135
     Sold_1[135]
     total_stock_second_period_135
-    2.4042974731609564e+02
+    3.8446964435315084e+02
  MAX max_lost2_constr_135
     Lost_1[135]
     Lost_1_expr_135
@@ -15895,7 +10795,7 @@ GENCONS
  MIN min_sales_constr_136
     Sold_0[136]
     Q0_var[136]
-    2.4206841923651682e+03
+    1.0117251884048911e+03
  MAX max_lost_constr_136
     Lost_0[136]
     Lost_0_expr_136
@@ -15907,7 +10807,7 @@ GENCONS
  MIN min_sales2_constr_136
     Sold_1[136]
     total_stock_second_period_136
-    5.7391094355579480e+02
+    2.0110418310271837e+02
  MAX max_lost2_constr_136
     Lost_1[136]
     Lost_1_expr_136
@@ -15918,7 +10818,7 @@ GENCONS
  MIN min_sales_constr_137
     Sold_0[137]
     Q0_var[137]
-    1.8559818247104813e+03
+    1.2382014460985397e+03
  MAX max_lost_constr_137
     Lost_0[137]
     Lost_0_expr_137
@@ -15930,7 +10830,7 @@ GENCONS
  MIN min_sales2_constr_137
     Sold_1[137]
     total_stock_second_period_137
-    4.6427936497474337e+02
+    2.9522578424321716e+02
  MAX max_lost2_constr_137
     Lost_1[137]
     Lost_1_expr_137
@@ -15941,7 +10841,7 @@ GENCONS
  MIN min_sales_constr_138
     Sold_0[138]
     Q0_var[138]
-    9.5073705346518443e+02
+    5.6541641147342625e+02
  MAX max_lost_constr_138
     Lost_0[138]
     Lost_0_expr_138
@@ -15953,7 +10853,7 @@ GENCONS
  MIN min_sales2_constr_138
     Sold_1[138]
     total_stock_second_period_138
-    2.6482557879070629e+02
+    1.4754527812264860e+02
  MAX max_lost2_constr_138
     Lost_1[138]
     Lost_1_expr_138
@@ -15964,7 +10864,7 @@ GENCONS
  MIN min_sales_constr_139
     Sold_0[139]
     Q0_var[139]
-    2.0299697982158482e+03
+    5.4090482491199475e+02
  MAX max_lost_constr_139
     Lost_0[139]
     Lost_0_expr_139
@@ -15976,7 +10876,7 @@ GENCONS
  MIN min_sales2_constr_139
     Sold_1[139]
     total_stock_second_period_139
-    4.9588071059018540e+02
+    1.0900364354287403e+02
  MAX max_lost2_constr_139
     Lost_1[139]
     Lost_1_expr_139
@@ -15987,7 +10887,7 @@ GENCONS
  MIN min_sales_constr_140
     Sold_0[140]
     Q0_var[140]
-    9.1831627169276067e+02
+    7.2025391377979292e+02
  MAX max_lost_constr_140
     Lost_0[140]
     Lost_0_expr_140
@@ -15999,7 +10899,7 @@ GENCONS
  MIN min_sales2_constr_140
     Sold_1[140]
     total_stock_second_period_140
-    1.5408276222442626e+02
+    7.9931613921678775e+01
  MAX max_lost2_constr_140
     Lost_1[140]
     Lost_1_expr_140
@@ -16010,7 +10910,7 @@ GENCONS
  MIN min_sales_constr_141
     Sold_0[141]
     Q0_var[141]
-    1.3055703017517633e+03
+    2.4590081218956375e+03
  MAX max_lost_constr_141
     Lost_0[141]
     Lost_0_expr_141
@@ -16022,7 +10922,7 @@ GENCONS
  MIN min_sales2_constr_141
     Sold_1[141]
     total_stock_second_period_141
-    2.9615947003273061e+02
+    5.6991159577323060e+02
  MAX max_lost2_constr_141
     Lost_1[141]
     Lost_1_expr_141
@@ -16033,7 +10933,7 @@ GENCONS
  MIN min_sales_constr_142
     Sold_0[142]
     Q0_var[142]
-    7.3353476929090345e+02
+    3.5663181136866763e+02
  MAX max_lost_constr_142
     Lost_0[142]
     Lost_0_expr_142
@@ -16045,7 +10945,7 @@ GENCONS
  MIN min_sales2_constr_142
     Sold_1[142]
     total_stock_second_period_142
-    2.1060906386441530e+02
+    88.3663385028313
  MAX max_lost2_constr_142
     Lost_1[142]
     Lost_1_expr_142
@@ -16056,7 +10956,7 @@ GENCONS
  MIN min_sales_constr_143
     Sold_0[143]
     Q0_var[143]
-    2.1972412854358363e+03
+    826.053118695464
  MAX max_lost_constr_143
     Lost_0[143]
     Lost_0_expr_143
@@ -16068,7 +10968,7 @@ GENCONS
  MIN min_sales2_constr_143
     Sold_1[143]
     total_stock_second_period_143
-    4.4186322363802310e+02
+    84.4598476537488
  MAX max_lost2_constr_143
     Lost_1[143]
     Lost_1_expr_143
@@ -16079,7 +10979,7 @@ GENCONS
  MIN min_sales_constr_144
     Sold_0[144]
     Q0_var[144]
-    5.4762553743784747e+02
+    1.3593702004360498e+03
  MAX max_lost_constr_144
     Lost_0[144]
     Lost_0_expr_144
@@ -16091,7 +10991,7 @@ GENCONS
  MIN min_sales2_constr_144
     Sold_1[144]
     total_stock_second_period_144
-    1.5122314088589707e+02
+    3.4869926357647716e+02
  MAX max_lost2_constr_144
     Lost_1[144]
     Lost_1_expr_144
@@ -16102,7 +11002,7 @@ GENCONS
  MIN min_sales_constr_145
     Sold_0[145]
     Q0_var[145]
-    1.1222536841890412e+03
+    3.3854903965140932e+02
  MAX max_lost_constr_145
     Lost_0[145]
     Lost_0_expr_145
@@ -16114,7 +11014,7 @@ GENCONS
  MIN min_sales2_constr_145
     Sold_1[145]
     total_stock_second_period_145
-    2.9851291614133703e+02
+    7.6531824233829454e+01
  MAX max_lost2_constr_145
     Lost_1[145]
     Lost_1_expr_145
@@ -16125,7 +11025,7 @@ GENCONS
  MIN min_sales_constr_146
     Sold_0[146]
     Q0_var[146]
-    1.0835580183234517e+03
+    2.1371159189351988e+03
  MAX max_lost_constr_146
     Lost_0[146]
     Lost_0_expr_146
@@ -16137,7 +11037,7 @@ GENCONS
  MIN min_sales2_constr_146
     Sold_1[146]
     total_stock_second_period_146
-    2.3832486510460888e+02
+    4.9974211727310040e+02
  MAX max_lost2_constr_146
     Lost_1[146]
     Lost_1_expr_146
@@ -16148,7 +11048,7 @@ GENCONS
  MIN min_sales_constr_147
     Sold_0[147]
     Q0_var[147]
-    1.3749595763647258e+03
+    1.8758763776277601e+03
  MAX max_lost_constr_147
     Lost_0[147]
     Lost_0_expr_147
@@ -16160,7 +11060,7 @@ GENCONS
  MIN min_sales2_constr_147
     Sold_1[147]
     total_stock_second_period_147
-    3.5317145966190208e+02
+    4.6379231224323439e+02
  MAX max_lost2_constr_147
     Lost_1[147]
     Lost_1_expr_147
@@ -16171,7 +11071,7 @@ GENCONS
  MIN min_sales_constr_148
     Sold_0[148]
     Q0_var[148]
-    1.3699107996255052e+03
+    2.6969579387330077e+03
  MAX max_lost_constr_148
     Lost_0[148]
     Lost_0_expr_148
@@ -16183,7 +11083,7 @@ GENCONS
  MIN min_sales2_constr_148
     Sold_1[148]
     total_stock_second_period_148
-    274.948840251938
+    5.9210204747431817e+02
  MAX max_lost2_constr_148
     Lost_1[148]
     Lost_1_expr_148
@@ -16194,7 +11094,7 @@ GENCONS
  MIN min_sales_constr_149
     Sold_0[149]
     Q0_var[149]
-    2.0094787501630883e+03
+    1.6417753079310282e+03
  MAX max_lost_constr_149
     Lost_0[149]
     Lost_0_expr_149
@@ -16206,2309 +11106,9 @@ GENCONS
  MIN min_sales2_constr_149
     Sold_1[149]
     total_stock_second_period_149
-    4.5320528883350551e+02
+    3.4667101698182904e+02
  MAX max_lost2_constr_149
     Lost_1[149]
     Lost_1_expr_149
-    0
- LOGISTIC GC900
-    Options  0  0.01  0.001  -1  -1
-    f_var[150]  Fraction[150]
- MIN min_sales_constr_150
-    Sold_0[150]
-    Q0_var[150]
-    3.8936896357614131e+02
- MAX max_lost_constr_150
-    Lost_0[150]
-    Lost_0_expr_150
-    0
- MAX max_Q1_constr_150
-    Q1_var[150]
-    Q_hat_adjusted_150
-    0
- MIN min_sales2_constr_150
-    Sold_1[150]
-    total_stock_second_period_150
-    1.1228851215126542e+02
- MAX max_lost2_constr_150
-    Lost_1[150]
-    Lost_1_expr_150
-    0
- LOGISTIC GC906
-    Options  0  0.01  0.001  -1  -1
-    f_var[151]  Fraction[151]
- MIN min_sales_constr_151
-    Sold_0[151]
-    Q0_var[151]
-    1.7925937686647960e+03
- MAX max_lost_constr_151
-    Lost_0[151]
-    Lost_0_expr_151
-    0
- MAX max_Q1_constr_151
-    Q1_var[151]
-    Q_hat_adjusted_151
-    0
- MIN min_sales2_constr_151
-    Sold_1[151]
-    total_stock_second_period_151
-    4.1699346065295373e+02
- MAX max_lost2_constr_151
-    Lost_1[151]
-    Lost_1_expr_151
-    0
- LOGISTIC GC912
-    Options  0  0.01  0.001  -1  -1
-    f_var[152]  Fraction[152]
- MIN min_sales_constr_152
-    Sold_0[152]
-    Q0_var[152]
-    1.0003084240237126e+03
- MAX max_lost_constr_152
-    Lost_0[152]
-    Lost_0_expr_152
-    0
- MAX max_Q1_constr_152
-    Q1_var[152]
-    Q_hat_adjusted_152
-    0
- MIN min_sales2_constr_152
-    Sold_1[152]
-    total_stock_second_period_152
-    2.1528564484690997e+02
- MAX max_lost2_constr_152
-    Lost_1[152]
-    Lost_1_expr_152
-    0
- LOGISTIC GC918
-    Options  0  0.01  0.001  -1  -1
-    f_var[153]  Fraction[153]
- MIN min_sales_constr_153
-    Sold_0[153]
-    Q0_var[153]
-    1.1117948589406169e+03
- MAX max_lost_constr_153
-    Lost_0[153]
-    Lost_0_expr_153
-    0
- MAX max_Q1_constr_153
-    Q1_var[153]
-    Q_hat_adjusted_153
-    0
- MIN min_sales2_constr_153
-    Sold_1[153]
-    total_stock_second_period_153
-    2.3435451437842465e+02
- MAX max_lost2_constr_153
-    Lost_1[153]
-    Lost_1_expr_153
-    0
- LOGISTIC GC924
-    Options  0  0.01  0.001  -1  -1
-    f_var[154]  Fraction[154]
- MIN min_sales_constr_154
-    Sold_0[154]
-    Q0_var[154]
-    1.7904672843260623e+03
- MAX max_lost_constr_154
-    Lost_0[154]
-    Lost_0_expr_154
-    0
- MAX max_Q1_constr_154
-    Q1_var[154]
-    Q_hat_adjusted_154
-    0
- MIN min_sales2_constr_154
-    Sold_1[154]
-    total_stock_second_period_154
-    5.0012780179176178e+02
- MAX max_lost2_constr_154
-    Lost_1[154]
-    Lost_1_expr_154
-    0
- LOGISTIC GC930
-    Options  0  0.01  0.001  -1  -1
-    f_var[155]  Fraction[155]
- MIN min_sales_constr_155
-    Sold_0[155]
-    Q0_var[155]
-    2.2127708029148162e+03
- MAX max_lost_constr_155
-    Lost_0[155]
-    Lost_0_expr_155
-    0
- MAX max_Q1_constr_155
-    Q1_var[155]
-    Q_hat_adjusted_155
-    0
- MIN min_sales2_constr_155
-    Sold_1[155]
-    total_stock_second_period_155
-    5.7778419699021038e+02
- MAX max_lost2_constr_155
-    Lost_1[155]
-    Lost_1_expr_155
-    0
- LOGISTIC GC936
-    Options  0  0.01  0.001  -1  -1
-    f_var[156]  Fraction[156]
- MIN min_sales_constr_156
-    Sold_0[156]
-    Q0_var[156]
-    1.3404901447295979e+03
- MAX max_lost_constr_156
-    Lost_0[156]
-    Lost_0_expr_156
-    0
- MAX max_Q1_constr_156
-    Q1_var[156]
-    Q_hat_adjusted_156
-    0
- MIN min_sales2_constr_156
-    Sold_1[156]
-    total_stock_second_period_156
-    2.5827510501354323e+02
- MAX max_lost2_constr_156
-    Lost_1[156]
-    Lost_1_expr_156
-    0
- LOGISTIC GC942
-    Options  0  0.01  0.001  -1  -1
-    f_var[157]  Fraction[157]
- MIN min_sales_constr_157
-    Sold_0[157]
-    Q0_var[157]
-    2.2372649126983824e+03
- MAX max_lost_constr_157
-    Lost_0[157]
-    Lost_0_expr_157
-    0
- MAX max_Q1_constr_157
-    Q1_var[157]
-    Q_hat_adjusted_157
-    0
- MIN min_sales2_constr_157
-    Sold_1[157]
-    total_stock_second_period_157
-    5.1340263518453787e+02
- MAX max_lost2_constr_157
-    Lost_1[157]
-    Lost_1_expr_157
-    0
- LOGISTIC GC948
-    Options  0  0.01  0.001  -1  -1
-    f_var[158]  Fraction[158]
- MIN min_sales_constr_158
-    Sold_0[158]
-    Q0_var[158]
-    5.0934088098376583e+02
- MAX max_lost_constr_158
-    Lost_0[158]
-    Lost_0_expr_158
-    0
- MAX max_Q1_constr_158
-    Q1_var[158]
-    Q_hat_adjusted_158
-    0
- MIN min_sales2_constr_158
-    Sold_1[158]
-    total_stock_second_period_158
-    1.5199541898547173e+02
- MAX max_lost2_constr_158
-    Lost_1[158]
-    Lost_1_expr_158
-    0
- LOGISTIC GC954
-    Options  0  0.01  0.001  -1  -1
-    f_var[159]  Fraction[159]
- MIN min_sales_constr_159
-    Sold_0[159]
-    Q0_var[159]
-    1.6362708734285125e+03
- MAX max_lost_constr_159
-    Lost_0[159]
-    Lost_0_expr_159
-    0
- MAX max_Q1_constr_159
-    Q1_var[159]
-    Q_hat_adjusted_159
-    0
- MIN min_sales2_constr_159
-    Sold_1[159]
-    total_stock_second_period_159
-    4.1699082650369161e+02
- MAX max_lost2_constr_159
-    Lost_1[159]
-    Lost_1_expr_159
-    0
- LOGISTIC GC960
-    Options  0  0.01  0.001  -1  -1
-    f_var[160]  Fraction[160]
- MIN min_sales_constr_160
-    Sold_0[160]
-    Q0_var[160]
-    2.1023046429027936e+03
- MAX max_lost_constr_160
-    Lost_0[160]
-    Lost_0_expr_160
-    0
- MAX max_Q1_constr_160
-    Q1_var[160]
-    Q_hat_adjusted_160
-    0
- MIN min_sales2_constr_160
-    Sold_1[160]
-    total_stock_second_period_160
-    4.7551614976745941e+02
- MAX max_lost2_constr_160
-    Lost_1[160]
-    Lost_1_expr_160
-    0
- LOGISTIC GC966
-    Options  0  0.01  0.001  -1  -1
-    f_var[161]  Fraction[161]
- MIN min_sales_constr_161
-    Sold_0[161]
-    Q0_var[161]
-    9.2684694013068315e+02
- MAX max_lost_constr_161
-    Lost_0[161]
-    Lost_0_expr_161
-    0
- MAX max_Q1_constr_161
-    Q1_var[161]
-    Q_hat_adjusted_161
-    0
- MIN min_sales2_constr_161
-    Sold_1[161]
-    total_stock_second_period_161
-    1.7798896401211405e+02
- MAX max_lost2_constr_161
-    Lost_1[161]
-    Lost_1_expr_161
-    0
- LOGISTIC GC972
-    Options  0  0.01  0.001  -1  -1
-    f_var[162]  Fraction[162]
- MIN min_sales_constr_162
-    Sold_0[162]
-    Q0_var[162]
-    1.5125921738822763e+03
- MAX max_lost_constr_162
-    Lost_0[162]
-    Lost_0_expr_162
-    0
- MAX max_Q1_constr_162
-    Q1_var[162]
-    Q_hat_adjusted_162
-    0
- MIN min_sales2_constr_162
-    Sold_1[162]
-    total_stock_second_period_162
-    3.1300119383478028e+02
- MAX max_lost2_constr_162
-    Lost_1[162]
-    Lost_1_expr_162
-    0
- LOGISTIC GC978
-    Options  0  0.01  0.001  -1  -1
-    f_var[163]  Fraction[163]
- MIN min_sales_constr_163
-    Sold_0[163]
-    Q0_var[163]
-    2.1336095803132739e+03
- MAX max_lost_constr_163
-    Lost_0[163]
-    Lost_0_expr_163
-    0
- MAX max_Q1_constr_163
-    Q1_var[163]
-    Q_hat_adjusted_163
-    0
- MIN min_sales2_constr_163
-    Sold_1[163]
-    total_stock_second_period_163
-    5.4635358212449080e+02
- MAX max_lost2_constr_163
-    Lost_1[163]
-    Lost_1_expr_163
-    0
- LOGISTIC GC984
-    Options  0  0.01  0.001  -1  -1
-    f_var[164]  Fraction[164]
- MIN min_sales_constr_164
-    Sold_0[164]
-    Q0_var[164]
-    5.1842072166944251e+02
- MAX max_lost_constr_164
-    Lost_0[164]
-    Lost_0_expr_164
-    0
- MAX max_Q1_constr_164
-    Q1_var[164]
-    Q_hat_adjusted_164
-    0
- MIN min_sales2_constr_164
-    Sold_1[164]
-    total_stock_second_period_164
-    1.5178923172415489e+02
- MAX max_lost2_constr_164
-    Lost_1[164]
-    Lost_1_expr_164
-    0
- LOGISTIC GC990
-    Options  0  0.01  0.001  -1  -1
-    f_var[165]  Fraction[165]
- MIN min_sales_constr_165
-    Sold_0[165]
-    Q0_var[165]
-    8.2008913499386324e+02
- MAX max_lost_constr_165
-    Lost_0[165]
-    Lost_0_expr_165
-    0
- MAX max_Q1_constr_165
-    Q1_var[165]
-    Q_hat_adjusted_165
-    0
- MIN min_sales2_constr_165
-    Sold_1[165]
-    total_stock_second_period_165
-    1.0904817909847499e+02
- MAX max_lost2_constr_165
-    Lost_1[165]
-    Lost_1_expr_165
-    0
- LOGISTIC GC996
-    Options  0  0.01  0.001  -1  -1
-    f_var[166]  Fraction[166]
- MIN min_sales_constr_166
-    Sold_0[166]
-    Q0_var[166]
-    1.7959161860594995e+03
- MAX max_lost_constr_166
-    Lost_0[166]
-    Lost_0_expr_166
-    0
- MAX max_Q1_constr_166
-    Q1_var[166]
-    Q_hat_adjusted_166
-    0
- MIN min_sales2_constr_166
-    Sold_1[166]
-    total_stock_second_period_166
-    3.9529268952396689e+02
- MAX max_lost2_constr_166
-    Lost_1[166]
-    Lost_1_expr_166
-    0
- LOGISTIC GC1002
-    Options  0  0.01  0.001  -1  -1
-    f_var[167]  Fraction[167]
- MIN min_sales_constr_167
-    Sold_0[167]
-    Q0_var[167]
-    1.5375736698058136e+03
- MAX max_lost_constr_167
-    Lost_0[167]
-    Lost_0_expr_167
-    0
- MAX max_Q1_constr_167
-    Q1_var[167]
-    Q_hat_adjusted_167
-    0
- MIN min_sales2_constr_167
-    Sold_1[167]
-    total_stock_second_period_167
-    3.1776577026546676e+02
- MAX max_lost2_constr_167
-    Lost_1[167]
-    Lost_1_expr_167
-    0
- LOGISTIC GC1008
-    Options  0  0.01  0.001  -1  -1
-    f_var[168]  Fraction[168]
- MIN min_sales_constr_168
-    Sold_0[168]
-    Q0_var[168]
-    2.0190178266826351e+03
- MAX max_lost_constr_168
-    Lost_0[168]
-    Lost_0_expr_168
-    0
- MAX max_Q1_constr_168
-    Q1_var[168]
-    Q_hat_adjusted_168
-    0
- MIN min_sales2_constr_168
-    Sold_1[168]
-    total_stock_second_period_168
-    4.9934462444195134e+02
- MAX max_lost2_constr_168
-    Lost_1[168]
-    Lost_1_expr_168
-    0
- LOGISTIC GC1014
-    Options  0  0.01  0.001  -1  -1
-    f_var[169]  Fraction[169]
- MIN min_sales_constr_169
-    Sold_0[169]
-    Q0_var[169]
-    1765.86952158732
- MAX max_lost_constr_169
-    Lost_0[169]
-    Lost_0_expr_169
-    0
- MAX max_Q1_constr_169
-    Q1_var[169]
-    Q_hat_adjusted_169
-    0
- MIN min_sales2_constr_169
-    Sold_1[169]
-    total_stock_second_period_169
-    5.6172776910205334e+02
- MAX max_lost2_constr_169
-    Lost_1[169]
-    Lost_1_expr_169
-    0
- LOGISTIC GC1020
-    Options  0  0.01  0.001  -1  -1
-    f_var[170]  Fraction[170]
- MIN min_sales_constr_170
-    Sold_0[170]
-    Q0_var[170]
-    882.531955888606
- MAX max_lost_constr_170
-    Lost_0[170]
-    Lost_0_expr_170
-    0
- MAX max_Q1_constr_170
-    Q1_var[170]
-    Q_hat_adjusted_170
-    0
- MIN min_sales2_constr_170
-    Sold_1[170]
-    total_stock_second_period_170
-    249.576822271908
- MAX max_lost2_constr_170
-    Lost_1[170]
-    Lost_1_expr_170
-    0
- LOGISTIC GC1026
-    Options  0  0.01  0.001  -1  -1
-    f_var[171]  Fraction[171]
- MIN min_sales_constr_171
-    Sold_0[171]
-    Q0_var[171]
-    1.4225128939275876e+03
- MAX max_lost_constr_171
-    Lost_0[171]
-    Lost_0_expr_171
-    0
- MAX max_Q1_constr_171
-    Q1_var[171]
-    Q_hat_adjusted_171
-    0
- MIN min_sales2_constr_171
-    Sold_1[171]
-    total_stock_second_period_171
-    2.9420205858455262e+02
- MAX max_lost2_constr_171
-    Lost_1[171]
-    Lost_1_expr_171
-    0
- LOGISTIC GC1032
-    Options  0  0.01  0.001  -1  -1
-    f_var[172]  Fraction[172]
- MIN min_sales_constr_172
-    Sold_0[172]
-    Q0_var[172]
-    1.1247834587740663e+03
- MAX max_lost_constr_172
-    Lost_0[172]
-    Lost_0_expr_172
-    0
- MAX max_Q1_constr_172
-    Q1_var[172]
-    Q_hat_adjusted_172
-    0
- MIN min_sales2_constr_172
-    Sold_1[172]
-    total_stock_second_period_172
-    3.4313604316465739e+02
- MAX max_lost2_constr_172
-    Lost_1[172]
-    Lost_1_expr_172
-    0
- LOGISTIC GC1038
-    Options  0  0.01  0.001  -1  -1
-    f_var[173]  Fraction[173]
- MIN min_sales_constr_173
-    Sold_0[173]
-    Q0_var[173]
-    1.1876413302835035e+03
- MAX max_lost_constr_173
-    Lost_0[173]
-    Lost_0_expr_173
-    0
- MAX max_Q1_constr_173
-    Q1_var[173]
-    Q_hat_adjusted_173
-    0
- MIN min_sales2_constr_173
-    Sold_1[173]
-    total_stock_second_period_173
-    3.9407573021764966e+02
- MAX max_lost2_constr_173
-    Lost_1[173]
-    Lost_1_expr_173
-    0
- LOGISTIC GC1044
-    Options  0  0.01  0.001  -1  -1
-    f_var[174]  Fraction[174]
- MIN min_sales_constr_174
-    Sold_0[174]
-    Q0_var[174]
-    2.1694467114163481e+03
- MAX max_lost_constr_174
-    Lost_0[174]
-    Lost_0_expr_174
-    0
- MAX max_Q1_constr_174
-    Q1_var[174]
-    Q_hat_adjusted_174
-    0
- MIN min_sales2_constr_174
-    Sold_1[174]
-    total_stock_second_period_174
-    5.9192691484080831e+02
- MAX max_lost2_constr_174
-    Lost_1[174]
-    Lost_1_expr_174
-    0
- LOGISTIC GC1050
-    Options  0  0.01  0.001  -1  -1
-    f_var[175]  Fraction[175]
- MIN min_sales_constr_175
-    Sold_0[175]
-    Q0_var[175]
-    1.4728746501909372e+03
- MAX max_lost_constr_175
-    Lost_0[175]
-    Lost_0_expr_175
-    0
- MAX max_Q1_constr_175
-    Q1_var[175]
-    Q_hat_adjusted_175
-    0
- MIN min_sales2_constr_175
-    Sold_1[175]
-    total_stock_second_period_175
-    4.4866512541502578e+02
- MAX max_lost2_constr_175
-    Lost_1[175]
-    Lost_1_expr_175
-    0
- LOGISTIC GC1056
-    Options  0  0.01  0.001  -1  -1
-    f_var[176]  Fraction[176]
- MIN min_sales_constr_176
-    Sold_0[176]
-    Q0_var[176]
-    1.4803634323133338e+03
- MAX max_lost_constr_176
-    Lost_0[176]
-    Lost_0_expr_176
-    0
- MAX max_Q1_constr_176
-    Q1_var[176]
-    Q_hat_adjusted_176
-    0
- MIN min_sales2_constr_176
-    Sold_1[176]
-    total_stock_second_period_176
-    2.9477425367278420e+02
- MAX max_lost2_constr_176
-    Lost_1[176]
-    Lost_1_expr_176
-    0
- LOGISTIC GC1062
-    Options  0  0.01  0.001  -1  -1
-    f_var[177]  Fraction[177]
- MIN min_sales_constr_177
-    Sold_0[177]
-    Q0_var[177]
-    1.0538680663532696e+03
- MAX max_lost_constr_177
-    Lost_0[177]
-    Lost_0_expr_177
-    0
- MAX max_Q1_constr_177
-    Q1_var[177]
-    Q_hat_adjusted_177
-    0
- MIN min_sales2_constr_177
-    Sold_1[177]
-    total_stock_second_period_177
-    2.3188384322523092e+02
- MAX max_lost2_constr_177
-    Lost_1[177]
-    Lost_1_expr_177
-    0
- LOGISTIC GC1068
-    Options  0  0.01  0.001  -1  -1
-    f_var[178]  Fraction[178]
- MIN min_sales_constr_178
-    Sold_0[178]
-    Q0_var[178]
-    2.4963045066102495e+03
- MAX max_lost_constr_178
-    Lost_0[178]
-    Lost_0_expr_178
-    0
- MAX max_Q1_constr_178
-    Q1_var[178]
-    Q_hat_adjusted_178
-    0
- MIN min_sales2_constr_178
-    Sold_1[178]
-    total_stock_second_period_178
-    572.312859211062
- MAX max_lost2_constr_178
-    Lost_1[178]
-    Lost_1_expr_178
-    0
- LOGISTIC GC1074
-    Options  0  0.01  0.001  -1  -1
-    f_var[179]  Fraction[179]
- MIN min_sales_constr_179
-    Sold_0[179]
-    Q0_var[179]
-    9.4983925098253917e+02
- MAX max_lost_constr_179
-    Lost_0[179]
-    Lost_0_expr_179
-    0
- MAX max_Q1_constr_179
-    Q1_var[179]
-    Q_hat_adjusted_179
-    0
- MIN min_sales2_constr_179
-    Sold_1[179]
-    total_stock_second_period_179
-    1.6777421655423154e+02
- MAX max_lost2_constr_179
-    Lost_1[179]
-    Lost_1_expr_179
-    0
- LOGISTIC GC1080
-    Options  0  0.01  0.001  -1  -1
-    f_var[180]  Fraction[180]
- MIN min_sales_constr_180
-    Sold_0[180]
-    Q0_var[180]
-    1.6695363862856061e+03
- MAX max_lost_constr_180
-    Lost_0[180]
-    Lost_0_expr_180
-    0
- MAX max_Q1_constr_180
-    Q1_var[180]
-    Q_hat_adjusted_180
-    0
- MIN min_sales2_constr_180
-    Sold_1[180]
-    total_stock_second_period_180
-    4.6013292625237904e+02
- MAX max_lost2_constr_180
-    Lost_1[180]
-    Lost_1_expr_180
-    0
- LOGISTIC GC1086
-    Options  0  0.01  0.001  -1  -1
-    f_var[181]  Fraction[181]
- MIN min_sales_constr_181
-    Sold_0[181]
-    Q0_var[181]
-    2.0549025544775727e+03
- MAX max_lost_constr_181
-    Lost_0[181]
-    Lost_0_expr_181
-    0
- MAX max_Q1_constr_181
-    Q1_var[181]
-    Q_hat_adjusted_181
-    0
- MIN min_sales2_constr_181
-    Sold_1[181]
-    total_stock_second_period_181
-    5.6269751264622039e+02
- MAX max_lost2_constr_181
-    Lost_1[181]
-    Lost_1_expr_181
-    0
- LOGISTIC GC1092
-    Options  0  0.01  0.001  -1  -1
-    f_var[182]  Fraction[182]
- MIN min_sales_constr_182
-    Sold_0[182]
-    Q0_var[182]
-    1.5896790718797574e+03
- MAX max_lost_constr_182
-    Lost_0[182]
-    Lost_0_expr_182
-    0
- MAX max_Q1_constr_182
-    Q1_var[182]
-    Q_hat_adjusted_182
-    0
- MIN min_sales2_constr_182
-    Sold_1[182]
-    total_stock_second_period_182
-    4.3233279326721930e+02
- MAX max_lost2_constr_182
-    Lost_1[182]
-    Lost_1_expr_182
-    0
- LOGISTIC GC1098
-    Options  0  0.01  0.001  -1  -1
-    f_var[183]  Fraction[183]
- MIN min_sales_constr_183
-    Sold_0[183]
-    Q0_var[183]
-    1.3487758738303392e+03
- MAX max_lost_constr_183
-    Lost_0[183]
-    Lost_0_expr_183
-    0
- MAX max_Q1_constr_183
-    Q1_var[183]
-    Q_hat_adjusted_183
-    0
- MIN min_sales2_constr_183
-    Sold_1[183]
-    total_stock_second_period_183
-    3.1152722008306057e+02
- MAX max_lost2_constr_183
-    Lost_1[183]
-    Lost_1_expr_183
-    0
- LOGISTIC GC1104
-    Options  0  0.01  0.001  -1  -1
-    f_var[184]  Fraction[184]
- MIN min_sales_constr_184
-    Sold_0[184]
-    Q0_var[184]
-    1.0014641655650814e+03
- MAX max_lost_constr_184
-    Lost_0[184]
-    Lost_0_expr_184
-    0
- MAX max_Q1_constr_184
-    Q1_var[184]
-    Q_hat_adjusted_184
-    0
- MIN min_sales2_constr_184
-    Sold_1[184]
-    total_stock_second_period_184
-    199.495469962742
- MAX max_lost2_constr_184
-    Lost_1[184]
-    Lost_1_expr_184
-    0
- LOGISTIC GC1110
-    Options  0  0.01  0.001  -1  -1
-    f_var[185]  Fraction[185]
- MIN min_sales_constr_185
-    Sold_0[185]
-    Q0_var[185]
-    1.0820743371702210e+03
- MAX max_lost_constr_185
-    Lost_0[185]
-    Lost_0_expr_185
-    0
- MAX max_Q1_constr_185
-    Q1_var[185]
-    Q_hat_adjusted_185
-    0
- MIN min_sales2_constr_185
-    Sold_1[185]
-    total_stock_second_period_185
-    2.8373766112596360e+02
- MAX max_lost2_constr_185
-    Lost_1[185]
-    Lost_1_expr_185
-    0
- LOGISTIC GC1116
-    Options  0  0.01  0.001  -1  -1
-    f_var[186]  Fraction[186]
- MIN min_sales_constr_186
-    Sold_0[186]
-    Q0_var[186]
-    1.8934218300741904e+03
- MAX max_lost_constr_186
-    Lost_0[186]
-    Lost_0_expr_186
-    0
- MAX max_Q1_constr_186
-    Q1_var[186]
-    Q_hat_adjusted_186
-    0
- MIN min_sales2_constr_186
-    Sold_1[186]
-    total_stock_second_period_186
-    4.5343590471006104e+02
- MAX max_lost2_constr_186
-    Lost_1[186]
-    Lost_1_expr_186
-    0
- LOGISTIC GC1122
-    Options  0  0.01  0.001  -1  -1
-    f_var[187]  Fraction[187]
- MIN min_sales_constr_187
-    Sold_0[187]
-    Q0_var[187]
-    1.7858690569083694e+03
- MAX max_lost_constr_187
-    Lost_0[187]
-    Lost_0_expr_187
-    0
- MAX max_Q1_constr_187
-    Q1_var[187]
-    Q_hat_adjusted_187
-    0
- MIN min_sales2_constr_187
-    Sold_1[187]
-    total_stock_second_period_187
-    4.2476711208764840e+02
- MAX max_lost2_constr_187
-    Lost_1[187]
-    Lost_1_expr_187
-    0
- LOGISTIC GC1128
-    Options  0  0.01  0.001  -1  -1
-    f_var[188]  Fraction[188]
- MIN min_sales_constr_188
-    Sold_0[188]
-    Q0_var[188]
-    2.2950322242113680e+03
- MAX max_lost_constr_188
-    Lost_0[188]
-    Lost_0_expr_188
-    0
- MAX max_Q1_constr_188
-    Q1_var[188]
-    Q_hat_adjusted_188
-    0
- MIN min_sales2_constr_188
-    Sold_1[188]
-    total_stock_second_period_188
-    5.6398808329917892e+02
- MAX max_lost2_constr_188
-    Lost_1[188]
-    Lost_1_expr_188
-    0
- LOGISTIC GC1134
-    Options  0  0.01  0.001  -1  -1
-    f_var[189]  Fraction[189]
- MIN min_sales_constr_189
-    Sold_0[189]
-    Q0_var[189]
-    2.0978161516946720e+03
- MAX max_lost_constr_189
-    Lost_0[189]
-    Lost_0_expr_189
-    0
- MAX max_Q1_constr_189
-    Q1_var[189]
-    Q_hat_adjusted_189
-    0
- MIN min_sales2_constr_189
-    Sold_1[189]
-    total_stock_second_period_189
-    5.3343045682968750e+02
- MAX max_lost2_constr_189
-    Lost_1[189]
-    Lost_1_expr_189
-    0
- LOGISTIC GC1140
-    Options  0  0.01  0.001  -1  -1
-    f_var[190]  Fraction[190]
- MIN min_sales_constr_190
-    Sold_0[190]
-    Q0_var[190]
-    2.0152386280349178e+03
- MAX max_lost_constr_190
-    Lost_0[190]
-    Lost_0_expr_190
-    0
- MAX max_Q1_constr_190
-    Q1_var[190]
-    Q_hat_adjusted_190
-    0
- MIN min_sales2_constr_190
-    Sold_1[190]
-    total_stock_second_period_190
-    5.0807537613318419e+02
- MAX max_lost2_constr_190
-    Lost_1[190]
-    Lost_1_expr_190
-    0
- LOGISTIC GC1146
-    Options  0  0.01  0.001  -1  -1
-    f_var[191]  Fraction[191]
- MIN min_sales_constr_191
-    Sold_0[191]
-    Q0_var[191]
-    2300.65850696234
- MAX max_lost_constr_191
-    Lost_0[191]
-    Lost_0_expr_191
-    0
- MAX max_Q1_constr_191
-    Q1_var[191]
-    Q_hat_adjusted_191
-    0
- MIN min_sales2_constr_191
-    Sold_1[191]
-    total_stock_second_period_191
-    5.5572543767538116e+02
- MAX max_lost2_constr_191
-    Lost_1[191]
-    Lost_1_expr_191
-    0
- LOGISTIC GC1152
-    Options  0  0.01  0.001  -1  -1
-    f_var[192]  Fraction[192]
- MIN min_sales_constr_192
-    Sold_0[192]
-    Q0_var[192]
-    1.1318826438233525e+03
- MAX max_lost_constr_192
-    Lost_0[192]
-    Lost_0_expr_192
-    0
- MAX max_Q1_constr_192
-    Q1_var[192]
-    Q_hat_adjusted_192
-    0
- MIN min_sales2_constr_192
-    Sold_1[192]
-    total_stock_second_period_192
-    2.3816857636852586e+02
- MAX max_lost2_constr_192
-    Lost_1[192]
-    Lost_1_expr_192
-    0
- LOGISTIC GC1158
-    Options  0  0.01  0.001  -1  -1
-    f_var[193]  Fraction[193]
- MIN min_sales_constr_193
-    Sold_0[193]
-    Q0_var[193]
-    1.2915182736606146e+03
- MAX max_lost_constr_193
-    Lost_0[193]
-    Lost_0_expr_193
-    0
- MAX max_Q1_constr_193
-    Q1_var[193]
-    Q_hat_adjusted_193
-    0
- MIN min_sales2_constr_193
-    Sold_1[193]
-    total_stock_second_period_193
-    2.8476177006982476e+02
- MAX max_lost2_constr_193
-    Lost_1[193]
-    Lost_1_expr_193
-    0
- LOGISTIC GC1164
-    Options  0  0.01  0.001  -1  -1
-    f_var[194]  Fraction[194]
- MIN min_sales_constr_194
-    Sold_0[194]
-    Q0_var[194]
-    1.0071650993257558e+03
- MAX max_lost_constr_194
-    Lost_0[194]
-    Lost_0_expr_194
-    0
- MAX max_Q1_constr_194
-    Q1_var[194]
-    Q_hat_adjusted_194
-    0
- MIN min_sales2_constr_194
-    Sold_1[194]
-    total_stock_second_period_194
-    2.8994695189300870e+02
- MAX max_lost2_constr_194
-    Lost_1[194]
-    Lost_1_expr_194
-    0
- LOGISTIC GC1170
-    Options  0  0.01  0.001  -1  -1
-    f_var[195]  Fraction[195]
- MIN min_sales_constr_195
-    Sold_0[195]
-    Q0_var[195]
-    1.9309492326410955e+03
- MAX max_lost_constr_195
-    Lost_0[195]
-    Lost_0_expr_195
-    0
- MAX max_Q1_constr_195
-    Q1_var[195]
-    Q_hat_adjusted_195
-    0
- MIN min_sales2_constr_195
-    Sold_1[195]
-    total_stock_second_period_195
-    3.8022529435489014e+02
- MAX max_lost2_constr_195
-    Lost_1[195]
-    Lost_1_expr_195
-    0
- LOGISTIC GC1176
-    Options  0  0.01  0.001  -1  -1
-    f_var[196]  Fraction[196]
- MIN min_sales_constr_196
-    Sold_0[196]
-    Q0_var[196]
-    1.6662634524992941e+03
- MAX max_lost_constr_196
-    Lost_0[196]
-    Lost_0_expr_196
-    0
- MAX max_Q1_constr_196
-    Q1_var[196]
-    Q_hat_adjusted_196
-    0
- MIN min_sales2_constr_196
-    Sold_1[196]
-    total_stock_second_period_196
-    4.3410911477138552e+02
- MAX max_lost2_constr_196
-    Lost_1[196]
-    Lost_1_expr_196
-    0
- LOGISTIC GC1182
-    Options  0  0.01  0.001  -1  -1
-    f_var[197]  Fraction[197]
- MIN min_sales_constr_197
-    Sold_0[197]
-    Q0_var[197]
-    1.0453295681784184e+03
- MAX max_lost_constr_197
-    Lost_0[197]
-    Lost_0_expr_197
-    0
- MAX max_Q1_constr_197
-    Q1_var[197]
-    Q_hat_adjusted_197
-    0
- MIN min_sales2_constr_197
-    Sold_1[197]
-    total_stock_second_period_197
-    2.4335834152019717e+02
- MAX max_lost2_constr_197
-    Lost_1[197]
-    Lost_1_expr_197
-    0
- LOGISTIC GC1188
-    Options  0  0.01  0.001  -1  -1
-    f_var[198]  Fraction[198]
- MIN min_sales_constr_198
-    Sold_0[198]
-    Q0_var[198]
-    4.8967274543035245e+02
- MAX max_lost_constr_198
-    Lost_0[198]
-    Lost_0_expr_198
-    0
- MAX max_Q1_constr_198
-    Q1_var[198]
-    Q_hat_adjusted_198
-    0
- MIN min_sales2_constr_198
-    Sold_1[198]
-    total_stock_second_period_198
-    1.0973123367591299e+02
- MAX max_lost2_constr_198
-    Lost_1[198]
-    Lost_1_expr_198
-    0
- LOGISTIC GC1194
-    Options  0  0.01  0.001  -1  -1
-    f_var[199]  Fraction[199]
- MIN min_sales_constr_199
-    Sold_0[199]
-    Q0_var[199]
-    1.0387321106614281e+03
- MAX max_lost_constr_199
-    Lost_0[199]
-    Lost_0_expr_199
-    0
- MAX max_Q1_constr_199
-    Q1_var[199]
-    Q_hat_adjusted_199
-    0
- MIN min_sales2_constr_199
-    Sold_1[199]
-    total_stock_second_period_199
-    2.9961119182895504e+02
- MAX max_lost2_constr_199
-    Lost_1[199]
-    Lost_1_expr_199
-    0
- LOGISTIC GC1200
-    Options  0  0.01  0.001  -1  -1
-    f_var[200]  Fraction[200]
- MIN min_sales_constr_200
-    Sold_0[200]
-    Q0_var[200]
-    1.0925528412874928e+03
- MAX max_lost_constr_200
-    Lost_0[200]
-    Lost_0_expr_200
-    0
- MAX max_Q1_constr_200
-    Q1_var[200]
-    Q_hat_adjusted_200
-    0
- MIN min_sales2_constr_200
-    Sold_1[200]
-    total_stock_second_period_200
-    2.5426397977720023e+02
- MAX max_lost2_constr_200
-    Lost_1[200]
-    Lost_1_expr_200
-    0
- LOGISTIC GC1206
-    Options  0  0.01  0.001  -1  -1
-    f_var[201]  Fraction[201]
- MIN min_sales_constr_201
-    Sold_0[201]
-    Q0_var[201]
-    2.2454990827517063e+03
- MAX max_lost_constr_201
-    Lost_0[201]
-    Lost_0_expr_201
-    0
- MAX max_Q1_constr_201
-    Q1_var[201]
-    Q_hat_adjusted_201
-    0
- MIN min_sales2_constr_201
-    Sold_1[201]
-    total_stock_second_period_201
-    5.7109235950902394e+02
- MAX max_lost2_constr_201
-    Lost_1[201]
-    Lost_1_expr_201
-    0
- LOGISTIC GC1212
-    Options  0  0.01  0.001  -1  -1
-    f_var[202]  Fraction[202]
- MIN min_sales_constr_202
-    Sold_0[202]
-    Q0_var[202]
-    2.1931448044988897e+03
- MAX max_lost_constr_202
-    Lost_0[202]
-    Lost_0_expr_202
-    0
- MAX max_Q1_constr_202
-    Q1_var[202]
-    Q_hat_adjusted_202
-    0
- MIN min_sales2_constr_202
-    Sold_1[202]
-    total_stock_second_period_202
-    5.4413252027202179e+02
- MAX max_lost2_constr_202
-    Lost_1[202]
-    Lost_1_expr_202
-    0
- LOGISTIC GC1218
-    Options  0  0.01  0.001  -1  -1
-    f_var[203]  Fraction[203]
- MIN min_sales_constr_203
-    Sold_0[203]
-    Q0_var[203]
-    2.1405401132964316e+03
- MAX max_lost_constr_203
-    Lost_0[203]
-    Lost_0_expr_203
-    0
- MAX max_Q1_constr_203
-    Q1_var[203]
-    Q_hat_adjusted_203
-    0
- MIN min_sales2_constr_203
-    Sold_1[203]
-    total_stock_second_period_203
-    5.3015533917170978e+02
- MAX max_lost2_constr_203
-    Lost_1[203]
-    Lost_1_expr_203
-    0
- LOGISTIC GC1224
-    Options  0  0.01  0.001  -1  -1
-    f_var[204]  Fraction[204]
- MIN min_sales_constr_204
-    Sold_0[204]
-    Q0_var[204]
-    1.8080249742732026e+03
- MAX max_lost_constr_204
-    Lost_0[204]
-    Lost_0_expr_204
-    0
- MAX max_Q1_constr_204
-    Q1_var[204]
-    Q_hat_adjusted_204
-    0
- MIN min_sales2_constr_204
-    Sold_1[204]
-    total_stock_second_period_204
-    4.2649988047262150e+02
- MAX max_lost2_constr_204
-    Lost_1[204]
-    Lost_1_expr_204
-    0
- LOGISTIC GC1230
-    Options  0  0.01  0.001  -1  -1
-    f_var[205]  Fraction[205]
- MIN min_sales_constr_205
-    Sold_0[205]
-    Q0_var[205]
-    1.2398314870367462e+03
- MAX max_lost_constr_205
-    Lost_0[205]
-    Lost_0_expr_205
-    0
- MAX max_Q1_constr_205
-    Q1_var[205]
-    Q_hat_adjusted_205
-    0
- MIN min_sales2_constr_205
-    Sold_1[205]
-    total_stock_second_period_205
-    2.7214458234946943e+02
- MAX max_lost2_constr_205
-    Lost_1[205]
-    Lost_1_expr_205
-    0
- LOGISTIC GC1236
-    Options  0  0.01  0.001  -1  -1
-    f_var[206]  Fraction[206]
- MIN min_sales_constr_206
-    Sold_0[206]
-    Q0_var[206]
-    1.5020567023874760e+03
- MAX max_lost_constr_206
-    Lost_0[206]
-    Lost_0_expr_206
-    0
- MAX max_Q1_constr_206
-    Q1_var[206]
-    Q_hat_adjusted_206
-    0
- MIN min_sales2_constr_206
-    Sold_1[206]
-    total_stock_second_period_206
-    3.7442463369965236e+02
- MAX max_lost2_constr_206
-    Lost_1[206]
-    Lost_1_expr_206
-    0
- LOGISTIC GC1242
-    Options  0  0.01  0.001  -1  -1
-    f_var[207]  Fraction[207]
- MIN min_sales_constr_207
-    Sold_0[207]
-    Q0_var[207]
-    1.9413251377421652e+03
- MAX max_lost_constr_207
-    Lost_0[207]
-    Lost_0_expr_207
-    0
- MAX max_Q1_constr_207
-    Q1_var[207]
-    Q_hat_adjusted_207
-    0
- MIN min_sales2_constr_207
-    Sold_1[207]
-    total_stock_second_period_207
-    5.0761252035818637e+02
- MAX max_lost2_constr_207
-    Lost_1[207]
-    Lost_1_expr_207
-    0
- LOGISTIC GC1248
-    Options  0  0.01  0.001  -1  -1
-    f_var[208]  Fraction[208]
- MIN min_sales_constr_208
-    Sold_0[208]
-    Q0_var[208]
-    7.3431442646447920e+02
- MAX max_lost_constr_208
-    Lost_0[208]
-    Lost_0_expr_208
-    0
- MAX max_Q1_constr_208
-    Q1_var[208]
-    Q_hat_adjusted_208
-    0
- MIN min_sales2_constr_208
-    Sold_1[208]
-    total_stock_second_period_208
-    1.4930518436140522e+02
- MAX max_lost2_constr_208
-    Lost_1[208]
-    Lost_1_expr_208
-    0
- LOGISTIC GC1254
-    Options  0  0.01  0.001  -1  -1
-    f_var[209]  Fraction[209]
- MIN min_sales_constr_209
-    Sold_0[209]
-    Q0_var[209]
-    2.0099477275961410e+03
- MAX max_lost_constr_209
-    Lost_0[209]
-    Lost_0_expr_209
-    0
- MAX max_Q1_constr_209
-    Q1_var[209]
-    Q_hat_adjusted_209
-    0
- MIN min_sales2_constr_209
-    Sold_1[209]
-    total_stock_second_period_209
-    5.0053744012765236e+02
- MAX max_lost2_constr_209
-    Lost_1[209]
-    Lost_1_expr_209
-    0
- LOGISTIC GC1260
-    Options  0  0.01  0.001  -1  -1
-    f_var[210]  Fraction[210]
- MIN min_sales_constr_210
-    Sold_0[210]
-    Q0_var[210]
-    3.5176212253930453e+02
- MAX max_lost_constr_210
-    Lost_0[210]
-    Lost_0_expr_210
-    0
- MAX max_Q1_constr_210
-    Q1_var[210]
-    Q_hat_adjusted_210
-    0
- MIN min_sales2_constr_210
-    Sold_1[210]
-    total_stock_second_period_210
-    1.2058989566405958e+02
- MAX max_lost2_constr_210
-    Lost_1[210]
-    Lost_1_expr_210
-    0
- LOGISTIC GC1266
-    Options  0  0.01  0.001  -1  -1
-    f_var[211]  Fraction[211]
- MIN min_sales_constr_211
-    Sold_0[211]
-    Q0_var[211]
-    1.9891851844510761e+03
- MAX max_lost_constr_211
-    Lost_0[211]
-    Lost_0_expr_211
-    0
- MAX max_Q1_constr_211
-    Q1_var[211]
-    Q_hat_adjusted_211
-    0
- MIN min_sales2_constr_211
-    Sold_1[211]
-    total_stock_second_period_211
-    5.0821051560717785e+02
- MAX max_lost2_constr_211
-    Lost_1[211]
-    Lost_1_expr_211
-    0
- LOGISTIC GC1272
-    Options  0  0.01  0.001  -1  -1
-    f_var[212]  Fraction[212]
- MIN min_sales_constr_212
-    Sold_0[212]
-    Q0_var[212]
-    2.0257959490639184e+03
- MAX max_lost_constr_212
-    Lost_0[212]
-    Lost_0_expr_212
-    0
- MAX max_Q1_constr_212
-    Q1_var[212]
-    Q_hat_adjusted_212
-    0
- MIN min_sales2_constr_212
-    Sold_1[212]
-    total_stock_second_period_212
-    5.0378190207993674e+02
- MAX max_lost2_constr_212
-    Lost_1[212]
-    Lost_1_expr_212
-    0
- LOGISTIC GC1278
-    Options  0  0.01  0.001  -1  -1
-    f_var[213]  Fraction[213]
- MIN min_sales_constr_213
-    Sold_0[213]
-    Q0_var[213]
-    2.9722569346064847e+02
- MAX max_lost_constr_213
-    Lost_0[213]
-    Lost_0_expr_213
-    0
- MAX max_Q1_constr_213
-    Q1_var[213]
-    Q_hat_adjusted_213
-    0
- MIN min_sales2_constr_213
-    Sold_1[213]
-    total_stock_second_period_213
-    1.2550365442273537e+02
- MAX max_lost2_constr_213
-    Lost_1[213]
-    Lost_1_expr_213
-    0
- LOGISTIC GC1284
-    Options  0  0.01  0.001  -1  -1
-    f_var[214]  Fraction[214]
- MIN min_sales_constr_214
-    Sold_0[214]
-    Q0_var[214]
-    1.7946841551922537e+03
- MAX max_lost_constr_214
-    Lost_0[214]
-    Lost_0_expr_214
-    0
- MAX max_Q1_constr_214
-    Q1_var[214]
-    Q_hat_adjusted_214
-    0
- MIN min_sales2_constr_214
-    Sold_1[214]
-    total_stock_second_period_214
-    4.1358035573092911e+02
- MAX max_lost2_constr_214
-    Lost_1[214]
-    Lost_1_expr_214
-    0
- LOGISTIC GC1290
-    Options  0  0.01  0.001  -1  -1
-    f_var[215]  Fraction[215]
- MIN min_sales_constr_215
-    Sold_0[215]
-    Q0_var[215]
-    1.7225513480299569e+03
- MAX max_lost_constr_215
-    Lost_0[215]
-    Lost_0_expr_215
-    0
- MAX max_Q1_constr_215
-    Q1_var[215]
-    Q_hat_adjusted_215
-    0
- MIN min_sales2_constr_215
-    Sold_1[215]
-    total_stock_second_period_215
-    3.5122653715644861e+02
- MAX max_lost2_constr_215
-    Lost_1[215]
-    Lost_1_expr_215
-    0
- LOGISTIC GC1296
-    Options  0  0.01  0.001  -1  -1
-    f_var[216]  Fraction[216]
- MIN min_sales_constr_216
-    Sold_0[216]
-    Q0_var[216]
-    9.3873121389196388e+02
- MAX max_lost_constr_216
-    Lost_0[216]
-    Lost_0_expr_216
-    0
- MAX max_Q1_constr_216
-    Q1_var[216]
-    Q_hat_adjusted_216
-    0
- MIN min_sales2_constr_216
-    Sold_1[216]
-    total_stock_second_period_216
-    1.8490975158585678e+02
- MAX max_lost2_constr_216
-    Lost_1[216]
-    Lost_1_expr_216
-    0
- LOGISTIC GC1302
-    Options  0  0.01  0.001  -1  -1
-    f_var[217]  Fraction[217]
- MIN min_sales_constr_217
-    Sold_0[217]
-    Q0_var[217]
-    5.8491636671145739e+02
- MAX max_lost_constr_217
-    Lost_0[217]
-    Lost_0_expr_217
-    0
- MAX max_Q1_constr_217
-    Q1_var[217]
-    Q_hat_adjusted_217
-    0
- MIN min_sales2_constr_217
-    Sold_1[217]
-    total_stock_second_period_217
-    1.7418946883905869e+02
- MAX max_lost2_constr_217
-    Lost_1[217]
-    Lost_1_expr_217
-    0
- LOGISTIC GC1308
-    Options  0  0.01  0.001  -1  -1
-    f_var[218]  Fraction[218]
- MIN min_sales_constr_218
-    Sold_0[218]
-    Q0_var[218]
-    2.1994876569061475e+03
- MAX max_lost_constr_218
-    Lost_0[218]
-    Lost_0_expr_218
-    0
- MAX max_Q1_constr_218
-    Q1_var[218]
-    Q_hat_adjusted_218
-    0
- MIN min_sales2_constr_218
-    Sold_1[218]
-    total_stock_second_period_218
-    4.8662956303351160e+02
- MAX max_lost2_constr_218
-    Lost_1[218]
-    Lost_1_expr_218
-    0
- LOGISTIC GC1314
-    Options  0  0.01  0.001  -1  -1
-    f_var[219]  Fraction[219]
- MIN min_sales_constr_219
-    Sold_0[219]
-    Q0_var[219]
-    1.3272065640373544e+03
- MAX max_lost_constr_219
-    Lost_0[219]
-    Lost_0_expr_219
-    0
- MAX max_Q1_constr_219
-    Q1_var[219]
-    Q_hat_adjusted_219
-    0
- MIN min_sales2_constr_219
-    Sold_1[219]
-    total_stock_second_period_219
-    3.8384637441842204e+02
- MAX max_lost2_constr_219
-    Lost_1[219]
-    Lost_1_expr_219
-    0
- LOGISTIC GC1320
-    Options  0  0.01  0.001  -1  -1
-    f_var[220]  Fraction[220]
- MIN min_sales_constr_220
-    Sold_0[220]
-    Q0_var[220]
-    2.1570997511572978e+03
- MAX max_lost_constr_220
-    Lost_0[220]
-    Lost_0_expr_220
-    0
- MAX max_Q1_constr_220
-    Q1_var[220]
-    Q_hat_adjusted_220
-    0
- MIN min_sales2_constr_220
-    Sold_1[220]
-    total_stock_second_period_220
-    5.9149956745826626e+02
- MAX max_lost2_constr_220
-    Lost_1[220]
-    Lost_1_expr_220
-    0
- LOGISTIC GC1326
-    Options  0  0.01  0.001  -1  -1
-    f_var[221]  Fraction[221]
- MIN min_sales_constr_221
-    Sold_0[221]
-    Q0_var[221]
-    2.4182588434985028e+03
- MAX max_lost_constr_221
-    Lost_0[221]
-    Lost_0_expr_221
-    0
- MAX max_Q1_constr_221
-    Q1_var[221]
-    Q_hat_adjusted_221
-    0
- MIN min_sales2_constr_221
-    Sold_1[221]
-    total_stock_second_period_221
-    5.9112388864417210e+02
- MAX max_lost2_constr_221
-    Lost_1[221]
-    Lost_1_expr_221
-    0
- LOGISTIC GC1332
-    Options  0  0.01  0.001  -1  -1
-    f_var[222]  Fraction[222]
- MIN min_sales_constr_222
-    Sold_0[222]
-    Q0_var[222]
-    2.3271140602946480e+03
- MAX max_lost_constr_222
-    Lost_0[222]
-    Lost_0_expr_222
-    0
- MAX max_Q1_constr_222
-    Q1_var[222]
-    Q_hat_adjusted_222
-    0
- MIN min_sales2_constr_222
-    Sold_1[222]
-    total_stock_second_period_222
-    5.9633349673213320e+02
- MAX max_lost2_constr_222
-    Lost_1[222]
-    Lost_1_expr_222
-    0
- LOGISTIC GC1338
-    Options  0  0.01  0.001  -1  -1
-    f_var[223]  Fraction[223]
- MIN min_sales_constr_223
-    Sold_0[223]
-    Q0_var[223]
-    1.1085276048359133e+03
- MAX max_lost_constr_223
-    Lost_0[223]
-    Lost_0_expr_223
-    0
- MAX max_Q1_constr_223
-    Q1_var[223]
-    Q_hat_adjusted_223
-    0
- MIN min_sales2_constr_223
-    Sold_1[223]
-    total_stock_second_period_223
-    1.5930775916029893e+02
- MAX max_lost2_constr_223
-    Lost_1[223]
-    Lost_1_expr_223
-    0
- LOGISTIC GC1344
-    Options  0  0.01  0.001  -1  -1
-    f_var[224]  Fraction[224]
- MIN min_sales_constr_224
-    Sold_0[224]
-    Q0_var[224]
-    2.0142168391748385e+03
- MAX max_lost_constr_224
-    Lost_0[224]
-    Lost_0_expr_224
-    0
- MAX max_Q1_constr_224
-    Q1_var[224]
-    Q_hat_adjusted_224
-    0
- MIN min_sales2_constr_224
-    Sold_1[224]
-    total_stock_second_period_224
-    5.6912806848198113e+02
- MAX max_lost2_constr_224
-    Lost_1[224]
-    Lost_1_expr_224
-    0
- LOGISTIC GC1350
-    Options  0  0.01  0.001  -1  -1
-    f_var[225]  Fraction[225]
- MIN min_sales_constr_225
-    Sold_0[225]
-    Q0_var[225]
-    9.6286866241261339e+02
- MAX max_lost_constr_225
-    Lost_0[225]
-    Lost_0_expr_225
-    0
- MAX max_Q1_constr_225
-    Q1_var[225]
-    Q_hat_adjusted_225
-    0
- MIN min_sales2_constr_225
-    Sold_1[225]
-    total_stock_second_period_225
-    2.2228480451028281e+02
- MAX max_lost2_constr_225
-    Lost_1[225]
-    Lost_1_expr_225
-    0
- LOGISTIC GC1356
-    Options  0  0.01  0.001  -1  -1
-    f_var[226]  Fraction[226]
- MIN min_sales_constr_226
-    Sold_0[226]
-    Q0_var[226]
-    1.6993091893569888e+03
- MAX max_lost_constr_226
-    Lost_0[226]
-    Lost_0_expr_226
-    0
- MAX max_Q1_constr_226
-    Q1_var[226]
-    Q_hat_adjusted_226
-    0
- MIN min_sales2_constr_226
-    Sold_1[226]
-    total_stock_second_period_226
-    329.106129879306
- MAX max_lost2_constr_226
-    Lost_1[226]
-    Lost_1_expr_226
-    0
- LOGISTIC GC1362
-    Options  0  0.01  0.001  -1  -1
-    f_var[227]  Fraction[227]
- MIN min_sales_constr_227
-    Sold_0[227]
-    Q0_var[227]
-    1.8673733157320680e+03
- MAX max_lost_constr_227
-    Lost_0[227]
-    Lost_0_expr_227
-    0
- MAX max_Q1_constr_227
-    Q1_var[227]
-    Q_hat_adjusted_227
-    0
- MIN min_sales2_constr_227
-    Sold_1[227]
-    total_stock_second_period_227
-    4.7870327791086294e+02
- MAX max_lost2_constr_227
-    Lost_1[227]
-    Lost_1_expr_227
-    0
- LOGISTIC GC1368
-    Options  0  0.01  0.001  -1  -1
-    f_var[228]  Fraction[228]
- MIN min_sales_constr_228
-    Sold_0[228]
-    Q0_var[228]
-    1.0013712011462428e+03
- MAX max_lost_constr_228
-    Lost_0[228]
-    Lost_0_expr_228
-    0
- MAX max_Q1_constr_228
-    Q1_var[228]
-    Q_hat_adjusted_228
-    0
- MIN min_sales2_constr_228
-    Sold_1[228]
-    total_stock_second_period_228
-    2.0181046603859897e+02
- MAX max_lost2_constr_228
-    Lost_1[228]
-    Lost_1_expr_228
-    0
- LOGISTIC GC1374
-    Options  0  0.01  0.001  -1  -1
-    f_var[229]  Fraction[229]
- MIN min_sales_constr_229
-    Sold_0[229]
-    Q0_var[229]
-    1.3561549485793894e+03
- MAX max_lost_constr_229
-    Lost_0[229]
-    Lost_0_expr_229
-    0
- MAX max_Q1_constr_229
-    Q1_var[229]
-    Q_hat_adjusted_229
-    0
- MIN min_sales2_constr_229
-    Sold_1[229]
-    total_stock_second_period_229
-    383.155802777165
- MAX max_lost2_constr_229
-    Lost_1[229]
-    Lost_1_expr_229
-    0
- LOGISTIC GC1380
-    Options  0  0.01  0.001  -1  -1
-    f_var[230]  Fraction[230]
- MIN min_sales_constr_230
-    Sold_0[230]
-    Q0_var[230]
-    5.5453151571732519e+02
- MAX max_lost_constr_230
-    Lost_0[230]
-    Lost_0_expr_230
-    0
- MAX max_Q1_constr_230
-    Q1_var[230]
-    Q_hat_adjusted_230
-    0
- MIN min_sales2_constr_230
-    Sold_1[230]
-    total_stock_second_period_230
-    1.9290837411300009e+02
- MAX max_lost2_constr_230
-    Lost_1[230]
-    Lost_1_expr_230
-    0
- LOGISTIC GC1386
-    Options  0  0.01  0.001  -1  -1
-    f_var[231]  Fraction[231]
- MIN min_sales_constr_231
-    Sold_0[231]
-    Q0_var[231]
-    7.5278640436605053e+02
- MAX max_lost_constr_231
-    Lost_0[231]
-    Lost_0_expr_231
-    0
- MAX max_Q1_constr_231
-    Q1_var[231]
-    Q_hat_adjusted_231
-    0
- MIN min_sales2_constr_231
-    Sold_1[231]
-    total_stock_second_period_231
-    1.5236805334063257e+02
- MAX max_lost2_constr_231
-    Lost_1[231]
-    Lost_1_expr_231
-    0
- LOGISTIC GC1392
-    Options  0  0.01  0.001  -1  -1
-    f_var[232]  Fraction[232]
- MIN min_sales_constr_232
-    Sold_0[232]
-    Q0_var[232]
-    1.0083224262448689e+03
- MAX max_lost_constr_232
-    Lost_0[232]
-    Lost_0_expr_232
-    0
- MAX max_Q1_constr_232
-    Q1_var[232]
-    Q_hat_adjusted_232
-    0
- MIN min_sales2_constr_232
-    Sold_1[232]
-    total_stock_second_period_232
-    1.5827930621478171e+02
- MAX max_lost2_constr_232
-    Lost_1[232]
-    Lost_1_expr_232
-    0
- LOGISTIC GC1398
-    Options  0  0.01  0.001  -1  -1
-    f_var[233]  Fraction[233]
- MIN min_sales_constr_233
-    Sold_0[233]
-    Q0_var[233]
-    9.4299667111062956e+02
- MAX max_lost_constr_233
-    Lost_0[233]
-    Lost_0_expr_233
-    0
- MAX max_Q1_constr_233
-    Q1_var[233]
-    Q_hat_adjusted_233
-    0
- MIN min_sales2_constr_233
-    Sold_1[233]
-    total_stock_second_period_233
-    2.7881951742410939e+02
- MAX max_lost2_constr_233
-    Lost_1[233]
-    Lost_1_expr_233
-    0
- LOGISTIC GC1404
-    Options  0  0.01  0.001  -1  -1
-    f_var[234]  Fraction[234]
- MIN min_sales_constr_234
-    Sold_0[234]
-    Q0_var[234]
-    7.3685267937622166e+02
- MAX max_lost_constr_234
-    Lost_0[234]
-    Lost_0_expr_234
-    0
- MAX max_Q1_constr_234
-    Q1_var[234]
-    Q_hat_adjusted_234
-    0
- MIN min_sales2_constr_234
-    Sold_1[234]
-    total_stock_second_period_234
-    1.0232741837214130e+02
- MAX max_lost2_constr_234
-    Lost_1[234]
-    Lost_1_expr_234
-    0
- LOGISTIC GC1410
-    Options  0  0.01  0.001  -1  -1
-    f_var[235]  Fraction[235]
- MIN min_sales_constr_235
-    Sold_0[235]
-    Q0_var[235]
-    1.1290817909036266e+03
- MAX max_lost_constr_235
-    Lost_0[235]
-    Lost_0_expr_235
-    0
- MAX max_Q1_constr_235
-    Q1_var[235]
-    Q_hat_adjusted_235
-    0
- MIN min_sales2_constr_235
-    Sold_1[235]
-    total_stock_second_period_235
-    3.1242696060084478e+02
- MAX max_lost2_constr_235
-    Lost_1[235]
-    Lost_1_expr_235
-    0
- LOGISTIC GC1416
-    Options  0  0.01  0.001  -1  -1
-    f_var[236]  Fraction[236]
- MIN min_sales_constr_236
-    Sold_0[236]
-    Q0_var[236]
-    1.7513622689509948e+03
- MAX max_lost_constr_236
-    Lost_0[236]
-    Lost_0_expr_236
-    0
- MAX max_Q1_constr_236
-    Q1_var[236]
-    Q_hat_adjusted_236
-    0
- MIN min_sales2_constr_236
-    Sold_1[236]
-    total_stock_second_period_236
-    4.3209855254057453e+02
- MAX max_lost2_constr_236
-    Lost_1[236]
-    Lost_1_expr_236
-    0
- LOGISTIC GC1422
-    Options  0  0.01  0.001  -1  -1
-    f_var[237]  Fraction[237]
- MIN min_sales_constr_237
-    Sold_0[237]
-    Q0_var[237]
-    1.4718394959379648e+03
- MAX max_lost_constr_237
-    Lost_0[237]
-    Lost_0_expr_237
-    0
- MAX max_Q1_constr_237
-    Q1_var[237]
-    Q_hat_adjusted_237
-    0
- MIN min_sales2_constr_237
-    Sold_1[237]
-    total_stock_second_period_237
-    3.0084409250199434e+02
- MAX max_lost2_constr_237
-    Lost_1[237]
-    Lost_1_expr_237
-    0
- LOGISTIC GC1428
-    Options  0  0.01  0.001  -1  -1
-    f_var[238]  Fraction[238]
- MIN min_sales_constr_238
-    Sold_0[238]
-    Q0_var[238]
-    7.2334352728214787e+02
- MAX max_lost_constr_238
-    Lost_0[238]
-    Lost_0_expr_238
-    0
- MAX max_Q1_constr_238
-    Q1_var[238]
-    Q_hat_adjusted_238
-    0
- MIN min_sales2_constr_238
-    Sold_1[238]
-    total_stock_second_period_238
-    1.4289730025991702e+02
- MAX max_lost2_constr_238
-    Lost_1[238]
-    Lost_1_expr_238
-    0
- LOGISTIC GC1434
-    Options  0  0.01  0.001  -1  -1
-    f_var[239]  Fraction[239]
- MIN min_sales_constr_239
-    Sold_0[239]
-    Q0_var[239]
-    3.6930565355829572e+02
- MAX max_lost_constr_239
-    Lost_0[239]
-    Lost_0_expr_239
-    0
- MAX max_Q1_constr_239
-    Q1_var[239]
-    Q_hat_adjusted_239
-    0
- MIN min_sales2_constr_239
-    Sold_1[239]
-    total_stock_second_period_239
-    1.3134443101182222e+02
- MAX max_lost2_constr_239
-    Lost_1[239]
-    Lost_1_expr_239
-    0
- LOGISTIC GC1440
-    Options  0  0.01  0.001  -1  -1
-    f_var[240]  Fraction[240]
- MIN min_sales_constr_240
-    Sold_0[240]
-    Q0_var[240]
-    1.0043593887651959e+03
- MAX max_lost_constr_240
-    Lost_0[240]
-    Lost_0_expr_240
-    0
- MAX max_Q1_constr_240
-    Q1_var[240]
-    Q_hat_adjusted_240
-    0
- MIN min_sales2_constr_240
-    Sold_1[240]
-    total_stock_second_period_240
-    2.3905825638243087e+02
- MAX max_lost2_constr_240
-    Lost_1[240]
-    Lost_1_expr_240
-    0
- LOGISTIC GC1446
-    Options  0  0.01  0.001  -1  -1
-    f_var[241]  Fraction[241]
- MIN min_sales_constr_241
-    Sold_0[241]
-    Q0_var[241]
-    6.0827188111024157e+02
- MAX max_lost_constr_241
-    Lost_0[241]
-    Lost_0_expr_241
-    0
- MAX max_Q1_constr_241
-    Q1_var[241]
-    Q_hat_adjusted_241
-    0
- MIN min_sales2_constr_241
-    Sold_1[241]
-    total_stock_second_period_241
-    1.8465634529968978e+02
- MAX max_lost2_constr_241
-    Lost_1[241]
-    Lost_1_expr_241
-    0
- LOGISTIC GC1452
-    Options  0  0.01  0.001  -1  -1
-    f_var[242]  Fraction[242]
- MIN min_sales_constr_242
-    Sold_0[242]
-    Q0_var[242]
-    2.5289405078450418e+03
- MAX max_lost_constr_242
-    Lost_0[242]
-    Lost_0_expr_242
-    0
- MAX max_Q1_constr_242
-    Q1_var[242]
-    Q_hat_adjusted_242
-    0
- MIN min_sales2_constr_242
-    Sold_1[242]
-    total_stock_second_period_242
-    5.8254748660898474e+02
- MAX max_lost2_constr_242
-    Lost_1[242]
-    Lost_1_expr_242
-    0
- LOGISTIC GC1458
-    Options  0  0.01  0.001  -1  -1
-    f_var[243]  Fraction[243]
- MIN min_sales_constr_243
-    Sold_0[243]
-    Q0_var[243]
-    1.0165021902536510e+03
- MAX max_lost_constr_243
-    Lost_0[243]
-    Lost_0_expr_243
-    0
- MAX max_Q1_constr_243
-    Q1_var[243]
-    Q_hat_adjusted_243
-    0
- MIN min_sales2_constr_243
-    Sold_1[243]
-    total_stock_second_period_243
-    1.7561511248704312e+02
- MAX max_lost2_constr_243
-    Lost_1[243]
-    Lost_1_expr_243
-    0
- LOGISTIC GC1464
-    Options  0  0.01  0.001  -1  -1
-    f_var[244]  Fraction[244]
- MIN min_sales_constr_244
-    Sold_0[244]
-    Q0_var[244]
-    1.9400910250343020e+03
- MAX max_lost_constr_244
-    Lost_0[244]
-    Lost_0_expr_244
-    0
- MAX max_Q1_constr_244
-    Q1_var[244]
-    Q_hat_adjusted_244
-    0
- MIN min_sales2_constr_244
-    Sold_1[244]
-    total_stock_second_period_244
-    5.0273121870249827e+02
- MAX max_lost2_constr_244
-    Lost_1[244]
-    Lost_1_expr_244
-    0
- LOGISTIC GC1470
-    Options  0  0.01  0.001  -1  -1
-    f_var[245]  Fraction[245]
- MIN min_sales_constr_245
-    Sold_0[245]
-    Q0_var[245]
-    1332.03045372219
- MAX max_lost_constr_245
-    Lost_0[245]
-    Lost_0_expr_245
-    0
- MAX max_Q1_constr_245
-    Q1_var[245]
-    Q_hat_adjusted_245
-    0
- MIN min_sales2_constr_245
-    Sold_1[245]
-    total_stock_second_period_245
-    3.9305397087057241e+02
- MAX max_lost2_constr_245
-    Lost_1[245]
-    Lost_1_expr_245
-    0
- LOGISTIC GC1476
-    Options  0  0.01  0.001  -1  -1
-    f_var[246]  Fraction[246]
- MIN min_sales_constr_246
-    Sold_0[246]
-    Q0_var[246]
-    1.3560602221693052e+03
- MAX max_lost_constr_246
-    Lost_0[246]
-    Lost_0_expr_246
-    0
- MAX max_Q1_constr_246
-    Q1_var[246]
-    Q_hat_adjusted_246
-    0
- MIN min_sales2_constr_246
-    Sold_1[246]
-    total_stock_second_period_246
-    3.8464345999214720e+02
- MAX max_lost2_constr_246
-    Lost_1[246]
-    Lost_1_expr_246
-    0
- LOGISTIC GC1482
-    Options  0  0.01  0.001  -1  -1
-    f_var[247]  Fraction[247]
- MIN min_sales_constr_247
-    Sold_0[247]
-    Q0_var[247]
-    1.8387731117283824e+03
- MAX max_lost_constr_247
-    Lost_0[247]
-    Lost_0_expr_247
-    0
- MAX max_Q1_constr_247
-    Q1_var[247]
-    Q_hat_adjusted_247
-    0
- MIN min_sales2_constr_247
-    Sold_1[247]
-    total_stock_second_period_247
-    3.5604035796189231e+02
- MAX max_lost2_constr_247
-    Lost_1[247]
-    Lost_1_expr_247
-    0
- LOGISTIC GC1488
-    Options  0  0.01  0.001  -1  -1
-    f_var[248]  Fraction[248]
- MIN min_sales_constr_248
-    Sold_0[248]
-    Q0_var[248]
-    2.2310617104616967e+03
- MAX max_lost_constr_248
-    Lost_0[248]
-    Lost_0_expr_248
-    0
- MAX max_Q1_constr_248
-    Q1_var[248]
-    Q_hat_adjusted_248
-    0
- MIN min_sales2_constr_248
-    Sold_1[248]
-    total_stock_second_period_248
-    5.8588153805697550e+02
- MAX max_lost2_constr_248
-    Lost_1[248]
-    Lost_1_expr_248
-    0
- LOGISTIC GC1494
-    Options  0  0.01  0.001  -1  -1
-    f_var[249]  Fraction[249]
- MIN min_sales_constr_249
-    Sold_0[249]
-    Q0_var[249]
-    8.3467819230751650e+02
- MAX max_lost_constr_249
-    Lost_0[249]
-    Lost_0_expr_249
-    0
- MAX max_Q1_constr_249
-    Q1_var[249]
-    Q_hat_adjusted_249
-    0
- MIN min_sales2_constr_249
-    Sold_1[249]
-    total_stock_second_period_249
-    2.8192238754581894e+02
- MAX max_lost2_constr_249
-    Lost_1[249]
-    Lost_1_expr_249
     0
 ENDATA

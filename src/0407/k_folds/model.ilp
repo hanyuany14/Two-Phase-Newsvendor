@@ -1,0 +1,15 @@
+\ Model profit_maximization_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ Ensure_only_one_R_true_24: R[24,0] + R[24,1] + R[24,2] + R[24,3] + R[24,4]
+   + R[24,5] + R[24,6] + R[24,7] = 1
+ Define_Q_hat_24: 8.200140445287701 R[24,0] + 15.86170732478784 R[24,1]
+   + 10.56306327887628 R[24,2] + 11.22380841246443 R[24,3]
+   + 12.24648759807049 R[24,4] + 12.24654906170397 R[24,5]
+   + 8.80350704141712 R[24,6] + 0.0287437162152262 R[24,7] + Q_hat[24] = 0
+Bounds
+Binaries
+ R[24,0] R[24,1] R[24,2] R[24,3] R[24,4] R[24,5] R[24,6] R[24,7]
+End
