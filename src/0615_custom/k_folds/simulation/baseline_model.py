@@ -1,15 +1,11 @@
-
 import pandas as pd
 import numpy as np
 
-T = 10
-M = 5000000
-ASSIGNED_FS = np.arange(0.1, 1.0, 0.1)
-ASSIGNED_TS = list(range(2, T))  # 2 到 T-1
 
 np.random.seed(0)
 
-class BaselineModel():
+
+class BaselineModel:
     def __init__(self):
         pass
 
@@ -66,4 +62,4 @@ class BaselineModel():
             }
         )
 
-        return avg_losses, avg_lefts, avg_profits, avg_operation_profits, stimulation_df
+        return avg_profits, stimulation_df

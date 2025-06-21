@@ -6,19 +6,8 @@ from scipy.stats import norm
 from qk_hat import Qk_hat
 from baseline_model import BaselineModel
 from s1_model import S1_Model
-from s2_model import S2_Model
 
 np.random.seed(0)
-
-T = 10
-M = 5000000
-
-ASSIGNED_FS = np.arange(0.1, 1.0, 0.1)
-ASSIGNED_TS = list(range(2, T))  # 2 到 T-1
-
-THREADS = 12
-TIME_LIMIT = 20000
-MIPGAP = 0.01
 
 
 class Simulation:
@@ -27,79 +16,112 @@ class Simulation:
         cost: int,
         price: int,
         salvage_value: int,
-        full_df: pd.DataFrame,
-        demand_df: pd.DataFrame,
+        time_period: int,
+        simulation_times: int,
+        items_num_train: int,
+        items_num_test: int,
     ):
-        self.cost = cost
-        self.price = price
-        self.salvage_value = salvage_value
+        self._cost = cost
+        self._price = price
+        self._salvage_value = salvage_value
+        self._time_period = time_period
+        self._simulation_times = simulation_times
+        self._items_num_train = items_num_train
+        self._items_num_test = items_num_test
+
+        self.assigned_T = list(range(2, time_period))  # 2 到 T-1
+        self.assigned_F = np.arange(0.1, 1.0, 0.1)
 
         self.service_lv = self.calculate_service_level(
             salvage_value=salvage_value, cost=cost, price=price
         )
-        self.features_num = full_df.shape[1]
+        print(f"self.service_lv: {self.service_lv}")
 
         self.qk_hat = Qk_hat()
         self.baseline_model = BaselineModel()
         self.s1_model = S1_Model()
-        self.s2_model = S2_Model()
 
-        self.prepare_data(full_df, demand_df, train_size=0.5)
+    def experiment(
+        self,
+        Qks_test: np.ndarray,
+        demand_df_train: pd.DataFrame,
+        demand_df_test: pd.DataFrame,
+    ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+        """
+        Run Qk simulation experiments.
 
-    def experiment(self, Qks_train: list[int], Qks_test: list[int]):
-        """做實驗，包含訓練以及測試
+        Parameters
+        ----------
+        Qks_test : np.ndarray of shape (T-2, N, S)
+            A 3D array representing simulated Qk values.
+            - Axis 0 (size T-2): Time steps to be predicted (i.e., len(self.assigned_T))
+            - Axis 1 (size N): Number of items (i.e., len(demand_df_test))
+            - Axis 2 (size S): Number of simulations per item per time (i.e., self._simulation_times)
 
-        Args:
-            Qks_train (list[int]): 從訓練資料得到的 Qk
-            Qks_test (list[int]): 從測試資料得到的 Qk
+        demand_df_train : pd.DataFrame
+            Training data for demand estimation.
+            columns: time period
+            row: items
 
-        Returns:
-            _type_: _description_
+        demand_df_test : pd.DataFrame
+            Test data for which the Qks are predicted.
+            columns: time period
+            row: items
+
+        Raises
+        ------
+        AssertionError
+            If Qks_test is not a np.ndarray or its shape does not match the expected (T-2, N, S)
         """
 
-        training_df = self.training_df
-        testing_df = self.testing_df
-        demand_df_train = self.demand_df_train
-        demand_df_test = self.demand_df_test
+        # 驗證 train DataFrame 的 shape
+        assert (
+            demand_df_train.shape[1] == self._time_period
+        ), f"demand_df_train 欄位數量錯誤：預期 {self._time_period}，但為 {demand_df_train.shape[1]}"
+        assert (
+            demand_df_train.shape[0] == self._items_num_train
+        ), f"demand_df_train 列數錯誤：預期 {self._items_num_train}，但為 {demand_df_train.shape[0]}"
 
+        assert (
+            demand_df_test.shape[1] == self._time_period
+        ), f"demand_df_test 欄位數量錯誤：預期 {self._time_period}，但為 {demand_df_test.shape[1]}"
+        assert (
+            demand_df_test.shape[0] == self._items_num_test
+        ), f"demand_df_test 列數錯誤：預期 {self._items_num_test}，但為 {demand_df_test.shape[0]}"
+
+        # Check shape and type
+        assert isinstance(Qks_test, np.ndarray), "Qks_test 應為 numpy.ndarray"
+        expected_shape = (
+            len(self.assigned_T),
+            len(demand_df_test),
+            self._simulation_times,
+        )
+        assert (
+            Qks_test.shape == expected_shape
+        ), f"Qks_test 應為 shape {expected_shape}, 但收到 {Qks_test.shape}"
+
+        # cal the Q_star
         Q_star = self.calculate_Q_star(demand_df_train, service_level=self.service_lv)
-        print(f"Q_star: {Q_star}")
 
         # ====訓練階段====
-        Qk_hats_train = self.qk_hat.make_Qk_hat_df_with_known_Qk(demand_df_train, Qk)
+        Qk_hats_test = self.qk_hat.make_Qk_hat_df_with_known_Qk(
+            demand_df_test,
+            Qks_test,
+            self.service_lv,
+        )  # 我們使用 test 的資料來跑最佳化 in 學姊 case
+
         training_profits, training_results, training_stimulation_results = (
             self.perform_fold_training(
-                training_df, demand_df_train, Qk_hats_train, Q_star
+                demand_df_train=demand_df_test,
+                Qk_hats_train=Qk_hats_test,
+                Q_star=Q_star,
             )
         )
 
-        # ====測試階段====
-        Qk_hat_df_test = self.qk_hat.make_Qk_hat_df_with_known_Qk(demand_df_test, Qk)
-        testing_profits, testing_stimulation_results = self.perform_fold_testing(
-            training_results["S1"],
-            training_results["S2"],
-            demand_df_test,
-            Qk_hat_df_test,
-            Q_star,
-            testing_df,
-        )
-
-        train_profit_df = pd.DataFrame(training_profits)
-        test_profit_df = pd.DataFrame(testing_profits)
-
-        training_stimulation_result_df = pd.DataFrame(training_stimulation_results)
-        testing_stimulation_result_df = pd.DataFrame(testing_stimulation_results)
-
-        return (
-            train_profit_df,
-            test_profit_df,
-            training_stimulation_result_df,
-            testing_stimulation_result_df,
-        )
+        return (training_profits, training_stimulation_results, training_results)
 
     def perform_fold_training(
         self,
-        training_df: pd.DataFrame,
         demand_df_train: pd.DataFrame,
         Qk_hats_train: list[int],
         Q_star: float | int,
@@ -107,28 +129,24 @@ class Simulation:
         """This is for single fold training."""
 
         # 1. Baseline model
-        (
-            baseline_avg_losses,
-            baseline_avg_lefts,
-            baseline_avg_profits,
-            baseline_avg_operation_profits,
-            baseline_stimulation_df,
-        ) = self.baseline_model.one_time_procurement(
-            Q_star=Q_star,
-            demand_df=demand_df_train,
-            cost=self.cost,
-            price=self.price,
-            salvage_value=self.salvage_value,
+        baseline_avg_profits, baseline_stimulation_df = (
+            self.baseline_model.one_time_procurement(
+                Q_star=Q_star,
+                demand_df=demand_df_train,
+                cost=self._cost,
+                price=self._price,
+                salvage_value=self._salvage_value,
+            )
         )
 
         # 2. S1 - Grid F & Grid R
         results_df_1, stimulation_results_df_1 = None, None
         results_df_1, stimulation_results_df_1 = self.s1_model.grid_fixed_F_fixed_R(
-            assigned_Ts=ASSIGNED_TS,
-            assigned_Fs=ASSIGNED_FS,
-            cost=self.cost,
-            price=self.price,
-            salvage_value=self.salvage_value,
+            assigned_Ts=self.assigned_T,
+            assigned_Fs=self.assigned_F,
+            cost=self._cost,
+            price=self._price,
+            salvage_value=self._salvage_value,
             Qk_hat_df=Qk_hats_train,
             demand_df_train=demand_df_train,
             Q_star=Q_star,
@@ -136,135 +154,42 @@ class Simulation:
 
         S1_profit_training = results_df_1.iloc[0]["average_profits"]
 
-        # 3. S2 - Grid R & Flexible F
-        results_df_2, stimulation_results_df_2 = None, None
-        results_df_2, stimulation_results_df_2 = self.s2_model.grid_flexible_F_fixed_R(
-            assigned_Ts=ASSIGNED_TS,
-            salvage_value=self.salvage_value,
-            cost=self.cost,
-            price=self.price,
-            Q_star=Q_star,
-            demand_df_train=demand_df_train,
-            Qk_hat_df_train=Qk_hats_train,
-            training_df=training_df,
-        )
-
-        S2_profit_training = results_df_2.iloc[0]["average_profits"]
-
         training_profits = {
             "baseline": baseline_avg_profits,
             "S1": S1_profit_training,
-            "S2": S2_profit_training,
         }
 
         training_results = {
             "S1": results_df_1,
-            "S2": results_df_2,
         }
 
         training_stimulation_results = {
             "baseline": baseline_stimulation_df,
             "S1": stimulation_results_df_1,
-            "S2": stimulation_results_df_2,
         }
 
-        return training_profits, training_results, training_stimulation_results
+        # 整理資料成 df
+        train_profit_df = pd.DataFrame(training_profits, index=[0])
 
-    def perform_fold_testing(
-        self,
-        results_df_1,
-        results_df_2,
-        demand_df_test,
-        Qk_hat_df_test,
-        Q_star,
-        testing_df,
-    ) -> dict[str, float]:
-        """This is for testing
+        dfs = []
+        for model_name, df in training_stimulation_results.items():
+            df_copy = df.copy()
+            df_copy["model"] = model_name
+            dfs.append(df_copy)
+        training_stimulation_result_df = pd.concat(dfs, ignore_index=True)
 
-        Args:
-            results_df_1 (_type_): _description_
-            results_df_2 (_type_): _description_
-            demand_df_test (_type_): _description_
-            Qk_hat_df_test (_type_): _description_
-            Q_star (_type_): _description_
-            testing_df (_type_): _description_
+        df_list = [
+            df.reset_index(drop=False)
+            .rename(columns={"index": "original_index"})
+            .assign(model=model_name)
+            for model_name, df in training_results.items()
+        ]
 
-        Returns:
-            dict[str, float]: _description_
-        """
-
-        # 1. Baseline model
-        (
-            test_baseline_avg_loss,
-            test_baseline_avg_lefts,
-            test_baseline_avg_profits,
-            test_baseline_avg_operation_profits,
-            test_stimulation_df_baseline,
-        ) = self.baseline_model.one_time_procurement(
-            Q_star=Q_star,
-            demand_df=demand_df_test,
-            cost=self.cost,
-            price=self.price,
-            salvage_value=self.salvage_value,
+        training_results = pd.concat(df_list, ignore_index=True).sort_values(
+            "average_profits", ascending=False
         )
 
-        print(f"baseline_profit: {test_baseline_avg_profits}")
-
-        # 2. S1 - Grid F & Grid R
-        if results_df_1 is not None:
-            assigned_T = results_df_1.iloc[0]["R(T)"]
-            assigned_F = results_df_1.iloc[0]["F"]
-
-            test_results_df_1, test_stimulation_results_df_1 = (
-                self.s1_model.cal_test_fixed_F_fixed_R(
-                    assigned_T=int(assigned_T),
-                    assigned_F=assigned_F,
-                    salvage_value=self.salvage_value,
-                    cost=self.cost,
-                    price=self.price,
-                    Q_star=Q_star,
-                    demand_df_test=demand_df_test,
-                    Qk_hat_df_test=Qk_hat_df_test,
-                )
-            )
-
-        S1_profit_testing = test_results_df_1.iloc[0]["average_profits"]
-
-        # 3. S2 - Grid R & Flexible F
-        if results_df_2 is not None and len(results_df_2) > 0:
-            assigned_R = results_df_2.iloc[0]["R"]
-            alphas = results_df_2.iloc[0]["alpha_values"]
-
-            test_results_df_2, test_stimulation_results_df_2 = (
-                self.s2_model.cal_test_flexible_F_fixed_R(
-                    assigned_R=assigned_R[0],
-                    alphas=alphas,
-                    salvage_value=self.salvage_value,
-                    cost=self.cost,
-                    price=self.price,
-                    Q_star=Q_star,
-                    demand_df_test=demand_df_test,
-                    Qk_hat_df_test=Qk_hat_df_test,
-                    testing_df=testing_df,
-                )
-            )
-
-        S2_profit_testing = test_results_df_2.iloc[0]["average_profits"]
-
-        # 整理利潤結果
-        testing_profits = {
-            "baseline": test_baseline_avg_profits,
-            "S1": S1_profit_testing,
-            "S2": S2_profit_testing,
-        }
-
-        testing_stimulation_results = {
-            "baseline": test_stimulation_df_baseline,
-            "S1": test_stimulation_results_df_1,
-            "S2": test_stimulation_results_df_2,
-        }
-
-        return testing_profits, testing_stimulation_results
+        return train_profit_df, training_results, training_stimulation_result_df
 
     def calculate_Q_star(self, demand_df, service_level=0.95):
 
@@ -286,20 +211,3 @@ class Simulation:
         service_lv = cu / (co + cu)
 
         return service_lv
-
-    def split_data_by_ratio(self, data, train_size=0.5):
-        """依照 train_size 對 data 做一次性切分"""
-        n = len(data)
-        split_idx = int(n * train_size)
-        train_data = data.iloc[:split_idx].reset_index(drop=True)
-        test_data = data.iloc[split_idx:].reset_index(drop=True)
-        return train_data, test_data
-
-    def prepare_data(self, full_df, demand_df, train_size=0.5):
-        """準備一次性的訓練資料與需求資料切分"""
-        self.training_df, self.testing_df = self.split_data_by_ratio(
-            full_df, train_size
-        )
-        self.demand_df_train, self.demand_df_test = self.split_data_by_ratio(
-            demand_df, train_size
-        )
