@@ -1,8 +1,8 @@
-// {
-//     "python.formatting.provider": "autopep8", // or "black"
-//     "jupyter.codeActionsOnSave": {
-//         "source.organizeImports": true,
-//         "source.fixAll": true
-//     },
-//     "editor.formatOnSave": true
-// }
+{
+    "python.formatting.provider": "autopep8", // or "black"
+    "jupyter.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true
+}

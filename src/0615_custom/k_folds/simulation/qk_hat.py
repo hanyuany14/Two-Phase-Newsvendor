@@ -1,87 +1,92 @@
-
 import numpy as np
 import pandas as pd
 from scipy.stats import multivariate_normal, norm
 
-class Qk_hat():
+
+class Qk_hat:
     def __init__(self):
         pass
 
-    def make_Qk_hat_df_with_known_Qk(self, demand_df, T, Qk: list[tuple]):
-        """將算好的 Qk 放進來得到完整 Qk_hat_df
+    def make_Qk_hat_df_with_known_Qk(
+        self, demand_df: pd.DataFrame, Qks: list[tuple]
+    ) -> list[float]:
+        """利用已經找到的 Qks 去得到完整 QK_hat_df
 
         Args:
-            Qk (list[tuple]): [(k, Qk)] tuple 裡面第一個是這是對第 k 期算好的 Qk
+            demand_df (pd.DataFrame): 模擬出來的 demand 資料
+            Qks (list[tuple]): list 的長度等同於 len(demand)、每一個 tuple 代表某一資料算出的 (k, Qk)，其中 k 代表第幾期，Qk 代表在 k 期的估算
+
+            Example:
+             Qk = [
+                (1, 100),
+                (5, 100),
+            ]
+            -> 其中一筆是在 k=1 時 Qk =100, 第二筆是 k=5 時 Qk=100
 
         Returns:
-            _type_: _description_
+            list[float]: 將算好的 Qk_hat 存成 list 返回。list 長度等同於 len(demand)
         """
-        
-        results_df = pd.DataFrame(index=demand_df.index)
+        result = []
         for index, row_data in demand_df.iterrows():
-            for k in range(2, T):
+            k, Qk = Qks[index]
+            x_observed = row_data[: k - 1].values
+            Qk_hats = self.__cal_Qk_hat_by_known_Qk(Qk, x_observed)
+            result.append(Qk_hats)
+        return Qk_hats
 
-                x_observed = row_data[
-                    : k - 1
-                ].values  # 取出前 k 個觀測值 -> Qk_hat_2(t=2): 則 observerd: T=1
+    def __cal_Qk_hat_by_known_Qk(self, Qk, x_observed):
+        Qk_hat = x_observed.sum() + Qk
+        return Qk_hat
 
-                Qk_hat = self.__cal_Qk_hat_by_known_Qk(Qk, x_observed)
+    # def make_Qk_hat_df(self, demand_df, T, service_level):
 
-                results_df.loc[index, f"Qk_hat_k{k}"] = Qk_hat
+    #     results_df = pd.DataFrame(index=demand_df.index)
+    #     mu_matrix, covariance_matrix = self.__cal_mu_and_cov_matrix(demand_df)
 
-        return results_df
-    
+    #     for index, row_data in demand_df.iterrows():
+    #         for k in range(2, T):
 
-    def make_Qk_hat_df(self, demand_df, T, service_level):
-        
-        results_df = pd.DataFrame(index=demand_df.index)
-        mu_matrix, covariance_matrix = self.__cal_mu_and_cov_matrix(demand_df)
+    #             x_observed = row_data[
+    #                 : k - 1
+    #             ].values  # 取出前 k 個觀測值 -> Qk_hat_2(t=2): 則 observerd: T=1
 
-        for index, row_data in demand_df.iterrows():
-            for k in range(2, T):
+    #             mu_cond, sigma_cond = self.__calculate_conditional_distribution(
+    #                 mu_matrix, covariance_matrix, x_observed, len(x_observed)
+    #             )
 
-                x_observed = row_data[
-                    : k - 1
-                ].values  # 取出前 k 個觀測值 -> Qk_hat_2(t=2): 則 observerd: T=1
+    #             Qk_hat = self.__cal_Qk_hat(mu_cond, sigma_cond, service_level, x_observed)
 
-                mu_cond, sigma_cond = self.__calculate_conditional_distribution(
-                    mu_matrix, covariance_matrix, x_observed, len(x_observed)
-                )
+    #             results_df.loc[index, f"Qk_hat_k{k}"] = Qk_hat
 
-                Qk_hat = self.__cal_Qk_hat(mu_cond, sigma_cond, service_level, x_observed)
+    #     return results_df
 
-                results_df.loc[index, f"Qk_hat_k{k}"] = Qk_hat
+    # def __calculate_conditional_distribution(self, mu, covariance_matrix, x_observed, k):
+    #     mu_1 = mu[:k]
+    #     mu_2 = mu[k:]
+    #     Sigma_11 = covariance_matrix[:k, :k]
+    #     Sigma_22 = covariance_matrix[k:, k:]
+    #     Sigma_12 = covariance_matrix[k:, :k]
+    #     Sigma_21 = covariance_matrix[:k, k:]
 
-        return results_df
+    #     # Compute conditional mean and covariance
+    #     Sigma_11_inv = np.linalg.pinv(Sigma_11)
+    #     mu_cond = mu_2 + np.dot(Sigma_12, np.dot(Sigma_11_inv, (x_observed - mu_1)))
+    #     sigma_cond = Sigma_22 - np.dot(Sigma_12, np.dot(Sigma_11_inv, Sigma_21))
 
-    def __calculate_conditional_distribution(self, mu, covariance_matrix, x_observed, k):
-        mu_1 = mu[:k]
-        mu_2 = mu[k:]
-        Sigma_11 = covariance_matrix[:k, :k]
-        Sigma_22 = covariance_matrix[k:, k:]
-        Sigma_12 = covariance_matrix[k:, :k]
-        Sigma_21 = covariance_matrix[:k, k:]
+    #     return mu_cond, sigma_cond
 
-        # Compute conditional mean and covariance
-        Sigma_11_inv = np.linalg.pinv(Sigma_11)
-        mu_cond = mu_2 + np.dot(Sigma_12, np.dot(Sigma_11_inv, (x_observed - mu_1)))
-        sigma_cond = Sigma_22 - np.dot(Sigma_12, np.dot(Sigma_11_inv, Sigma_21))
+    # def __cal_Var_Y(self, sigma_cond):
 
-        return mu_cond, sigma_cond
-        
+    #     # Extract the variances (diagonal elements)
+    #     variances = np.diag(sigma_cond)
 
-    def __cal_Var_Y(self, sigma_cond):
+    #     # Calculate the sum of covariances (off-diagonal elements)
+    #     covariances_sum = np.sum(sigma_cond) - np.sum(variances)
 
-        # Extract the variances (diagonal elements)
-        variances = np.diag(sigma_cond)
+    #     # Total variance for the sum of mu_cond
+    #     total_variance = np.sum(variances) + covariances_sum
 
-        # Calculate the sum of covariances (off-diagonal elements)
-        covariances_sum = np.sum(sigma_cond) - np.sum(variances)
-
-        # Total variance for the sum of mu_cond
-        total_variance = np.sum(variances) + covariances_sum
-
-        return total_variance
+    #     return total_variance
 
     def __cal_Qk_hat(self, mu_cond, sigma_cond, service_level, x_observed):
 
@@ -96,14 +101,8 @@ class Qk_hat():
         Qk_hat = x_observed.sum() + percentile_95_Y
         return Qk_hat
 
-    def __cal_mu_and_cov_matrix(self, demand_df):
+    # def __cal_mu_and_cov_matrix(self, demand_df):
 
-        mu_matrix = demand_df.mean().values
-        covariance_matrix = demand_df.cov().values
-        return mu_matrix, covariance_matrix
-    
-    def __cal_Qk_hat_by_known_Qk(self, Qk, x_observed):
-        Qk_hat = x_observed.sum() + Qk
-        return Qk_hat
-
-
+    #     mu_matrix = demand_df.mean().values
+    #     covariance_matrix = demand_df.cov().values
+    #     return mu_matrix, covariance_matrix

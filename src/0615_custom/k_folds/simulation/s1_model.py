@@ -14,7 +14,6 @@ class S1_Model():
     def __init__(self):
         pass
 
-
     def cal_test_fixed_F_fixed_R(
         self,
         assigned_T,
